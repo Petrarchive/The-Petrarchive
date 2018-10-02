@@ -69,7 +69,8 @@ $(document).ready(async function () {
     console.log(payloads)
     console.log(d3.selectAll('.fascicle'))
 
-    let fascicles = d3.selectAll('.fascicle');
+    let fascicles = d3.selectAll('.fascicle')
+        .data(payloads);
 
     let svg = fascicles.selectAll("svg")
       .data(payloads)
