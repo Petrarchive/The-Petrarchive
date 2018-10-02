@@ -23,6 +23,10 @@
 	#visindex div {
 	}
 
+	#content {
+		width: 100%;
+	}
+
 	#vizindex a {
 		max-width:100px !important;
 		max-height:200px !important;
@@ -40,8 +44,8 @@
 	.carousel {
 		width: 100%;
 		display: flex;
-		flex-wrap: nowrap;
-		overflow-x: auto;
+		flex-wrap: nowrap; /*
+		overflow-x: auto;*/
 	}
 
 	.carousel a {
@@ -73,11 +77,38 @@
 		letter-spacing:0.05em;
 	}
 	
+	.side.fur {
+		stroke: brown;
+	}
+	.side.flesh {
+		stroke: orange;
+	}
+
+	.side.active{
+		opacity: .5;
+	}
+
+	div.tooltip {	
+		position: absolute;			
+		text-align: center;			
+		width: 60px;					
+		height: 28px;					
+		padding: 2px;				
+		font: 12px sans-serif;		
+		background: lightsteelblue;	
+		border: 0px;		
+		border-radius: 8px;			
+		pointer-events: none;			
+	}
+
+	div.tooltip img {
+		width: 250px;
+	}
 	
 	</style>
 </head>
 <body>
-<div id="content" class="container" style="max-width: 960px">
+<div id="" style="margin-left: 2em; margin-top: 5em; overflow-x: auto; overflow-y: hidden;">
 	<header>
 		<?php include( "sticky_header.html"); ?>
 	</header>
@@ -95,6 +126,8 @@
 			<div class="carousel">
 				<a href="content/c001r.xml"><img alt="vat. lat. 3195, c. 1r" src="images/visindex/c001r.svg" /></a> <a href="content/c001v.xml"><img alt="vat. lat. 3195, c. 1v" src="images/visindex/c001v.svg" /></a> <a href="content/c002r.xml"><img alt="vat. lat. 3195, c. 2r" src="images/visindex/c002r.svg" /></a> <a href="content/c002v.xml"><img alt="vat. lat. 3195, c. 2v" src="images/visindex/c002v.svg" /></a> <a href="content/c003r.xml"><img alt="vat. lat. 3195, c. 3r" src="images/visindex/c003r.svg" /></a> <a href="content/c003v.xml"><img alt="vat. lat. 3195, c. 3v" src="images/visindex/c003v.svg" /></a> <a href="content/c004r-c005r.xml#c004r"><img alt="vat. lat. 3195, c. 4r" src="images/visindex/c004r.svg" /></a> <a href="content/c004r-c005r.xml#c004v"><img alt="vat. lat. 3195, c. 4v" src="images/visindex/c004v.svg" /></a> <a href="content/c004r-c005r.xml#c005r"><img alt="vat. lat. 3195, c. 5r" src="images/visindex/c005r.svg" /></a> <a href="content/c005v-c007r.xml#c005v"><img alt="vat. lat. 3195, c. 5v" src="images/visindex/c005v.svg" /></a> <a href="content/c005v-c007r.xml#c006r"><img alt="vat. lat. 3195, c. 6r" src="images/visindex/c006r.svg" /></a> <a href="content/c005v-c007r.xml#c006v"><img alt="vat. lat. 3195, c. 6v" src="images/visindex/c006v.svg" /></a> <a href="content/c005v-c007r.xml#c007r"><img alt="vat. lat. 3195, c. 7r" src="images/visindex/c007r.svg" /></a> <a href="content/c007v.xml"><img alt="vat. lat. 3195, c. 7v" src="images/visindex/c007v.svg" /></a> <a href="content/c008r.xml"><img alt="vat. lat. 3195, c. 8r" src="images/visindex/c008r.svg" /></a> <a href="content/c008v-c009v.xml#c008v"><img alt="vat. lat. 3195, c. 8v" src="images/visindex/c008v.svg" /></a> 
 			</div>
+
+			
 		</div>
 	
 		<div class="fascicle clearfix">
@@ -175,10 +208,7 @@
 
 <script src="https://use.fontawesome.com/57840704ee.js"></script>
 
-<script type="text/javascript" src="js/jquery/jquery.min.js"></script>
-<script type="text/javascript" src="js/tether/tether.min.js"></script>
-<script type="text/javascript" src="js/bootstrap/bootstrap.min.js"></script>
-
+<script type="text/javascript" src="dist/js/vizindex.bundle.js"></script>
 
 </body>
 </html>

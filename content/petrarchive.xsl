@@ -15,8 +15,6 @@
   <xsl:output method="html" encoding="utf-8" version="1.0" indent="yes" standalone="no" media-type="text/html" omit-xml-declaration="no" doctype-system="about:legacy-compat" /> 
   <xsl:param name="pbNote" select="''"/>
   
-  <xsl:param name="jqueryUICSS" select="concat($filePrefix, '/js/jquery-ui/jquery-ui.min.css')"/>
-
 
   <xsl:param name="bootstrapCSS" select="concat(
   $filePrefix, '/css/lib/bootstrap.min.css')"/>
@@ -214,8 +212,6 @@
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 
             <link id="bootstrap" rel="stylesheet" type="text/css" href="{$bootstrapCSS}"/>
-            <link id="jqueryuicss" rel="stylesheet" type="text/css" href="{$jqueryUICSS}"/>
-
 
             <link id="maincss" rel="stylesheet" type="text/css" href="{$teibpCSS}"/>
 
