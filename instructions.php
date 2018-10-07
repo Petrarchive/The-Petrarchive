@@ -4,6 +4,8 @@
 	<meta charset="utf-8" />
 	<title>Petrarchive: Instructions</title>
 
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
   <link rel="stylesheet" type="text/css" href="css/lib/bootstrap.min.css" />
   <link rel="stylesheet" type="text/css" href="js/jquery-ui/jquery-ui.min.css" />
 
@@ -15,7 +17,8 @@
   <link rel="stylesheet" type="text/css" href="css/stylesheets/screen.css" />
   <link rel="stylesheet" type="text/css" href="css/auxillaryPage.css" />
 </head>
-<body>
+<body class="container-fluid">
+
   <main class="container row">
     <header>
         <?php include( "sticky_header.html"); ?>

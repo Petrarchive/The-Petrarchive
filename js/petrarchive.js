@@ -15,7 +15,7 @@ function Petrarchive() {
   this.header = $('#sticky-header')
 
   // Figurer out if document hsa more than one charta
-  this.hasMultipleCh = function() {
+  this.hasMultipleSides = function() {
     return $('.-teibp-pbFacs img').length > 1
   }
 
@@ -176,7 +176,7 @@ Petrarchive.prototype.setupFacsThumb = function() {
     that.activateFacs(img, charta)
   })
 
-  if (this.hasMultipleCh()) {
+  if (this.hasMultipleSides()) {
     $('.-teibp-pb:first-child').css('display', 'initial')
 
     // scroll to the pertinent chartae

@@ -107,16 +107,16 @@ NavUtil.prototype.navigateTo = function(href) {
 }
 
 NavUtil.prototype.setupPrevHref = function() {
-  let firstCh = this.current.getChartaFirst()
+  let firstSide = this.current.getFirstSide()
 
-  if (firstCh.charta == '001' && firstCh.rv == 'r') {
+  if (firstSide.charta == '001' && firstSide.rv == 'r') {
     this.previous.attr('disabled', true)
     return null
   } else {
     this.previous.removeAttr('disabled')
   }
 
-  let prevName = firstCh.getPrevCh(),
+  let prevName = firstSide.getPrevSide(),
       prevLink = $('#shadow-data .vizindex a[data-charta="' + prevName + '"]');
 
   let href = $(prevLink).attr('href') 
@@ -127,7 +127,7 @@ NavUtil.prototype.setupPrevHref = function() {
 }
 
 NavUtil.prototype.setupNextHref = function() {
-  let nextName = this.current.getChartaLast().getNextCh(),
+  let nextName = this.current.getLastSide().getNextSide(),
       nextLink = $('#shadow-data .vizindex a[data-charta="' + nextName + '"]');
 
   let href = $(nextLink).attr('href')

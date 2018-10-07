@@ -57,7 +57,7 @@ function poemInit() {
 
 function setupPageNum() {
   let pageNum,
-      pages = PT.nav.current.getChartae();
+      pages = PT.nav.current.getSides();
 
   if (pages.length == 1) {
     pageNum = 'charta ' + pages[0].getPrettyName()
@@ -122,7 +122,7 @@ function setupTextindex() {
     })
 
     // Scroll to current active charta
-    let active = PT.nav.current.getChartaFirst().getPrettyNameTextindex()
+    let active = PT.nav.current.getFirstSide().getPrettyNameTextindex()
     table.find('tr:first-child td').css('padding-top', header.height())
 
     let trArray = table.children('tr').toArray()

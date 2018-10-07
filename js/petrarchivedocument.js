@@ -1,5 +1,4 @@
-import $ from 'jquery'
-import Charta from './charta'
+import Side from './side'
 
 export default PetrarchiveDocument
 
@@ -7,9 +6,9 @@ function PetrarchiveDocument(url, name) {
   if (url) {
     this.url = url
   } else {
-    if (name[0] !== 'c') {
-      name = 'c' + name
-    }
+    if (name[0] !== 'c')
+      name = 'c' + name;
+
     this.url = '/' + name + '.xml'
   }
 
@@ -23,38 +22,32 @@ function PetrarchiveDocument(url, name) {
   ]
 
   this.name = this.doc.split('.')[0]
-  this.chartae
-  this.rv = this.name.split('_')[0].substring(4,5)
 
-  // When the name of the document is split by underscores,
-  // the length will be longer than 1 if it is commentary since file names
-  // should be c00x_with_commentary
-  this.commentary = this.name.split('_').length > 1
-
-  this.setupChartae()
+  this.setupSides()
+  console.log(this)
 }
 
-PetrarchiveDocument.prototype.setupChartae = function() {
+PetrarchiveDocument.prototype.setupSides = function() {
   let splitNames = this.name.split('-') //[0].substring(1,4)
   if (splitNames.length > 1) {
-    this.chartae = [
-      new Charta(splitNames[0]), 
-      new Charta(splitNames[1])
+    this.sides = [
+      new Side(splitNames[0].substring(4,5), splitNames[0].substring(1,4)), 
+      new Side(splitNames[1].substring(4,5), splitNames[1].substring(1,4))
     ]
   } else {
-    this.chartae = [new Charta(splitNames[0])]
+    this.sides = [new Side(splitNames[0].substring(4,5), splitNames[0].substring(1,4))]
   }
 }
 
-PetrarchiveDocument.prototype.getChartae = function() {
-  return this.chartae
+PetrarchiveDocument.prototype.getSides = function() {
+  return this.sides
 }
 
-PetrarchiveDocument.prototype.getChartaFirst = function() {
-  return this.chartae[0]
+PetrarchiveDocument.prototype.getFirstSide = function() {
+  return this.sides[0]
 }
-PetrarchiveDocument.prototype.getChartaLast = function() {
-  return this.chartae[this.chartae.length - 1]
+PetrarchiveDocument.prototype.getLastSide = function() {
+  return this.sides[this.sides.length - 1]
 }
 
 // Get the charta and rvf in accordance to the textindex format

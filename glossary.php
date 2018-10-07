@@ -63,7 +63,7 @@
   </style>
 </head>
 <body>
-  <main class="container row">
+  <main class="container  ">
     <header>
         <?php include( "sticky_header.html"); ?>
     </header>

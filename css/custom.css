@@ -1451,7 +1451,7 @@ a[disabled], a.inactive {
 
 #sticky-header {
   border-bottom: 1px solid #aaa;
-  padding: .2em 1em;
+  padding: .2em;
   background-color: white;
 }
 
@@ -1483,6 +1483,9 @@ a[disabled], a.inactive {
   font-size: 16px;
 }
 
+#sticky-header .dropdown-toggle {
+  margin-left: .3em;
+}
 .dropdown-toggle::after {
   content: none;
 }
