@@ -1,8 +1,9 @@
-<!DOCTYPE HTML system "about:legacy-compat">
+<!DOCTYPE html system "about:legacy-compat">
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
 	<title>Petrarchive: Acknowledgements</title>	
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 
     <link rel="stylesheet" type="text/css" href="css/lib/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="js/jquery-ui/jquery-ui.min.css" />
@@ -42,12 +43,7 @@
 	<script src="https://use.fontawesome.com/57840704ee.js"></script>
 
 	<script type="text/javascript" src="js/jquery/jquery.min.js"></script>
-	<script type="text/javascript" src="js/jquery-ui/jquery-ui.min.js"></script>
-
 	<script type="text/javascript" src="js/tether/tether.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap/bootstrap.min.js"></script>
-
-
-	<script type="text/javascript" src="js/auxillary_page.js"></script>
 </body>
 </html>

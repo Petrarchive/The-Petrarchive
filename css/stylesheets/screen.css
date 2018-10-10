@@ -303,39 +303,6 @@ footer {
 }
 
 
-/* petrarchve footer code: start */
-#petrarchive-footer {
-  font-size: .8em;
-  color: #623634;
-  padding: 1em 0;
-  background: #e8e3e3;
-  margin: 0;
-  width: initial;
-  box-shadow: 0 50vh 0 50vh #e8e3e3;
-}
-
-#petrarchive-footer a {
-  text-decoration: none;
-  color: #9B181E;
-}
-
-#petrarchive-footer a:hover {
-  background: none;
-  text-decoration: underline;
-}
-
-#petrarchive-footer p {
-  margin-top: 0;
-  margin-bottom: .3em;
-}
-
-#petrarchive-footer section {
-  margin-bottom: 1em;
-}
-
-
-/* petrarchve footer code: end */
-
 /* line 234, ../sass/screen.scss */
 ul.leaders {
   max-width: 30em;

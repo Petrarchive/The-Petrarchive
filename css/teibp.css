@@ -1825,12 +1825,7 @@ html {
 img {
   border: 1px solid #aaaaaa;
 }
-footer {
-  margin-top: 1em;
-  border-top: 1px solid #292929;
-  padding-top: .5em;
-  font-size: 12pt;
-}
+
 a:link,
 a:visited,
 a:active {

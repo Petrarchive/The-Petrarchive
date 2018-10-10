@@ -428,7 +428,8 @@ th {
 }
 
 /* line 299, ../sass/screen.scss */
-td, th {
+td, 
+.textindex table#index th {
   border-bottom: 1px solid #d7d6d5;
   padding: .2em 1em .2em 0;
   font-family: 'andron_scriptor_webregular';

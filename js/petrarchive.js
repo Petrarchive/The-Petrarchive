@@ -15,7 +15,7 @@ function Petrarchive() {
   this.header = $('#sticky-header')
 
   // Figurer out if document hsa more than one charta
-  this.hasMultipleCh = function() {
+  this.hasMultipleSides = function() {
     return $('.-teibp-pbFacs img').length > 1
   }
 
@@ -144,6 +144,8 @@ Petrarchive.prototype.setupFacsThumb = function() {
         facsSrc = baseDir + ch + rv + ".jpg";
 
     $('#sticky-header .facs-thumb img').attr('src', facsSrc)
+    
+    $('#sticky-header .facs-thumb').attr('data-charta', "charta " + this.getCurrentDoc().getChartaFirst().getPrettyName())
   } else {
     // Setup the sticky header
     let thumb = $('.-teibp-thumbnail'),
@@ -174,7 +176,7 @@ Petrarchive.prototype.setupFacsThumb = function() {
     that.activateFacs(img, charta)
   })
 
-  if (this.hasMultipleCh()) {
+  if (this.hasMultipleSides()) {
     $('.-teibp-pb:first-child').css('display', 'initial')
 
     // scroll to the pertinent chartae
@@ -199,7 +201,6 @@ Petrarchive.prototype.setupFacsThumb = function() {
     
     $('.content-container').scroll(debouncedPbActivate)
   }
-
   this.facsIsActive = util_browser.getParam('facs') == 'active' ? true : false
 
   if (this.facsIsActive) {
@@ -238,6 +239,7 @@ Petrarchive.prototype.getCurrentDoc = function() {
 }
 
 Petrarchive.prototype.activateFacs = function(img, charta) {
+  console.log('foobar', img, charta)
   if (charta == this.activeFacs)
     return this.deactivateFacs();
 

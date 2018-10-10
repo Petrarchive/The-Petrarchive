@@ -79,8 +79,6 @@ NavUtil.prototype.events = function() {
 }
 
 NavUtil.prototype.navigateTo = function(href) {
-  const that = this
-
   let newDoc = new PetrarchiveDocument(href)
 
   if (util_browser.getParam("facs")) {
@@ -99,9 +97,9 @@ NavUtil.prototype.navigateTo = function(href) {
   }
 
   util_browser.turboXml(href, this.xsl).then(function(xmlResult) {
-    let tei = $(xmlResult).find('#tei_wrapper')
+    let tei = $(xmlResult).find('#tei_wrapper #tei_main')
 		
-    $('#tei_wrapper').html(tei.html())
+    $('#tei_wrapper #tei_main').html(tei.html())
     history.pushState({}, null, href)
     $(document).trigger('Petrarchive:async-load')
   })
@@ -109,28 +107,31 @@ NavUtil.prototype.navigateTo = function(href) {
 }
 
 NavUtil.prototype.setupPrevHref = function() {
-  let firstCh = this.current.getChartaFirst()
+  let firstSide = this.current.getFirstSide()
 
-  if (firstCh.charta == '001' && firstCh.rv == 'r') {
+  if (firstSide.charta == '001' && firstSide.rv == 'r') {
     this.previous.attr('disabled', true)
     return null
   } else {
     this.previous.removeAttr('disabled')
   }
 
-  let prevName = firstCh.getPrevCh(),
+  let prevName = firstSide.getPrevSide(),
       prevLink = $('#shadow-data .vizindex a[data-charta="' + prevName + '"]');
 
   let href = $(prevLink).attr('href') 
+  href = href.split('#')[0]
+
 
   this.previous.attr('href', href)
 }
 
 NavUtil.prototype.setupNextHref = function() {
-  let nextName = this.current.getChartaLast().getNextCh(),
+  let nextName = this.current.getLastSide().getNextSide(),
       nextLink = $('#shadow-data .vizindex a[data-charta="' + nextName + '"]');
 
   let href = $(nextLink).attr('href')
+  href = href.split('#')[0]
 
   this.next.attr('href', href)
 }

@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<title>Petrarchive: Technical</title>
+    <title>Petrarchive: Technical</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 
 	<link rel="stylesheet" type="text/css" href="css/lib/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="js/jquery-ui/jquery-ui.min.css" />
@@ -22,7 +24,7 @@
         </header>
 
         <main class="row">
-		<div id="content">
+		<div id="content" class="col">
 		<h1>Technical Architecture</h1>
 
 		<p>Petrarchive documents are encoded in XML according to the Text Encoding Initiative (TEI) <cite><a href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html">P5: Guidelines for Electronic Text Encoding and Interchange</a></cite>. </p>

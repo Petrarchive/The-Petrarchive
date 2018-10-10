@@ -11,34 +11,31 @@
     xmlns="http://www.w3.org/1999/xhtml" 
     exclude-result-prefixes="xsl tei xd eg fn #default">
     
-    <xsl:import href="teibp.xsl"/>
-    <xsl:output method="html" encoding="utf-8" version="1.0" indent="yes" standalone="no" media-type="text/html" omit-xml-declaration="no" doctype-system="about:legacy-compat" /> 
-    <xsl:param name="pbNote" select="''"/>
-    
-    <xsl:param name="jqueryUICSS" select="concat($filePrefix, '/js/jquery-ui/jquery-ui.min.css')"/>
-    <xsl:param name="jqueryUI" select="concat($filePrefix,'/js/jquery-ui/jquery-ui.min.js')"/>
-    <xsl:param name="jqueryMW" select="concat($filePrefix,'/js/jquery-mousewheel/mousewheel.min.js')"/>
+  <xsl:import href="teibp.xsl"/>
+  <xsl:output method="html" encoding="utf-8" version="1.0" indent="yes" standalone="no" media-type="text/html" omit-xml-declaration="no" doctype-system="about:legacy-compat" /> 
+  <xsl:param name="pbNote" select="''"/>
+  
 
-    <xsl:param name="knockout" select="concat($filePrefix,'/js/knockout/knockout-3.4.2.js')"/>
+  <xsl:param name="bootstrapCSS" select="concat(
+  $filePrefix, '/css/lib/bootstrap.min.css')"/>
+  
+  <xsl:param name="customCSS.norm" select="concat($filePrefix,'/css/custom_norm.css')"/>
+  <xsl:param name="customCSS" select="concat($filePrefix,'/css/custom.css')"/>
+  <xsl:param name="frameCSS" select="concat($filePrefix,'/css/frame.css')"/>
 
-    <!-- Bootstrap v4 requires tether -->
-    <xsl:param name="tetherJS" select="concat($filePrefix,'/js/tether/tether.min.js')"/>
-    <xsl:param name="bootstrapJS" select="concat($filePrefix,'/js/bootstrap/bootstrap.min.js')"/>
+  <xsl:template name="stickyHeader">
+    <xsl:variable name="header">
+      <xsl:copy-of select="document('../sticky_header.html')"/>
+    </xsl:variable>
+    <xsl:copy-of select="$header"/>
+  </xsl:template>
 
-
-    <xsl:param name="bootstrapCSS" select="concat(
-    $filePrefix, '/css/lib/bootstrap.min.css')"/>
-    
-    <xsl:param name="customCSS.norm" select="concat($filePrefix,'/css/custom_norm.css')"/>
-    <xsl:param name="customCSS" select="concat($filePrefix,'/css/custom.css')"/>
-    <xsl:param name="frameCSS" select="concat($filePrefix,'/css/frame.css')"/>
-
-    <xsl:template name="stickyHeader">
-      <xsl:variable name="header">
-        <xsl:copy-of select="document('../sticky_header.html')"/>
-      </xsl:variable>
-      <xsl:copy-of select="$header"/>
-    </xsl:template>
+  <xsl:template name="htmlFooter">
+    <xsl:variable name="footer">
+      <xsl:copy-of select="document('../footer.html')"/>
+    </xsl:variable>
+    <xsl:copy-of select="$footer"/>
+  </xsl:template>
 
   <xd:doc>
     <xd:desc>
@@ -51,6 +48,73 @@
       <xsl:apply-templates select="@*|node()"/>
     </tei-head>
   </xsl:template>
+
+  <xsl:template match="/" name="htmlShell" priority="99">
+		<html>
+			<xsl:call-template name="htmlHead"/>
+
+			<body>
+			  <div class="container-fluid header-container">
+			   	<xsl:call-template name="stickyHeader"/>
+			  </div>
+
+			  <div class="container-fluid content-container">
+				  <div id="tei_wrapper" class="row">
+				    <div style="position:absolute">
+              <main id="tei_main">
+					      <xsl:apply-templates/>
+              </main>
+
+              <div class="row">
+					  	  <xsl:call-template name="htmlFooter"/>
+					    </div>
+					  </div>
+				  </div>
+
+				  <section id="pt-facs" class="">
+            <div class="row">
+              <nav>
+                <button class="button meta">
+                
+                </button>
+
+                <button class="button zoom out">
+                <i class="fa fa-search-minus"></i>
+                </button>
+
+                <button class="button zoom in">
+                <i class="fa fa-search-plus"></i>
+                </button>
+
+                <button class="button new-tab">
+                <i class="fa fa-file-o"></i>
+                </button>
+
+                <button class="button facs-close">
+                <i class="fa fa-close"></i>
+                </button>
+              </nav>
+            </div>
+				</section>
+		  </div>
+
+
+			  <div id="poem-textindex"
+			  class="modal fade" tabindex="-1" role="dialog" 
+			  aria-labelledby="textIndexExplorer" aria-hidden="true">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content container-fluid">
+						
+					</div>
+				</div>
+			  </div>
+
+			  <!-- #shadow-data will hold data we need to query via javascript, 
+			  	but we don't want visible to users -->
+			  <div id="shadow-data" style="display: none"></div>
+			</body>
+		</html>
+	</xsl:template>
     
     <xsl:template match="tei:g" priority="99">
       <xsl:variable name="charId" select="substring-after(@ref,'#')"/>
@@ -148,8 +212,6 @@
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 
             <link id="bootstrap" rel="stylesheet" type="text/css" href="{$bootstrapCSS}"/>
-            <link id="jqueryuicss" rel="stylesheet" type="text/css" href="{$jqueryUICSS}"/>
-
 
             <link id="maincss" rel="stylesheet" type="text/css" href="{$teibpCSS}"/>
 
@@ -165,51 +227,13 @@
             </xsl:if>
 
             <script src="https://use.fontawesome.com/57840704ee.js"></script>
-            <!--
-            <script type="text/javascript" src="{$jqueryJS}"></script>
-
-            <script type="text/javascript" src="{$tetherJS}"></script>
-            <script type="text/javascript" src="{$bootstrapJS}"></script>
-
-            <script type="text/javascript" src="{$jqueryUI}"></script>
-            <script type="text/javascript" src="{$jqueryMW}"></script>
-
-            <script type="text/javascript" src="{$knockout}"></script>
-            -->
-
+          
             <script type="text/javascript" src="{$teibpJS}"><xsl:comment> </xsl:comment></script>
 
             <script type="text/javascript" src="../dist/js/poem.bundle.js"></script>
-
-            <!--
-            <script type="text/javascript" src="../js/utils/browser.js"><xsl:comment> </xsl:comment></script>
-
-            <script type="text/javascript" src="../js/petrarchivedocument.js"><xsl:comment> </xsl:comment></script>
-
-
-            <script type="text/javascript" src="../js/petrarchive.js"><xsl:comment> </xsl:comment></script>
-
-            <script type="text/javascript" src="../js/frame.js"><xsl:comment> </xsl:comment></script>
-            <script type="text/javascript" src="../js/navutil.js"><xsl:comment> </xsl:comment></script>
-            <script type="text/javascript" src="../js/commentaryutil.js"><xsl:comment> </xsl:comment></script>
-
-            <script type="text/javascript" src="../js/poem.js"><xsl:comment> </xsl:comment></script>
-            -->
         </head>
     </xsl:template>
     
-    <xsl:variable name="htmlFooter">
-      <footer>© 2013-2018 H. Wayne Storey, John A. Walsh &amp; Isabella Magni. This document is part of the Petr<em>archive</em>.<br/>
-        Team: H. Wayne Storey, John A. Walsh, Isabella Magni, Erica Hayes, Lino Mioni, and Abraham Kim. 
-
-        <br />Past Contributors: Grace Thomas, Allison M. McCormack, and Laura Pence.<br/>
-        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/80x15.png" /></a>&#160;
-        <a xmlns:cc="http://creativecommons.org/ns#" href="http://petrarchive.org" property="cc:attributionName" rel="cc:attributionURL"><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Petr<i>archive</i></span></a> by <a href="http://www.indiana.edu/~frithome/faculty/italian/storey.shtml">H. Wayne Storey</a> and <a href="http://johnwalsh.name/">John A. Walsh</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br/>
-        Funding and support provided by the <a href="http://neh.gov/">National Endowment for the Humanities</a> and <a href="http://www.indiana.edu/">Indiana University-Bloomington</a>.<br/>
-        Powered by <a href="{$teibpHome}">TEI Boilerplate</a>.
-      </footer>
-
-    </xsl:variable>
   
 <xd:doc><xd:desc>These lines get line numbers. Canzone is not regular.</xd:desc></xd:doc>
   

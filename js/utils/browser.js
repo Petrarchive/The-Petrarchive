@@ -124,13 +124,14 @@ let util_browser = {
 		// othertimes in /content directory
 		let regex = new RegExp(notRootDirectory, 'i')
 		let isNotRootDirectory = location.href.search(regex)
-	  
+		console.log('foobar', isNotRootDirectory)
 		if (isNotRootDirectory == -1)
 		  return;
 	  
 		let links = $('.convert-url a')
 			
 		links.toArray().forEach(function(el) {
+			console.log(el)
 		  let old = el.getAttribute('href')
 		  el.setAttribute('href', '../' + old)
 		})

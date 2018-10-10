@@ -5,14 +5,20 @@
 		<title>
 			Petrarchive: Visual Index to Vat. lat. 3195
 		</title>
-		<link type="text/css" rel="stylesheet" href="stylesheets/screen.css"/>
-<!-- 	body {background-color:#251d03; margin:0;} 
+		<link rel="stylesheet" type="text/css" href="css/lib/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="js/jquery-ui/jquery-ui.min.css" />
+
+		
+		<link href="css/teibp.css" media="screen, projection" rel="stylesheet" type="text/css" />  
+		<link href="css/custom.css" media="screen, projection" rel="stylesheet" type="text/css" />  
+		<link href="css/auxillaryPage.css" media="screen, projection" rel="stylesheet" type="text/css" />      
+
+		<link rel="stylesheet" type="text/css" href="css/stylesheets/screen.css" />	   <!-- 	body {background-color:#251d03; margin:0;} 
 
 #banner {width:100%;background-color:#a23725;}-->
-<link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
 <style type="text/css">
 	
-	img {max-height:400px;max-width:291px;}
+	img {max-height:400px;max-width:150px;}
 	/*
 	body {
 	width:900px;
@@ -51,12 +57,13 @@
 </script>
 	</head>
 	<body>
-		<!--<div id="banner">
-			<img src="images/site/banner.png" />
-		</div>-->
-		<?php include("nav.html"); ?>
+	<main class="container">
+        <header>
+            <?php include( "sticky_header.html"); ?>
+        </header>
+		
 		<div id="content">
-		<h1>A visual index to Petrarch's <cite>Rerum vulgarium fragmenta</cite>, Vat. Lat. 3195</h1>
+		<h1 style="margin-top: 5em">A visual index to Petrarch's <cite>Rerum vulgarium fragmenta</cite>, Vat. Lat. 3195</h1>
 		<div id="visindex">
 		<div style="margin-bottom:5px;">
 			<a href="content/c001r.xml"><img alt="vat. lat. 3195, c. 1r" style="float:right;" class="visindex-recto" src="images/visindex/c001r.svg" id="c001r" /></a> 
@@ -277,11 +284,20 @@
 		<div style="margin-bottom:2em;">
 			<img alt="vat. lat. 3195, c. 72v" class="visindex-verso" src="images/visindex/c072v.svg" id="c072v" />
 		    <!--<img alt="vat. lat. 3195, c. 72v" class="visindex-verso" style="opacity:0;" src="images/visindex/c072v.svg" id="c072v" />-->
-		    <div class="page-spacer" style="margin-left:.3em; min-width:291px; min-height:400px"/>
+		    <div class="page-spacer" style="margin-left:.3em; min-width:150px; min-height:400px"/>
 		 
 		</div>
 		 
 		</div>
-<?php include("footer.html"); ?>
+	</main>
+
+	<?php include "footer.html"; ?>
+
+	<script src="https://use.fontawesome.com/57840704ee.js"></script>
+
+	<script type="text/javascript" src="js/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="js/tether/tether.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap/bootstrap.min.js"></script>
+
 	</body>
 </html>

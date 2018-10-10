@@ -4,6 +4,8 @@
 	<meta charset="utf-8" />
 	<title>Petrarchive: Instructions</title>
 
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
   <link rel="stylesheet" type="text/css" href="css/lib/bootstrap.min.css" />
   <link rel="stylesheet" type="text/css" href="js/jquery-ui/jquery-ui.min.css" />
 
@@ -13,56 +15,10 @@
   <link href="css/auxillaryPage.css" media="screen, projection" rel="stylesheet" type="text/css" />      
 
   <link rel="stylesheet" type="text/css" href="css/stylesheets/screen.css" />
-
-  <style>
-    ol {
-      list-style-type: decimal;
-      margin-left: 3rem;
-      padding-right: 3rem;
-    }
-
-    ol li {
-      margin-bottom: 1rem;
-    }
-
-    li > ol {
-      margin-left: 2rem;
-    }
-
-    ol[type="a"] {
-      list-style-type: lower-alpha;
-    }
-
-    ol[type="A"] {
-      list-style-type: upper-alpha;
-    }
-
-    section {
-      margin-top: 1.5rem;
-    }
-
-    main.instructions {
-      margin-top: 5.5rem;
-    }
-
-    aside.nav a {
-      text-decoration: none;
-      margin-left: 1rem;
-      text-transform: capitalize;
-    }
-
-    @media (min-width: 768px) {
-      aside.nav {
-          position: -webkit-sticky;
-          position: sticky;
-          top: 6rem;
-          z-index: 1000;
-          height: calc(100vh - 6rem);
-      }
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href="css/auxillaryPage.css" />
 </head>
-<body>
+<body class="container-fluid">
+
   <main class="container row">
     <header>
         <?php include( "sticky_header.html"); ?>
@@ -334,7 +290,6 @@
 	<script src="https://use.fontawesome.com/57840704ee.js"></script>
 
 	<script type="text/javascript" src="js/jquery/jquery.min.js"></script>
-	<script type="text/javascript" src="js/jquery-ui/jquery-ui.min.js"></script>
 
 	<script type="text/javascript" src="js/tether/tether.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap/bootstrap.min.js"></script>
@@ -345,10 +300,14 @@
       insertIntoNav('main.instructions section', 'aside.nav', 'h1')
 
       $('aside.nav a').click(function(ev) {
+        $('aside.nav a').removeClass('active')
+
         var headerHeight = $('#sticky-header').height()
         setTimeout(function() {
           $(window).scrollTop($(window).scrollTop() - (headerHeight * 1.4))
         }, 10)
+
+        $(ev.delegateTarget).addClass('active') 
 
         // wait for click even to go through and then readjust the scroll 
         // so that the sticky header does not cover content

@@ -33,3 +33,90 @@ html > body {
 #content {
     margin-top: 2em;
 }
+
+entry {
+    margin-bottom: 2rem;
+  }
+
+tei#glossary {
+    width: 100%;
+}
+
+.maniculed::before {
+    content: "[";
+}
+.maniculed::after {
+    content: "]";
+}
+
+main.glossary {
+    margin-top: 5.5rem;
+    line-height: 1.5rem;
+}
+
+main.glossary entry form {
+    margin-bottom: .75rem;
+    text-transform: capitalize;
+}
+
+aside.nav a {
+    text-decoration: none;
+    margin-left: 1rem;
+    text-transform: capitalize;
+    margin-bottom: .5rem;
+}
+
+aside.nav a.active {
+    font-weight:700;
+}
+
+ol {
+    list-style-type: decimal;
+    margin-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  ol li {
+    margin-bottom: 1rem;
+  }
+
+  li > ol {
+    margin-left: 2rem;
+  }
+
+  ol[type="a"] {
+    list-style-type: lower-alpha;
+  }
+
+  ol[type="A"] {
+    list-style-type: upper-alpha;
+  }
+
+  section {
+    margin-top: 1.5rem;
+  }
+
+  main.instructions {
+    margin-top: 5.5rem;
+  }
+
+  aside.nav a {
+    text-decoration: none;
+    padding-left: 1rem;
+    text-transform: capitalize;
+  }
+
+  @media (min-width: 768px) {
+    aside.nav {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 6rem;
+        z-index: 1000;
+        height: calc(100vh - 6rem);
+        overflow-y: auto;
+    }
+
+    main.glossary {
+        padding-left: 2rem;
+    }
+  }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="petrarchive.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-stylesheet type="text/xsl" href="petrarchive.xsl"?>
+<?xml-stylesheet type="text/xsl" href="petrarchive-glossary.xsl"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -622,7 +622,6 @@
             </def>
         </entry>
           </div>
-        <link href="../css/auxillaryPage.css" media="screen, projection" rel="stylesheet" type="text/css" /> 
         </main>
       </body>
   </text>

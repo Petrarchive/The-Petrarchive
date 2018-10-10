@@ -13,8 +13,6 @@ import util_browser from './utils/browser'
 export default Frame
 
 function Frame(params) {
-  var that = this
-
   this.img
   this.$img
   if (params.img) {

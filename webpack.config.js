@@ -1,14 +1,16 @@
 const path = require('path');
-const webpack = require('webpack')
+const webpack = require('webpack');
 
 module.exports = {
     mode: 'development',
     entry: {
         poem: './js/poem.js',
         index: './js/index.js',
-        glossary: './js/glossary.js'
+        glossary: './js/glossary.js',
+        vizindex: './js/vizindex.js',
+        textindex: './js/textindex.js'
     },
-   /* plugins: [
+    plugins: [
         new webpack.LoaderOptionsPlugin({
             // test: /\.xxx$/, // may apply this only for some modules
             options: {
@@ -29,7 +31,7 @@ module.exports = {
                 ]
             }
         })
-    ], */
+    ], 
 
     module: {
         rules: [
