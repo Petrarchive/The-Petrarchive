@@ -122,6 +122,15 @@
 	<h1 style="margin-top: 5em;">
 		A visual index to Petrarch's <cite>Rerum vulgarium fragmenta</cite>, Vat. Lat. 3195
 	</h1>
+
+	<div class="fascicles">
+		<nav>
+			
+		</nav>
+		
+		<svg class="active-fascicle"></svg>
+	</div>
+
 	<div id="visindex">
 		<div class="fascicle quaternion clearfix" style="margin-bottom:5px;">
 			<h1 style="margin-bottom:.5em; border:none;">
@@ -129,9 +138,7 @@
 			</h1>
 			<div class="carousel">
 				<a href="content/c001r.xml"><img alt="vat. lat. 3195, c. 1r" src="images/visindex/c001r.svg" /></a> <a href="content/c001v.xml"><img alt="vat. lat. 3195, c. 1v" src="images/visindex/c001v.svg" /></a> <a href="content/c002r.xml"><img alt="vat. lat. 3195, c. 2r" src="images/visindex/c002r.svg" /></a> <a href="content/c002v.xml"><img alt="vat. lat. 3195, c. 2v" src="images/visindex/c002v.svg" /></a> <a href="content/c003r.xml"><img alt="vat. lat. 3195, c. 3r" src="images/visindex/c003r.svg" /></a> <a href="content/c003v.xml"><img alt="vat. lat. 3195, c. 3v" src="images/visindex/c003v.svg" /></a> <a href="content/c004r-c005r.xml#c004r"><img alt="vat. lat. 3195, c. 4r" src="images/visindex/c004r.svg" /></a> <a href="content/c004r-c005r.xml#c004v"><img alt="vat. lat. 3195, c. 4v" src="images/visindex/c004v.svg" /></a> <a href="content/c004r-c005r.xml#c005r"><img alt="vat. lat. 3195, c. 5r" src="images/visindex/c005r.svg" /></a> <a href="content/c005v-c007r.xml#c005v"><img alt="vat. lat. 3195, c. 5v" src="images/visindex/c005v.svg" /></a> <a href="content/c005v-c007r.xml#c006r"><img alt="vat. lat. 3195, c. 6r" src="images/visindex/c006r.svg" /></a> <a href="content/c005v-c007r.xml#c006v"><img alt="vat. lat. 3195, c. 6v" src="images/visindex/c006v.svg" /></a> <a href="content/c005v-c007r.xml#c007r"><img alt="vat. lat. 3195, c. 7r" src="images/visindex/c007r.svg" /></a> <a href="content/c007v.xml"><img alt="vat. lat. 3195, c. 7v" src="images/visindex/c007v.svg" /></a> <a href="content/c008r.xml"><img alt="vat. lat. 3195, c. 8r" src="images/visindex/c008r.svg" /></a> <a href="content/c008v-c009v.xml#c008v"><img alt="vat. lat. 3195, c. 8v" src="images/visindex/c008v.svg" /></a> 
-			</div>
-
-			
+			</div>	
 		</div>
 	
 		<div class="fascicle quaternion clearfix">

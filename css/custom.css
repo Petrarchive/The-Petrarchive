@@ -1634,6 +1634,12 @@ button {
   z-index: 10002;
 }
 
+#poem-textindex .modal-dialog {
+  max-width: initial;
+  width: 98vw;
+  max-width: 840px;
+}
+
 #poem-textindex .modal-content {
   overflow-y: auto;
   max-height: 90vh;

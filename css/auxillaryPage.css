@@ -38,6 +38,17 @@ entry {
     margin-bottom: 2rem;
   }
 
+tei#glossary {
+    width: 100%;
+}
+
+.maniculed::before {
+    content: "[";
+}
+.maniculed::after {
+    content: "]";
+}
+
 main.glossary {
     margin-top: 5.5rem;
     line-height: 1.5rem;

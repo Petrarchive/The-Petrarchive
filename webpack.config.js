@@ -7,7 +7,8 @@ module.exports = {
         poem: './js/poem.js',
         index: './js/index.js',
         glossary: './js/glossary.js',
-        vizindex: './js/vizindex.js'
+        vizindex: './js/vizindex.js',
+        textindex: './js/textindex.js'
     },
     plugins: [
         new webpack.LoaderOptionsPlugin({

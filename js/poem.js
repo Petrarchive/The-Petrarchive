@@ -5,6 +5,10 @@ import 'bootstrap'
 import Petrarchive from './petrarchive'
 import util_browser from './utils/browser'
 
+import 'datatables.net-bs4'
+import 'datatables.net-fixedheader-bs4'
+import 'datatables.net-responsive-bs4'
+
 let PT
 
 // This is the 'init'/bootstrap function that gets everything started
@@ -80,21 +84,35 @@ function setupTextindex() {
   if (!textindex.attr('data-events-loaded')) {
     // put this into petrarchive.xsl
     $.get('../textindex.html', function(html) {
-      let $html = $(html),
-          table = $html.find('table');
+      let $html = $(html)
 
-      textindex.find('.modal-content').html('<table></table>')
-      textindex.find('.modal-content table').append(table.html())
+      //textindex.find('.modal-content').html('<table id="index"></table>')
+      textindex.find('.modal-content').append($html)
 
-      util_browser.convertUrl('content')
+
+      $('table#index').DataTable({
+        "dom": '<"top"f>rt<"bottom"lp><"clear">',
+        "paging": false,
+        "scrollY": '60vh',
+        //"fixedHeader": true,
+        "scrollCollapse": true,
+        "columnDefs": [
+            { "type": "html-num-fmt", "targets": 0, },
+            { "orderable": false, "targets": 1, }
+        ]
+      })
+
+      //util_browser.convertUrl('content')
 
       PT.nav.refresh()
     })
 
-    textindex.click(function(ev) {
+    // Prevent full page reload / instead do async load
+    textindex.click(function(ev, foobar) {
       if (ev.target.localName == 'a') {
         PT.nav.navigateTo($(ev.target).attr('href'))
         ev.preventDefault()
+        $(element).modal('hide')
       }
     })
 
@@ -107,27 +125,22 @@ function setupTextindex() {
 
     textindex.attr('data-loaded', true) 
 
-    let table = textindex.find('tbody')
-
+    let table = textindex.find('table')
+    
     // Fix header and format it
     let header = textindex.find('thead')
-    header.css('position', 'fixed')
-      .css('background', 'white')
+    //header.css('position', 'fixed')
+    //  .css('background', 'white')
 
-    let columns = table.find('tr:first-child td')
-    
-    columns.each(function(i, col) {
-      let child = i + 1
-      header.find('th:nth-child(' + child + ')').css('width', $(col).width())
-    })
+    $(table.find('th:first-child')).click().click()
 
     // Scroll to current active charta
     let active = PT.nav.current.getFirstSide().getPrettyNameTextindex()
-    table.find('tr:first-child td').css('padding-top', header.height())
 
     let trArray = table.children('tr').toArray()
     let activeTr = trArray.find(function(tr) {
       let charta = $(tr).children('td:nth-child(2)')
+      console.log(charta.text())
       return charta.text() == String(active)
     })
 

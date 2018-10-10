@@ -5,12 +5,8 @@ import 'bootstrap'
 import util_browser from './utils/browser'
 
 import Fascicle from './fascicle'
-import Charta from './charta'
-import Folio from './folio'
-import Side from './side'
 
 import * as d3 from 'd3'
-import { forceLink } from '../node_modules/d3-force';
 
 $(document).ready(async function () {
     const side = {
@@ -47,17 +43,16 @@ $(document).ready(async function () {
         }
     }
 
-    let drawSideLeft = (d, i, multiplier) => {        
+    let drawSideLeft = (d, i, dimensions) => {        
         let start,
             end;
 
-        multiplier = multiplier || {x:1, y:1}
 
-        const margin = (30 * i),
+        const margin = dimensions.height * .1,
               center = [0, 0];
 
         start = center
-        end = [getSideLeft().x * multiplier.x, getSideLeft().y * multiplier.y]
+        end = [-((dimensions.width / 2) - 50), -(dimensions.height - 200 - (margin * (dimensions.quireLength - 1 - dimensions.folioIndex)))]
 
         // treat interior
         if (i == 1) {
@@ -71,18 +66,15 @@ $(document).ready(async function () {
         return dString
     }
 
-    let drawSideRight = (d, i, multiplier) => {
+    let drawSideRight = (d, i, dimensions) => {
         let start,
             end;
         
-        multiplier = multiplier || {x:1, y:1}
-
-        const margin = (30 * i),
+        const margin = dimensions.height * .1,
             center = [0, 0];
 
         start = center
-        end = [getSideRight().x * multiplier.x, getSideRight().y * multiplier.y]
-
+        end = [(dimensions.width / 2) - 50, -(dimensions.height - 200 - (margin * (dimensions.quireLength - 1 - dimensions.folioIndex)))]
         // Treat interior
         if (i == 0) {
             start[0] -= side.thickness * .5
@@ -90,20 +82,20 @@ $(document).ready(async function () {
             end[0] -= side.thickness * .5
             end[1] -= side.thickness
         }
-        
+        console.log(dimensions, i, end)
         let dString = `m ${start[0]} ${start[1]} L ${end[0]} ${end[1]}`
         return dString
     }
 
-    let drawWrapSideLeft = (d, i, multiplier) => {
+    let drawWrapSideLeft = (d, i, dimensions) => {
         let start,
             end;
 
-        const margin = (30 * i),
-            center = [0, 0];
+        const margin = dimensions.height * .1,
+        center = [0, 0];
 
         start = center
-        end = [getSideLeft().x * multiplier.x, getSideLeft().y * multiplier.y + 100]
+        end = [-(   (dimensions.width / 2) - 50), .6 * -(dimensions.height - 200 - (margin * (dimensions.quireLength - 1 - dimensions.folioIndex)))]
 
         // Treat interior
         if (i == 1) {
@@ -117,16 +109,16 @@ $(document).ready(async function () {
         return dString
     }
 
-    let drawWrapSideRight = (d, i, multiplier) => {
+    let drawWrapSideRight = (d, i, dimensions) => {
         let start,
             end;
 
-        const margin = (30 * i),
-            center = [0, 0];
+        const margin = dimensions.height * .1,
+        center = [0, 0];
 
         start = center
-        end = [getSideRight().x * multiplier.x, getSideRight().y * multiplier.y + 100]
-
+        end = [((dimensions.width / 2) - 50), .6 * -(dimensions.height - 200 - (margin * (dimensions.quireLength - 1 - dimensions.folioIndex)))]
+    
         // Treat interior
         if (i == 0) {
             start[0] -= side.thickness * .5
@@ -146,18 +138,18 @@ $(document).ready(async function () {
     tooltip.append('img')
 
     let fasciclesData = await getFascicles(document.querySelectorAll('div.fascicle'))
-
-    let fasciclesContainer = d3.select('.fascicle');
     console.log(fasciclesData)
 
-    const fascicles = fasciclesContainer.selectAll("svg")
+    let fasciclesContainer = d3.select('.fascicles nav');
+
+    const fascicles = fasciclesContainer.selectAll("svg.fascicle")
       .data(fasciclesData)
       .enter().append('svg')
         .attr('class', (d) => {
             return `fascicle ${d.type}`
         })
-        .attr('height', dimensions.height)
-        .attr('width', dimensions.width);
+        .attr('width', dimensions.width)
+        .attr('height', dimensions.height);
     
     const quires = fascicles.selectAll('.quire')
       .data((d) => {
@@ -166,12 +158,31 @@ $(document).ready(async function () {
         .attr("class", (d) => {
             return `quire ${d.getType()}`
         })
+        .attr('width', function(d,i) {
+            if (d3.select(this.parentElement).classed('binion-sandwich')) {
+                if (i > 0) {
+                    return dimensions.width / 2.75
+                }
+            }
+            return dimensions.width 
+        })
+        .attr('height', function(d,i) {
+            if (d3.select(this.parentElement).classed('binion-sandwich')) {
+                if (i > 0) {
+                    return dimensions.height * .8
+                }
+            }
+            return dimensions.height 
+        })
+        .attr('data-quire-length', (d,i) => { return d.getFolios().length })
         .attr('transform', function(d, i) {
-            if (d3.select(this).classed('intra')) {
+            let element = d3.select(this)
+            
+            if (element.classed('intra')) {
                 if (i == 1)
-                    return `translate(-60, -75)`;
+                    return `translate(-85, -100)`;
                 if (i == 2)
-                    return `translate(60, -75)`;
+                    return `translate(85, -100) `;
             }
         })
         .each(drawQuire);
@@ -194,13 +205,14 @@ $(document).ready(async function () {
                 let surface = d.getExteriorSurface()
                 return `folio ${surface}-exterior`
             })
+            .attr('data-folio-index', (d,i) => {return i})
             .attr('transform', function(d, i) {
                 let quire = d3.select(this.parentNode)
                 let folioY = dimensions.height
-                let folioMargin = i * side.thickness * 5
+                let folioMargin = i * side.thickness * 2.25
 
                 if (quire.classed('extra'))
-                    folioMargin = i * side.thickness * 4;
+                    folioMargin = i * side.thickness * 2.25;
                
                 folioY -= folioMargin
 
@@ -232,30 +244,38 @@ $(document).ready(async function () {
             .attr('data-side', (d) => d.rv)
             .attr('d', function(d, i) {
                 let charta = d3.select(this.parentNode)
+                let folio = d3.select(this.parentNode.parentNode)
                 let quire = d3.select(this.parentNode.parentNode.parentNode)
                 let fascicle = d3.select(this.parentNode.parentNode.parentNode.parentNode)
+
+                let dimensions = {
+                    width: Number(quire.attr('width')),
+                    height: Number(quire.attr('height')),
+                    folioIndex: Number(folio.attr('data-folio-index')),
+                    quireLength: Number(quire.attr('data-quire-length'))
+                }                     
 
                 if (fascicle.classed('binion-sandwich')) {
                     if (charta.classed('left')) {
                         if (quire.classed('extra'))
-                            return drawWrapSideLeft(d, i, {x: 1,y:1});
+                            return drawWrapSideLeft(d, i, dimensions);
 
                         if (quire.classed('intra'))
-                            return drawSideLeft(d, i, {x:.3,y:.4});
+                            return drawSideLeft(d, i, dimensions);
                     }
                     if (charta.classed('right')) {
                         if (quire.classed('extra'))
-                            return drawWrapSideRight(d, i, {x:1,y:1});
+                            return drawWrapSideRight(d, i, dimensions);
 
                         if (quire.classed('intra'))
-                            return drawSideRight(d, i, {x:.3,y:.4});
+                            return drawSideRight(d, i, dimensions);
                     }
                 }
 
                 if (charta.classed('left'))
-                    return drawSideLeft(d,i);
+                    return drawSideLeft(d,i, dimensions);
                 if (charta.classed('right'))
-                    return drawSideRight(d,i);
+                    return drawSideRight(d,i, dimensions);
             })
             .on('mouseover', function(d,i) {
                 d3.select(this).classed('active', true)
@@ -284,34 +304,6 @@ $(document).ready(async function () {
         
 
 })
-
-function quaternionSplit(sides) {
-    if (sides.length != 16) {
-        throw `Quarternions must have 16 writing surfaces. ${sides.length} provided`
-    }
-    return new Promise((resolve) => {
-        let quaternion = [],
-            virtual = sides.slice(0);
-    
-        while (virtual.length) {
-            let ancientPiece  = []
-
-            ancientPiece.push(virtual.shift())
-            ancientPiece.push(virtual.shift())
-
-            let popped = []
-
-            popped.push(virtual.pop())
-            popped.push(virtual.pop())
-            
-            Array.prototype.push.apply(ancientPiece, popped.reverse())
-
-            ancientMaterial.push(ancientPiece)
-        }
-
-        resolve(ancientMaterial)
-    })
-}
 
 async function getFascicles(fascicleContainers) {
     const containers = Array.prototype.slice.call(

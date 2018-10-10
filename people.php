@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Petrarchive: People</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 
   <link rel="stylesheet" type="text/css" href="css/lib/bootstrap.min.css" />
   <link rel="stylesheet" type="text/css" href="js/jquery-ui/jquery-ui.min.css" />
@@ -21,7 +22,7 @@
         </header>
 
         <main class="row">
-          <div id="content">
+          <div id="content" class="col">
             <h1>People</h1>
             <dl>
             <dt>H. Wayne Storey, Editor</dt>

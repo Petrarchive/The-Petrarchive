@@ -65,7 +65,7 @@
             -->
           </aside>
 
-          <main class="row col-12 col-md-9 ml-auto glossary">
+          <main class="col-12 col-md-9 ml-auto glossary">
             <xsl:apply-templates/>
           </main>
 			  </main>
