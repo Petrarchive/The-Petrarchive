@@ -1,4 +1,4 @@
-import Side from './side'
+import Side from './fascicler/side'
 
 export default PetrarchiveDocument
 

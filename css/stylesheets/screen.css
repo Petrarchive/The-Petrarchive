@@ -207,6 +207,10 @@ img {
   max-width: 600px;
 }
 
+img.fit {
+  width: 100%;
+}
+
 /* banners */
 /* line 141, ../sass/screen.scss */
 

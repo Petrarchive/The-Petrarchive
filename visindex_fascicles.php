@@ -19,7 +19,23 @@
 	
 	/* img {max-height:400px;max-width:291px;} */
 	
-	
+	.fascicle-container {
+        height: 0;             /* collapse the container's height */
+        padding-top: 20%;
+        position: relative;    /* create positioning context for svg */
+	}
+
+	.fascicle-container svg {
+		position: absolute;
+		top: 0;
+		left: 0;
+		cursor: pointer;
+	}
+
+	.side:hover {
+		cursor: pointer
+	}
+
 	#visindex div {
 	}
 
@@ -44,11 +60,8 @@
 	.carousel {
 		width: 100%;
 		display: flex;
-		flex-wrap: nowrap; /*
-		overflow-x: auto;*/
-	}
-
-	.carousel a {
+		flex-wrap: nowrap; 
+		overflow-x: auto;
 	}
 	
 	.fascicle .fascicle  img {
@@ -88,8 +101,13 @@
 		stroke: orange;
 	}
 
-	.side.active{
+	.side.active {
 		opacity: .5;
+	}
+
+	.side.click-active {
+		stroke-width: .5;
+		stroke: black;
 	}
 
 	div.tooltip {	
@@ -123,12 +141,30 @@
 		A visual index to Petrarch's <cite>Rerum vulgarium fragmenta</cite>, Vat. Lat. 3195
 	</h1>
 
-	<div class="fascicles">
-		<nav>
+	<div class="fascicles container">
+		<nav class="row carousel">
 			
 		</nav>
 		
-		<svg class="active-fascicle"></svg>
+		<div class="active-fascicle row">
+			<div class="col col-lg-4">
+				<h1 class="">
+				</h1>
+
+				<p class="chartae-range">
+					<span class="min"></span> -
+					<span class="max"></span>
+				</p>
+
+				<div class="col">
+					<img class="viz fit" />
+				</div>
+			</div>
+
+			<div class="container col-lg-8">
+				
+			</div>
+		</div>
 	</div>
 
 	<div id="visindex">

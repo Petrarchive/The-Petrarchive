@@ -1,7 +1,5 @@
 import Side from './side'
 import Quire from './quire'
-import Folio from './folio'
-import Charta from './charta'
 
 export default Fascicle
 
@@ -9,6 +7,7 @@ function Fascicle(quires) {
     this.quires = []
 
     this.type
+    this.meta = {}
 
     if (quires)
         this.addQuires(quires);
@@ -16,6 +15,14 @@ function Fascicle(quires) {
 
 Fascicle.prototype.setType = function(type) {
     this.type = type
+}
+
+Fascicle.prototype.setMeta = function(key, val) {
+    this.meta[key] = val
+}
+
+Fascicle.prototype.getMeta = function(key) {
+    return this.meta[key] || undefined
 }
 
 Fascicle.prototype.getQuires= function() {
@@ -42,14 +49,10 @@ Fascicle.prototype.addQuires = function(quires) {
 // assemble the whole ancient document. The type fascicle's 
 // type must be set prior
 Fascicle.prototype.assemble = async function(sides) {
-    const depthDict = {
-        binion: 2,
-        quaternion: 2,
-        'binion-sandwich': 2 //foobar
+    const lengthDict = {
+        "8": "binion",
+        "16": "quaternion",
     }
-
-    if (! depthDict[this.type] )
-        throw `Fascicle type of "${this.type}" is invalid. Valid Types include: [${Object.keys(depthDict)}]`;
 
     let quires
     const processedSides = await this.splitSides(sides)
@@ -64,6 +67,7 @@ Fascicle.prototype.assemble = async function(sides) {
         this.addQuires([extraBinion, intraBinionFirst, intraBinionSecond])
     } else {
         this.addQuire(processedSides)
+        this.setType(lengthDict[sides.length])
     }
 }
 

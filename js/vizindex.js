@@ -2,154 +2,55 @@ import $ from 'jquery'
 
 import 'bootstrap'
 
-import util_browser from './utils/browser'
-
-import Fascicle from './fascicle'
+import Fascicler from './fascicler/fascicler'
+import * as draw from './fascicler/draw'
 
 import * as d3 from 'd3'
 
+const side = {
+    thickness: 1
+}
+
+const dimensions = {
+    width: 100,
+    height: 45,
+    margin: 3
+}
+
 $(document).ready(async function () {
-    const side = {
-        thickness: 10
+    let fascicler = new Fascicler()
+
+    registerEvents()
+ 
+    let elements = document.querySelectorAll('div.fascicle')
+    let options = {
+        title: 'h1'
     }
+    let fasciclesData = await fascicler.getFascicles(elements, options)
 
-    const dimensions = {
-        width: 900,
-        height: 500,
-        margin: 30
-    }
+    let fasciclesNav = d3.select('.fascicles nav');
 
-    function getSideLeft(dimensionsParam) {
-        if (!dimensionsParam)
-            dimensionsParam = dimensions;
-
-        const dp = dimensionsParam
-
-        return {
-            x: -((dp.width / 2) - dp.margin * 5),
-            y: -(dp.height - dp.margin * 10)
-        }
-    }
-
-    function getSideRight(dimensionsParam) {
-        if (!dimensionsParam)
-            dimensionsParam = dimensions;
-
-        const dp = dimensionsParam
-
-        return {
-            x: ((dp.width / 2) - dp.margin * 5),
-            y: -(dp.height - dp.margin * 10)
-        }
-    }
-
-    let drawSideLeft = (d, i, dimensions) => {        
-        let start,
-            end;
-
-
-        const margin = dimensions.height * .1,
-              center = [0, 0];
-
-        start = center
-        end = [-((dimensions.width / 2) - 50), -(dimensions.height - 200 - (margin * (dimensions.quireLength - 1 - dimensions.folioIndex)))]
-
-        // treat interior
-        if (i == 1) {
-            start[0] += side.thickness * .5
-            start[1] -= side.thickness
-            end[0] += side.thickness * .5
-            end[1] -= side.thickness
-        }
-        
-        let dString = `m${start[0]} ${start[1]} L ${end[0]} ${end[1]}`
-        return dString
-    }
-
-    let drawSideRight = (d, i, dimensions) => {
-        let start,
-            end;
-        
-        const margin = dimensions.height * .1,
-            center = [0, 0];
-
-        start = center
-        end = [(dimensions.width / 2) - 50, -(dimensions.height - 200 - (margin * (dimensions.quireLength - 1 - dimensions.folioIndex)))]
-        // Treat interior
-        if (i == 0) {
-            start[0] -= side.thickness * .5
-            start[1] -= side.thickness
-            end[0] -= side.thickness * .5
-            end[1] -= side.thickness
-        }
-        console.log(dimensions, i, end)
-        let dString = `m ${start[0]} ${start[1]} L ${end[0]} ${end[1]}`
-        return dString
-    }
-
-    let drawWrapSideLeft = (d, i, dimensions) => {
-        let start,
-            end;
-
-        const margin = dimensions.height * .1,
-        center = [0, 0];
-
-        start = center
-        end = [-(   (dimensions.width / 2) - 50), .6 * -(dimensions.height - 200 - (margin * (dimensions.quireLength - 1 - dimensions.folioIndex)))]
-
-        // Treat interior
-        if (i == 1) {
-            start[0] += side.thickness * .5
-            start[1] -= side.thickness
-            end[0] += side.thickness * .5
-            end[1] -= side.thickness
-        }
-        
-        let dString = `m ${start[0]} ${start[1]} L ${end[0]} ${end[1]}`
-        return dString
-    }
-
-    let drawWrapSideRight = (d, i, dimensions) => {
-        let start,
-            end;
-
-        const margin = dimensions.height * .1,
-        center = [0, 0];
-
-        start = center
-        end = [((dimensions.width / 2) - 50), .6 * -(dimensions.height - 200 - (margin * (dimensions.quireLength - 1 - dimensions.folioIndex)))]
-    
-        // Treat interior
-        if (i == 0) {
-            start[0] -= side.thickness * .5
-            start[1] -= side.thickness
-            end[0] -= side.thickness * .5
-            end[1] -= side.thickness
-        }
-        
-        let dString = `m ${start[0]} ${start[1]} L ${end[0]} ${end[1]}`
-        return dString
-    }
-
-
-    let tooltip = d3.select("body").append("div")	
-        .attr("class", "tooltip")				
-        .style("opacity", 0);
-    tooltip.append('img')
-
-    let fasciclesData = await getFascicles(document.querySelectorAll('div.fascicle'))
-    console.log(fasciclesData)
-
-    let fasciclesContainer = d3.select('.fascicles nav');
-
-    const fascicles = fasciclesContainer.selectAll("svg.fascicle")
+    const fascicles = fasciclesNav.selectAll("div.fascicle-container")
       .data(fasciclesData)
-      .enter().append('svg')
+      .enter().append('div')
+        .attr('class', 'fascicle-container col-sm-6 col-md-4 col-lg-3')
+        .attr('width', 100)
+        .attr('height', 0)
+        .attr('padding-top', () => {
+            return (dimensions.height / dimensions.width) * 100
+        })
+        .attr('position', 'relative')
+      .append('svg')
+        .attr('viewBox', (d,i) => {
+            return `0 0 ${dimensions.width} ${dimensions.height}`
+        })
         .attr('class', (d) => {
             return `fascicle ${d.type}`
         })
-        .attr('width', dimensions.width)
-        .attr('height', dimensions.height);
+        .attr('data-fascicle-title', (d, i) => {
+            console.log(d)
+            return d.getMeta('title')
+        });
     
     const quires = fascicles.selectAll('.quire')
       .data((d) => {
@@ -180,9 +81,9 @@ $(document).ready(async function () {
             
             if (element.classed('intra')) {
                 if (i == 1)
-                    return `translate(-85, -100)`;
+                    return `translate(-13, -10)`;
                 if (i == 2)
-                    return `translate(85, -100) `;
+                    return `translate(13, -10)`;
             }
         })
         .each(drawQuire);
@@ -242,6 +143,9 @@ $(document).ready(async function () {
             .attr('stroke-width', side.thickness)
             .attr('data-charta', (d) => d.charta)
             .attr('data-side', (d) => d.rv)
+            .attr('data-viz-url', (d) => {
+                return d.getViz()
+            })
             .attr('d', function(d, i) {
                 let charta = d3.select(this.parentNode)
                 let folio = d3.select(this.parentNode.parentNode)
@@ -258,88 +162,65 @@ $(document).ready(async function () {
                 if (fascicle.classed('binion-sandwich')) {
                     if (charta.classed('left')) {
                         if (quire.classed('extra'))
-                            return drawWrapSideLeft(d, i, dimensions);
+                            return draw.wrapSideLeft(d, i, dimensions);
 
                         if (quire.classed('intra'))
-                            return drawSideLeft(d, i, dimensions);
+                            return draw.sideLeft(d, i, dimensions);
                     }
                     if (charta.classed('right')) {
                         if (quire.classed('extra'))
-                            return drawWrapSideRight(d, i, dimensions);
+                            return draw.wrapSideRight(d, i, dimensions);
 
                         if (quire.classed('intra'))
-                            return drawSideRight(d, i, dimensions);
+                            return draw.sideRight(d, i, dimensions);
                     }
                 }
 
                 if (charta.classed('left'))
-                    return drawSideLeft(d,i, dimensions);
+                    return draw.sideLeft(d,i, dimensions);
                 if (charta.classed('right'))
-                    return drawSideRight(d,i, dimensions);
-            })
-            .on('mouseover', function(d,i) {
-                d3.select(this).classed('active', true)
-    
-                tooltip.transition()		
-                    .duration(200)		
-                    .style("opacity", .9);	
-    
-                tooltip.select('img').attr('src', d.getViz())
-
-                console.log(d3.event)
-    
-                tooltip.style("left", (d3.event.pageX) + "px")		
-                    .style("top", (d3.event.pageY - 28) + "px");	
-            })
-            .on('mouseout', function(d,i) {
-                d3.select(this).classed('active', false)
-                
-                tooltip.transition()		
-                    .duration(500)		
-                    .style("opacity", 0);	
-            });
+                    return draw.sideRight(d,i, dimensions);
+            }); 
     }
-
-    
-        
 
 })
 
-async function getFascicles(fascicleContainers) {
-    const containers = Array.prototype.slice.call(
-        fascicleContainers
-    )
+function registerEvents() {
+    document.querySelector('.fascicles.container nav').addEventListener("click", (ev) => {
+        let fascicle = ev.toElement.closest('.fascicle-container')
+        let activeView = document.querySelector('.active-fascicle')
 
-    const containersArray = containers.map( async (c) => {
-        return await getFascicle(c)
+
+        activeView.querySelector('.container').innerHTML = fascicle.innerHTML
+        activeView.querySelector('h1').innerHTML = activeView.querySelector('.fascicle').getAttribute('data-fascicle-title')
+
+        let sides = activeView.querySelectorAll('.container .side')
+
+        let min = sides[0],
+            max = sides[sides.length -1];
+        
+        updateViz(min, min.getAttribute('data-viz-url'))
+
+        activeView.querySelector('.chartae-range .min').textContent = min.getAttribute('data-charta') + min.getAttribute('data-side')
+        activeView.querySelector('.chartae-range .max').textContent = max.getAttribute('data-charta') + max.getAttribute('data-side')
+        
+        d3.selectAll('.active-fascicle .container .side')
+            .on('click', function() {
+                updateViz(d3.select(this).node(), d3.select(this).attr('data-viz-url'))
+            })
+            .on('mouseover', function() {
+                d3.select(this).classed('active', true)
+            })
+            .on('mouseout', function() {
+                d3.select(this).classed('active', false)	
+            }); 
     })
-
-    let fascicles = await Promise.all(containersArray);
-
-    return fascicles
 }
 
-async function getFascicle(fascicleContainer) {
-    const sides = Array.prototype.slice.call(
-        fascicleContainer.querySelectorAll('img')
-    )
+function updateViz(element, src) {
+    if (document.querySelector('.click-active'))
+        document.querySelector('.click-active').classList.remove('click-active');
 
-    const fascicle = new Fascicle()
-
-    if (fascicleContainer.classList.contains('quaternion')) {
-        fascicle.setType('quaternion')
-    }
-
-    if (fascicleContainer.classList.contains('binion')) {
-        fascicle.setType('binion')
-    }
-
-    if (fascicleContainer.classList.contains('binion-sandwich')) {
-        fascicle.setType('binion-sandwich')
-    }
-
-    await fascicle.assemble(sides)
-    fascicle.applyGregorysLaw()
-
-    return fascicle
+    element.classList.add("click-active")
+    document.querySelector('.active-fascicle img.viz').setAttribute('src', src)
 }
