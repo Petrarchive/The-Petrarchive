@@ -32,6 +32,16 @@
 		cursor: pointer;
 	}
 
+	.fascicles nav .fascicle-container {
+		border: 2px solid transparent;
+	}
+	.fascicles nav .fascicle-container.active {
+		border: 2px solid #aaa;
+	}
+	.fascicles nav .fascicle-container:hover {
+		background-color: #ddd;
+	}
+
 	.side:hover {
 		cursor: pointer
 	}
@@ -142,10 +152,11 @@
 	</h1>
 
 	<div class="fascicles container">
-		<nav class="row carousel">
-			
-		</nav>
-		
+		<header class="row justify-content-center">
+			<nav class="row no-gutters col-md-6 col-lg-5">
+			</nav>
+		</header>
+
 		<div class="active-fascicle row">
 			<div class="col col-lg-4">
 				<h1 class="">

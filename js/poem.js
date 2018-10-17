@@ -221,7 +221,7 @@ function recursiveSearch(el, type) {
 
 function setupRvf() {
   if (util_browser.getParam('incomplete')) 
-    return;
+    return $('.rvf-range').text('');
 
   let rvf = $('lg[n]'),
       min = $(rvf[0]).attr('n'),

@@ -18,10 +18,60 @@ const dimensions = {
 }
 
 $(document).ready(async function () {
+    registerEvents()
+    await drawFascicles()
+
+    document.querySelector('.fascicles.container nav .fascicle-container').click()
+})
+
+function registerEvents() {
+    document.querySelector('.fascicles.container nav').addEventListener("click", (ev) => {
+        let fascicle = ev.toElement.closest('.fascicle-container')
+        let activeView = document.querySelector('.active-fascicle')
+
+        if (document.querySelector('.fascicle-container.active'))
+            document.querySelector('.fascicle-container.active').classList.remove('active');
+
+        fascicle.classList.add('active')
+
+
+        activeView.querySelector('.container').innerHTML = fascicle.innerHTML
+        activeView.querySelector('h1').innerHTML = activeView.querySelector('.fascicle').getAttribute('data-fascicle-title')
+
+        let sides = activeView.querySelectorAll('.container .side')
+
+        let min = sides[0],
+            max = sides[3];
+        
+        updateViz(min, min.getAttribute('data-viz-url'))
+
+        activeView.querySelector('.chartae-range .min').textContent = min.getAttribute('data-charta') + min.getAttribute('data-side')
+        activeView.querySelector('.chartae-range .max').textContent = max.getAttribute('data-charta') + max.getAttribute('data-side')
+        
+        d3.selectAll('.active-fascicle .container .side')
+            .on('click', function() {
+                updateViz(d3.select(this).node(), d3.select(this).attr('data-viz-url'))
+            })
+            .on('mouseover', function() {
+                d3.select(this).classed('active', true)
+            })
+            .on('mouseout', function() {
+                d3.select(this).classed('active', false)	
+            }); 
+    })
+}
+
+function updateViz(element, src) {
+    if (document.querySelector('.click-active'))
+        document.querySelector('.click-active').classList.remove('click-active');
+
+    element.classList.add("click-active")
+    document.querySelector('.active-fascicle img.viz').setAttribute('src', src)
+}
+
+async function drawFascicles() {
     let fascicler = new Fascicler()
 
-    registerEvents()
- 
     let elements = document.querySelectorAll('div.fascicle')
     let options = {
         title: 'h1'
@@ -33,7 +83,7 @@ $(document).ready(async function () {
     const fascicles = fasciclesNav.selectAll("div.fascicle-container")
       .data(fasciclesData)
       .enter().append('div')
-        .attr('class', 'fascicle-container col-sm-6 col-md-4 col-lg-3')
+        .attr('class', 'fascicle-container col-4')
         .attr('width', 100)
         .attr('height', 0)
         .attr('padding-top', () => {
@@ -183,44 +233,4 @@ $(document).ready(async function () {
             }); 
     }
 
-})
-
-function registerEvents() {
-    document.querySelector('.fascicles.container nav').addEventListener("click", (ev) => {
-        let fascicle = ev.toElement.closest('.fascicle-container')
-        let activeView = document.querySelector('.active-fascicle')
-
-
-        activeView.querySelector('.container').innerHTML = fascicle.innerHTML
-        activeView.querySelector('h1').innerHTML = activeView.querySelector('.fascicle').getAttribute('data-fascicle-title')
-
-        let sides = activeView.querySelectorAll('.container .side')
-
-        let min = sides[0],
-            max = sides[sides.length -1];
-        
-        updateViz(min, min.getAttribute('data-viz-url'))
-
-        activeView.querySelector('.chartae-range .min').textContent = min.getAttribute('data-charta') + min.getAttribute('data-side')
-        activeView.querySelector('.chartae-range .max').textContent = max.getAttribute('data-charta') + max.getAttribute('data-side')
-        
-        d3.selectAll('.active-fascicle .container .side')
-            .on('click', function() {
-                updateViz(d3.select(this).node(), d3.select(this).attr('data-viz-url'))
-            })
-            .on('mouseover', function() {
-                d3.select(this).classed('active', true)
-            })
-            .on('mouseout', function() {
-                d3.select(this).classed('active', false)	
-            }); 
-    })
-}
-
-function updateViz(element, src) {
-    if (document.querySelector('.click-active'))
-        document.querySelector('.click-active').classList.remove('click-active');
-
-    element.classList.add("click-active")
-    document.querySelector('.active-fascicle img.viz').setAttribute('src', src)
 }

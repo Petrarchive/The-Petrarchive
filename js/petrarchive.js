@@ -139,13 +139,15 @@ Petrarchive.prototype.setupFacsThumb = function() {
 
   if (util_browser.getParam('incomplete')) {
     let baseDir = "../images/thumb-vat-lat3195-f/vat-lat3195-f-",
-        ch = this.getCurrentDoc().getChartaFirst().charta,
-        rv = this.getCurrentDoc().getChartaLast().rv,
+        ch = this.getCurrentDoc().getFirstSide().charta,
+        rv = this.getCurrentDoc().getLastSide().rv,
         facsSrc = baseDir + ch + rv + ".jpg";
 
     $('#sticky-header .facs-thumb img').attr('src', facsSrc)
     
-    $('#sticky-header .facs-thumb').attr('data-charta', "charta " + this.getCurrentDoc().getChartaFirst().getPrettyName())
+    $('#sticky-header .facs-thumb').attr('data-charta', "charta " + this.getCurrentDoc().getFirstSide().getPrettyName())
+
+    $('.viz').attr('src', '../' + this.getCurrentDoc().getFirstSide().getViz())
   } else {
     // Setup the sticky header
     let thumb = $('.-teibp-thumbnail'),

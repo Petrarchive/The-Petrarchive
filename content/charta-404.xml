@@ -81,10 +81,13 @@
    
    <!-- check encoding of #bold ~ Rvf2 lines 6, 8 and 10 -->
    
-   <text>
-      <body-404>
+   <text class="row">
+      <body-404 class="col-12">
          Text encoding not yet finished. Coming soon!
       </body-404>
+      <div class="col-12">
+        <img class="viz" />
+      </div>
    </text>
 
    <vizindex>
