@@ -10,7 +10,7 @@ module.exports = {
         vizindex: './js/vizindex.js',
         textindex: './js/textindex.js'
     },
-    plugins: [
+    /*plugins: [
         new webpack.LoaderOptionsPlugin({
             // test: /\.xxx$/, // may apply this only for some modules
             options: {
@@ -20,6 +20,8 @@ module.exports = {
                     exclude: /node_modules/,
                     loader: "babel-loader",
                     query: {
+                        plugins: ["@babel/plugin-proposal-class-properties"],
+
                         presets: ["es2015"]
                        }
                     },
@@ -32,13 +34,17 @@ module.exports = {
             }
         })
     ], 
-
+    */
     module: {
         rules: [
             {
-                test: /.js$/,
-                exclude: /node_modules/,
-                loader: "babel-loader"
+                test: /\.js$/,
+                exclude: [
+                /node_modules/
+                ],
+                use: [
+                { loader: "babel-loader" }
+                ]
             },
 
             {

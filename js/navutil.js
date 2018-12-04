@@ -9,13 +9,15 @@ export default NavUtil
 function NavUtil() {  
   // fetch and store vizindex.html data in #shadow-data
   // Then we can query this list of links to compute prev/next hrefs.
-  $.get('../vizindex.html', function(html) {
-    let vizindex = $('<div class="vizindex convert-url"></div>')
-    vizindex.appendTo('#shadow-data')
-    vizindex.append(html)
+  if (!document.querySelector('.vizindex')) {
+    $.get('../vizindex.html', function(html) {
+      let vizindex = $('<div class="vizindex convert-url"></div>')
+      vizindex.appendTo('#shadow-data')
+      vizindex.append(html)
 
-    util_browser.convertUrl('content')
-  })
+      util_browser.convertUrl('content')
+    })
+  }
 
   if (util_browser.getParam('incomplete')) {
     this.current = new PetrarchiveDocument(undefined, util_browser.getParam('ch'))
@@ -117,22 +119,21 @@ NavUtil.prototype.setupPrevHref = function() {
   }
 
   let prevName = firstSide.getPrevSide(),
-      prevLink = $('#shadow-data .vizindex a[data-charta="' + prevName + '"]');
+      prevHref = this.getHref(prevName);
 
-  let href = $(prevLink).attr('href') 
-  href = href.split('#')[0]
-
-
-  this.previous.attr('href', href)
+  this.previous.attr('href', prevHref)
 }
 
 NavUtil.prototype.setupNextHref = function() {
   let nextName = this.current.getLastSide().getNextSide(),
-      nextLink = $('#shadow-data .vizindex a[data-charta="' + nextName + '"]');
+      nextHref = this.getHref(nextName);
 
-  let href = $(nextLink).attr('href')
-  href = href.split('#')[0]
+  this.next.attr('href', nextHref)
+}
 
-  this.next.attr('href', href)
+NavUtil.prototype.getHref = function(name) {
+  let href = $('#shadow-data .vizindex a[data-charta="' + name + '"]').attr('href')
+  
+  return href.split('#')[0]
 }
 

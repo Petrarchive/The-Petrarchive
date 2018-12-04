@@ -43,7 +43,8 @@
 	}
 
 	.side:hover {
-		cursor: pointer
+		cursor: pointer;
+		opacity: .5;
 	}
 
 	#visindex div {
@@ -111,9 +112,6 @@
 		stroke: orange;
 	}
 
-	.side.active {
-		opacity: .5;
-	}
 
 	.side.click-active {
 		stroke-width: .5;
@@ -151,34 +149,54 @@
 		A visual index to Petrarch's <cite>Rerum vulgarium fragmenta</cite>, Vat. Lat. 3195
 	</h1>
 
-	<div class="fascicles container">
+	<svg id="svg"></svg>
+
+	<div class="fascicles container" data-controller="fascicles">
 		<header class="row justify-content-center">
-			<nav class="row no-gutters col-md-6 col-lg-5">
+			<nav class="row no-gutters col-md-6"
+				data-action='click->fascicles#activateFascicle'>
 			</nav>
 		</header>
 
-		<div class="active-fascicle row">
-			<div class="col col-lg-4">
-				<h1 class="">
+		<div data-fascicles-active="" class="active-fascicle row">
+			<div class="col col-md-4 row">
+				<h1 class="col-md-8" data-target="fascicles.title">
 				</h1>
 
-				<p class="chartae-range">
-					<span class="min"></span> -
-					<span class="max"></span>
+				<p class="col-md-4 chartae-range">
+					<span data-target="fascicles.min"></span> -
+					<span data-target="fascicles.max"></span>
 				</p>
 
 				<div class="col">
-					<img class="viz fit" />
+					<div class="col-lg-10">
+						<img data-target="fascicles.viz" class="viz fit" />
+					</div>	
+
+					<p data-target="fascicles.singlePoemFirstLine" class="col">
+					</p>
+
+					<a data-target="fascicles.xmlLink" class="col"
+					href="">
+						View full Text <span data-target="fascicles.side"></span>
+					</a>
 				</div>
 			</div>
 
-			<div class="container col-lg-8">
+			<div data-action="click->fascicles#activateSide"
+			data-target="fascicles.single" class="container col-md-8">
 				
 			</div>
 		</div>
 	</div>
 
-	<div id="visindex">
+	<!--
+		We hide this #visindex element to the user.
+		IT is however the source/information that we 
+		leverage to generate the visual fasciles above in 
+		the .fascicles.container element
+	-->
+	<div id="visindex" class="hide">
 		<div class="fascicle quaternion clearfix" style="margin-bottom:5px;">
 			<h1 style="margin-bottom:.5em; border:none;">
 				Fascicle I: quaternion
@@ -270,6 +288,14 @@
 	</main>
 
 	</div>
+
+	<section class="hide" id="shadow-data">	
+		<div class="vizindex convert-url">
+			<?php include "./vizindex.html"; ?>
+		</div>
+
+		<?php include "./textindex.html"; ?>
+	</section>
 
 	<?php include "footer.html"; ?>
 
