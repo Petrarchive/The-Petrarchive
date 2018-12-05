@@ -83,10 +83,10 @@
    
    <text class="row">
       <body-404 class="col-12">
-         Text encoding not yet finished. Coming soon!
+         Text encoding is not yet finished.
       </body-404>
       <div class="col-12">
-        <img class="viz" />
+        <img class="viz" style="width: 320px" />
       </div>
    </text>
 

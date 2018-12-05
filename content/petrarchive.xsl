@@ -30,6 +30,13 @@
     <xsl:copy-of select="$header"/>
   </xsl:template>
 
+  <xsl:template name="mailSignup">
+    <xsl:variable name="signup">
+      <xsl:copy-of select="document('../mail-signup.html')"/>
+    </xsl:variable>
+    <xsl:copy-of select="$signup"/>
+  </xsl:template>
+
   <xsl:template name="htmlFooter">
     <xsl:variable name="footer">
       <xsl:copy-of select="document('../footer.html')"/>
@@ -64,7 +71,7 @@
               <main id="tei_main">
 					      <xsl:apply-templates/>
               </main>
-
+              
               <div class="row">
 					  	  <xsl:call-template name="htmlFooter"/>
 					    </div>
