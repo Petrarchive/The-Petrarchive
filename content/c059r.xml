@@ -70,13 +70,10 @@
             <title>Petrarch’s <title rendition="#i">Rerum vulgarium fragmenta</title>: Charta 59 recto</title> <!-- Change the charta number according to the charta that is being encoded. Here the example is encoding c.1v -->
             <editor xml:id="hws">H. Wayne Storey</editor>
             <editor xml:id="jaw">John A. Walsh</editor>
+             <editor xml:id="im">Isabella Magni</editor>
             <respStmt>
                <resp>Encoder</resp>
                <name xml:id="amm">Allison M. McCormack</name>
-            </respStmt>
-            <respStmt>
-               <resp>Associate Editor</resp>
-               <name xml:id="im">Isabella Magni</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -482,7 +479,7 @@
           <lg type="sonnet" xml:id="rvf293" n="293"> <!-- Change the sonnet xml:id and number according to the sonnet to be encoded -->
               <lg type="octave">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="1"><hi rendition="#red #fs24pt">S</hi><hi rendition="#small-caps">I</hi>o auesse pensato che si care</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
+                      <l n="1"><hi rendition="#red #fs24pt">S</hi><hi rendition="#small-caps">i</hi>o auesse pensato che si care</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
                       <l n="2">Fossin le uoci de sospir miei in rima</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -494,8 +491,8 @@
                       <l n="6">Et che si staua de pensier miei in cima .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="7"> &Non; posso &virg-underdot; &e; &non; o piu si dolce lima .</l>
-                      <l n="8">Rime aspre &e; fosche far soaui &e; chiare .</l>
+                      <l n="7">&Non; posso &virg-underdot; &amp7; &non; o piu si dolce lima .</l>
+                      <l n="8">Rime aspre &amp7; fosche far soaui &amp7; chiare .</l>
                   </lg>
               </lg>
               <lg type="sestet">
@@ -509,7 +506,7 @@
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="13">Or uorrei ben piacer . ma <choice><abbr>&q-tilde;lla</abbr><expan>quella</expan></choice> altera</l>
-                      <l n="14">Tacito stanco dopo s<subst><del type="erasure"><gap reason="" /></del><add>e</add></subst> mi chiama .</l>
+                      <l n="14">Tacito stanco dopo s<subst><del type="erasure"><gap reason="illegible"/></del><add>e</add></subst> mi chiama .</l>
                   </lg>
               </lg>
           </lg>
@@ -517,16 +514,16 @@
           <lg xml:id="rvf294" type="sonnet" n="294"> <!-- Change the sonnet xml:id and number according to the sonnet to be encoded -->
               <lg type="octave">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="1"><hi rendition="#blue #fs24pt">S</hi><hi rendition="#small-caps">O</hi>leasi nel mio cor star bella &e; uiua</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
-                      <l n="2">Comalta <choice><abbr>dōna</abbr><expan>donna</expan></choice> in loco humile &e; basso .</l>
+                      <l n="1"><hi rendition="#blue #fs24pt">S</hi><hi rendition="#small-caps">o</hi>leasi nel mio cor star bella &amp7; uiua</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
+                      <l n="2">Comalta <choice><abbr>dōna</abbr><expan>donna</expan></choice> in loco humile &amp7; basso .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="3">Or son fatto <subst><del type="erasure"><gap reason="" /></del><add>io per</add></subst> lultimo suo passo</l>
-                      <l n="4">&Non; pur mortal &virg; ma morto &virg; &e; ella <subst><del type="erasure"><gap reason= "" /></del><add>e diua</add></subst> .</l>
+                      <l n="3">Or son fatto <subst><del type="erasure"><gap reason="illegible"/></del><add>io per</add></subst> lultimo suo passo</l>
+                      <l n="4">&Non; pur mortal &virg; ma morto &virg; &amp7; ella <subst><del type="erasure"><gap reason="illegible"/></del><add>e diua</add></subst> .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="5">Lalma dogni suo ben spogliata et priua .</l>
-                      <l n="6">Amor de la sua luce ignudo &e; casso <subst><del type="erasure"><gap reason="" /></del><add>.</add></subst></l>
+                      <l n="6">Amor de la sua luce ignudo &amp7; casso <subst><del type="erasure"><gap reason="illegible"/></del><add>.</add></subst></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="7">Deurian de la pieta romper un sasso .</l>
@@ -540,7 +537,7 @@
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="11">Chaltro che sospirar nulla mauança  .</l>
-                      <l n="12"><choice><abbr>Veramēte</abbr><expan>Veramente</expan></choice> s<subst><del type="erasure"><gap reason="" /></del><add>i</add></subst>am noi poluere &e; ombra .</l>
+                      <l n="12"><choice><abbr>Veramēte</abbr><expan>Veramente</expan></choice> s<subst><del type="erasure"><gap reason="illegible"/></del><add>i</add></subst>am noi poluere &amp7; ombra .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="13">Veramente la uoglia cieca engorda  .</l>
@@ -552,33 +549,33 @@
           <lg xml:id="rvf295" type="sonnet" n="295"> <!-- Change the sonnet xml:id and number according to the sonnet to be encoded -->
               <lg type="octave">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="1"><hi rendition="#red #fs24pt">S</hi><hi rendition="#small-caps">O</hi>leano i miei penser soauemente &virg;</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
+                      <l n="1"><hi rendition="#red #fs24pt">S</hi><hi rendition="#small-caps">o</hi>leano i miei penser soauemente &virg;</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
                       <l n="2">Di lor obgetto ragionare inseme .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="3">Pieta sappressa . e del tardar si<subst><del type="erasure"><gap reason="" /></del><add>p</add></subst>ente</l>
+                      <l n="3">Pieta sappressa . e del tardar si<subst><del type="erasure"><gap reason="illegible"/></del><add>p</add></subst>ente</l>
                       <l n="4">Forse or parla di noi &virg; o spera &virg; o teme .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="5">Poi che lultimo giorno &virg;&e; lore extreme</l>
+                      <l n="5">Poi che lultimo giorno &virg;&amp7; lore extreme</l>
                       <l n="6">Spogliar di lei questa uita presente .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="7">Nostro stato dal ciel uede &virg; ode &virg; &e; sente .</l>
+                      <l n="7">Nostro stato dal ciel uede &virg; ode &virg; &amp7; sente .</l>
                       <l n="8">Altra di lei non e rimaso speme .</l>
                   </lg>
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="9">O miracol gentile&virg; o felice alma .</l>
-                      <l n="10">O belta sença exempio <subst><del type="erasure"><gap reason="" /></del><add>-</add></subst>altera &e; rara</l>
+                      <l n="10">O belta sença exempio <subst><del type="erasure"><gap reason="illegible"/></del><add>-</add></subst>altera &amp7; rara</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="11">Che tosto e ritornata &virg; ondella uscio .</l>
-                      <l n="12">Iui a del suo ben far corona &e; palma ⸝</l>
+                      <l n="12">Iui a del suo ben far corona &amp7; palma ⸝</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="13">Quella chal mondo si famosa &e; chiara</l>
+                      <l n="13">Quella chal mondo si famosa &amp7; chiara</l>
                       <l n="14">Fe la sua gran uertute &virg-underdot; el furor mio.</l>
                   </lg>
               </lg>
@@ -587,8 +584,8 @@
           <lg xml:id="rvf296" type="sonnet" n="296"> <!-- Change the sonnet xml:id and number according to the sonnet to be encoded -->
               <lg type="octave">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="1"><hi rendition="#red #fs24pt">I</hi><hi rendition="#small-caps">M</hi>i soglio accusare . &e; or mi scuso .</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
-                      <l n="2">Ançi me pregio . &e; tengo assai piu caro</l>
+                      <l n="1"><hi rendition="#red #fs24pt">I</hi> <hi rendition="#small-caps">m</hi>i soglio accusare . &amp7; or mi scuso .</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
+                      <l n="2">Ançi me pregio . &amp7; tengo assai piu caro</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="3">De lonesta pregion &virg; del dolce amaro</l>
@@ -596,25 +593,25 @@
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="5">Inuide parche si repente il fuso</l>
-                      <l n="6">Troncaste &virg; chattorcea soaue &e; chiaro .</l>
+                      <l n="6">Troncaste &virg; chattorcea soaue &amp7; chiaro .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="7">Stame al mio laccio &virg; &e; <choice><abbr>&q-macron;llo</abbr><expan>quello</expan></choice> aurato &e; raro</l>
+                      <l n="7">Stame al mio laccio &virg; &amp7; <choice><abbr>&q-tilde;llo</abbr><expan>quello</expan></choice> aurato &amp7; raro</l>
                       <l n="8">Strale &virg; onde morte piacque oltra nostro uso .</l>
                   </lg>
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="9">-   Che non fu dallegreçça a suoi di mai</l>
-                      <l n="10">Di liberta &virg; di uita alm<subst><del type="erasure"><gap reason="" /></del><add>a</add></subst> si uag<subst><del type="erasure"><gap reason="" /></del><add>a</add></subst> &virg;</l>
+                      <l n="10">Di liberta &virg; di uita alm<subst><del type="erasure"><gap reason="illegible"/></del><add>a</add></subst> si uag<subst><del type="erasure"><gap reason="illegible"/></del><add>a</add></subst> &virg;</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="11">Che &non; cangiassel suo natural modo .</l>
-                      <l n="12">Togliendo ançi p<choice><abbr>&p-macron;</abbr><expan>er</expan></choice> lei sempre trar guai &virg; –  –  – </l>
+                      <l n="11">Che &non; cangiassel suo natural modo .>+</l>
+                      <l n="12">Togliendo ançi &per; lei sempre trar guai &virg; –  –  – </l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="13">Che cantar p<choice><abbr>&p-macron;</abbr><expan>er</expan></choice> qualu<choice><abbr>qualūque</abbr><expan>n</expan></choice>que &virg; e di tal piaga .</l>
-                      <l n="14">Morir contenta|. &e; uiuere in tal nodo .</l>
+                      <l n="13">Che cantar &per; <choice><abbr>qualūque</abbr><expan>qualunque</expan></choice> &virg; e di tal piaga .</l>
+                      <l n="14">Morir contenta|. &amp7; uiuere in tal nodo .         CCL.</l>
                   </lg>
               </lg>
           </lg>
