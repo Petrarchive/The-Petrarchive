@@ -6,6 +6,7 @@
 <!ENTITY % petrarchive_entities SYSTEM "petrarchive.ent">
 %petrarchive_entities;
 -->
+<!-- test -->
 <!ENTITY amp7 "<choice><abbr>⁊</abbr><expan>et</expan></choice>">
 <!ENTITY Amp7 "<choice><abbr>⁊</abbr><expan>Et</expan></choice>">
 <!ENTITY per "<choice><abbr>ꝑ</abbr><expan>per</expan></choice>">
