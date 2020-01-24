@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Complaint of a <choice><orig>louer</orig><reg>lover</reg></choice> rebuked.</title>
+            <author>Surrey, Henry Howard, Earl of</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>Complaint of a <choice><orig>louer</orig><reg>lover</reg></choice> rebuked.</title>
+                  <author>Surrey, Henry Howard, Earl of</author>
+               </analytic>
+               <monogr>
+                  <editor>Arber, Edward</editor>
+                  <title>Tottel’s Miscellany: Songes and Sonettes by Henry Howard, Earl of Surrey, Sir Thomas Wyatt, the Elder, Nicholas Grimald, and Uncertain Authors</title>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <publisher>5 Queen Square, Bloomsbury</publisher>
+                     <date when="1870-08-15">1870</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <lg>
+            <head>Complaint of a <choice><orig>louer</orig><reg>lover</reg></choice> rebuked.</head>
+            <l>Love that liveth and reigneth in my thought,</l>
+            <l>That built his <choice><orig>ſeat</orig><reg>seat</reg></choice> within my <choice><orig>captiue</orig><reg>captive</reg></choice> <choice><orig>breſt</orig><reg>brest</reg></choice>,</l>
+            <l>Clad in the armes, wherin with me he fought,</l>
+            <l>Oft in my face he doth his banner <choice><orig>reſt</orig><reg>rest</reg></choice>.</l>
+            <l>She, that in me taught to <choice><orig>loue</orig><reg>love</reg></choice>, and <choice><orig>ſuffer</orig><reg>suffer</reg></choice> payne,</l>
+            <l>My doutfull hope, and eke my hote <choice><orig>deſyre</orig><reg>desyre</reg></choice>,</l>
+            <l>With <choice><orig>ſhamefaſt</orig><reg>shamefast</reg></choice> cloke to <choice><orig>ſhadowe</orig><reg>shadowe</reg></choice> and refraine,</l>
+            <l>Her <choice><orig>ſmilyng</orig><reg>smilying</reg></choice> grace <choice><orig>conuerteth</orig><reg>converteth</reg></choice> <choice><orig>ſtraight</orig><reg>straight</reg></choice> to yre.</l>
+            <l>And cowarde <choice><orig>Loue</orig><reg>Love</reg></choice> then to the hart apace</l>
+            <l>Taketh his flight, whereas he lurkes, and plaines</l>
+            <l>His <choice><orig>purpoſe</orig><reg>purpose</reg></choice> <choice><orig>loſt</orig><reg>lost</reg></choice>, and darenot <choice><orig>ſhewe</orig><reg>shewe</reg></choice> his face.</l>
+            <l>For my lordes gilt thus <choice><orig>faultleſſ</orig><reg>faultless</reg></choice> byde I paynes.</l>
+            <l>Yet from my lorde <choice><orig>ſhall</orig><reg>shall</reg></choice> not my foote <choice><orig>remoue</orig><reg>remove</reg></choice>,</l>
+            <l>Swete is his death, that takes his end by <choice><orig>loue</orig><reg>love</reg></choice>.</l>
+         </lg>
+      </body>
+  </text>
+</TEI>
