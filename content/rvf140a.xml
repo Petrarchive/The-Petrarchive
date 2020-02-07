@@ -32,7 +32,7 @@
   </teiHeader>
   <text>
       <body>
-         <lg>
+         <lg type="sonnet">
             <head>Complaint of a <choice><orig>louer</orig><reg>lover</reg></choice> rebuked.</head>
             <l>Love that liveth and reigneth in my thought,</l>
             <l>That built his <choice><orig>ſeat</orig><reg>seat</reg></choice> within my <choice><orig>captiue</orig><reg>captive</reg></choice> <choice><orig>breſt</orig><reg>brest</reg></choice>,</l>

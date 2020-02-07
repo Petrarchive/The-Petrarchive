@@ -271,7 +271,7 @@ the line wraps. -->
   </teiHeader>
   <text>
       <body>
-         <lg>
+         <lg type="sonnet">
             <head rendition="#center #uppercase">On the Papal Court at Avignon.</head>
             <l><hi rendition="#small-caps">Fountain</hi> of woe! Harbour of endless ire!</l>
             <l rendition="#l-indent-01">Thou school of errors, haunt of heresies!</l>
