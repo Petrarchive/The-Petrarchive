@@ -32,3 +32,4 @@ config.codekit
 content/test.xml
 
 node_modules
+*.swp
