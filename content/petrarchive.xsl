@@ -238,6 +238,17 @@
             <script type="text/javascript" src="{$teibpJS}"><xsl:comment> </xsl:comment></script>
 
             <script type="text/javascript" src="../dist/js/poem.bundle.js"></script>
+          
+            <!-- google analytics. -->
+          <!-- Global site tag (gtag.js) - Google Analytics -->
+          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165728171-1"></script>
+          <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            
+            gtag('config', 'UA-165728171-1');
+          </script>
         </head>
     </xsl:template>
     
