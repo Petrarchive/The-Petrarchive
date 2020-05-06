@@ -15,6 +15,15 @@
 //-->
 </script>
     <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165728171-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-165728171-1');
+</script>
 </head>
 <body>
 <!--#include file="nav.html" -->

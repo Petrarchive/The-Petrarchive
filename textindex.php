@@ -16,6 +16,15 @@
     <link href="css/auxillaryPage.css" media="screen, projection" rel="stylesheet" type="text/css" />      
 
     <script defer="true" type="text/javascript" src="dist/js/textindex.bundle.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165728171-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-165728171-1');
+</script>
 </head>
 
 <body class="container-fluid">
