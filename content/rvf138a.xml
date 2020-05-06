@@ -24,9 +24,11 @@
                      <pubPlace>London</pubPlace>
                      <publisher>Smith, Elder, &amp; Co.</publisher>
                      <date when="1874">1874</date>
+                     <biblScope unit="page">332</biblScope>
                   </imprint>
                </monogr>
                <relatedItem type="ia" target="ark:/13960/t79s1w25w"/>
+               <relatedItem type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t79s1w25w"/>
             </biblStruct>
          </sourceDesc>
       </fileDesc>
