@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>On the Papal Court at Avignon</title>
+                <title>In Vita di Madonna Laura. XI.</title>
                 <author>Symonds, John Addington</author>
             </titleStmt>
             <publicationStmt>
@@ -14,8 +14,7 @@
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <title>To Stefano Colonna</title>
-                        <author>Surrey, Henry Howard, Earl of</author>
+                        <title>In Vita di Madonna Laura. XI.</title>
                     </analytic>
                     <monogr>
                         <author>Symonds, John Addington</author>
@@ -291,7 +290,7 @@ the line wraps. -->
                 <l rendition="#l-indent-01">How I to lovers this great guerdon give,</l>
                 <l rendition="#l-indent-01">Free from all human bondage to endure?</l>
             </lg>
-            
+            <note type="translation" resp="#jawalsh">Translation of <title rendition="#i">Rvf</title> 15 by John Addington Symonds (1840-1893), from Symonds’ <title rendition="#i">Sketches in Italy and Greece</title> (London: Smith, Elder, &amp; Co., 1874).</note>
         </body>
     </text>
 </TEI>

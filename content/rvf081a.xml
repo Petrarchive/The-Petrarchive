@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>In Vita di Madonna Laura. XI.</title>
+                <title>In Vita di Madonna Laura. LII.</title>
                 <author>Symonds, John Addington</author>
             </titleStmt>
             <publicationStmt>
@@ -14,8 +14,7 @@
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <title>In Vita di Madonna Laura. XI.</title>
-                        
+                        <title>In Vita di Madonna Laura. LII.</title>
                     </analytic>
                     <monogr>
                         <author>Symonds, John Addington</author>
@@ -24,7 +23,7 @@
                             <pubPlace>London</pubPlace>
                             <publisher>Smith, Elder, &amp; Co.</publisher>
                             <date when="1874">1874</date>
-                            <biblScope unit="page">333</biblScope>
+                            <biblScope unit="page">336</biblScope>
                         </imprint>
                     </monogr>
                     <relatedItem type="ia" target="ark:/13960/t79s1w25w"/>
@@ -271,27 +270,28 @@ the line wraps. -->
             </tagsDecl>
         </encodingDesc>
     </teiHeader>
-    <text>
+    <text type="translation">
         <body>
             <lg type="sonnet">
-                <head rendition="#center #uppercase">To Stefano Colonna.</head>
-                <head rendition="#center #uppercase #xx-small">Written from Vaucluse.</head>
-                <l><hi rendition="#small-caps">Glorius</hi> Colonna, thou on whose high head</l>
-                <l rendition="#l-indent-01">Rest all our hopes and the great Latin name,</l>
-                <l rendition="#l-indent-01">Whom from the narrow path of truth and fame</l>
-                <l rendition="#l-indent-01">The wrath of Jove turned not with stormful dread:</l>
-                <l>Here are no palace-courts, no stage to tread;</l>
-                <l rendition="#l-indent-01">But pines and oaks the shadowy valleys fill</l>
-                <l rendition="#l-indent-01">Between the green fields and the neighbouring hill,</l>
-                <l rendition="#l-indent-01">Where musing oft I climb by fancy led.</l>
-                <l>These lift from earth to heaven our soaring soul,</l>
-                <l rendition="#l-indent-01">While the sweet nightingale, that in thick bowers</l>
-                <l rendition="#l-indent-01">Through darkness pours her wail of tuneful woe,</l>
-                <l>Doth bend our charmèd breast to love’s control;</l>
-                <l rendition="#l-indent-01">But thou alone hast marred this bliss of ours,</l>
-                <l rendition="#l-indent-01">Since from our side, dear lord, thou needs must go.</l>
+                <head rendition="#center #uppercase">In Vita di Madonna Laura. LII.</head>
+                <head rendition="#center #uppercase #xx-small">Oh that I had wings like a dove!</head>
+                <l><hi rendition="#small-caps">I am</hi> so tired beneath the ancient load</l>
+                <l rendition="#l-indent-01">Of my misdeeds and custom’s tyranny,</l>
+                <l rendition="#l-indent-01">That much I fear to fail upon the road</l>
+                <l rendition="#l-indent-01">And yield my soul unto mine enemy.</l>
+                <l>’Tis true a friend from whom all splendour flowed,</l>
+                <l rendition="#l-indent-01">To save me came with matchless courtesy;</l>
+                <l rendition="#l-indent-01">Then flew far up from sight to heaven’s abode,</l>
+                <l rendition="#l-indent-01">So that I strive in vain his face to see.</l>
+                <l>Yet still his voice reverberates here below:</l>
+                <l rendition="#l-indent-01">O ye who labour, lo! the path is here;</l>
+                <l rendition="#l-indent-01">Come unto me if none your going stay!</l>
+                <l>What grace, what love, what fate surpassing fear</l>
+                <l rendition="#l-indent-01">Shall give me wings like dove’s wings soft as snow,</l>
+                <l rendition="#l-indent-01">That I may rest and raise me from the clay?</l>
             </lg>
-            <note type="translation" resp="#jawalsh">Translation of <title rendition="#i">Rvf</title> 10 by John Addington Symonds (1840-1893), from Symonds’ <title rendition="#i">Sketches in Italy and Greece</title> (London: Smith, Elder, &amp; Co., 1874).</note>
+            <note type="translation" resp="#jawalsh">Translation of <title rendition="#i">Rvf</title> 81 by John Addington Symonds (1840-1893), from Symonds’ <title rendition="#i">Sketches in Italy and Greece</title> (London: Smith, Elder, &amp; Co., 1874).</note>
         </body>
     </text>
 </TEI>
+
