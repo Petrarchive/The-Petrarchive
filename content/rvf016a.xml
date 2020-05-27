@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>In Vita di Madonna Laura. XI.</title>
+                <title>In Vita di Madonna Laura. XII.</title>
                 <author>Symonds, John Addington</author>
             </titleStmt>
             <publicationStmt>
@@ -14,8 +14,7 @@
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <title>In Vita di Madonna Laura. XI.</title>
-                        
+                        <title>In Vita di Madonna Laura. XII.</title>
                     </analytic>
                     <monogr>
                         <author>Symonds, John Addington</author>
@@ -24,7 +23,7 @@
                             <pubPlace>London</pubPlace>
                             <publisher>Smith, Elder, &amp; Co.</publisher>
                             <date when="1874">1874</date>
-                            <biblScope unit="page">333</biblScope>
+                            <biblScope unit="page">335</biblScope>
                         </imprint>
                     </monogr>
                     <relatedItem type="ia" target="ark:/13960/t79s1w25w"/>
@@ -274,24 +273,24 @@ the line wraps. -->
     <text>
         <body>
             <lg type="sonnet">
-                <head rendition="#center #uppercase">To Stefano Colonna.</head>
-                <head rendition="#center #uppercase #xx-small">Written from Vaucluse.</head>
-                <l><hi rendition="#small-caps">Glorius</hi> Colonna, thou on whose high head</l>
-                <l rendition="#l-indent-01">Rest all our hopes and the great Latin name,</l>
-                <l rendition="#l-indent-01">Whom from the narrow path of truth and fame</l>
-                <l rendition="#l-indent-01">The wrath of Jove turned not with stormful dread:</l>
-                <l>Here are no palace-courts, no stage to tread;</l>
-                <l rendition="#l-indent-01">But pines and oaks the shadowy valleys fill</l>
-                <l rendition="#l-indent-01">Between the green fields and the neighbouring hill,</l>
-                <l rendition="#l-indent-01">Where musing oft I climb by fancy led.</l>
-                <l>These lift from earth to heaven our soaring soul,</l>
-                <l rendition="#l-indent-01">While the sweet nightingale, that in thick bowers</l>
-                <l rendition="#l-indent-01">Through darkness pours her wail of tuneful woe,</l>
-                <l>Doth bend our charmèd breast to love’s control;</l>
-                <l rendition="#l-indent-01">But thou alone hast marred this bliss of ours,</l>
-                <l rendition="#l-indent-01">Since from our side, dear lord, thou needs must go.</l>
+                <head rendition="#center #uppercase">In Vita di Madonna Laura. XII.</head>
+                <head rendition="#center #uppercase #xx-small">Thoughts in Absence.</head>
+                <l><hi rendition="#small-caps">The</hi> wrinkled sire with hair like winter snow</l>
+                <l rendition="#l-indent-01">Leaves the loved spot where he hath passed his years,</l>
+                <l rendition="#l-indent-01">Leaves wife and children, dumb with bitter tears,</l>
+                <l rendition="#l-indent-01">To see their father’s tottering steps and slow.</l>
+                <l>Dragging his aged limbs with weary woe,</l>
+                <l rendition="#l-indent-01">In these last days of life he nothing fears,</l>
+                <l rendition="#l-indent-01">But with stout heart his fainting spirit cheers,</l>
+                <l rendition="#l-indent-01">And spent and wayworn forward still doth go;</l>
+                <l>Then comes to Rome, following his heart’s desire,</l>
+                <l rendition="#l-indent-01">To gaze upon the portraiture of Him</l>
+                <l rendition="#l-indent-01">Whom yet he hopes in heaven above to see:</l>
+                <l>Thus I, alas! my seeking spirit tire,</l>
+                <l rendition="#l-indent-01">Lady, to find in other features dim</l>
+                <l rendition="#l-indent-01">The longed for, loved, true lineaments of thee.</l>
             </lg>
-            <note type="translation" resp="#jawalsh">Translation of <title rendition="#i">Rvf</title> 10 by John Addington Symonds (1840-1893), from Symonds’ <title rendition="#i">Sketches in Italy and Greece</title> (London: Smith, Elder, &amp; Co., 1874).</note>
+            <note type="translation" resp="#jawalsh">Translation of <title rendition="#i">Rvf</title> 16 by John Addington Symonds (1840-1893), from Symonds’ <title rendition="#i">Sketches in Italy and Greece</title> (London: Smith, Elder, &amp; Co., 1874).</note>
         </body>
     </text>
 </TEI>
