@@ -470,7 +470,7 @@ the line wraps. -->
                   <l n="12">Ma <choice><orig>sen</orig><reg>se ’n</reg></choice> cor <choice><orig>ualoroso</orig><reg>valoroso</reg></choice> amor &non; dorme&v2c;</l>
                </lg>
                <lg type="dblvrs" corresp="#canvasline">
-                  <l n="13">Prega<supplied>,</supplied> <choice><abbr>Sēnuccio</abbr><expan>Sennuccio</expan></choice> mio<supplied>,</supplied> <choice><orig><abbr>quādol</abbr><expan>quandol</expan></orig><reg>quando ’l</reg></choice> <choice><orig>uedrai</orig><reg>vedrai</reg></choice><supplied>,</supplied></l>
+                  <l n="13">Prega <choice><abbr>Sēnuccio</abbr><expan>Sennuccio</expan></choice> mio <choice><orig><abbr>quādol</abbr><expan>quandol</expan></orig><reg>quando ’l</reg></choice> <choice><orig>uedrai</orig><reg>vedrai</reg></choice><supplied>,</supplied></l>
                   <l n="14">Di <choice><orig>qual che</orig><reg>qualche</reg></choice> lagrimetta<choice><orig> &virg;</orig><reg/></choice> o <choice><orig>dun</orig><reg>d’un</reg></choice> sospiro.</l>
                </lg>
             </lg>
