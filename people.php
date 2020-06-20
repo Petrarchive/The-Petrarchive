@@ -8,10 +8,10 @@
   <link rel="stylesheet" type="text/css" href="css/lib/bootstrap.min.css" />
   <link rel="stylesheet" type="text/css" href="js/jquery-ui/jquery-ui.min.css" />
 
-  
-  <link href="css/teibp.css" media="screen, projection" rel="stylesheet" type="text/css" />  
-  <link href="css/custom.css" media="screen, projection" rel="stylesheet" type="text/css" />  
-  <link href="css/auxillaryPage.css" media="screen, projection" rel="stylesheet" type="text/css" />      
+
+  <link href="css/teibp.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <link href="css/custom.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <link href="css/auxillaryPage.css" media="screen, projection" rel="stylesheet" type="text/css" />
 
   <link rel="stylesheet" type="text/css" href="css/stylesheets/screen.css" />
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -45,22 +45,31 @@
             </dl>
             <dl>
             <dt>Isabella Magni, Editor</dt>
-            <dd>Isabella Magni is Mellon Postdoctoral Fellow at the Center for Renaissance Studies at the <a href="https://www.newberry.org">Newberry Library</a> in Chicago, IL (2017-), where she is working on the preparation of an online handbook for Italian paleography. Her research and publications focus on the early manuscript tradition of Petrarch's Fragmenta, the role of merchants in Medieval and early modern Italy and on digital approaches to the representation of texts. She earned her PhD (2017) in Italian and Medieval studies from <a href="http://www.indiana.edu">Indiana University</a>. 
+            <dd>Isabella Magni is <a href="https://italian.rutgers.edu/people/instructors">Postdoctoral Associate in Italian and Digital Humanities</a> at Rutgers University. Isabella is editor of the Petrarchive (with Wayne Storey and John Walsh) and <a href="https://italian-paleography.library.utoronto.ca">Italian Paleography</a> (with Lia Markey and Maddalena Signorini). She teaches and conducts research in digital humanities and digital philology, Medieval and Early modern literature, history of the book, Petrarch and Dante. She edited a special issue on digital paleography for the <a href="https://emdr.itercommunity.org/index.php/emdr">Early Modern Digital Review</a> (Fall '20) and serves as digital editor for <a href="http://textual-cultures.org/">Textual Cultures</a> journal. She is currently working on a new digital edition of the <a href="http://isamagni.com/?page_id=228#albizzi ">Albizi Memorial Book</a> and a monograph on forms and textualities of Medieval memorial books.<br/>
+						Before joining Rutgers Italian Department, Isabella was Mellon Postdoctoral Fellow at the Newberry Library in Chicago and earned her PhD in Italian and Medieval Studies at Indiana University.
             <br/>
             Homepage: &lt;<a href="http://isamagni.com">http://isamagni.com</a>>.<br/>
             </dd>
+            </dl>
+
+						<dl>
+            <dt>Maria Teresa De Luca, Encoder and Research Assistant<!-- 2020-present --></dt><dd />
+            </dl>
+
+						<dl>
+            <dt>Paolo Scartoni, Encoder and Research Assistant<!-- 2020-present --></dt><dd />
             </dl>
 
             <dl>
             <dt>Abraham Kim, Web Developer <!-- 2017-present --></dt><dd />
             </dl>
 
-            <dl>
-            <dt>Rebecca Parker, Encoder and Consultant <!-- 2018-present --></dt><dd />
-            </dl>
+
 
             <h2>Past Contributors</h2>
-
+						<dl>
+            <dt>Rebecca Parker, Encoder (2018)</dt><dd />
+            </dl>
             <dl>
             <dt>Lino Mioni, Encoder (2016) <!-- 2016-present --></dt><dd />
             </dl>
