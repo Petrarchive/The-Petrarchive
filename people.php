@@ -60,6 +60,10 @@
             <dt>Paolo Scartoni, Encoder and Research Assistant<!-- 2020-present --></dt><dd />
             </dl>
 
+						<dl>
+            <dt>Morgan Anderson, Encoder<!-- 2019-present --></dt><dd />
+            </dl>
+
             <dl>
             <dt>Abraham Kim, Web Developer <!-- 2017-present --></dt><dd />
             </dl>
