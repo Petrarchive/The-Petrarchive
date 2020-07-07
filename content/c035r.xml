@@ -480,7 +480,7 @@
           <lg type="sonnet" xml:id="rvf162" n="162"> <!-- Change the sonnet xml:id and number according to the sonnet to be encoded -->
               <lg type="octave">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="1"><hi rendition="#red #fs24pt"><L</hi><hi rendition="#small-caps">i</hi>eti fiori &amp7; felici &virg; &amp7; ben nate herbe </l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
+                      <l n="1"><hi rendition="#red #fs24pt">L</hi><hi rendition="#small-caps">i</hi>eti fiori &amp7; felici &virg; &amp7; ben nate herbe </l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
                       <l n="2">Che madonna pensando premer sol[e] .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
