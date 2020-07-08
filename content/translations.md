@@ -1,10 +1,11 @@
 # Petrarchive Historical Translations
 
-* _Rvf_ 10, Gloriosa columna in cui s’appoggia. Symonds (1874) <a href="rvf010a.xml">rvf010a.xml</a>
-* _Rvf_ 15, Io mi rivolgo indietro a ciascun passo. <a href="rvf015a.xml">rvf015a.xml</a> 
-* _Rvf_ 16, Movesi il vecchierel canuto et biancho. <a href="rvf016a.xml">rvf016a.xml</a>
-* _Rvf_ 81, Io son sì stanco sotto ’l fascio antico. <a href="rvf081a.xml">rvf081a.xml</a>
-* _Rvf_ 138, Fontana di dolore, albergo d’ira. <a href="rvf138a.xml">rvf138a.xml</a>
-* _Rvf_ 292, Gli occhi di ch’io parlai sì caldamente. <a href="rvf292a.xml">rvf292a.xml</a>
-* _Rvf_ 302, Levommi il mio penser in parte ov’era. <a href="rvf302a.xml">rvf302a.xml</a>
-* _Rvf_ 348, Li angeli electi et l’anime beate. <a href="rvf348a.xml">rvf348a.xml</a>
+* [_Rvf_ 10](rvf010a.xml), Gloriosa columna in cui s’appoggia. Symonds (1874) 
+* [_Rvf_ 15](rvf015a.xml), Io mi rivolgo indietro a ciascun passo. Symonds (1874) 
+* [_Rvf_ 16](rvf016a.xml), Movesi il vecchierel canuto et biancho. Symonds (1874) 
+* [_Rvf_ 81](rvf081a.xml), Io son sì stanco sotto ’l fascio antico. Symonds (1874) 
+* [_Rvf_ 138](rvf138a.xml), Fontana di dolore, albergo d’ira. Symonds (1874) 
+* [_Rvf_ 140](rvf140a.xml), Amor, che nel penser mio vive et regna. Surrey (1557). 
+* [_Rvf_ 292](rvf292a.xml), Gli occhi di ch’io parlai sì caldamente. Symonds (1874) 
+* [_Rvf_ 302](rvf302a.xml), Levommi il mio penser in parte ov’era. Symonds (1874) 
+* [_Rvf_ 348](rvf348a.xml), Li angeli electi et l’anime beate. Symonds (1874) 
