@@ -585,34 +585,34 @@
           <lg xml:id="rvf165" type="sonnet" n="165"> <!-- Change the sonnet xml:id and number according to the sonnet to be encoded -->
               <lg type="octave">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="1"><hi rendition="#fs24pt #blue"></hi><hi rendition="#small-caps"></hi></l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
-                      <l n="2"></l>
+                      <l n="1"><hi rendition="#fs24pt #blue">C</hi><hi rendition="#small-caps">o</hi>mel candido pie &per; lerba fresca</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
+                      <l n="2">I <hi rendition="#b">dolci</hi> p<hi rendition="#b">assi</hi> hon<hi rendition="#b">estame<subst><del type="erasure"><gap reason="illegible"/></del><add>nte</add></subst></hi> moue &virg;</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="3"></l>
-                      <l n="4"></l>
+                      <l n="3">Vertu chentorno i fiori apra &amp7; rinoue &virg;</l>
+                      <l n="4">De le tenere pia[n]te sue par <hi rendition="#b">chesca &#11789;</hi> </l> <!-- check sign at end of line 4 -->
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="5"></l>
-                      <l n="6"></l>
+                      <l n="5">Amor che solo i cor leggiadri inuesca</l>
+                      <l n="6">Ne degna di prouar sua <hi rendition="#b">força altroue</hi> .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="7"></l>
-                      <l n="8"></l>
+                      <l n="7">Da be gliocchi un piacer si caldo <hi rendition="#b">pioue</hi></l>
+                      <l n="8">Chi &non; curo <hi rendition="#b">altro ben</hi> . <hi rendition="#b">ne bramo altresca</hi></l>
                   </lg>
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"></l>
-                      <l n="10"></l>
+                      <l n="9">Et colandar et col soaue sguardo</l>
+                      <l n="10">Saccordan le dol<hi rendition="#b">cissim</hi>e <hi rendition="#b">parole</hi></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="11"></l>
-                      <l n="12"></l>
+                      <l n="11">Et latto mansueto humile &amp7; tardo</l>
+                      <l n="12">Di tai quattro fau<hi rendition="#b">ille</hi> &virg;<hi rendition="#b">&amp7; &non; gia sole</hi></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="13"></l>
-                      <l n="14"></l>
+                      <l n="13">Nascel gran foco &virg; di chio uiuo &amp7; ardo</l>
+                      <l n="14">Che son fatto un <hi rendition="#b">augel <subst><del type="erasure"><gap reason="illegible"/></del><add>notturno al sole</add></subst></hi>.</l>
                   </lg>
               </lg>
           </lg>
