@@ -35,10 +35,10 @@
             <h1>People</h1>
             <dl>
             <dt>H. Wayne Storey, Editor</dt>
-            <dd>Homepage: <a href="http://frit.indiana.edu/faculty/storey.shtml">http://frit.indiana.edu/faculty/storey.shtml</a></dd>
+            <dd>Homepage: <a href="https://frit.indiana.edu/about/emeriti-faculty/storey-h.html">https://frit.indiana.edu/about/emeriti-faculty/storey-h.html</a></dd>
             <dt>John A. Walsh, Editor</dt>
             <dd>John A. Walsh is Associate Professor of Information and Library Science in the <a href="http://soic.indiana.edu">School of Informatics and Computing</a> at <a href="http://www.indiana.edu">Indiana University</a>. He teaches and conducts research in the areas of digital humanities and digital libraries, with particularly interests in nineteenth-century British poetry, comic book studies, and digital scholarly archives and editions of literary and historical texts. In addition to his work as Co-Editor on the Petrarchive, Walsh is the Editor of the <a href="http://swinburneproject.org">Algernon Charles Swinburne Project</a>, and Technical Editor (with Editor William R. Newman) of the <a href="http://chymistry.org">Chymistry of Isaac Newton</a>. Walsh is the lead developer of TEI Boilerplate](http://teiboilerplate.org), a system for publishing documents encoded according to the <a href="http://tei-c.org">Text Encoding Initiative</a> (TEI) <a href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html"><em>Guidelines for Electronic Text Encoding and Interchange</em></a>. He has also developed the <a href="http://cbml.org">Comic Book Markup Language</a>, or CBML, for scholarly encoding of comics and graphic novels, and he is one of the lead researchers on the <a href="http://comics.indiana.edu">Comic Book Readership Archive</a> (CoBRA). Walsh has served on the Technical Council and Board of Directors of the Text Encoding Initiative Consortium. He is the Technical Editor of <a href="http://digitalhumanities.org/dhq/">Digital Humanities Quarterly</a>, an open-access online journal published by the Alliance of Digital Humanities Organizations, and Editor of the <a href="https://jtei.revues.org">Journal of the Text Encoding Initiative</a>. <br/>
-            Homepage: &lt;<a href="http://johnwalsh.name">http://johnwalsh.name</a>>.<br/><!--Associate Professor of Information Science, School of Informatics and Computing. Adjunct Associate Professor of English, Department of English. Indiana University–Bloomington.<br />
+            Homepage: <a href="http://johnwalsh.name">http://johnwalsh.name</a>.<br/><!--Associate Professor of Information Science, School of Informatics and Computing. Adjunct Associate Professor of English, Department of English. Indiana University–Bloomington.<br />
             &lt;<a href="http://johnwalsh.name/">http://johnwalsh.name/</a>><br />
             Twitter: <a href="https://twitter.com/jawalsh">@jawalsh</a><br />-->
             </dd>
@@ -48,16 +48,18 @@
             <dd>Isabella Magni is <a href="https://italian.rutgers.edu/people/instructors">Postdoctoral Associate in Italian and Digital Humanities</a> at Rutgers University. Isabella is editor of the Petrarchive (with Wayne Storey and John Walsh) and <a href="https://italian-paleography.library.utoronto.ca">Italian Paleography</a> (with Lia Markey and Maddalena Signorini). She teaches and conducts research in digital humanities and digital philology, Medieval and Early modern literature, history of the book, Petrarch and Dante. She edited a special issue on digital paleography for the <a href="https://emdr.itercommunity.org/index.php/emdr">Early Modern Digital Review</a> (Fall '20) and serves as digital editor for <a href="http://textual-cultures.org/">Textual Cultures</a> journal. She is currently working on a new digital edition of the <a href="http://isamagni.com/?page_id=228#albizzi ">Albizi Memorial Book</a> and a monograph on forms and textualities of Medieval memorial books.<br/>
 						Before joining Rutgers Italian Department, Isabella was Mellon Postdoctoral Fellow at the Newberry Library in Chicago and earned her PhD in Italian and Medieval Studies at Indiana University.
             <br/>
-            Homepage: &lt;<a href="http://isamagni.com">http://isamagni.com</a>>.<br/>
+            Homepage: <a href="http://isamagni.com">http://isamagni.com</a>.<br/>
             </dd>
             </dl>
 
 						<dl>
-            <dt>Maria Teresa De Luca, Encoder and Research Assistant<!-- 2020-present --></dt><dd />
+            <dt>Maria Teresa De Luca, Encoder and Research Assistant<!-- 2020-present --></dt>
+						<dd>Homepage: <a href="https://italian.rutgers.edu/people/phd-students/115-departmental-info/people/phd-graduate-students/398-maria-teresa-de-luca">https://italian.rutgers.edu/people/phd-students/115-departmental-info/people/phd-graduate-students/398-maria-teresa-de-luca</a></dd>
             </dl>
 
 						<dl>
             <dt>Paolo Scartoni, Encoder and Research Assistant<!-- 2020-present --></dt><dd />
+						<dd>Homepage: <a href="https://italian.rutgers.edu/people/phd-students/115-departmental-info/people/phd-graduate-students/377-scartoni-paolo">https://italian.rutgers.edu/people/phd-students/115-departmental-info/people/phd-graduate-students/377-scartoni-paolo</a></dd>
             </dl>
 
 						<dl>
