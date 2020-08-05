@@ -482,7 +482,7 @@
           <lg type="canzone_14vv" xml:id="rvf264" n="264"> <!-- Change the sonnet xml:id and number according to the sonnet to be encoded -->
               <lg type="stanza">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="1">Vo pensando . &amp7; nel penser massale</l> 
+                      <l n="1"><hi rendition="#yellow #fs24pt">I</hi><hi rendition="#small-caps">v</hi>o pensando . &amp7; nel penser massale</l> 
                       <l n="2">Vna pieta si forte di me stesso.</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -520,7 +520,7 @@
               </lg>      
               <lg type="stanza">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="19"><hi rendition="#blue #fs24pt">§</hi><hi rendition="#small-caps">L</hi>un penser parla co la mente. &amp7; dice.</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
+                      <l n="19"><hi rendition="#blue #fs24pt">§</hi>Lun penser parla co la mente. &amp7; dice.</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
                       <l n="20">Che pur agogni<g ref="#punctinter"/> Onde soccorso attendi<g ref="#punctinter"/></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -558,7 +558,7 @@
               </lg>
           <lg type="stanza">
               <lg type="dblvrs" corresp="#canvasline">
-                  <l n="37"><hi rendition="#red #fs24pt">§</hi><hi rendition="#small-caps">G</hi>ia sai tu ben quanta dolceçça porse</l>
+                  <l n="37"><hi rendition="#red #fs24pt">§</hi>Gia sai tu ben quanta dolceçça porse</l>
                   <l n="38">A gliocchi tuoi la uista di colei</l>
               </lg>
               <lg type="dblvrs" corresp="#canvasline">
@@ -596,7 +596,7 @@
           </lg>
           <lg type="stanza">
               <lg type="dblvrs" corresp="#canvasline">
-                  <l n="55"><hi rendition="#blue #fs24pt">§</hi><hi rendition="#small-caps">D</hi>a laltra parte un pensier dolce &amp7; agro &virg;</l>
+                  <l n="55"><hi rendition="#blue #fs24pt">§</hi>Da laltra parte un pensier dolce &amp7; agro &virg;</l>
                   <l n="56">&Con; faticosa &amp7; dilecteuol salma</l>
               </lg>
               <lg type="dblvrs" corresp="#canvasline">
@@ -611,8 +611,265 @@
                   <l n="61">Si son pallido o magro.</l>
                   <l n="62">Et sio loccido &virg; piu forte rinasce.</l>
               </lg>
+              <pb n="charta 53 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-053v.jpg" />
+              <lg type="dblvrs" corresp="#canvasline">
+                  <l n="63">Questo dallor chi maddormiua in fasce</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
+                  <l n="64">Venuto e di di in di crescendo meco.</l>
+              </lg>
+              <lg type="dblvrs" corresp="#canvasline">
+                  <l n="65">E temo chun sepolcro ambeduo chiuda.</l>
+                  <l n="66">Poi che fia lalma de le <choice><abbr>mēbra</abbr><expan>membra</expan></choice> ignuda &virg;</l>
+              </lg>
+              <lg type="dblvrs" corresp="#canvasline">
+                  <l n="67">Non po questo desio piu uenir seco.</l>
+                  <l n="68">Ma sel latino el greco</l>
+              </lg>
+              <lg type="dblvrs" corresp="#canvasline">
+                  <l n="69">Parlan di me dopo la morte e un <choice><abbr>uēto</abbr><expan>uento</expan></choice>.</l>
+                  <l n="70">Ondio &per;che pauento</l>
+              </lg>
+              <lg type="dblvrs" corresp="#canvasline">
+                  <l n="71">Adunar sempre quel chunora sgombre.</l>
+                  <l n="72">Vorrel uer abbracciar <g ref="#virgsusp"/> lassando lombre.</l>
+              </lg>
           </lg>
+              <lg type="stanza">
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="73"><hi rendition="#red #fs24pt">§</hi>Ma quellaltro uoler di chi son pieno</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
+                      <l n="74"><choice><abbr>Quāti</abbr><expan>Quanti</expan></choice> pressa lui nascon par chadugge.</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="75">E parte il tempo fugge &virg;</l>
+                      <l n="76">Che scriuendo daltrui &virg; di me non calme.</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="77">El lume de begliocchi che mi strugge</l>
+                      <l n="78">Soauemente al suo caldo sereno</l>
+                  </lg>              
+                  <lg type="dblvrs" corresp="#canvasline">                      
+                      <l n="79">Mi ritien &con; un freno.</l>
+                      <l n="80">Contra chui nullo ingegno o força ualme.</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">                    
+                      <l n="81">Che gioua dunque &per;che tutta spalme</l>
+                      <l n="82">La mia barchetta &virg; poi chen fra li scogli</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="83">E ritenuta anchor da ta duo nodi.</l>
+                      <l n="84">Tu che da glialtri &virg; chen diuersi modi</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="85">Leganol mondo. in tutto mi disciogli.</l>
+                      <l n="86">Signor mio che non togli</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="87">Omai dal uolto mio questa uergogna</l>
+                      <l n="88">Chenguisa duom che sogna</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="89">Auer la morte inançi gliocchi parme.</l>
+                      <l n="90">Et uorrei far difesa. &amp7; &non; o larme.</l>
+                  </lg>
+              </lg>
+              <lg type="stanza">
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="91"><hi rendition="#blue #fs24pt">§</hi>Quel chi fo ueggio. &amp7; &non; <choice><abbr>mingāna</abbr><expan>minganna</expan></choice> il uero <g ref="#virgsusp"/></l>
+                      <l n="92">Mal conosciuto. <choice><abbr>āçi</abbr><expan>ançi</expan></choice> misforça amore.</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="93">Che la strada donore</l>
+                      <l n="94">Mai nol lassa seguir chi troppo il crede.</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="95">Et sento adora ador uenirmi al core</l>
+                      <l n="96">Vn leggiadro disdegno aspro &amp7; seuero</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="97">Chogni occulto pensero</l>
+                      <l n="98">Tira in meçço la fronte &virg; oualtril uede.</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="99">Che mortal cosa amar con tanta fede.</l>
+                      <l n="100"><choice><abbr>Quāta</abbr><expan>Quanta</expan></choice> a dio sol &per; debito conuensi <g ref="#virgsusp"/></l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="101">Piu si disdice  &virg; a chi piu pregio brama.</l>
+                      <l n="102">Et questo ad alta uoce ancho richiama</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="103">La ragione suiata dietro ai sensi.</l>
+                      <l n="104">Ma perchelloda &virg; &amp7; pensi</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="105">Tornare il mal costume oltre la spigne.</l>
+                      <l n="106">Et agliocchi depigne</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="107">Quella che sol &per; farmi morir nacque.</l>
+                      <l n="108"><choice><abbr>&Per;cha</abbr><expan>Percha</expan></choice> me troppo &virg; &amp7; a se stessa piacque.</l>
+                  </lg>
+              </lg>
+              <lg type="stanza">
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="109"><hi rendition="#red #fs24pt">§</hi>Ne so che spatio mi si desse il cielo</l>
+                      <l n="110">&Quando; <choice><abbr>nouellamēte</abbr><expan>nouellamente</expan></choice> io <choice><abbr>uēni</abbr><expan>uenni</expan></choice> in terra</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="111">A soffrir laspra guerra</l>
+                      <l n="112">Chen contra me medesmo seppi ordire.</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="113">Ne posso il giorno che la uita serra</l>
+                      <l n="114">Antiueder &per; lo corporeo uelo.</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="115">Ma uariarsi il pelo</l>
+                      <l n="116">Veggio. &amp7; dentro cangiarsi ogni desire.</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="117">Or chi mi credo al tempo del partire.</l>
+                      <l n="118">Esser uicino &virg; o &non; molto da lunge.</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="119">Come chil perder face accorto &amp7; saggio &virg-underdot;</l>
+                      <l n="120">Vo <choice><abbr>ripēsando</abbr><expan>ripensando</expan></choice> &virg; ouio lassail uiaggio</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="121">Da la man destra &virg; cha buon porto <choice><abbr>aggiūge</abbr><expan>aggiunge</expan></choice>.</l>
+                      <l n="122">Et da lun lato punge</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="122">Vergogna &amp7; duol chendietro mi riuolue.</l>
+                      <l n="123">Dallaltro non massolue</l>
+                  </lg>
+                  <pb n="charta 54 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-054r.jpg" />
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="125">Vn piacer &per; usança in me si forte</l>
+                      <l n="126">Cha <subst><del type="erasure"><gap reason="illegible" /></del><add>p</add></subst>atteggiar nardisce co la morte.</l>
+                  </lg>
+              </lg>
+              <lg type="stanza">
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="127"><hi rendition="#red #fs24pt">§</hi>Cançon qui sono &virg; e dol cor uia piu freddo</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
+                      <l n="128">De la paura che gelata neue.</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="129">Sentendomi perir sençalcun dubbio.</l>
+                      <l n="130">Che pur deliberando o uolto al subbio</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="131">Gran parte omai de la mia tela breue</l>
+                      <l n="132">Ne mai peso fu greue</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="133">Quanto quel chi sostengo in tale stato.</l>
+                      <l n="134">Che co la morte a lato</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="135">Cerco del uiuer mio nouo consiglio.</l>
+                      <l n="136">Et ueggiol meglio. &amp; al peggior mappiglio.</l>
+                  </lg>
+              </lg>
          </lg>
+          <space corresp="#canvasline"/>
+          <lg xml:id="rvf265" type="sonnet" n="265">
+              <lg type="stanza">
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="1"><hi rendition="#blue #fs24pt">A</hi><hi rendition="#small-caps">s</hi>pro core &amp7; seluaggio &virg; &amp7; cruda uoglia</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
+                      <l n="2">In dolce &virg; humile &virg; angelica figura.</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="3">Se limpreso rigor gran tempo dura</l>
+                      <l n="4">Auran di me poco honorata spoglia.</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="5">Che &quando; nasce &amp7; mor fior &virg; herba &amp7; foglia.</l>
+                      <l n="6">&Quando; el di chiaro &virg; &amp7; &quando; e notte oscura &virg;</l>
+                  </lg>              
+                  <lg type="dblvrs" corresp="#canvasline">                      
+                      <l n="7">Piango adogn<subst><del type="erasure"><gap reason="illegible" /></del><add>io</add></subst>r. Ben o &virg; di mia <choice><abbr>uētura</abbr><expan>uentura</expan></choice> &virg;</l>
+                      <l n="8">Di <choice><abbr>madōna</abbr><expan>madonna</expan></choice> &virg; &amp7; damore onde mi doglia.</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">                    
+                      <l n="9">Viuo sol di sperança &virg; rimembrando &virg;</l>
+                      <l n="10">Che poco humor gia &per; continua proua</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="11">Consumar uidi <subst><del type="erasure"><gap reason="illegible" /><add>m</add></del></subst>armi &virg; &amp7; pietre salde.</l>
+                      <l n="12">Non e si duro cor che.ù lagrimando &virg;</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="13"><choice><abbr>Pregādo</abbr><expan>Pregando</expan></choice> &virg; amando &virg; talor non si smoua.</l>
+                      <l n="14">Ne si freddo uoler &virg; che non si scalde.</l>
+                  </lg>
+              </lg>
+          </lg>
+          <space corresp="#canvasline"/>
+          <lg xml:id="rvf266" type="sonnet" n="266">       
+              <lg type="stanza">
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="1"><hi rendition="#red #fs24pt">S</hi><hi rendition="#small-caps">i</hi>gnor mio caro &virg; ogni pensier mi tira</l>
+                      <l n="2">Deuoto a ueder uoi &virg; cui &sempre; ueggio.</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="3">La mia fortuna &virg; or che mi po far peggio<g ref="#punctelevhiback"/></l>
+                      <l n="4">Mi tene a freno. &amp7; mi trauolue. &amp7; gira.</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="5">Poi quel dolce desio chamor mi spira</l>
+                      <l n="6">Menami a morte &virg; chi &non; me naueggio.</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="7">Et <choice><abbr>mētre</abbr><expan>mentre</expan></choice> i miei duo lumi <choice><abbr>īdarno</abbr><expan>indarno</expan></choice> cheggio.</l>
+                      <l n="8"><choice><abbr>Douūque</abbr><expan>Douunque</expan></choice> io son &virg; di &amp7; notte si sospira.</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="9">Carita di signore &virg; amor di donna</l>
+                      <l n="10">Son le catene &virg; oue &con; molti affanni</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="11">Legato son &virg; <choice><abbr>&per;chio</abbr><expan>perchio</expan></choice> stesso mi strinsi.</l>
+                      <l n="12">Vn lauro uerde &virg; una gentil colomna.</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="13"><choice><abbr>Quīdeci</abbr><expan>Quindeci</expan></choice> luna. &amp7; laltro diciotto <choice><abbr>āni</abbr><expan>anni</expan></choice></l>
+                      <l n="14">Portato o in seno. &amp7; giamai &non; mi scinsi.</l>
+                  </lg>
+              </lg>
+          </lg>
+          <space corresp="#canvasline"/>
+          <lg xml:id="rvf267" type="sonnet" n="267">
+              <lg type="stanza">
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="1"><hi rendition="#blue #fs24pt">O</hi><hi rendition="#small-caps">i</hi>me il bel uiso &virg; oime il soaue <choice><abbr>sguãdo</abbr><expan>sguardo</expan></choice> &virg;</l>
+                      <l n="2">Oime il leggiadro <choice><abbr>portamēto</abbr><expan>portamento</expan></choice> altero</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="3">Oime il parlar chogni aspro <choice><abbr>īgegno</abbr><expan>ingegno</expan></choice> &amp7; fero</l>
+                      <l n="4">Faceui humile<subst><del type="erasure"><gap reason="illegible" /></del><add>.</add></subst> <subst><del type="erasure"><gap reason="illegible" /><add>e</add></del></subst>dogni huom uil gagliardo.</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="5">Et oime il dolce riso &virg; onde usciol dardo</l>
+                      <l n="6">Di che morte altro bene omai &non; spero.</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="7">Alma real &virg; dignissima dimpero.</l>
+                      <l n="8">Se non fossi fra noi scesa si tardo.</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="9">Per uoi conuen chio arda &virg; en uoi respire.	</l>
+                      <l n="10">Chi pur fui uostro. &amp7; se di uoi son priuo</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="11">Via men dogni suentura altra mi dole.</l>
+                      <l n="12">Di sperança mempieste &amp7; di desire</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="13"><choice><abbr>Quādio</abbr><expan>Quandio</expan></choice> parti dal <choice><abbr>sōmo</abbr><expan>sommo</expan></choice> piacer uiuo.</l>
+                      <l n="14">Mal uento ne portaua le parole.</l>
+                  </lg>
+              </lg>
+          </lg>      
       </body>
    </text>
 </TEI>
