@@ -42,7 +42,7 @@
     <div id="bannersubtitle">An edition of Petrarch’s songbook</div>
     <div id="bannerrvf">Rerum vulgarium fragmenta</div>
     <div id="bannerresp">Edited by
-      <a href="http://frit.indiana.edu/faculty/storey.shtml" target="_blank">H. Wayne Storey</a>,
+      <a href="https://frit.indiana.edu/about/emeriti-faculty/storey-h.html" target="_blank">H. Wayne Storey</a>,
       <a href="http://info.ils.indiana.edu/~jawalsh/" target="_blank">John A. Walsh</a> and
       <a href="http://isamagni.com/" target="_blank">Isabella Magni</a>
     </div>
@@ -78,7 +78,7 @@
     </p>
 
     <p class="">
-      The Petr<i>archive</i> is designed as a tool both to introduce Petrarch’s 
+      The Petr<i>archive</i> is designed as a tool both to introduce Petrarch’s
       collection—a collection that continues to influence modern cultures
       in many languages—and to give advanced users access to
       Petrarch’s “original” text and an extensive “material”
