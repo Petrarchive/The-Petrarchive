@@ -69,26 +69,9 @@
 <section class="row justify-content-center">
   <main class="col-lg-8 col-md-12">
     <p class="">
-      When you hear the words <em>sonnet</em>, <em>Renaissance</em>,
-      <em>western literature</em>, <em>love songs</em>,
-      you are hearing the direct influence of Francesco Petrarca
-      (Petrarch) and of his collection of lyric poems that he called
-      “Fragments in the Vernacular” (<cite>Rerum vulgarium
-      fragmenta</cite>).
+      Designed for students, casual readers and specialists, the Petr<em>archive</em> proposes a corrected diplomatic edition and a new edition of Petrarch’s songbook, the <em>Rerum vulgarium fragmenta</em> (<em>Canzoniere</em>), completed after 25 years of textual research, together with a new 13-part commentary of the material properties, prosody, syntax and early history of the work, a new translation, historical translations in English that demonstrate the influence of Petrarch’s vernacular poems in the history of Anglo-American literature, and multiple visual indexes to navigate, for the first time, Petrarch’s visual poetics and the material constructions of his songbook. We encourage users to first read our Instructions for conceptual and pragmatic use in order to have an overview of the core principles of the edition as well as directions on how to navigate the site. 
     </p>
 
-    <p class="">
-      The Petr<i>archive</i> is designed as a tool both to introduce Petrarch’s
-      collection—a collection that continues to influence modern cultures
-      in many languages—and to give advanced users access to
-      Petrarch’s “original” text and an extensive “material”
-      commentary for each poem. Within the Petrarchive you will find
-      edited and diplomatic transcriptions of Petrarch’s songbook;
-      visual maps illustrating Petrarch’s design, layout, and
-      visual poetics; and multi-layered commentary addressing prosodic, historic,
-      textual, and thematic issues along with an English translation
-      of the poems.
-    </p>
   </main>
 
   <footer class="col-lg-6 col-md-8">
