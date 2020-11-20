@@ -9,10 +9,10 @@
   <link rel="stylesheet" type="text/css" href="css/lib/bootstrap.min.css" />
   <link rel="stylesheet" type="text/css" href="js/jquery-ui/jquery-ui.min.css" />
 
-  
-  <link href="css/teibp.css" media="screen, projection" rel="stylesheet" type="text/css" />  
-  <link href="css/custom.css" media="screen, projection" rel="stylesheet" type="text/css" />  
-  <link href="css/auxillaryPage.css" media="screen, projection" rel="stylesheet" type="text/css" />      
+
+  <link href="css/teibp.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <link href="css/custom.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <link href="css/auxillaryPage.css" media="screen, projection" rel="stylesheet" type="text/css" />
 
   <link rel="stylesheet" type="text/css" href="css/stylesheets/screen.css" />
   <link rel="stylesheet" type="text/css" href="css/auxillaryPage.css" />
@@ -34,7 +34,7 @@
     </header>
 
     <aside class="col-12 col-md-3 nav flex-column">
-      <!-- 
+      <!--
         Populate this nav with <a> using Javascript below
       -->
     </aside>
@@ -45,7 +45,7 @@
        Welcome! You’ve reached the instruction page of the Petr<i>archive</i> through the dropdown menu on the home page. From the home page you can access the texts of Petrarch’s <i>Rerum vulgarium fragmenta (Rvf)</i> by clicking on the ever-growing number of active “chartae”, or pages, of Petrarch’s manuscript, Vatican Latino 3195. From the drop-down list you can access the poems through the <a href="./textindex.php"><i>Rvf</i> TextIndex</a> arranged by their physical order in Latino 3195, or by their first verse that can be reorganized in alphabetical order or by their genre (sonnet, ballata, canzone, madrigal, sestina). For greater material contextualization, you can access the poems in the drop-down list by selecting the Visual Index and scrolling down to the <a href="./visindex_fascicles.php">Visual Index Arranged by Fascicles</a>. Clicking on the charta in one of the manuscript’s eleven fascicles will put you in the <i>Rerum vulgarium fragmenta</i>.
       </p>
     </section>
-    
+
     <section class="col-12" id="overview">
     <h1>Overview</h1>
 
@@ -62,7 +62,7 @@
     <h2>
     The Petr<i>archive</i> also includes
     </h2>
-    
+
     <ol type="1">
       <li>
         Indices arranged and searchable by
@@ -95,7 +95,7 @@
         A glossary (to which terms are constantly being added) containing helpful vocabulary, definitions and statistics
       </li>
       <li>
-        Prototypes of the eleven-part material commentary and translation for each poem
+        Prototypes of the thirteen-part material commentary and translation for each poem
       </li>
     </ol>
 
@@ -120,7 +120,7 @@
     </p>
 
     <p>
-    The first principle of the Petr<i>archive</i> is simplicity and ease of use. As we add various components to the editions and the site, we strive to maintain this norm so that the site will be intuitive and accessible to different kinds of users, from novice to specialist. 
+    The first principle of the Petr<i>archive</i> is simplicity and ease of use. As we add various components to the editions and the site, we strive to maintain this norm so that the site will be intuitive and accessible to different kinds of users, from novice to specialist.
     </p>
 
     <p>
@@ -128,7 +128,7 @@
     </p>
 
     <p>
-    The poetic contrasts and organization of the individual charta, however, change in Petrarch’s deployment of the long poetic form of the canzone, which often spans more than one side, or <i>facciata</i>, of a charta (exceptions: <i>Rvf</i> 125 [c. 26v], <i>Rvf</i> 126 [c. 27r], <i>Rvf</i> 206 [c. 40v], and <i>Rvf</i> 355–rev359 [c. 69r]). The material function of canzoni is no less dynamic. Significantly it is the sole genre used to bridge the first four fascicles, cc. 1-32, at cc. 8–9 (<i>Rvf</i> 37), cc. 16–17 (<i>Rvf</i> 72) and cc. 24–25 (<i>Rvf</i> 119). This unifying material feature in the macrotext will be secondary to those users who wish to read or study the individual poems <i>Sì è debile il filo a cui s’attene</i> (<i>Rvf</i> 37) or <i>Una donna più bella assai che ’l sole</i> (<i>Rvf</i> 119). To preserve the poetic unity of these poems and the surrounding sonnets that occasionally engage them, multiple chartae have been encoded to construct a single presentation. In these cases, users can still reference the chartae (in the upper left header) that were utilized by the copyist to transcribe the poem(s). 
+    The poetic contrasts and organization of the individual charta, however, change in Petrarch’s deployment of the long poetic form of the canzone, which often spans more than one side, or <i>facciata</i>, of a charta (exceptions: <i>Rvf</i> 125 [c. 26v], <i>Rvf</i> 126 [c. 27r], <i>Rvf</i> 206 [c. 40v], and <i>Rvf</i> 355–rev359 [c. 69r]). The material function of canzoni is no less dynamic. Significantly it is the sole genre used to bridge the first four fascicles, cc. 1-32, at cc. 8–9 (<i>Rvf</i> 37), cc. 16–17 (<i>Rvf</i> 72) and cc. 24–25 (<i>Rvf</i> 119). This unifying material feature in the macrotext will be secondary to those users who wish to read or study the individual poems <i>Sì è debile il filo a cui s’attene</i> (<i>Rvf</i> 37) or <i>Una donna più bella assai che ’l sole</i> (<i>Rvf</i> 119). To preserve the poetic unity of these poems and the surrounding sonnets that occasionally engage them, multiple chartae have been encoded to construct a single presentation. In these cases, users can still reference the chartae (in the upper left header) that were utilized by the copyist to transcribe the poem(s).
     </p>
 
     <p>
@@ -136,11 +136,11 @@
     </p>
 
     <p>
-    Another conceptual feature that has pragmatic implications is wrapped up in the question of the reporting of erasure. Almost all medieval manuscripts have had letters, sometimes even entire sections and pages, scraped away to insert a correction or new text. With the advent of the use of ultraviolet light and, subsequently, examination under other forms of color-sensitive rays of light, what was once intended by a copyist or copyist-author to be hidden from us can now in some cases — but not all — again be seen. In the case of Petrarch’s partially holograph manuscript Latino 3195, we also find editorial punctuation in the form of promemoria intended to guide future editorial interventions, from insertions of text to where to erase (or scrape away) the parchment. Especially in the case of these marks and even annotations, copyist probably did not intend for the reading public to see this kind of editorial mark up. 
+    Another conceptual feature that has pragmatic implications is wrapped up in the question of the reporting of erasure. Almost all medieval manuscripts have had letters, sometimes even entire sections and pages, scraped away to insert a correction or new text. With the advent of the use of ultraviolet light and, subsequently, examination under other forms of color-sensitive rays of light, what was once intended by a copyist or copyist-author to be hidden from us can now in some cases — but not all — again be seen. In the case of Petrarch’s partially holograph manuscript Latino 3195, we also find editorial punctuation in the form of promemoria intended to guide future editorial interventions, from insertions of text to where to erase (or scrape away) the parchment. Especially in the case of these marks and even annotations, copyist probably did not intend for the reading public to see this kind of editorial mark up.
     </p>
 
     <p>
-    Two additional kinds of alteration to the surface of a manuscript raise similar questions. On the one hand, the ravages of time, weather and light on ancient manuscripts ultimately claim text that can only be reconstructed through technology. On the other, some manuscripts exhibit subsequent interventions by known and unknown hands that have become part of the reportable surface of a codex either in a diplomatic or even an edited version of the work. 
+    Two additional kinds of alteration to the surface of a manuscript raise similar questions. On the one hand, the ravages of time, weather and light on ancient manuscripts ultimately claim text that can only be reconstructed through technology. On the other, some manuscripts exhibit subsequent interventions by known and unknown hands that have become part of the reportable surface of a codex either in a diplomatic or even an edited version of the work.
     </p>
 
     </section> <!-- #digital-design -->
@@ -152,7 +152,7 @@
     </p>
 
     <p>
-    Strike-throughs and what we can describe in English as “scansion erasure dots”, the latter that appear as dots under individual letters to designate its elimination usually to perfect the prosodic scansion of a verse, are by necessity reported in the diplomatic edition as “surface text” even when designed to be eliminated in the act of reading the verse. The edited text incorporates the editorial solutions suggested by the parchment’s surface and the commentary discusses each occurrence.  
+    Strike-throughs and what we can describe in English as “scansion erasure dots”, the latter that appear as dots under individual letters to designate its elimination usually to perfect the prosodic scansion of a verse, are by necessity reported in the diplomatic edition as “surface text” even when designed to be eliminated in the act of reading the verse. The edited text incorporates the editorial solutions suggested by the parchment’s surface and the commentary discusses each occurrence.
     </p>
 
     <p>
@@ -160,7 +160,7 @@
     </p>
 
     <p>
-    This long description demonstrates two of the most basic problems in the interpretation of an at times problematic surface of the parchment: A) the identification of the hand; and B) the over-reliance on erroneous but “authoritative” readings rather than on direct observation of the codex. 
+    This long description demonstrates two of the most basic problems in the interpretation of an at times problematic surface of the parchment: A) the identification of the hand; and B) the over-reliance on erroneous but “authoritative” readings rather than on direct observation of the codex.
     </p>
 
     <ol>
@@ -168,7 +168,7 @@
         In each case in which there is doubt about the origin of the copyist’s hand, the surface of the manuscript is reported in the diplomatic edition with extensive annotations in the material commentary. Each case is resolved in the edited form of the text through assessments of erasures, tracings, etc.
       </li>
       <li>
-        Text written over erasure is identified in the diplomatic edition in light gray lettering. Erasures that no longer carry any text but that show signs of what was erased will be noted in the commentary. 
+        Text written over erasure is identified in the diplomatic edition in light gray lettering. Erasures that no longer carry any text but that show signs of what was erased will be noted in the commentary.
       </li>
       <li>
         Letters obscured by overwrites will again report the top surface, in most cases the final letter of the overwrite is reported in the diplomatic edition with annotations in the commentary and the final reading in the edited form.
@@ -177,15 +177,15 @@
         Letters traced by a subsequent hand are reported in bold type in the diplomatic edition when Malpaghini’s or Petrarch’s original cannot be verified. In these cases the edited form relies upon the early tradition for its reading.
       </li>
       <li>
-        Smaller guide-letters that are repeated in the 1368 rubrication are not reported except in the commentary when there is an abnormality. Notably Petrarch abandons rubricated letters on cc. 39v–49r (the end of Part I) and again on cc. 62–71v (the end of Part II), distinguishing the fair copy of the First Project from the working, or service, copy section of the MS. 
+        Smaller guide-letters that are repeated in the 1368 rubrication are not reported except in the commentary when there is an abnormality. Notably Petrarch abandons rubricated letters on cc. 39v–49r (the end of Part I) and again on cc. 62–71v (the end of Part II), distinguishing the fair copy of the First Project from the working, or service, copy section of the MS.
       </li>
       <li>
-        Due to the nature of Petrarch’s supervised and executed uses of initials, and in a departure from recent Italian editorial practice, all of Petrarch’s initials are conveyed in the diplomatic and edited forms of the edition, including at the beginning of verses, in Petrarch’s rare and noteworthy mid-verse uses, as well as Malpaghini’s and, in some cases, Petrarch’s small caps, invariably used—according to medieval scribal standards—after the colored initial at the beginning of a poem (while seemingly inconsequential, the “small-cap usage” and Petrarch’s abandonment of it in certain sections of the codex seem to confirm Petrarch’s intentionality in the nature of the copy he is preparing). The maintenance of these capitals is designed to convey their integration into Petrarch’s poetic syntax and his structuring of verses within diverse poetic genres. 
+        Due to the nature of Petrarch’s supervised and executed uses of initials, and in a departure from recent Italian editorial practice, all of Petrarch’s initials are conveyed in the diplomatic and edited forms of the edition, including at the beginning of verses, in Petrarch’s rare and noteworthy mid-verse uses, as well as Malpaghini’s and, in some cases, Petrarch’s small caps, invariably used—according to medieval scribal standards—after the colored initial at the beginning of a poem (while seemingly inconsequential, the “small-cap usage” and Petrarch’s abandonment of it in certain sections of the codex seem to confirm Petrarch’s intentionality in the nature of the copy he is preparing). The maintenance of these capitals is designed to convey their integration into Petrarch’s poetic syntax and his structuring of verses within diverse poetic genres.
       </li>
     </ol>
 
     <p>
-      One of the more vexing problems of the surface of Latino 3195 is the reporting and, at times, interpretation of punctuation. While Malpaghini’s use of both micro- and macro-punctuation is relatively regular and consistent, Petrarch’s use and symbols can differ significantly from his primary copyist’s. (Micro-punctuation are those marks and symbols to which we commonly refer as brief, medial and long pauses in phrasing and syntactic structure of verses. Macro-punctuation engages the use of space in the manuscript to mark parts, sections and groupings of poems as well as larger pauses within the compositional structure of the <i>Rvf</i>.) Moreover, we should keep in mind that there are at least two additional forms of punctuation that was probably never intended by Petrarch to be seen by nor transmitted to subsequent readers in fair copies: 
+      One of the more vexing problems of the surface of Latino 3195 is the reporting and, at times, interpretation of punctuation. While Malpaghini’s use of both micro- and macro-punctuation is relatively regular and consistent, Petrarch’s use and symbols can differ significantly from his primary copyist’s. (Micro-punctuation are those marks and symbols to which we commonly refer as brief, medial and long pauses in phrasing and syntactic structure of verses. Macro-punctuation engages the use of space in the manuscript to mark parts, sections and groupings of poems as well as larger pauses within the compositional structure of the <i>Rvf</i>.) Moreover, we should keep in mind that there are at least two additional forms of punctuation that was probably never intended by Petrarch to be seen by nor transmitted to subsequent readers in fair copies:
     </p>
 
     <p>
@@ -197,15 +197,15 @@
     </p>
 
     <p>
-      3. Of uncertain functionality, beginning in Fascicles V, VI and VII (cc. 35v–49r), and again midway in Fascicle VIII (cc. 56r–60v) and throughout Fascicles IX, X and XI (cc. 61r–71r), Malpaghini and then Petrarch will mark the beginning of v. 9 of most — but not all — sonnets with a tick, a tilde, or a <i>punctus</i>. Similar markings are found more rarely in the left margin at vv. 1, 3 13, and even more rarely in the right margin at vv. 2, 4, and 8. While the mostly regular dot/line in Petrarch’s transcriptions at v. 9 of sonnets is noted in the diplomatic edition, all uses throughout the manuscript are noted in the commentary. The question of the more regular use by Petrarch at v. 9 for many — but not all — sonnets in his hand was debated by some of the curators of the 2004 Vatican–Antenore facscimile and commentary without final consensus. The inconsistency of the usage, even in Petrarch’s own hand, and virtual absence of the graphological habit in Malpaghini’s suggest that the symbol was not used to distinguish the ninth verse but possibly as an editorial promemoria to signal approval or completion by the poet. 
+      3. Of uncertain functionality, beginning in Fascicles V, VI and VII (cc. 35v–49r), and again midway in Fascicle VIII (cc. 56r–60v) and throughout Fascicles IX, X and XI (cc. 61r–71r), Malpaghini and then Petrarch will mark the beginning of v. 9 of most — but not all — sonnets with a tick, a tilde, or a <i>punctus</i>. Similar markings are found more rarely in the left margin at vv. 1, 3 13, and even more rarely in the right margin at vv. 2, 4, and 8. While the mostly regular dot/line in Petrarch’s transcriptions at v. 9 of sonnets is noted in the diplomatic edition, all uses throughout the manuscript are noted in the commentary. The question of the more regular use by Petrarch at v. 9 for many — but not all — sonnets in his hand was debated by some of the curators of the 2004 Vatican–Antenore facscimile and commentary without final consensus. The inconsistency of the usage, even in Petrarch’s own hand, and virtual absence of the graphological habit in Malpaghini’s suggest that the symbol was not used to distinguish the ninth verse but possibly as an editorial promemoria to signal approval or completion by the poet.
     </p>
 
     <p>
       If the thicker pen strokes of many individual letters have faded or been damaged over time becoming — in some cases — virtually illegible and even inviting subsequent hands to retrace them, the single thin pen strokes and ticks of ink that constitute punctuation marks have been even more widespread victims of deterioration and, in some cases, subsequent erasure, but also of addition by later hands. Forty-five of Modigliani’s 61 additions (<i>Aggiunte</i>) and 11 of 24 corrections (<i>Correzioni</i>) to his own diplomatic edition (1904) correct his original reading/interpretation of punctuation marks alone (including several erasure dots). Many of these additions demonstrate the relative ease with which faded punctuation can be overlooked even by a professional paleographer of Modigliani’s caliber. But there is little doubt that the diplomatic edition’s imperative to “report the parchment’s surface” must also negotiate the diachronic layers both during the manuscript’s years as a Malpaghini–Petrarch work site but also as the recipient of readings and attention from subsequent owners and handlers of the codex. In the Petr<i>archive</i> the most complete accounting will be found in the commentary.
     </p>
 
-    <p> 
-      It is here where my own discussions with some of our most trusted collaborators who checked my transcription work over the years have been, perhaps, the most intense. Examinations of Latino 3195 under high-power magnification and ultraviolet have often led to more uncertainty and some marks that were not syntactic. Users can turn to the high-resolution photos to investigate beyond the diplomatic edition and to fuller discussions in the material commentary. Alternately the Vatican Library’s own digital photographs of the individual chartae under ultraviolet light can be consulted at: <a href="https://digi.vatlib.it/view/MSS_Vat.lat.3195">https://digi.vatlib.it/view/MSS_Vat.lat.3195</a>. 
+    <p>
+      It is here where my own discussions with some of our most trusted collaborators who checked my transcription work over the years have been, perhaps, the most intense. Examinations of Latino 3195 under high-power magnification and ultraviolet have often led to more uncertainty and some marks that were not syntactic. Users can turn to the high-resolution photos to investigate beyond the diplomatic edition and to fuller discussions in the material commentary. Alternately the Vatican Library’s own digital photographs of the individual chartae under ultraviolet light can be consulted at: <a href="https://digi.vatlib.it/view/MSS_Vat.lat.3195">https://digi.vatlib.it/view/MSS_Vat.lat.3195</a>.
     </p>
 
     <p>
@@ -246,21 +246,21 @@
         </ol>
       </li>
     </ol>
-    
-    <p> 
-      Through the tabbed interface, users will be able to consult simultaneously the editions, images and those parts of the Commentary that the user finds useful. 
+
+    <p>
+      Through the tabbed interface, users will be able to consult simultaneously the editions, images and those parts of the Commentary that the user finds useful.
     </p>
     </section> <!-- #reportable-surfaces -->
 
     <section id="timeline">
     <h1>The Timeline</h1>
-    
+
     <p>
-      Timelines, their assessments of chronology and our acceptance of those chronologies, can be problematic. The timeline’s apparently pure linearity, stripped of methodological nuance and historical evidence, can lead us from conventionally repeated conjecture or hearsay to accepted historical fact without ever questioning the relative weight and probability of the evidence that supports — if at all — this very linear history’s claims of legitimacy. Our methodology in building the interactive timeline focuses on and distinguishes among the degrees of probability documentable in material evidence both in internal and external sources rather than on accumulated critical accretions inherent in a cumulative history. The core principle of this new digital approach is transparency in sources and results: going back to the material witnesses, often over-interpreted letters and marginal notes in Petrarch’s drafts (Vat. Lat. 3196), chronicles and material traces of historical events. 
+      Timelines, their assessments of chronology and our acceptance of those chronologies, can be problematic. The timeline’s apparently pure linearity, stripped of methodological nuance and historical evidence, can lead us from conventionally repeated conjecture or hearsay to accepted historical fact without ever questioning the relative weight and probability of the evidence that supports — if at all — this very linear history’s claims of legitimacy. Our methodology in building the interactive timeline focuses on and distinguishes among the degrees of probability documentable in material evidence both in internal and external sources rather than on accumulated critical accretions inherent in a cumulative history. The core principle of this new digital approach is transparency in sources and results: going back to the material witnesses, often over-interpreted letters and marginal notes in Petrarch’s drafts (Vat. Lat. 3196), chronicles and material traces of historical events.
     </p>
 
     <p>
-      The Petr<i>archive</i>’s digital interactive timeline is designed as a tool to encourage users to reconsider the nature of the evidence upon which we often build the chronologies and narratives of timelines, and to re-think Petrarch’s life and works in the cultural and historical contexts of that evidence in order to study and visualize non-linear relationships of events in time and space. Our primary objective is to create clear distinctions among the categories of A) what is clearly dated in documented sources (certainty), what is datable with a fair amount of probability, and what can only be conjectured. This three-fold construction allows for the reassessment of sources to establish a timeline that includes: 
+      The Petr<i>archive</i>’s digital interactive timeline is designed as a tool to encourage users to reconsider the nature of the evidence upon which we often build the chronologies and narratives of timelines, and to re-think Petrarch’s life and works in the cultural and historical contexts of that evidence in order to study and visualize non-linear relationships of events in time and space. Our primary objective is to create clear distinctions among the categories of A) what is clearly dated in documented sources (certainty), what is datable with a fair amount of probability, and what can only be conjectured. This three-fold construction allows for the reassessment of sources to establish a timeline that includes:
     </p>
 
     <ol type="a">
@@ -282,13 +282,13 @@
       <li>probability (<i>datable</i>)</li>
       <li>conjecture (<i>conjectured</i>)</li>
     </ol>
-    
+
     <p>
       Carefully structured TEI standards for documenting such editorial decisions allows transparency and precision of information while experimenting with new interactive ways of presenting and researching geo-temporal information (Bodenhamer 2014; Corrigan 2014).
     </p>
 
     <p>
-      This new rigorous methodological approach clearly distinguishes between history and narrative, between material resources and unreliable anecdotal accounts, an issue that goes beyond Petrarchan studies. The timeline is therefore designed to promote further research, exploration and verification of even widely accepted conjectured reconstructions, such as Wilkins’ theory of the forms for the genesis of the <i>Fragmenta</i>. Exemplary is the letter <i>Varia</i> 9 (and its revision as Sen. XIII 11) to Pandolfo Malatesta and its over-interpretation that led to Wilkins’ invention of the “Malatesta form” (1371-1373) for the songbook. While the letter can be dated with a fair amount of certainty to January 4th, 1373, there is no material evidence nor any subsequent documentation that can justify the existence of a form or even a completed manuscript, allegedly redacted for Pandolfo. 
+      This new rigorous methodological approach clearly distinguishes between history and narrative, between material resources and unreliable anecdotal accounts, an issue that goes beyond Petrarchan studies. The timeline is therefore designed to promote further research, exploration and verification of even widely accepted conjectured reconstructions, such as Wilkins’ theory of the forms for the genesis of the <i>Fragmenta</i>. Exemplary is the letter <i>Varia</i> 9 (and its revision as Sen. XIII 11) to Pandolfo Malatesta and its over-interpretation that led to Wilkins’ invention of the “Malatesta form” (1371-1373) for the songbook. While the letter can be dated with a fair amount of certainty to January 4th, 1373, there is no material evidence nor any subsequent documentation that can justify the existence of a form or even a completed manuscript, allegedly redacted for Pandolfo.
     </p>
     </section> <!-- #timeline -->
     </main>
@@ -316,9 +316,9 @@
           $(window).scrollTop($(window).scrollTop() - (headerHeight * 1.4))
         }, 10)
 
-        $(ev.delegateTarget).addClass('active') 
+        $(ev.delegateTarget).addClass('active')
 
-        // wait for click even to go through and then readjust the scroll 
+        // wait for click even to go through and then readjust the scroll
         // so that the sticky header does not cover content
         return true
       })
@@ -330,13 +330,13 @@
         var navText,
             $el = $(el),
             href = $el.attr('id');
-        
+
         if (navTextQuery)
           navText = $el.find(navTextQuery)[0] ? $el.find(navTextQuery)[0].innerHTML : undefined;
-        
+
         if (!navText)
           navText = $el.attr('id');
-        
+
         var html = `<a href="#${href}">${navText}</a>`
         $(nav).append(html)
       })
