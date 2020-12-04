@@ -73,10 +73,11 @@
     </p>
 
   </main>
-
+<!--
   <footer class="col-lg-6 col-md-8">
     <?php include 'mail-signup.html'; ?>
   </footer>
+-->
 </section>
 </main>
 
