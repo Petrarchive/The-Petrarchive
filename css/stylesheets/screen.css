@@ -273,7 +273,7 @@ img.fit {
   text-decoration: none;
   font-weight: 100;
   margin-top: 0.5em;
-  margin-bottom: 1.5em;
+  margin-bottom: .5em;
   margin-right: auto;
   margin-left: auto;
   line-height: 30pt;
@@ -298,11 +298,11 @@ img.fit {
 /* line 221, ../sass/screen.scss */
 footer {
   border-top: 1px solid #d7d6d5;
-  margin-top: 2.5em;
-  margin-bottom: 2em;
+  margin-top: 0;
+  margin-bottom: 0;
   font-family: 'Helvetica Neue','Gill Sans',Helvetica,Arial,sans-serif;
   font-weight: 200;
-  line-height: 1.5;
+  line-height: 1;
   clear: both;
 }
 

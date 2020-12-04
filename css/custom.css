@@ -176,20 +176,34 @@ width:inherit;
 
 /* petrarchve footer code: start */
 #petrarchive-footer {
-  font-size: .8em;
+  font-size: 12px;
   color: #623634;
-  padding: 1em 0;
+  padding: .5em 0;
   background: #e8e3e3;
   margin: 0;
   width: initial;
   box-shadow: 0 50vh 0 50vh #e8e3e3;
+  font-family: 'Helvetica Neue','Gill Sans',Helvetica,Arial,sans-serif;
+}
+footer {
+  border-top: 1px solid #d7d6d5;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Helvetica Neue','Gill Sans',Helvetica,Arial,sans-serif;
+  font-weight: 200;
+  line-height: 150%;
+  clear: both;
+}
+
+section {
+margin-top: .5rem;
 }
 
 #petrarchive-footer h1 {
-  font-family: "helvetica neue", helvetica, verdana, arial, sans-serif;
+  font-family: "helvetica neue", 'Gill Sans',helvetica, verdana, arial, sans-serif;
   font-weight: bold;
-  margin-top: .5em;
-  margin-bottom: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 100%;
 }
 
@@ -205,11 +219,11 @@ width:inherit;
 
 #petrarchive-footer p {
   margin-top: 0;
-  margin-bottom: .3em;
+  margin-bottom: .2em;
 }
 
 #petrarchive-footer section {
-  margin-bottom: 1em;
+  margin-bottom: 0;
 }
 
 
