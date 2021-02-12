@@ -460,6 +460,12 @@ the line wraps. -->
          <ab type="diplomatic">
            
          <lg type="canzone_15vv" xml:id="rvf360" n="356 [360]">
+             <note type="sequence">
+                 <bibl>
+                     <idno type="rev1">360</idno>
+                     <idno type="physical_vl3195">356</idno>
+                 </bibl>
+             </note>
             <pb xml:id="c069v" n="charta 69 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-069v.jpg" />
             <lg type="trplvrs" corresp="#msline"><l xml:id="rvf360.1" n="1"><hi>&pilcrow2section;</hi>Quel<supplied>’</supplied> <choice><abbr>ātiquo</abbr><expan>antiquo</expan></choice> mio <choice><orig>dolce¦empio</orig><reg>dolce empio</reg></choice> signore<choice><orig> /</orig><reg/></choice></l>	<l xml:id="rvf360.2" n="2">Fatto citar <choice><orig><abbr>dināçi</abbr><expan>dinançi</expan></orig><reg>dinanzi</reg></choice> <choice><orig>ala</orig><reg>a la</reg></choice> reina&v2c;</l>  <l xml:id="rvf360.3" n="3">Che <choice><orig>laparte</orig><reg>la parte</reg></choice> <choice><orig>diuina</orig><reg>divina</reg></choice></l> <fw>.25.</fw></lg>
             <lg type="trplvrs" corresp="#msline"><l xml:id="rvf360.4" n="4">Tien di nostra natura<choice><orig> &virg;</orig><reg/></choice> <choice><orig>encima</orig><reg>e ’n cima</reg></choice> sede&p2c;</l>	<l xml:id="rvf360.5" n="5"><choice><orig>Iui</orig><reg>Ivi</reg></choice><supplied>,</supplied> <choice><orig>comoro</orig><reg>com’oro</reg></choice> che nel foco affina&v2c;</l>	<l xml:id="rvf360.6" n="6"><choice><orig><abbr>Mirap&p-macron;sēto</abbr><expan>Mirappresento</expan></orig><reg>Mi rappresento</reg></choice> carco <choice><orig>didolore</orig><reg>di dolore</reg></choice>&p2c;</l></lg>
@@ -520,6 +526,12 @@ the line wraps. -->
         <space corresp="#msline"/>
         <space corresp="#msline"/>
         <lg xml:id="rvf361" type="sonnet" n="357 [361]">
+            <note type="sequence">
+                <bibl>
+                    <idno type="rev1">361</idno>
+                    <idno type="physical_vl3195">357</idno>
+                </bibl>
+            </note>
           <lg type="octave">
             <lg type="dblvrs" corresp="#msline">
               <l n="1"><hi rendition="#black #fs24pt">D</hi>icemi spesso il mio fidato speglio&p2c;</l>    
