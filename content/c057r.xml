@@ -248,6 +248,8 @@
     
     <tagsDecl>
 
+        <rendition xml:id="sestet_marker" scheme="css"></rendition>
+        
         <rendition xml:id="b" n="tiebp:bold" scheme="css">
             font-weight:bold;
         </rendition> 
@@ -500,7 +502,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">~ Imaginata guida la conduce .</l>
+                      <l n="9"><hi rendition="#sestet_maker">~</hi> Imaginata guida la conduce .</l>
                       <l n="10">Che la uera  e sotterra . ançi e nel cielo .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -535,7 +537,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">~ Che come i miei pensier dietro a lei <choice><abbr>uāno</abbr><expan>uanno</expan></choice> .</l>
+                      <l n="9"><hi rendition="#sestet_maker">~</hi> Che come i miei pensier dietro a lei <choice><abbr>uāno</abbr><expan>uanno</expan></choice> .</l>
                       <l n="10">Cosi leue <g ref="#virgsusp"/> expedita &virg; &amp7; lieta lalma</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">

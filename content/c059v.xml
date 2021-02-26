@@ -246,6 +246,8 @@
     
     <tagsDecl>
 
+        <rendition xml:id="sestet_marker" scheme="css"></rendition>
+        
         <rendition xml:id="b" n="tiebp:bold" scheme="css">
             font-weight:bold;
         </rendition> 
@@ -533,7 +535,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">~ I mi riscuoto . &amp7; trouomi si nudo .</l> <!-- Indentation of ~ -->
+                      <l n="9"><hi rendition="#sestet_maker">~</hi> I mi riscuoto . &amp7; trouomi si nudo .</l> <!-- Indentation of ~ -->
                       <l n="10">Chi porto inuidia adogni extrema sorte .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -568,7 +570,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">~ Oue lombra gentil del uiso humano</l> <!-- Indentation of ~ -->
+                      <l n="9"><hi rendition="#sestet_maker">~</hi> Oue lombra gentil del uiso humano</l> <!-- Indentation of ~ -->
                       <l n="10">Chora &amp7; riposo daua a lalma stanca .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -603,7 +605,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">~ <choice><abbr>Quāta</abbr><expan>Quanta</expan></choice> inuidia a quellanime chen forte</l> <!-- Indentation of ~ -->
+                      <l n="9"><hi rendition="#sestet_maker">~</hi> <choice><abbr>Quāta</abbr><expan>Quanta</expan></choice> inuidia a quellanime chen forte</l> <!-- Indentation of ~ -->
                       <l n="10">Anno or sua santa &amp7; dolce <choice><abbr>cōpagnia</abbr><expan>compagnia</expan></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">

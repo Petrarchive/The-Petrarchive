@@ -248,6 +248,8 @@
     
     <tagsDecl>
 
+        <rendition xml:id="sestet_marker" scheme="css"></rendition>
+        
         <rendition xml:id="b" n="tiebp:bold" scheme="css">
             font-weight:bold;
         </rendition> 
@@ -500,7 +502,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">·	Chi <choice><abbr>nō</abbr><expan>non</expan></choice> uo dir dilei . ma chi lascorge</l><!--check marker of sestet-->
+                      <l n="9"><hi rendition="#sestet_maker">.</hi> Chi <choice><abbr>nō</abbr><expan>non</expan></choice> uo dir dilei . ma chi lascorge</l><!--check marker of sestet-->
                       <l n="10">Tuttol cor di dolceçça &amp7; damor glempie .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -535,7 +537,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">9             ·	Vertute . honor . belleçça . Atto gentile .</l><!--check marker of sestet-->
+                      <l n="9"><hi rendition="#sestet_maker">.</hi> Vertute . honor . belleçça . Atto gentile .</l><!--check marker of sestet-->
                       <l n="10"><subst><del type="erasure"><gap reason="illegible"></gap></del><add>Dolci parole ai be rami man <choice><abbr>giūto</abbr><expan>giunto</expan></choice></add></subst></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -570,7 +572,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">·Cieco &virg; &amp7; <choice><abbr>stāco</abbr><expan>stanco</expan></choice> adognialtro chalmio <choice><abbr>dāno</abbr><expan>danno</expan></choice></l><!--check sestet marker-->
+                      <l n="9"><hi rendition="#sestet_maker">.</hi> Cieco &virg; &amp7; <choice><abbr>stāco</abbr><expan>stanco</expan></choice> adognialtro chalmio <choice><abbr>dāno</abbr><expan>danno</expan></choice></l><!--check sestet marker-->
                       <l n="10">Il qual di &amp7; notte palpitando cerco</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -605,7 +607,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">·&Amp7; que belliocchi chei cor <choice><abbr>fāno</abbr><expan>fanno</expan></choice> smalti .</l><!--check sestet marker-->
+                      <l n="9"><hi rendition="#sestet_maker">.</hi> &Amp7; que belliocchi chei cor <choice><abbr>fāno</abbr><expan>fanno</expan></choice> smalti .</l><!--check sestet marker-->
                       <l n="10"><choice><abbr>Possēti</abbr><expan>Possenti</expan></choice> a rischiarar&#11805; abisso &virg; &amp7; notti .</l> <!--punctuation: https://www.fileformat.info/info/unicode/char/2e1d/index.htm-->
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">

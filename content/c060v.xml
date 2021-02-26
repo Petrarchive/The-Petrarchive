@@ -246,6 +246,8 @@
     
     <tagsDecl>
 
+        <rendition xml:id="sestet_marker" scheme="css"></rendition>
+        
         <rendition xml:id="b" n="tiebp:bold" scheme="css">
             font-weight:bold;
         </rendition> 
@@ -498,7 +500,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">~ Miral gran sasso donde Sorga nasce .</l> <!-- check beginning all lines 9 -->
+                      <l n="9"><hi rendition="#sestet_maker">~</hi> Miral gran sasso donde Sorga nasce .</l> <!-- check beginning all lines 9 -->
                       <l n="10">Et uedraui un &virg; che sol tra lerbe &amp7; lacque</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -533,7 +535,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">~ Cosi uo ricercando ogni contrada</l>
+                      <l n="9"><hi rendition="#sestet_maker">~</hi> Cosi uo ricercando ogni contrada</l>
                       <l n="10">Ouio la uidi . &amp7; sol tu che maffligi</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -568,7 +570,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">~ Mai non poria uolar penna dingegno .</l>
+                      <l n="9"><hi rendition="#sestet_maker">~</hi> Mai non poria uolar penna dingegno .</l>
                       <l n="10">&Non; che stil graue &virg; o lingua &virg; oue natura</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -603,7 +605,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">~ Le lode mai &virg; non daltra &virg; &amp7; proprie sue &virg;</l>
+                      <l n="9"><hi rendition="#sestet_maker">~</hi> Le lode mai &virg; non daltra &virg; &amp7; proprie sue &virg;</l>
                       <l n="10">Chen lei fur come stelle in cielo sparte .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">

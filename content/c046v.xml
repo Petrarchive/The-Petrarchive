@@ -248,6 +248,8 @@
     
     <tagsDecl>
 
+        <rendition xml:id="sestet_marker" scheme="css"></rendition>
+        
         <rendition xml:id="b" n="tiebp:bold" scheme="css">
             font-weight:bold;
         </rendition> 
@@ -500,7 +502,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">· <subst><del type="erasure"><gap reason="illegible"></gap></del><add>Voi</add></subst> &con; quel cor &virg; che disi chiaro <choice><abbr>īgegno</abbr><expan>ingegno</expan></choice> &virg;</l>
+                      <l n="9"><hi rendition="#sestet_maker">.</hi> <subst><del type="erasure"><gap reason="illegible"></gap></del><add>Voi</add></subst> &con; quel cor &virg; che disi chiaro <choice><abbr>īgegno</abbr><expan>ingegno</expan></choice> &virg;</l>
                       <l n="10">Disi alta uertute ilcielo alluma.</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -535,7 +537,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">· Luna piaga arde.&amp7; uersa foco &amp7; <choice><abbr>fiāma</abbr><expan>fiamma</expan></choice> .</l> <!--check sestet marker-->
+                      <l n="9"><hi rendition="#sestet_maker">.</hi> Luna piaga arde.&amp7; uersa foco &amp7; <choice><abbr>fiāma</abbr><expan>fiamma</expan></choice> .</l> <!--check sestet marker-->
                       <l n="10">Lagrime laltra che<subst><del type="erasure"><gap reason="illegible"></gap></del><add>l dolor distilla</add></subst> &virg;</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -570,7 +572,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">· Or tu chai posto te stesso in oblio</l> <!--check sestet marker-->
+                      <l n="9"><hi rendition="#sestet_maker">.</hi> Or tu chai posto te stesso in oblio</l> <!--check sestet marker-->
                       <l n="10">&Amp7; parli alcor pur come e fusse or teco .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -605,7 +607,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">· Seco si str&in;ge.&amp7;dice a ciascun passo &virg;</l> <!--sestet marker-->
+                      <l n="9"><hi rendition="#sestet_maker">.</hi> Seco si str&in;ge.&amp7;dice a ciascun passo &virg;</l> <!--sestet marker-->
                       <l n="10">De fusse or qui | quel miser pur un poco &virg;</l> <!--check low vertical line-->
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">

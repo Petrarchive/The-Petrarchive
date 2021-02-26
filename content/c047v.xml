@@ -248,6 +248,8 @@
     
     <tagsDecl>
 
+        <rendition xml:id="sestet_marker" scheme="css"></rendition>
+        
         <rendition xml:id="b" n="tiebp:bold" scheme="css">
             font-weight:bold;
         </rendition> 
@@ -500,7 +502,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">· Vedra &#11789; sarriua <choice><abbr>atēpo</abbr><expan>atempo</expan></choice> &virg; ogni uertute &virg;</l><!--check dot at the beginning of sestets-->
+                      <l n="9"><hi rendition="#sestet_maker">.</hi> Vedra &#11789; sarriua <choice><abbr>atēpo</abbr><expan>atempo</expan></choice> &virg; ogni uertute &virg;</l><!--check dot at the beginning of sestets-->
                       <l n="10">Ogni belleçça &#11805; ogni real costume</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -535,7 +537,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">· Deposta auea lusata leggiadria .</l> <!--sestet marker-->
+                      <l n="9"><hi rendition="#sestet_maker">.</hi> Deposta auea lusata leggiadria .</l> <!--sestet marker-->
                       <l n="10">Le perle &virg;&amp7; le <choice><abbr>ghirlāde</abbr><expan>ghirlande</expan></choice> &virg; <choice><abbr>eipāni</abbr><expan>eipanni</expan></choice> allegri .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -605,7 +607,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">· A me pur gioua disperare anchora &virg;</l> <!--sestet marker -->
+                      <l n="9"><hi rendition="#sestet_maker">.</hi> A me pur gioua disperare anchora &virg;</l> <!--sestet marker -->
                       <l n="10">La dolce uista delbel uiso ạdorno .</l> <!--underdotted "a"?-->
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">

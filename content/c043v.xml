@@ -248,6 +248,8 @@
     
     <tagsDecl>
 
+        <rendition xml:id="sestet_marker" scheme="css"></rendition>
+        
         <rendition xml:id="b" n="tiebp:bold" scheme="css">
             font-weight:bold;
         </rendition> 
@@ -535,7 +537,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">·<choice><abbr>Sēto</abbr><expan>Sento</expan></choice> imessi di morte &virg; oue apparire &#11789;</l><!--check sestet marker-->
+                      <l n="9"><hi rendition="#sestet_maker">.</hi> <choice><abbr>Sēto</abbr><expan>Sento</expan></choice> imessi di morte &virg; oue apparire &#11789;</l><!--check sestet marker-->
                       <l n="10">Veggio ibelli occhi . &amp7; folgorar <choice><abbr>dalūge</abbr><expan>dalunge</expan></choice> .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -570,7 +572,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">·<!--check sestet marker-->Chi pon freno <choice><abbr>aliamāti</abbr><expan>aliamanti</expan></choice>. o&#9550;da&#9550;lor legge <g ref="#punctelevhiback"/></l><!--check punctuation (https://www.compart.com/en/unicode/U+254E)-->
+                      <l n="9"><hi rendition="#sestet_maker">.</hi> Chi pon freno <choice><abbr>aliamāti</abbr><expan>aliamanti</expan></choice>. o&#9550;da&#9550;lor legge <g ref="#punctelevhiback"/></l><!--check punctuation (https://www.compart.com/en/unicode/U+254E)-->
                       <l n="10">Nesun alalma . Al corpo ira &amp7; aspreçça .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -605,7 +607,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">· Il <choice><abbr>sōno</abbr><expan>sonno</expan></choice> enbando. &amp7; delriposo e nulla .</l><!--sestet marker-->
+                      <l n="9"><hi rendition="#sestet_maker">.</hi> Il <choice><abbr>sōno</abbr><expan>sonno</expan></choice> enbando. &amp7; delriposo e nulla .</l><!--sestet marker-->
                       <l n="10">Ma sospiri &#11789;&amp7; <choice><abbr>lamēti</abbr><expan>lamenti</expan></choice> infin alalba .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
