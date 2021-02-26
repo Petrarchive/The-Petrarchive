@@ -276,20 +276,27 @@ the line wraps. -->
             <l n="1">Behold, <choice><orig>Loue</orig><reg>Love</reg></choice>, thy power how she despiseth: </l>
             <l n="2">My <choice><orig>greuous</orig><reg>grevious</reg></choice> <choice><orig>payn</orig><reg>pain</reg></choice> how litle she regardeth,</l>
             <l n="3">The <choice><orig>solemne</orig><reg>solemn</reg></choice> <choice><orig>othe</orig><reg>oath</reg></choice>, <choice><orig>wherof</orig><reg>whereof</reg></choice> she takes no cure, </l>
-            <l n="4">Broken she hath: and yet, she bydeth sure, </l>
-            <l n="5">Right at her ease, and litle thee she dredeth. </l>
-            <l n="6">Weaponed thou art, and she vnarmed sitteth: </l>
-            <l n="7">To the disdainful, all her life she leadeth: </l>
-            <l n="8">To me spiteful, without iust cause, or measure. </l>
-            <l n="9">Behold Loue, how proudly she triumpheth, </l>
-            <l n="10">I am in hold, but if thee pitie meueth:</l>
-            <l n="11">Go, bend thy bow, that stony hartes breaketh: </l>
-            <l n="12">And with some stroke reuenge the great displeasure </l>
-            <l n="13">Of thee, and him that sorow doth endure, </l>
+            <l n="4">Broken she hath: and yet, she <choice><orig>bydeth</orig><reg>bideth</reg></choice> sure,</l>
+            <l n="5">Right at her ease, and <choice><orig>litle</orig><reg>little</reg></choice> thee she <choice><orig>dredeth</orig><reg>dreadeth</reg></choice>.</l>
+            <l n="6">Weaponed thou art, and she <choice><orig>vnarmed</orig><reg>unarmed</reg></choice> sitteth:</l>
+            <l n="7">To the disdainful, all her life she leadeth:</l>
+            <l n="8">To me spiteful, without <choice><orig>iust</orig><reg>just</reg></choice> cause, or measure.</l>
+            <l n="9">Behold <choice><orig>Loue</orig><reg>Love</reg></choice>, how proudly she triumpheth,</l>
+            <l n="10">I am in hold, but if thee pitie <choice><orig>meueth</orig><reg>moveth</reg></choice>:</l>
+            <l n="11">Go, bend thy bow, that stony <choice><orig>hartes</orig><reg>hearts</reg></choice> breaketh:</l>
+            <l n="12">And with some stroke <choice><orig>reuenge</orig><reg>revenge</reg></choice> the great displeasure</l>
+            <l n="13">Of thee, and him that <choice><orig>sorow</orig><reg>sorrow</reg></choice> doth endure,</l>
             <l n="14">And as his Lord thee lowly here entreateth.</l>
          </lg>
-         <note type="translation" resp="#jawalsh">Translation of <title rendition="#i">Rvf</title> 140  by Henry Howard, Earl of Surrey (1517?–1547), from <title rendition="#i">Tottel’s Miscellany</title> (1557).</note>
+         <note type="translation" resp="#jawalsh">Translation of <title rendition="#i">Rvf</title> 121  by Thomas Wyatt (1521?-1554), from <title rendition="#i">Tottel’s Miscellany</title> (1557).</note>
          </div>
+         <!-- metadata -->
+         <!--
+            * author
+            * title
+            * date
+            * form
+         -->
       </body>
   </text>
 </TEI>
