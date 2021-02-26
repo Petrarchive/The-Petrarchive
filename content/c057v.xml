@@ -248,6 +248,8 @@
     
     <tagsDecl>
 
+        <rendition xml:id="sestet_marker" scheme="css"></rendition>
+        
         <rendition xml:id="b" n="tiebp:bold" scheme="css">
             font-weight:bold;
         </rendition> 
@@ -500,7 +502,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">~ Or in forma in <choice><abbr>nīpha</abbr><expan>nimpha</expan></choice> odaltra diua</l>
+                      <l n="9"><hi rendition="#sestet_maker">~</hi> Or in forma in <choice><abbr>nīpha</abbr><expan>nimpha</expan></choice> odaltra diua</l>
                       <l n="10">Che del piu chiaro fondo di Sorga esca <subst><del type="erasure"><gap reason="illegible"/><add>.</add></del></subst></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -535,7 +537,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">~ Laue cantando andai di te <choice><abbr>moltāni</abbr><expan>moltanni</expan></choice> .</l>
+                      <l n="9"><hi rendition="#sestet_maker">~</hi> Laue cantando andai di te <choice><abbr>moltāni</abbr><expan>moltanni</expan></choice> .</l>
                       <l n="10">Or come uedi &virg; uo di te piangendo .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -570,7 +572,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">~ Ben torna a consolar tanto dolore</l>
+                      <l n="9"><hi rendition="#sestet_maker">~</hi> Ben torna a consolar tanto dolore</l>
                       <l n="10"><choice><abbr>Madōna</abbr><expan>Madonna</expan></choice> &virg; oue pieta la riconduce .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -605,7 +607,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">~ Come <choice><abbr>dōna</abbr><expan>donna</expan></choice> in suo albergo altera uene</l>
+                      <l n="9"><hi rendition="#sestet_maker">~</hi> Come <choice><abbr>dōna</abbr><expan>donna</expan></choice> in suo albergo altera uene</l>
                       <l n="10"><choice><abbr>Scacciādo</abbr><expan>Scacciando</expan></choice> deloscuro &amp7; graue core</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">

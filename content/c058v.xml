@@ -248,6 +248,8 @@
     
     <tagsDecl>
 
+        <rendition xml:id="sestet_marker" scheme="css"></rendition>
+        
         <rendition xml:id="b" n="tiebp:bold" scheme="css">
             font-weight:bold;
         </rendition> 
@@ -500,7 +502,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">~ Lei ne ringratio <subst><del type="erasure"><gap reason="illegible" /></del><add>.</add></subst> el suo alto <choice><abbr>cōsiglio</abbr><expan>consiglio</expan></choice></l>
+                      <l n="9"><hi rendition="#sestet_maker">~</hi> Lei ne ringratio <subst><del type="erasure"><gap reason="illegible" /></del><add>.</add></subst> el suo alto <choice><abbr>cōsiglio</abbr><expan>consiglio</expan></choice></l>
                       <l n="10">Che col bel uiso &virg;&amp7; co soaui sdegni</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -535,7 +537,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">~ Mal ceco amor &virg; et la mia sorda¦ <choice><abbr>mēte</abbr><expan>mente</expan></choice></l>
+                      <l n="9"><hi rendition="#sestet_maker">~</hi> Mal ceco amor &virg; et la mia sorda¦ <choice><abbr>mēte</abbr><expan>mente</expan></choice></l>
                       <l n="10">Mi trauiauan si &virg; chandar&per; uiua</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -570,7 +572,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">~ I uostri dipartir non son si duri &virg;</l>
+                      <l n="9"><hi rendition="#sestet_maker">~</hi> I uostri dipartir non son si duri &virg;</l>
                       <l n="10">Chal men di notte suol tornar colei</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -605,7 +607,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">~ Et io pur uiuo . onde mi doglio &amp7; sdegno .</l>
+                      <l n="9"><hi rendition="#sestet_maker">~</hi> Et io pur uiuo . onde mi doglio &amp7; sdegno .</l>
                       <l n="10">Rimaso sençal lume chamai tanto</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">

@@ -245,6 +245,8 @@
     
     <tagsDecl>
 
+        <rendition xml:id="sestet_marker" scheme="css"></rendition>
+        
         <rendition xml:id="b" n="tiebp:bold" scheme="css">
             font-weight:bold;
         </rendition> 
@@ -497,7 +499,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">~	Et certo ogni mio studio &in; quel <choice><abbr>tēpo</abbr><expan>tempo</expan></choice> era</l>
+                      <l n="9"><hi rendition="#sestet_maker">~</hi> Et certo ogni mio studio &in; quel <choice><abbr>tēpo</abbr><expan>tempo</expan></choice> era</l>
                       <l n="10">Pur disfogare il doloroso core</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -532,7 +534,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">-   Che piangon dentro &virg; ouogni orecchia e sorda &virg;</l>
+                      <l n="9"><hi rendition="#sestet_maker">-</hi> Che piangon dentro &virg; ouogni orecchia e sorda &virg;</l>
                       <l n="10">Se &non; la mia<g ref="#punctelevhiback"/> cui <choice><abbr>tāta</abbr><expan>tanta</expan></choice> doglia <choice><abbr>īgōbra</abbr><expan>ingombra</expan></choice> .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -602,7 +604,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">-   Che non fu dallegreçça a suoi di mai</l>
+                      <l n="9"><hi rendition="#sestet_maker">-</hi> Che non fu dallegreçça a suoi di mai</l>
                       <l n="10">Di liberta &virg; di uita alm<subst><del type="erasure"><gap reason="illegible"/></del><add>a</add></subst> si uag<subst><del type="erasure"><gap reason="illegible"/></del><add>a</add></subst> &virg;</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">

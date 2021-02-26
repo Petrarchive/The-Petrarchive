@@ -248,6 +248,8 @@
     
     <tagsDecl>
 
+        <rendition xml:id="sestet_marker" scheme="css"></rendition>
+        
         <rendition xml:id="b" n="tiebp:bold" scheme="css">
             font-weight:bold;
         </rendition> 
@@ -500,7 +502,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">~ Ben riconosco in uoi lusate forme <subst><del type="erasure"><gap reason="illegible"/><add>.</add></del></subst></l>
+                      <l n="9"><hi rendition="#sestet_maker">~</hi> Ben riconosco in uoi lusate forme <subst><del type="erasure"><gap reason="illegible"/><add>.</add></del></subst></l>
                       <l n="10">Non lasso in me . che da si lieta uita</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -535,7 +537,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">~ Mio ben &non; cape in intelletto humano .</l>
+                      <l n="9"><hi rendition="#sestet_maker">~</hi> Mio ben &non; cape in intelletto humano .</l>
                       <l n="10">Te solo aspetto. &amp7; quel che <choice><abbr>tāto</abbr><expan>tanto</expan></choice> amasti</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -570,7 +572,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">~ O uaghi habitator de uerdi boschi &virg;</l>
+                      <l n="9"><hi rendition="#sestet_maker">~</hi> O uaghi habitator de uerdi boschi &virg;</l>
                       <l n="10">O <choice><abbr>nīphe</abbr><expan>nimphe</expan></choice> &virg; &amp7; uoi chel fresco herboso fondo</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -605,7 +607,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">~ Quel foco e morto . el copre un picciol marmo .</l>
+                      <l n="9"><hi rendition="#sestet_maker">~</hi> Quel foco e morto . el copre un picciol marmo .</l>
                       <l n="10">Che se col <choice><abbr>tēpo</abbr><expan>tempo</expan></choice> fossi ito <choice><abbr>auāçādo</abbr><expan>auançando</expan></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
