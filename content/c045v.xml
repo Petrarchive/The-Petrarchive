@@ -248,6 +248,8 @@
     
     <tagsDecl>
 
+        <rendition xml:id="sestet_marker" scheme="css"></rendition>
+        
         <rendition xml:id="b" n="tiebp:bold" scheme="css">
             font-weight:bold;
         </rendition> 
@@ -500,7 +502,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">· &Per;o soltra suo stile ella sauenta .</l> <!--check sestet marker-->
+                      <l n="9"><hi rendition="#sestet_maker">.</hi> &Per;o soltra suo stile ella sauenta .</l> <!--check sestet marker-->
                       <l n="10">Tulfai &virg; che si laccendi &#11789;&amp7; si lasproni .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">

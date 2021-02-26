@@ -248,6 +248,8 @@
     
     <tagsDecl>
 
+        <rendition xml:id="sestet_marker" scheme="css"></rendition>
+        
         <rendition xml:id="b" n="tiebp:bold" scheme="css">
             font-weight:bold;
         </rendition> 
@@ -535,7 +537,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">· Poi leuidi in un carro <choice><abbr>triūphale</abbr><expan>triumphale</expan></choice> .</l><!--Check sestet marker-->
+                      <l n="9"><hi rendition="#sestet_maker">.</hi> Poi leuidi in un carro <choice><abbr>triūphale</abbr><expan>triumphale</expan></choice> .</l><!--Check sestet marker-->
                       <l n="10">Laurea mia &con; suoi <choice><abbr>sāti</abbr><expan>santi</expan></choice> atti schifi .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -570,7 +572,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">·Il <choice><abbr>sōno</abbr><expan>sonno</expan></choice> e <choice><abbr>ueramēte</abbr><expan>ueramente</expan></choice> qual uom dice .</l><!--check sestet marker-->
+                      <l n="9"><hi rendition="#sestet_maker">.</hi> Il <choice><abbr>sōno</abbr><expan>sonno</expan></choice> e <choice><abbr>ueramēte</abbr><expan>ueramente</expan></choice> qual uom dice .</l><!--check sestet marker-->
                       <l n="10"><choice><abbr>Parēte</abbr><expan>Parente</expan></choice> delamorte . el cor sottragge .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -605,7 +607,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">·Chor mel par ritrouar &#11789;&amp7; or maccorgo</l>
+                      <l n="9"><hi rendition="#sestet_maker">.</hi> Chor mel par ritrouar &#11789;&amp7; or maccorgo</l>
                       <l n="10">Chi ne son <choice><abbr>lūge</abbr><expan>lunge</expan></choice>.or mi sollieuo or caggio .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">

@@ -678,7 +678,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">~ Ma se consentimento e di destino &virg;</l> <!-- Indentation of ~ -->
+                      <l n="9"><hi rendition="#sestet_maker">~</hi> Ma se consentimento e di destino &virg;</l> <!-- Indentation of ~ -->
                       <l n="10">Che posso io piu &virg; se no auer lalma trista .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -957,7 +957,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">                    
-                      <l n="9">~ Et se non fosse experientia molta</l> <!-- Indentation of ~ -->
+                      <l n="9"><hi rendition="#sestet_maker">~</hi> Et se non fosse experientia molta</l> <!-- Indentation of ~ -->
                       <l n="10">De primi <choice><abbr>affāni</abbr><expan>affanni</expan></choice> &virg; I sarei preso &virg; et arso &virg;</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -992,7 +992,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">~ Tornami auanti &virg; salcun dolce mai</l> <!-- Indentation of ~ -->
+                      <l n="9"><hi rendition="#sestet_maker">~</hi> Tornami auanti &virg; salcun dolce mai</l> <!-- Indentation of ~ -->
                       <l n="10">Ebbel cor tristo . &amp7; poi da laltra parte</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">

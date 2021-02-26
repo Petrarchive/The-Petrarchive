@@ -246,6 +246,8 @@
     
     <tagsDecl>
 
+        <rendition xml:id="sestet_marker" scheme="css"></rendition>
+        
         <rendition xml:id="b" n="tiebp:bold" scheme="css">
             font-weight:bold;
         </rendition> 
@@ -498,7 +500,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">~ De non rinouellar quel che <choice><abbr>nācide</abbr><expan>nancide</expan></choice>.</l> <!-- Indentation ~ -->
+                      <l n="9"><hi rendition="#sestet_maker">~</hi> De non rinouellar quel che <choice><abbr>nācide</abbr><expan>nancide</expan></choice>.</l> <!-- Indentation ~ -->
                       <l n="10">Non seguir piu penser uago &virg; fallace.</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -533,7 +535,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">~ In te i secreti suoi messaggi amore .</l> <!-- Indentation ~ -->
+                      <l n="9"><hi rendition="#sestet_maker">~</hi> In te i secreti suoi messaggi amore .</l> <!-- Indentation ~ -->
                       <l n="10">In te spiega fortuna ogni sua <choice><abbr>pōpa</abbr><expan>pompa</expan></choice> .	</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -568,7 +570,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">~ Dunque <choice><abbr>&per;che</abbr><expan>perches</expan></choice> mi date questa guerra .</l> <!-- Indentation ~ -->
+                      <l n="9"><hi rendition="#sestet_maker">~</hi> Dunque <choice><abbr>&per;che</abbr><expan>perches</expan></choice> mi date questa guerra .</l> <!-- Indentation ~ -->
                       <l n="10">Gia di perdere a uoi cagion &non; fui <g ref="#virgsusp"/></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -603,7 +605,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">~ Questo un &virg; morte &virg; ma tolto la tua mano .</l> <!-- Indentation ~ -->
+                      <l n="9"><hi rendition="#sestet_maker">~</hi> Questo un &virg; morte &virg; ma tolto la tua mano .</l> <!-- Indentation ~ -->
                       <l n="10">Et tu che copri &virg; e&amp7; guardi <g ref="#virgsusp"/> &amp7; ai or teco</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">

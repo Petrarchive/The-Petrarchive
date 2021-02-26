@@ -246,6 +246,8 @@
     
     <tagsDecl>
 
+        <rendition xml:id="sestet_marker" scheme="css"></rendition>
+        
         <rendition xml:id="b" n="tiebp:bold" scheme="css">
             font-weight:bold;
         </rendition> 
@@ -719,7 +721,7 @@
                        </lg>
                        <lg type="sestet">
                            <lg type="dblvrs" corresp="#canvasline">
-                               <l n="9">·Iui <subst><del type="erasure"><gap reason="illegible"></gap></del><add>e quel nostro uiuo &amp7; dolce so</add></subst>le .</l> <!-- check dot marking the beginning of the sestet -->
+                               <l n="9"><hi rendition="#sestet_maker">.</hi> Iui <subst><del type="erasure"><gap reason="illegible"></gap></del><add>e quel nostro uiuo &amp7; dolce so</add></subst>le .</l> <!-- check dot marking the beginning of the sestet -->
                                <l n="10">Chaddorna enfiora la tua riua manca .</l>
                            </lg>
                            <lg type="dblvrs" corresp="#canvasline">
@@ -754,7 +756,7 @@
                        </lg>
                        <lg type="sestet">
                            <lg type="dblvrs" corresp="#canvasline">
-                               <l n="9">·&Amp7; qual ceruo ferito di saetta.</l>
+                               <l n="9"><hi rendition="#sestet_maker">.</hi> &Amp7; qual ceruo ferito di saetta.</l>
                                <l n="10">Col ferro auelenato dentral fianco&virg;</l> <!-- check punctuation -->
                            </lg>
                            <lg type="dblvrs" corresp="#canvasline">
