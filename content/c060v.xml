@@ -243,6 +243,28 @@
             <mapping type="visual">&#xF1E1;</mapping>
         </char>
     </charDecl>
+    <charDecl>
+        <char xml:id="visigz">
+            <charName>LATIN SMALL LETTER VISIGOTHIC Z</charName>
+            <charProp>
+                <localName>entity</localName>
+                <value>visigz</value>
+            </charProp>
+            <mapping type="visual">&#xa763;</mapping>
+            <mapping type="MUFI">U+A763</mapping>
+            <mapping type="PUA">U+A763</mapping>
+        </char>
+    </charDecl>
+    <charDecl>
+        <char xml:id="visigzunderdot">
+            <charName>LATIN SMALL LETTER VISIGOTHIC Z WITH UNDERDOT</charName>
+            <charProp>
+                <localName>entity</localName>
+                <value>visigzunderdot</value>
+            </charProp>
+            <mapping type="visual">&#xa763;&#x0323;</mapping>
+        </char>
+    </charDecl>
     
     <tagsDecl>
 
