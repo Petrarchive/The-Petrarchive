@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="petrarchive.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="petrarchive.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>E’en in our Ashes Live our Wonted Fires</title>
+            <author>Wrangham, Francis</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>E’en in our Ashes Live our Wonted Fires</title>
+                  <author>Wrangham, Francis, 1769-1842</author>
+               </analytic>
+               <monogr>
+                  <title>The Sonnets, Triumphs, and Other Poems of Petrarch</title>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <publisher>Henry G. Bohn, York Street, Covent Garden</publisher>
+                     <date when="1859">1859</date>
+                     <biblScope unit="page">112</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <tagsDecl>
+           <!-- Basic text formatting: bold, italic, underline, "normal," etc. -->
+           <rendition xml:id="b" n="tiebp:bold" scheme="css">
+              font-weight:bold;
+           </rendition> 
+           
+           <rendition xml:id="i" n="tiebp:italic" scheme="css">
+              font-style:italic;
+           </rendition> 
+           
+           <rendition xml:id="u" n="tiebp:underline" scheme="css">
+              text-decoration:underline;
+           </rendition> 
+           
+           <rendition xml:id="n" n="teibp:normal" scheme="css">
+              font-weight:normal;
+              text-decoration:none;
+              font-style:normal;
+           </rendition>
+           
+           <rendition xml:id="mono" n="teibp:mono" scheme="css">
+              font-family:Monaco,Courier,monospace;
+           </rendition>
+           
+           <rendition xml:id="super" n="tiebp:super" scheme="css">
+              vertical-align:super;
+              font-size:80%;
+           </rendition>
+           
+           <rendition xml:id="sub" n="tiebp:sub" scheme="css">
+              vertical-align:sub;
+              font-size:80%;
+           </rendition>
+           
+           <rendition xml:id="lowercase" n="tiebp:lowercase" scheme="css">
+              text-transform:lowercase;
+           </rendition>
+           
+           <rendition xml:id="uppercase" n="tiebp:uppercase" scheme="css">
+              text-transform:uppercase;
+           </rendition>
+           
+           <rendition xml:id="capitalize" n="tiebp:capitalize" scheme="css">
+              text-transform:capitalize;
+           </rendition>
+           
+           <rendition xml:id="small-caps" n="tiebp:small-caps" scheme="css">
+              font-variant:small-caps;
+           </rendition>
+           
+           <!-- Blocks. -->
+           <rendition xml:id="block" n="tiebp:block" scheme="css">
+              display:block;
+           </rendition> 
+           
+           <rendition xml:id="blockquote" n="tiebp:blockquote" scheme="css">
+              display:block;
+              font-size:90%;
+              margin-left:3em;
+              padding-left:1em;
+              border-left: 1px solid gray;
+              margin-top:.75em;
+              margin-bottom:.75em;
+              padding-top:.75em;
+              padding-bottom:.75em;
+           </rendition>
+           
+           <rendition corresp="#blockquote" n="tiebp:blockquote" scheme="css" scope="before">
+              <!-- This turns off the default generated quotes for block quotes. -->
+              content:"" !important;
+           </rendition>
+           
+           <rendition corresp="#blockquote" n="tiebp:blockquote" scheme="css" scope="after">
+              <!-- This turns off the default generated quotes for block quotes. -->
+              content:"" !important;
+           </rendition>
+           
+           <rendition xml:id="codeblock" n="teibp:codeblock" scheme="css">
+              display: block;
+              font-size: 80%;
+              margin-left: 1em;
+              padding-left: 1em;
+              border-left: 1px solid gray;
+              margin-top: .75em;
+              margin-bottom: .75em;
+              padding-top: .75em;
+              padding-bottom: .75em;
+              font-family:Monaco,Courier,monospace;
+              white-space:pre;
+           </rendition>
+           
+           <!-- Inline -->
+           
+           <rendition xml:id="inline" n="teibp:inline" scheme="css">
+              display:inline;
+           </rendition>
+           
+           <!-- Alignment. -->
+           <rendition xml:id="center" n="tiebp:center" scheme="css">
+              display:block;
+              text-align:center;
+              margin-left:auto;
+              margin-right:auto;
+           </rendition>
+           
+           <rendition xml:id="left" n="teibp:left" scheme="css">
+              text-align:left;
+           </rendition>
+           
+           <rendition xml:id="right" n="teibp:right" scheme="css">
+              text-align:right;
+           </rendition>
+           
+           <rendition xml:id="justify" n="teibp:justify" scheme="css">
+              text-align:justify;
+           </rendition>
+           
+           <rendition xml:id="center-block" n="tiebp:center-block" scheme="css">
+              display:block;
+              margin-left:auto;
+              margin-right:auto;
+           </rendition>
+           
+           <!-- Indentation -->
+           <rendition xml:id="hang" n="teibp:hang" scheme="css">
+              display:block;
+              padding-left:2.5em;
+              text-indent:-2.5em;
+           </rendition>
+           
+           <!-- Indentation for verse lines. Results in a “hanging” indent if
+the line wraps. -->
+           <rendition xml:id="l-indent-01" n="tiebp:l-indent-01" scheme="css">
+              display:block;
+              padding-left:4em;
+              text-indent:-2em;
+           </rendition>
+           
+           <rendition xml:id="l-indent-02" n="tiebp:l-indent-02" scheme="css">
+              display:block;
+              padding-left:6em;
+              text-indent:-2em;
+           </rendition>
+           
+           <rendition xml:id="l-indent-03" n="tiebp:l-indent-03" scheme="css">
+              display:block;
+              padding-left:8em;
+              text-indent:-2em;
+           </rendition>
+           
+           <rendition xml:id="l-indent-04" n="tiebp:l-indent-04" scheme="css">
+              display:block;
+              padding-left:10em;
+              text-indent:-2em;
+           </rendition>
+           
+           <rendition xml:id="l-indent-05" n="tiebp:l-indent-05" scheme="css">
+              display:block;
+              padding-left:12em;
+              text-indent:-2em;
+           </rendition>
+           
+           <rendition xml:id="l-indent-06" n="tiebp:l-indent-06" scheme="css">
+              display:block;
+              padding-left:14em;
+              text-indent:-2em;
+           </rendition>
+           
+           <rendition xml:id="l-indent-07" n="tiebp:l-indent-07" scheme="css">
+              display:block;
+              padding-left:16em;
+              text-indent:-2em;
+           </rendition>
+           
+           <rendition xml:id="l-indent-08" n="tiebp:l-indent-08" scheme="css">
+              display:block;
+              padding-left:18em;
+              text-indent:-2em;
+           </rendition>
+           
+           <rendition xml:id="indent" n="tiebp:indent" scheme="css" scope="before">
+              /* text-indent:4em; */
+              /* The above method of describing an indentation for, say, a paragraph is 
+              preferred. The method being used is in response to a bug in some browsers 
+              whereby a block element, like a paragraph, is erroneously re-indented 
+              after interruption by another block element (like a list, which is valid,
+              in TEI, inside a paragraph). */
+              content:"\A0\A0\A0\A0\A0\A0";
+           </rendition>
+           
+           <!-- font sizes -->
+           
+           <rendition xml:id="small" n="tiebp:small" scheme="css">
+              font-size:90%;
+           </rendition>
+           
+           <rendition xml:id="x-small" n="tiebp:x-small" scheme="css">
+              font-size:85%;
+           </rendition>
+           
+           <rendition xml:id="xx-small" n="tiebp:xx-small" scheme="css">
+              font-size:80%;
+           </rendition>
+           
+           <rendition xml:id="large" n="tiebp:large" scheme="css">
+              font-size:110%;
+           </rendition>
+           
+           <rendition xml:id="x-large" n="tiebp:x-large" scheme="css">
+              font-size:115%;
+           </rendition>
+           
+           <rendition xml:id="xxx-large" n="tiebp:xxx-large" scheme="css">
+              font-size:120%;
+           </rendition>
+           
+           <rendition xml:id="bracket" n="teibp:bracket" scheme="css"/>
+           
+           <rendition corresp="#bracket" n="tiebp:bracket" scheme="css" scope="before">
+              content:"&lt;";
+           </rendition>
+           
+           <rendition corresp="#bracket" n="tiebp:bracket" scheme="css" scope="after">
+              content:">";
+           </rendition>
+           
+           <!-- petrarchive -->
+           <rendition xml:id="red" scheme="css"
+              >color:#9f1706;</rendition>
+           <rendition xml:id="blue" scheme="css"
+              >color:#12398c;</rendition>
+           <rendition xml:id="fs18pt" scheme="css"
+              >font-size:18pt;</rendition>
+           <rendition xml:id="fs24pt" scheme="css"
+              >font-size:24pt;</rendition>
+        </tagsDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div>
+            <head>E’en in our Ashes Live our Wonted Fires.</head>
+            <lg type="sonnet">
+               <l n="1">The seventeenth summer now, alas! is gone,</l>
+               <l n="2">And still with ardour unconsumed I glow;</l>
+               <l n="3">Yet find, whene’er myself I seek to know,</l>
+               <l n="4">Amidst the fire a frosty chill come on.</l>
+               <l n="5">Truly ’tis said, ‘Ere Habit quits her throne,</l>
+               <l n="6">Years bleach the hair.’ The senses feel life’s snow</l> 
+               <l n="7">But not less hot the tides of passion flow:</l>
+               <l n="8">Such is our earthly nature’s malison!</l>
+               <l n="9">Oh! come the happy day, when doom’d to smart</l>
+               <l n="10">No more, from flames and lingering sorrows free,</l>
+               <l n="11">Calm I may note how fast youth’s minutes flew</l>
+               <l n="12">Ah! will it e’er be mine the hour to see,</l>
+               <l n="13">When with delight, nor duty nor my heart</l>
+               <l n="14">Can blame, these eyes once more that angel face may view?</l>
+         </lg>
+         <note type="translation" resp="#jawalsh">Translation of <title rendition="#i">Rvf</title> 122  by Francis Wrangham (1769-1842), from <title rendition="#i">The Sonnets, Triumphs, and Other Poems of Petrarch</title> (1859).</note>
+         </div>
+         <!-- metadata -->
+         <!--
+            * author
+            * title
+            * date
+            * form
+         -->
+      </body>
+  </text>
+</TEI>
