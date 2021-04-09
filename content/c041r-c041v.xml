@@ -67,14 +67,18 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Petrarch’s <title rendition="#i">Rerum vulgarium fragmenta</title>: Charta 1 verso</title> 
+             <title>Petrarch’s <title rendition="#i">Rerum vulgarium fragmenta</title>: Charta 41 recto - 41 verso</title> 
             <editor xml:id="hws">H. Wayne Storey</editor>
             <editor xml:id="jaw">John A. Walsh</editor>
              <editor xml:id="im">Isabella Magni</editor>
             <respStmt>
                <resp>Encoder</resp>
-               <name xml:id="amm"></name>
+               <name xml:id="mtdl">Maria Teresa De Luca</name>
             </respStmt>
+             <respStmt>
+                 <resp>Encoder</resp>
+                 <name xml:id="ps">Paolo Scartoni</name>
+             </respStmt>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>

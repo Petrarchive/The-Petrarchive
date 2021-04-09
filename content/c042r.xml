@@ -70,13 +70,14 @@
             <title>Petrarch’s <title rendition="#i">Rerum vulgarium fragmenta</title>: Charta 42 recto</title> <!-- Change the charta number according to the charta that is being encoded. Here the example is encoding c.1v -->
             <editor xml:id="hws">H. Wayne Storey</editor>
             <editor xml:id="jaw">John A. Walsh</editor>
+             <editor xml:id="im">Isabella Magni</editor>
             <respStmt>
                <resp>Encoder</resp>
-               <name xml:id="amm">Paolo Scartoni</name>
+               <name xml:id="ps">Paolo Scartoni</name>
             </respStmt>
             <respStmt>
                <resp></resp>
-               <name xml:id="im"></name>
+               <name></name>
             </respStmt>
          </titleStmt>
          <publicationStmt>

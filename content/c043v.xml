@@ -67,16 +67,13 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Petrarch’s <title rendition="#i">Rerum vulgarium fragmenta</title>: Charta 1 verso</title> <!-- Change the charta number according to the charta that is being encoded. Here the example is encoding c.1v -->
+            <title>Petrarch’s <title rendition="#i">Rerum vulgarium fragmenta</title>: Charta 43 verso</title> <!-- Change the charta number according to the charta that is being encoded. Here the example is encoding c.1v -->
             <editor xml:id="hws">H. Wayne Storey</editor>
             <editor xml:id="jaw">John A. Walsh</editor>
+             <editor xml:id="im">Isabella Magni</editor>
             <respStmt>
                <resp>Encoder</resp>
-               <name xml:id="amm">Allison M. McCormack</name>
-            </respStmt>
-            <respStmt>
-               <resp>Associate Editor</resp>
-               <name xml:id="im">Isabella Magni</name>
+               <name xml:id="ps">Paolo Scartoni</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
