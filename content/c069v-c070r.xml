@@ -536,18 +536,18 @@ the line wraps. -->
             <lg type="dblvrs" corresp="#msline">
               <l n="1"><hi rendition="#black #fs24pt">D</hi>icemi spesso il mio fidato speglio&p2c;</l>    
               <l n="2"><choice><orig>Lanimo</orig><reg>L’animo</reg></choice> <choice><abbr>stāco</abbr><expan>stanco</expan></choice><choice><orig> <g ref="#virgsusp"/></orig><reg>,</reg></choice> &amp7; 
-                <choice><orig><abbr>lacāgiata</abbr><expan>lacangiata</expan></orig><reg>la cangiata</reg></choice> <choice><orig>scorça</orig><reg>scorza</reg></choice> <fw>.26.</fw></l>
+                <choice><orig><abbr>lacāgiata</abbr><expan>lacangiata</expan></orig><reg>la cangiata</reg></choice> <choice><orig>scorça</orig><reg>scorza</reg></choice><choice><orig> .</orig><reg/></choice> <fw>.26.</fw></l>
             </lg>
             <lg type="dblvrs" corresp="#msline">
               <l n="3">Et la scemata mia <choice><orig>destreçça</orig><reg>destrezza</reg></choice> &amp7; <choice><orig>força</orig><reg>forza</reg></choice><choice><orig> /</orig><reg>:</reg></choice></l>  
               <l n="4">&Non; <choice><orig><abbr>tinascōder</abbr><expan>tinasconder</expan></orig><reg>ti nasconder</reg></choice> <choice><orig>piu</orig><reg>più</reg></choice>&p2s; 
-                tu se<supplied>’</supplied> pur <choice><orig>ueglio</orig><reg>veglio</reg></choice>.</l>
+                tu se<supplied>’</supplied> pur <choice><orig>ueglio</orig><reg>veglio</reg></choice><choice><orig> .</orig><reg>.</reg></choice></l>
             </lg>
             <lg type="dblvrs" corresp="#msline">
               <l n="5">Obedir <choice><orig>anatura</orig><reg>a natura</reg></choice> &in; tutto &egrave_reg; <choice><orig>ilmeglio</orig><reg>il meglio</reg></choice>&p2c;</l>   
               <l n="6"><choice><orig><abbr>Chacōtender</abbr><expan>Chacontender</expan></orig><reg>Ch’a contender</reg></choice> 
                 <choice><orig><abbr>cōlei</abbr><expan>conlei</expan></orig><reg>con lei</reg></choice> il 
-                <choice><abbr>tēpo</abbr><expan>tempo</expan></choice> ne <choice><orig>sforça</orig><reg>sforza</reg></choice>.</l>
+                  <choice><abbr>tēpo</abbr><expan>tempo</expan></choice> ne <choice><orig>sforça</orig><reg>sforza</reg></choice><choice><orig> .</orig><reg>.</reg></choice></l>
             </lg>
             <lg type="dblvrs" corresp="#msline">
               <l n="7">Subito allor&p2c; <choice><orig>comacqualfoco</orig><reg>com’acqua ’l foco</reg></choice> <choice><orig>amorça</orig><reg>amorza</reg></choice><supplied>,</supplied></l>  
@@ -558,7 +558,7 @@ the line wraps. -->
           <lg type="sestet">
             <lg type="dblvrs" corresp="#msline">
               <l n="9">Et <choice><orig>ueggio</orig><reg>veggio</reg></choice> ben <choice><orig>chelnostro</orig><reg>che ’l nostro</reg></choice> <choice><orig>uiuer</orig><reg>viver</reg></choice> <choice><orig>uola</orig><reg>vola</reg></choice></l> 
-              <l n="10">Et <choice><orig>chessernon</orig><reg>ch’esser non</reg></choice> si <choice><orig>po</orig><reg>pò</reg></choice> <choice><orig>piu</orig><reg>più</reg></choice> <choice><orig>duna</orig><reg>d’una</reg></choice> <choice><orig>uolta</orig><reg>volta</reg></choice>.</l>
+                <l n="10">Et <choice><orig>chessernon</orig><reg>ch’esser non</reg></choice> si <choice><orig>po</orig><reg>pò</reg></choice> <choice><orig>piu</orig><reg>più</reg></choice> <choice><orig>duna</orig><reg>d’una</reg></choice> <choice><orig>uolta</orig><reg>volta</reg></choice><choice><orig> .</orig><reg>.</reg></choice></l>
             </lg>
             <lg type="dblvrs" corresp="#msline">
               <l n="11"><choice><orig>En</orig><reg>E ’n</reg></choice> <choice><orig>meççol</orig><reg>mezzo ’l</reg></choice> cor mi sona una parola</l>   
@@ -566,8 +566,8 @@ the line wraps. -->
             </lg>
             <lg type="dblvrs" corresp="#msline">
               <l n="13"><subst><del><gap reason="erasure"/></del><add>Ma ne<supplied>’</supplied> suoi giorni <choice><orig><abbr>almōdo</abbr><expan>almondo</expan></orig><reg>al mondo</reg></choice> 
-                fu &si; sola<choice><orig><g ref="#virgsusp"/></orig><reg>,</reg></choice></add></subst></l>    
-              <l n="14"><choice><orig>Chatutte</orig><reg>Ch’a tutte</reg></choice>&v2c; <choice><orig>si</orig><reg>s’i</reg></choice><supplied>’</supplied> &non; erro&v2c; fama <choice><orig>a</orig><reg>à</reg></choice> tolta.</l>
+                fu &si; sola</add></subst> <choice><orig><g ref="#virgsusp"/></orig><reg>,</reg></choice></l>    
+                <l n="14"><choice><orig>Chatutte</orig><reg>Ch’a tutte</reg></choice>&v2c; <choice><orig>si</orig><reg>s’i</reg></choice><supplied>’</supplied> &non; erro&v2c; fama <choice><orig>a</orig><reg>à</reg></choice> tolta<choice><orig> .</orig><reg>.</reg></choice></l>
             </lg>
           </lg>
         </lg>
