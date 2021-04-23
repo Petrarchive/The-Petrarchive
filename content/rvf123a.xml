@@ -5,7 +5,7 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>E’en in our Ashes Live our Wonted Fires</title>
+            <title>Leave-Taking</title>
             <author>Wrangham, Francis</author>
          </titleStmt>
          <publicationStmt>
@@ -14,7 +14,7 @@
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title>E’en in our Ashes Live our Wonted Fires</title>
+                  <title>Leave-Taking</title>
                   <author>Wrangham, Francis, 1769-1842</author>
                </analytic>
                <monogr>
@@ -22,8 +22,8 @@
                   <imprint>
                      <pubPlace>London</pubPlace>
                      <publisher>Henry G. Bohn, York Street, Covent Garden</publisher>
-                     <date when="1859">1859</date>
-                     <biblScope unit="page">112</biblScope>
+                     <date when="1859"/>
+                     <biblScope unit="page">113</biblScope>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -271,24 +271,24 @@ the line wraps. -->
   <text>
       <body>
          <div>
-            <head>E’en in our Ashes Live our Wonted Fires.</head>
+            <head>Leave-Taking.</head>
             <lg type="sonnet">
-               <l n="1">The seventeenth summer now, alas! is gone,</l>
-               <l n="2">And still with ardour unconsumed I glow;</l>
-               <l n="3">Yet find, whene’er myself I seek to know,</l>
-               <l n="4">Amidst the fire a frosty chill come on.</l>
-               <l n="5">Truly ’tis said, ‘Ere Habit quits her throne,</l>
-               <l n="6">Years bleach the hair.’ The senses feel life’s snow</l> 
-               <l n="7">But not less hot the tides of passion flow:</l>
-               <l n="8">Such is our earthly nature’s malison!</l>
-               <l n="9">Oh! come the happy day, when doom’d to smart</l>
-               <l n="10">No more, from flames and lingering sorrows free,</l>
-               <l n="11">Calm I may note how fast youth’s minutes flew</l>
-               <l n="12">Ah! will it e’er be mine the hour to see,</l>
-               <l n="13">When with delight, nor duty nor my heart</l>
-               <l n="14">Can blame, these eyes once more that angel face may view?</l>
+               <l n="1"><hi rendition="#small-caps">That</hi> witching paleness, which with cloud of love</l>
+               <l n="2">Veil’d her sweet smile, majestically bright,</l>
+               <l n="3">So thrill’d my heart, that from the bosom’s night</l>
+               <l n="4">Midway to meet it on her face it strove.</l>
+               <l n="5">Then learnt I how, ’mid realms of joy above,</l>
+               <l n="6">The blest behold the blest: in such pure light</l>
+               <l n="7">I scann’d her tender thought, to others’ sight</l>
+               <l n="8">Viewless! – but my fond glances would not rove.</l>
+               <l n="9">Each angel grace, each lowly courtesy,</l>
+               <l n="10">E’er traced in dame by Love’s soft power inspired,</l>
+               <l n="11">Would seem but foils to those which prompt my lay:</l>
+               <l n="12">Upon the ground was cast her gentle eye,</l>
+               <l n="13">And still methought, though silent, she inquired,</l>
+               <l n="14">“What bears my faithful friend so soon, so far away?”</l>
          </lg>
-            <note type="translation" resp="#jawalsh">Translation of <title rendition="#i">Rvf</title> 122  by Francis Wrangham (1769-1842), from <title>A Few Sonnets Attempted from Petrarch in Early Life</title> (1817); text from <title rendition="#i">The Sonnets, Triumphs, and Other Poems of Petrarch</title> (1859).</note>
+            <note type="translation" resp="#jawalsh">Translation of <title rendition="#i">Rvf</title> 123 by Francis Wrangham (1769-1842), from <title>A Few Sonnets Attempted from Petrarch in Early Life</title> (1817); text from <title rendition="#i">The Sonnets, Triumphs, and Other Poems of Petrarch</title> (1859).</note>
          </div>
          <!-- metadata -->
          <!--
