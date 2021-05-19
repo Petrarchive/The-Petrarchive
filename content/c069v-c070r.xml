@@ -150,7 +150,7 @@
             <localName>entity</localName>
             <value>virgsusp</value>
          </charProp>
-         <mapping type="visual">/&#x20d9;</mapping>
+          <mapping type="visual">&#xF1F4;</mapping>
          <mapping type="MUFI">U+F1F4</mapping>
          <mapping type="PUA">U+F1F4</mapping>
       </char>
