@@ -561,7 +561,7 @@
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="3">Nuoto &per; mar che &non; a fondo o riua .</l>
-                      <l n="4">Solco <subst><del type="erasure"><gap reason="illegible"></gap></del><add>onde</add></subst> &#11850; en rena fondo . &amp7; scriuo &in; <choice><abbr>uēto</abbr><expan>vento</expan></choice> .</l>
+                      <l n="4">Solco <subst><del type="erasure"><gap reason="illegible"></gap></del><add>onde</add></subst> <g ref="#virgsusp"/> en rena fondo . &amp7; scriuo &in; <choice><abbr>uēto</abbr><expan>vento</expan></choice> .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="5">El sol uagheggio. sichelli a gia spento</l>
