@@ -4,11 +4,11 @@
 * [_Rvf_ 15](rvf015a.xml), Io mi rivolgo indietro a ciascun passo. Symonds (1874) 
 * [_Rvf_ 16](rvf016a.xml), Movesi il vecchierel canuto et biancho. Symonds (1874) 
 * [_Rvf_ 81](rvf081a.xml), Io son sì stanco sotto ’l fascio antico. Symonds (1874) 
-* [_Rvf_ 121](rvf121a.xml), 
-* [_Rvf_ 121](rvf121b.xml), 
-* [_Rvf_ 122](rvf122a.xml), 
-* [_Rvf_ 123](rvf123a.xml), 
-* [_Rvf_ 124](rvf124a.xml), 
+* [_Rvf_ 121](rvf121a.xml), Or vedi, Amor, che giovenetta donna. Wyatt (1557)
+* [_Rvf_ 121](rvf121b.xml), Or vedi, Amor, che giovenetta donna. Ayres (1687)
+* [_Rvf_ 122](rvf122a.xml), Wrangham (1859)
+* [_Rvf_ 123](rvf123a.xml), (1859)
+* [_Rvf_ 124](rvf124a.xml), Wyatt (1557)
 * [_Rvf_ 138](rvf138a.xml), Fontana di dolore, albergo d’ira. Symonds (1874) 
 * [_Rvf_ 140](rvf140a.xml), Amor, che nel penser mio vive et regna. Surrey (1557). 
 * [_Rvf_ 292](rvf292a.xml), Gli occhi di ch’io parlai sì caldamente. Symonds (1874) 
