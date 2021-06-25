@@ -7,7 +7,7 @@
 * [_Rvf_ 121](rvf121a.xml), Or vedi, Amor, che giovenetta donna. Wyatt (1557)
 * [_Rvf_ 121](rvf121b.xml), Or vedi, Amor, che giovenetta donna. Ayres (1687)
 * [_Rvf_ 122](rvf122a.xml), Wrangham (1859)
-* [_Rvf_ 123](rvf123a.xml), (1859)
+* [_Rvf_ 123](rvf123a.xml), Wrangham (1859)
 * [_Rvf_ 124](rvf124a.xml), Wyatt (1557)
 * [_Rvf_ 138](rvf138a.xml), Fontana di dolore, albergo d’ira. Symonds (1874) 
 * [_Rvf_ 140](rvf140a.xml), Amor, che nel penser mio vive et regna. Surrey (1557). 
