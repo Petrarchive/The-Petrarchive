@@ -45,8 +45,8 @@
             </dl>
             <dl>
             <dt>Isabella Magni, Editor</dt>
-            <dd>Isabella Magni is <a href="https://italian.rutgers.edu/people/instructors">Postdoctoral Associate in Italian and Digital Humanities</a> at Rutgers University. Isabella is editor of the Petrarchive (with Wayne Storey and John Walsh) and <a href="https://italian-paleography.library.utoronto.ca">Italian Paleography</a> (with Lia Markey and Maddalena Signorini). She teaches and conducts research in digital humanities and digital philology, Medieval and Early modern literature, history of the book, Petrarch and Dante. She edited a special issue on digital paleography for the <a href="https://emdr.itercommunity.org/index.php/emdr">Early Modern Digital Review</a> (Fall '20) and serves as digital editor for <a href="http://textual-cultures.org/">Textual Cultures</a> journal. She is currently working on a new digital edition of the <a href="http://isamagni.com/?page_id=228#albizzi ">Albizi Memorial Book</a> and a monograph on forms and textualities of Medieval memorial books.<br/>
-						Before joining Rutgers Italian Department, Isabella was Mellon Postdoctoral Fellow at the Newberry Library in Chicago and earned her PhD in Italian and Medieval Studies at Indiana University.
+            <dd>Isabella Magni is Postdoctoral Fellow at the HathiTrust Research Center (Luddy School of Informatics, Indiana University) where she will manage and collaborate with five digital humanities projects that tell the story of historically under-resourced and marginalized textual communities. In addition to her work as Co-Editor of the Petrarchive, Isabella is also Editor of <a href="https://italian-paleography.library.utoronto.ca">Italian Paleography</a> (with Lia Markey and Maddalena Signorini). She teaches and conducts research in digital humanities and digital philology, Medieval and Early modern literature, history of the book, Petrarch and Dante. She recently co-edited a volume on <a href="https://brill.com/view/title/58363">Interpretation and visual poetics in Medieval and Early Modern texts</a> (2021), edited a special issue on <a href="https://emdr.itercommunity.org/index.php/emdr/issue/view/8">Digital Paleography</a> for the Early Modern Digital Review journal (2020) and serves as digital editor for <a href="http://textual-cultures.org/">Textual Cultures</a> journal. She is currently working on a new digital edition of the <a href="http://isamagni.com/?page_id=228#albizzi ">Albizi Memorial Book</a> and a monograph on forms and textualities of Medieval memorial books.<br/>
+						Before joining HTRC and Indiana University, Isabella was Postdoctoral Associate in Italian and Digital Humanities at Rutgers University (2019-2021) and Mellon Postdoctoral Fellow in Digital Paleography at the Newberry Library in Chicago (2017-2019). She earned her PhD in Italian and Medieval Studies at Indiana University (2017).
             <br/>
             Homepage: <a href="http://isamagni.com">http://isamagni.com</a>.<br/>
             </dd>
@@ -63,8 +63,14 @@
             </dl>
 
 						<dl>
-            <dt>Morgan Anderson, Encoder<!-- 2019-present --></dt><dd />
-            </dl>
+						<dt>Marco Aresu, Textual Analyst<!-- 2020-present --></dt><dd />
+						<dd>Homepage: <a href="https://www.wesleyan.edu/academics/faculty/faresu/profile.html">https://www.wesleyan.edu/academics/faculty/faresu/profile.html</a></dd>
+						</dl>
+
+						<dl>
+						<dt>Giulia Benghi, Textual Analyst<!-- 2020-present --></dt><dd />
+						<dd>Giulia Benghi received her Ph.D. in Italian and Manuscript Studies at Indiana University in 2020, with a dissertation that examines the material and philological conditions of the codex Cologny, Bodmer 131. Her main research interests include manuscript tradition and literature in fourteenth- and fifteenth-century Italy, material philology, codicology, and textual editing. She presented on <em>Boccaccio’s Scholarship and His Copy Method</em> at the 2013 Medieval Studies Conference in Kalamazoo and on the codex Cologny Bodmer 131 at the 2015 Binghamton Conference on Italian Songbooks. Her essay on the transcriptional habits employed by scribes for the five genres of Petrarch’s RVF in the late fourteenth century appeared in the journal “Textual Cultures” in Spring 2020, issue 13:1, titled <em>Transcribing Petrarch’s Genres in the Late Fourteenth Century. An Ongoing Conversation with the Observations from MMS Cologny Bodmer 131 and Gambalunga SC-Ms. 93</em>.</dd>
+						</dl>
 
             <dl>
             <dt>Abraham Kim, Web Developer <!-- 2017-present --></dt><dd />
@@ -73,6 +79,9 @@
 
 
             <h2>Past Contributors</h2>
+						<dl>
+						<dt>Morgan Anderson, Encoder (2019-2020)<!-- 2019-present --></dt><dd />
+						</dl>
 						<dl>
             <dt>Rebecca Parker, Encoder (2018)</dt><dd />
             </dl>
