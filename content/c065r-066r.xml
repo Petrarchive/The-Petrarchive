@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="petrarchive.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="petrarchive.xsl"?>
+<!DOCTYPE TEI [
+<!-- Firefox does not play nice with parameter entities. So I had to embed the stuff in here. We can go back to the "better" way with parameter entities, but need to pre-process the documents to remove all entity references before moving to petarchive.org. 
+<!ENTITY % petrarchive_entities SYSTEM "petrarchive.ent">
+%petrarchive_entities;
+-->
+<!ENTITY amp7 "<choice><abbr>&amp;</abbr><expan>et</expan></choice>">
+<!ENTITY Amp7 "<choice><abbr>&amp;</abbr><expan>Et</expan></choice>">
+<!ENTITY per "<choice><abbr>ꝑ</abbr><expan>per</expan></choice>">
+<!ENTITY Per "<choice><abbr>Ꝑ</abbr><expan>Per</expan></choice>">
+<!ENTITY virg "/">
+<!ENTITY virg-underdot "/&#x0323;">
+<!ENTITY Non "<choice><abbr>Nō</abbr><expan>Non</expan></choice>">
+<!ENTITY impresa "<choice><abbr>īpresa</abbr><expan>impresa</expan></choice>">
+<!ENTITY Impresa "<choice><abbr>Īpresa</abbr><expan>Impresa</expan></choice>">
+<!ENTITY sempre "<choice><abbr>sēpre</abbr><expan>sempre</expan></choice>">
+<!ENTITY Sempre "<choice><abbr>Sēpre</abbr><expan>Sempre</expan></choice>">
+<!ENTITY quanto "<choice><abbr>quāto</abbr><expan>quanto</expan></choice>">
+<!ENTITY Quanto "<choice><abbr>Quāto</abbr><expan>Quanto</expan></choice>">
+<!ENTITY quando "<choice><abbr>quādo</abbr><expan>quando</expan></choice>">
+<!ENTITY Quando "<choice><abbr>Quādo</abbr><expan>Quando</expan></choice>">
+<!ENTITY giorno "<choice><abbr>giõno</abbr><expan>giorno</expan></choice>">
+<!ENTITY non "<choice><abbr>nō</abbr><expan>non</expan></choice>">
+<!ENTITY in "<choice><abbr>ī</abbr><expan>in</expan></choice>">
+<!ENTITY pre "<choice><abbr>&p-macron;</abbr><expan>pre</expan></choice">
+<!ENTITY con "<choice><abbr>cō</abbr><expan>con</expan></choice>">
+<!ENTITY Con "<choice><abbr>cō</abbr><expan>Con</expan></choice>">
+<!ENTITY son "<choice><abbr>sō</abbr><expan>son</expan></choice>">
+<!ENTITY Son "<choice><abbr>sō</abbr><expan>Son</expan></choice>">
+<!ENTITY q-tilde "q&#x0303;">
+<!ENTITY q-macron "q&#x0304;">
+<!ENTITY p-macron "p&#x0304;">
+<!ENTITY b-combtild "b&#xFE23;">
+<!ENTITY p-dot "p&#x0307;">
+<!ENTITY u-vert-tilde "u&#x033E;">
+<!ENTITY p-vert-line "p&#x030D;">
+<!ENTITY uia "<choice><orig>uia</orig><reg>via</reg></choice>">
+<!ENTITY uai "<choice><orig>uai</orig><reg>vai</reg></choice>">
+<!ENTITY vita "<choice><orig>uita</orig><reg>vita</reg></choice>">
+<!ENTITY regapos "<reg>’</reg>">
+<!ENTITY uolta "<choice><orig>uolta</orig><reg>volta</reg></choice>">
+<!ENTITY uolte "<choice><orig>uolte</orig><reg>volte</reg></choice>">
+<!ENTITY perche "<choice><orig>perche</orig><reg>perché</reg></choice>">
+<!ENTITY egrave_reg "<choice><orig>e</orig><reg>è</reg></choice>">
+<!ENTITY si "<choice><orig>si</orig><reg>sì</reg></choice>">
+<!ENTITY Si "<choice><orig>Si</orig><reg>Sì</reg></choice>">
+<!ENTITY e "<choice><orig>e</orig><reg>è</reg></choice>">
+<!ENTITY piu "<choice><orig>piu</orig><reg>più</reg></choice>">
+<!ENTITY Piu "<choice><orig>Piu</orig><reg>Più</reg></choice>">
+<!ENTITY quello "<choice><abbr>&q-macron;llo</abbr><expan>quello</expan></choice>">
+<!ENTITY fiamma "<choice><abbr>fiāma</abbr><expan>fiamma</expan></choice>">
+<!-- period "p" to "2" comma "c" -->
+<!ENTITY p2c "<choice><orig>.</orig><reg>,</reg></choice>">
+<!ENTITY p2colon "<choice><orig>.</orig><reg>:</reg></choice>">
+<!ENTITY p2semicolon "<choice><orig>.</orig><reg>;</reg></choice>">
+<!ENTITY p2e "<choice><orig>.</orig><reg>!</reg></choice>">
+<!ENTITY c2p "<choice><orig>,</orig><reg>.</reg></choice>">
+<!ENTITY v2c "<choice><orig> /</orig><reg>,</reg></choice>">
+<!ENTITY v2q "<choice><orig> /</orig><reg>?</reg></choice>">
+<!ENTITY pilcrow2section "<choice><orig>¶</orig><reg>§</reg></choice>">
+<!ENTITY punctelevhiback "&#xF1FA;">
+<!ENTITY encodingDesc SYSTEM "encodingDesc.xml"> 
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Petrarch’s <title rendition="#i">Rerum vulgarium fragmenta</title>: Chartae 65 recto - 66 recto</title> <!-- Change the charta number according to the charta that is being encoded. Here the example is encoding c.1v -->
+            <editor xml:id="hws">H. Wayne Storey</editor>
+            <editor xml:id="jaw">John A. Walsh</editor>
+            <editor xml:id="im">Isabella Magni</editor>
+            <respStmt>
+               <resp>Encoder</resp>
+               <name xml:id="ps">Paolo Scartoni</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+        <seriesStmt>
+          <title>The Petrarchive: An Edition of Petrarch’s Songbook</title>
+          <respStmt>
+            <resp> Edited by </resp>
+            <name> Wayne Storey </name>
+            <name> John Walsh</name>
+          </respStmt>
+        </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:id="vat.lat.3195">
+               <msIdentifier>
+                  <country>Vatican City</country>
+                  <repository>Vatican Library</repository>
+                  <collection>Vat. lat.</collection>
+                  <idno>3195</idno>
+                  <msName>Vat. lat. 3195</msName>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+
+<encodingDesc xmlns="http://www.tei-c.org/ns/1.0">
+    <p>Where <gi>reg</gi> appears without a parent <gi>choice</gi>, the <gi>reg</gi> indicates supplied text that has been supplied for normalization or modernization purposes. <gi>supplied</gi> was not used because <gi>supplied</gi> is properly for text supplied for text missing due to damage, for instance.</p>
+    <p n="ms lines">In Petrarch's personal copy of the RVF, he consistently uses a ruled 31-line “canvas” for the layout of the poems. There is one exception, Rvf XXX, where an extra line is added to the underlying canvas. Elements that occupy a ruled manuscript line are tagged with the attribute <code>@corresp="#canvasline"</code>, where <code>#msline</code> references a category in a taxonomy of "graphic features" in the <gi>teiHeader</gi></p>
+    <classDecl>
+        <taxonomy n="graphic features">
+            <category xml:id="canvasline"><catDesc>A single ruled line in a manuscript</catDesc></category>
+        </taxonomy>
+      <taxonomy n="spaces">
+        <bibl>
+          <author>Storey, H. Wayne</author>
+          <title>Petrarchive Spaces</title>
+          <ptr target="http://bit.ly/1cXwcIU"/></bibl>
+        <category xml:id="space.placeholder">
+          <catDesc>placeholder</catDesc>
+        </category>
+        <category xml:id="space.stop">
+          <catDesc>stop space</catDesc>
+        </category>
+        <category xml:id="space.potential">
+          <catDesc>potential space</catDesc>
+        </category>
+        <category xml:id="space.reclaimed">
+          <catDesc>reclaimed space</catDesc>
+          <category xml:id="space.reclaimed.erasure_complete_and_recycling">
+            <catDesc>complete erasure and recycling</catDesc>
+          </category>
+          <category xml:id="space.reclaimed.erasure_partial_and_recycling">
+            <catDesc>partial erasure and recycling</catDesc>
+          </category>
+          <category xml:id="space.reclaimed.erasure_and_elimination">
+            <catDesc>erasure and elimination</catDesc>
+          </category>
+          <category xml:id="space.reclaimed.elimination">
+            <catDesc>elimination</catDesc>
+          </category>
+        </category>
+        <category xml:id="space.descriptive_sestina">
+          <catDesc>descriptive sestina space</catDesc>
+        </category>
+        <category xml:id="space">
+          <catDesc>generic space,intercolumnar space, interblock space</catDesc>
+        </category>
+      </taxonomy>
+    </classDecl>
+  <charDecl>
+    <char xml:id="qbardes">
+      <charName>LATIN SMALL LETTER Q WITH STROKE THROUGH DESCENDER</charName>
+      <charProp>
+        <localName>entity</localName>
+        <value>qbardes</value>
+      </charProp>
+      <mapping type="visual">&#xa757;</mapping>
+      <mapping type="MUFI">U+A757</mapping>
+      <mapping type="PUA">U+A757</mapping>
+    </char>
+  </charDecl>
+    <charDecl>
+        <char xml:id="punctelevhiback">
+            <charName>PUNCTUS ELEVATUS WITH HIGH
+                BACK</charName>
+            <charProp>
+                <localName>entity</localName>
+                <value>punctelevhiback</value>
+            </charProp>
+            <mapping type="visual"
+                >.&#x0312;</mapping>
+            <mapping type="MUFI">U+F1FA</mapping>
+            <mapping type="PUA">U+F1FA</mapping>
+        </char>
+    </charDecl>
+    <charDecl>
+        <char xml:id="virgsusp">
+            <charName>VIRGULA SUSPENSIVA</charName>
+            <charProp>
+                <localName>entity</localName>
+                <value>virgsusp</value>
+            </charProp>
+            <mapping type="visual">&#xF1F4;</mapping>
+            <mapping type="MUFI">U+F1F4</mapping>
+            <mapping type="PUA">U+F1F4</mapping>
+        </char>
+    </charDecl>
+    <charDecl>
+        <char xml:id="punctinter">
+            <charName>PUNCTUS INTERROGATIVUS</charName>
+            <charProp>
+                <localName>entity</localName>
+                <value>punctinter</value>
+            </charProp>
+            <mapping type="visual">?</mapping>
+            <mapping type="MUFI">U+F160</mapping>
+            <mapping type="PUA">U+F160</mapping>
+        </char>
+    </charDecl>
+    <charDecl>
+        <char xml:id="brvbar">
+            <charName>BROKEN BAR</charName>
+            <charProp>
+                <localName>entity</localName>
+                <value>brvbar</value>
+            </charProp>
+            <mapping type="visual">&#x00A6;</mapping>
+            <mapping type="MUFI">U+00A6</mapping>
+            <mapping type="PUA">U+00A6</mapping>
+        </char>
+        
+        <char xml:id="pflour">
+            <charName>LATIN SMALL LETTER P WITH
+                FLOURISH</charName>
+            <charProp>
+                <localName>entity</localName>
+                <value>pflour</value>
+            </charProp>
+            <mapping type="visual"
+                >&#xa753;</mapping>
+            <mapping type="MUFI">U+A753</mapping>
+            <mapping type="PUA">U+A753</mapping>
+        </char>
+        
+    </charDecl>
+    <charDecl>
+        <char xml:id="verbar">
+            <charName>VERTICAL LINE</charName>
+            <charProp>
+                <localName>entity</localName>
+                <value>verbar</value>
+            </charProp>
+            <mapping type="visual">&#x007c;</mapping>
+            <mapping type="MUFI">U+007C</mapping>
+            <mapping type="PUA">U+007C</mapping>
+        </char>
+    </charDecl>
+    <charDecl>
+        <char xml:id="parag">
+            <charName>PARAGRAPHUS</charName>
+            <charProp>
+                <localName>entity</localName>
+                <value>parag</value>
+            </charProp>
+            <mapping type="visual">&#xF1E1;</mapping>
+        </char>
+    </charDecl>
+    
+    <tagsDecl>
+
+        <rendition xml:id="b" n="tiebp:bold" scheme="css">
+            font-weight:bold;
+        </rendition> 
+        
+        <rendition xml:id="i" n="tiebp:italic" scheme="css">
+            font-style:italic;
+        </rendition> 
+        
+        <rendition xml:id="u" n="tiebp:underline" scheme="css">
+            text-decoration:underline;
+        </rendition> 
+        
+        <rendition xml:id="n" n="teibp:normal" scheme="css">
+            font-weight:normal;
+            text-decoration:none;
+            font-style:normal;
+        </rendition>
+        
+        <rendition xml:id="mono" n="teibp:mono" scheme="css">
+            font-family:Monaco,Courier,monospace;
+        </rendition>
+        
+        <rendition xml:id="super" n="tiebp:super" scheme="css">
+            vertical-align:super;
+            font-size:80%;
+        </rendition>
+        
+        <rendition xml:id="sub" n="tiebp:sub" scheme="css">
+            vertical-align:sub;
+            font-size:80%;
+        </rendition>
+        
+        <rendition xml:id="lowercase" n="tiebp:lowercase" scheme="css">
+            text-transform:lowercase;
+        </rendition>
+        
+        <rendition xml:id="uppercase" n="tiebp:uppercase" scheme="css">
+            text-transform:uppercase;
+        </rendition>
+        
+        <rendition xml:id="capitalize" n="tiebp:capitalize" scheme="css">
+            text-transform:capitalize;
+        </rendition>
+        
+        <rendition xml:id="small-caps" n="tiebp:small-caps" scheme="css">
+            font-variant:small-caps;
+        </rendition>
+ 
+        <rendition xml:id="block" n="tiebp:block" scheme="css">
+            display:block;
+        </rendition> 
+        
+        <rendition xml:id="blockquote" n="tiebp:blockquote" scheme="css">
+            display:block;
+            font-size:90%;
+            margin-left:3em;
+            padding-left:1em;
+            border-left: 1px solid gray;
+            margin-top:.75em;
+            margin-bottom:.75em;
+            padding-top:.75em;
+            padding-bottom:.75em;
+        </rendition>
+        
+        <rendition corresp="#blockquote" n="tiebp:blockquote" scheme="css" scope="before">
+
+            content:"" !important;
+        </rendition>
+        
+        <rendition corresp="#blockquote" n="tiebp:blockquote" scheme="css" scope="after">
+
+            content:"" !important;
+        </rendition>
+        
+        <rendition xml:id="codeblock" n="teibp:codeblock" scheme="css">
+            display: block;
+            font-size: 80%;
+            margin-left: 1em;
+            padding-left: 1em;
+            border-left: 1px solid gray;
+            margin-top: .75em;
+            margin-bottom: .75em;
+            padding-top: .75em;
+            padding-bottom: .75em;
+            font-family:Monaco,Courier,monospace;
+            white-space:pre;
+        </rendition>
+        
+        <rendition xml:id="inline" n="teibp:inline" scheme="css">
+            display:inline;
+        </rendition>
+        
+        <rendition xml:id="center" n="tiebp:center" scheme="css">
+            display:block;
+            text-align:center;
+            margin-left:auto;
+            margin-right:auto;
+        </rendition>
+        
+        <rendition xml:id="left" n="teibp:left" scheme="css">
+            text-align:left;
+        </rendition>
+        
+        <rendition xml:id="right" n="teibp:right" scheme="css">
+            text-align:right;
+        </rendition>
+        
+        <rendition xml:id="justify" n="teibp:justify" scheme="css">
+            text-align:justify;
+        </rendition>
+        
+        <rendition xml:id="center-block" n="tiebp:center-block" scheme="css">
+            display:block;
+            margin-left:auto;
+            margin-right:auto;
+        </rendition>
+        
+        <rendition xml:id="hang" n="teibp:hang" scheme="css">
+            display:block;
+            padding-left:2.5em;
+            text-indent:-2.5em;
+        </rendition>
+        
+        <rendition xml:id="l-indent-01" n="tiebp:l-indent-01" scheme="css">
+            display:block;
+            padding-left:4em;
+            text-indent:-2em;
+        </rendition>
+        
+        <rendition xml:id="l-indent-02" n="tiebp:l-indent-02" scheme="css">
+            display:block;
+            padding-left:6em;
+            text-indent:-2em;
+        </rendition>
+        
+        <rendition xml:id="l-indent-03" n="tiebp:l-indent-03" scheme="css">
+            display:block;
+            padding-left:8em;
+            text-indent:-2em;
+        </rendition>
+        
+        <rendition xml:id="l-indent-04" n="tiebp:l-indent-04" scheme="css">
+            display:block;
+            padding-left:10em;
+            text-indent:-2em;
+        </rendition>
+        
+        <rendition xml:id="l-indent-05" n="tiebp:l-indent-05" scheme="css">
+            display:block;
+            padding-left:12em;
+            text-indent:-2em;
+        </rendition>
+        
+        <rendition xml:id="l-indent-06" n="tiebp:l-indent-06" scheme="css">
+            display:block;
+            padding-left:14em;
+            text-indent:-2em;
+        </rendition>
+        
+        <rendition xml:id="l-indent-07" n="tiebp:l-indent-07" scheme="css">
+            display:block;
+            padding-left:16em;
+            text-indent:-2em;
+        </rendition>
+        
+        <rendition xml:id="l-indent-08" n="tiebp:l-indent-08" scheme="css">
+            display:block;
+            padding-left:18em;
+            text-indent:-2em;
+        </rendition>
+        
+        <rendition xml:id="indent" n="tiebp:indent" scheme="css" scope="before">
+            /* text-indent:4em; */
+            /* The above method of describing an indentation for, say, a paragraph is 
+            preferred. The method being used is in response to a bug in some browsers 
+            whereby a block element, like a paragraph, is erroneously re-indented 
+            after interruption by another block element (like a list, which is valid,
+            in TEI, inside a paragraph). */
+            content:"\A0\A0\A0\A0\A0\A0";
+        </rendition>
+        
+        <rendition xml:id="small" n="tiebp:small" scheme="css">
+            font-size:90%;
+        </rendition>
+        
+        <rendition xml:id="x-small" n="tiebp:x-small" scheme="css">
+            font-size:85%;
+        </rendition>
+        
+        <rendition xml:id="xx-small" n="tiebp:xx-small" scheme="css">
+            font-size:80%;
+        </rendition>
+        
+        <rendition xml:id="large" n="tiebp:large" scheme="css">
+            font-size:110%;
+        </rendition>
+        
+        <rendition xml:id="x-large" n="tiebp:x-large" scheme="css">
+            font-size:115%;
+        </rendition>
+        
+        <rendition xml:id="xxx-large" n="tiebp:xxx-large" scheme="css">
+            font-size:120%;
+        </rendition>
+        
+        <rendition xml:id="bracket" n="teibp:bracket" scheme="css"/>
+        
+        <rendition corresp="#bracket" n="tiebp:bracket" scheme="css" scope="before">
+            content:"&lt;";
+        </rendition>
+        
+        <rendition corresp="#bracket" n="tiebp:bracket" scheme="css" scope="after">
+            content:">";
+        </rendition>
+        
+        <rendition xml:id="red" scheme="css"
+            >color:#9f1706;</rendition>
+        <rendition xml:id="blue" scheme="css"
+            >color:#12398c;</rendition>
+        <rendition xml:id="fs18pt" scheme="css"
+            >font-size:18pt;</rendition>
+        <rendition xml:id="fs24pt" scheme="css"
+            >font-size:24pt;</rendition>
+        <rendition xml:id="sestet_marker" scheme="css"></rendition>
+        <rendition xml:id="stanza_marker" scheme="css"></rendition>
+    </tagsDecl>
+</encodingDesc>
+
+   </teiHeader>
+
+   <text>
+      <body>
+         <pb n="charta 65 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-065r.jpg" /> <!-- Change the number of the charta in both places "charta 1 verso" and -f-0001v.jpg", according to the charta to be encoded -->
+          <lg type="sonnet" xml:id="rvf330" n="330"> <!-- Change the sonnet xml:id and number according to the sonnet to be encoded -->
+              <lg type="octave">
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="1"><hi rendition="#fs24pt">Q</hi><hi rendition="#small-caps">v</hi>el uago &virg; dolce &virg; caro &virg; honesto sguardo .</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
+                      <l n="2">Dir parea &virg; to di me quel che tu poi</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="3">Che mai piu qui <choice><abbr>nōmi</abbr><expan>nommi</expan></choice> uedrai dapoi &virg; </l>
+                      <l n="4">Chaurai <choice><abbr>quīci</abbr><expan>quinci</expan></choice> il pe mosso &virg; amouer tardo .</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="5">Intellecto ueloce piu che pardo</l>
+                      <l n="6">Pigro in antiuedere i dolor tuoi .</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="7">Come &non; uedestu nelliocchi suoi &virg;</l>
+                      <l n="8">Quel che uedora &virg;ondio mistruggo &amp7; ardo .</l>
+                  </lg>
+              </lg>
+              <lg type="sestet">
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="9"><hi rendition="#sestet_marker">·</hi>Taciti sfauillando oltra lor modo &virg;</l>
+                      <l n="10">Dicean o lumi amici che gran tempo &virg;</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="11">Con taldolce&#xa763;&#xa763;a feste di noi specchi .</l>
+                      <l n="12">Ilciel naspetta . A uoi parra &per; tempo .</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="13">Ma chi ne <choice><abbr>strīse</abbr><expan>strinse</expan></choice> qui&virg; dissolue ilnodo .</l>
+                      <l n="14">Eluostro &per; faruira uuol chenuecchi .</l>
+                  </lg>
+              </lg>
+          </lg>
+          <space corresp="#canvasline"/>
+          <lg type="canzone_12vv" xml:id="rvf331" n="331"> <!-- Change the canzone xml:id and number according to the canzone to be encoded -->
+              <lg type="stanza"> <!-- Be careful: each canzone might be structurally different. Check how many verses per stanza the canzone has and encode accordingly. Some canzoni also might have some three verses per line (encode: <lg type="trplvrs" corresp="#canvasline">) or a single verse per line (encode: <lg type="single" corresp="#canvasline">) -->
+                
+                <lg type="dblvrs" corresp="#canvasline">
+                    <l n="1"><hi rendition="#fs24pt">S</hi><hi rendition="#small-caps">o</hi>lea da la fontana di mia uita &virg;</l> 
+                    <l n="2">Allontanarme . &amp7; cercar terre &amp7; mari</l>
+                </lg>
+                <lg type="dblvrs" corresp="#canvasline">
+                    <l n="3">&Non; mio uoler|ma mia stella <choice><abbr>seguēdo</abbr><expan>seguendo</expan></choice> .</l>
+                    <l n="4">&amp7; sempre andai &virg;tal amor <choice><abbr>diēmi</abbr><expan>diemmi</expan></choice> aita &virg;</l>
+                </lg>
+                <lg type="dblvrs" corresp="#canvasline">
+                    <l n="5">In quelli exilii &#11789;<subst><del type="erasure"><gap reason="illegible"></gap></del><add>&quanto; e uide &virg;</add></subst> amari .</l>
+                    <l n="6">Di memoria &amp7; di speme ilcor pascendo .</l>
+                </lg>
+                <lg type="dblvrs" corresp="#canvasline">
+                    <l n="7">Or lasso al&#xa763;o la mano &virg;⁊ larme rendo .</l>
+                    <l n="8">Alempia &amp7; <choice><abbr>uiolēta</abbr><expan>uiolenta</expan></choice> mia fortuna .</l>
+                </lg>
+                <lg type="dblvrs" corresp="#canvasline">
+                    <l n="9">Che priuo madisi dolce speran&#xa763;a .</l>
+                    <l n="10">Sol memoria mauan&#xa763;a .</l>
+                </lg>
+                <lg type="dblvrs" corresp="#canvasline">
+                    <l n="11">&amp7; pascol gran desir sol diquestuna .</l>
+                    <l n="12">Onde lalma uien men frale &amp7; digiuna .</l>
+                </lg>
+             </lg>
+			 <lg type="stanza"> <!-- Be careful: each canzone might be structurally different. Check how many verses per stanza the canzone has and encode accordingly. Some canzoni also might have some three verses per line (encode: <lg type="trplvrs" corresp="#canvasline">) or a single verse per line (encode: <lg type="single" corresp="#canvasline">) -->
+                
+                <lg type="dblvrs" corresp="#canvasline">
+                    <l n="13"><hi rendition="#stanza_marker">⸗</hi>Come a corrier <subst><del type="erasure"><gap reason="illegible"></gap></del><add>t</add></subst>ra uia selcibo manca .</l> 
+                    <l n="14"><choice><abbr>Cōuen</abbr><expan>Conuen</expan></choice> &per; for&#xa763;a rallentare ilcorso .</l>
+                </lg>
+                <lg type="dblvrs" corresp="#canvasline">
+                    <l n="15"><choice><abbr>Scemādo</abbr><expan>Scemando</expan></choice> lauertu chel fea gir presto .</l>
+                    <l n="16">Cosi <choice><abbr>mancādo</abbr><expan>mancando</expan></choice> alamia uita stanca &virg;</l>
+                </lg>
+                <lg type="dblvrs" corresp="#canvasline">
+                    <l n="17">Quel caro <choice><abbr>nutrimēto</abbr><expan>nutrimento</expan></choice> &virg; in che dimorso <g ref="#virgsusp"/></l>
+                    <l n="18">Die &#11805; <choice><abbr>chilmōdo</abbr><expan>chilmondo</expan></choice> fanudo . elmio cor mesto .</l>
+                </lg>
+                <lg type="dblvrs" corresp="#canvasline">
+                    <l n="19">Il dolce acerbo . elbel piacer molesto .</l>
+                    <l n="20">Misifa dora in hora . o<subst><del type="erasure"><gap reason="illegible"></gap></del><add>ndel camino</add></subst></l>
+                </lg>
+                <lg type="dblvrs" corresp="#canvasline">
+                    <l n="21">Si breue &virg; &non; fornir&virg;spero&virg; &#11789;&amp7; pauento .</l>
+                    <l n="22">Nebbia o poluere al uento &virg;</l>
+                </lg>
+                <lg type="dblvrs" corresp="#canvasline">
+                    <l n="23">Fuggo &per; piu &non; esser pellegrino .</l>
+                    <l n="24">&amp7; cosi uada &virg;se pur mio destino .</l>
+                </lg>
+             </lg>
+			 <lg type="stanza"> <!-- Be careful: each canzone might be structurally different. Check how many verses per stanza the canzone has and encode accordingly. Some canzoni also might have some three verses per line (encode: <lg type="trplvrs" corresp="#canvasline">) or a single verse per line (encode: <lg type="single" corresp="#canvasline">) -->
+                
+                <lg type="dblvrs" corresp="#canvasline">
+                    <l n="25"><hi rendition="#stanza_marker">⸗</hi>Mai questa mortal uita a me &non; piacque .</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
+                    <l n="26">Sassel amor &con; cui spesso ne parlo .</l>
+                </lg>
+                <lg type="dblvrs" corresp="#canvasline">
+                    <l n="27">Se&non; &per; lei che fulsuo lume &virg; elmio .</l>
+                    <l n="28">Poi chenterra <choice><abbr>morēdo</abbr><expan>morendo</expan></choice> &virg;alciel rinacque .</l>
+                </lg>
+                <lg type="dblvrs" corresp="#canvasline">
+                    <l n="29">Quello spirto &#11789; <choice><abbr>ōdio</abbr><expan>ondio</expan></choice> uissi &virg; a seguitarlo &virg;</l>
+                    <l n="30">Licito fusse &virg; el mi <subst><del type="erasure"><gap reason="illegible"></gap></del><add><choice><abbr>sōm</abbr><expan>somm</expan></choice></add></subst>o desio .</l>
+                </lg>
+                <lg type="dblvrs" corresp="#canvasline">
+                    <l n="31">Ma <subst><del type="erasure"><gap reason="illegible"></gap></del><add>dadolermi o ben sempre &#11789;</add></subst> &per; chio &virg;</l>
+                    <l n="32">Fui mal accorto <subst><del type="erasure"><gap reason="illegible"></gap></del><add>&#11789;</add></subst> a <subst><del type="erasure"><gap reason="illegible"></gap></del><add>pro</add></subst>ueder mio stato .</l>
+                </lg>
+                <lg type="dblvrs" corresp="#canvasline">
+                    <l n="33">Chamor <choice><abbr>mostrōmi</abbr><expan>mostrommi</expan></choice> sotto quelbel ciglio .</l>
+                    <l n="34">&Per; darmi altro &con;siglio .</l>
+                </lg>
+                <lg type="dblvrs" corresp="#canvasline">
+                    <l n="35">Che tal mori gia tristo &amp7; sconsolato .</l>
+                    <l n="36">Cui poco <choice><abbr>inā&#xa763;i</abbr><expan>inan&#xa763;i</expan></choice> eralmorir beato .</l>
+                </lg>
+             </lg>
+			 <lg type="stanza"> <!-- Be careful: each canzone might be structurally different. Check how many verses per stanza the canzone has and encode accordingly. Some canzoni also might have some three verses per line (encode: <lg type="trplvrs" corresp="#canvasline">) or a single verse per line (encode: <lg type="single" corresp="#canvasline">) -->
+                
+                <lg type="dblvrs" corresp="#canvasline">
+                    <l n="37"><hi rendition="#stanza_marker">⸗</hi>Nelliocchi oue&#x0323; habitar solealmio core</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
+                    <l n="38">Fin chemia dura sorte inuidia nebbe</l>
+                </lg>
+                <lg type="dblvrs" corresp="#canvasline">
+                    <l n="39">Che di siricco albergo il pose in bando .</l>
+                    <l n="40">Di sua man <g ref="pflour"/>pria auea descritto amore</l>
+                </lg>
+                <lg type="dblvrs" corresp="#canvasline">
+                    <l n="41">&Con; lettre dipieta &virg;quel chauerrebbe</l>
+                    <l n="42">Tosto delmio si <choice><abbr>lūgo</abbr><expan>lungo</expan></choice> ir desiando .</l>
+                </lg>
+                <lg type="dblvrs" corresp="#canvasline">
+                    <l n="43">Bello &amp7; dolce morire era allor quando</l>
+                    <l n="44">Morendio| <subst><del type="erasure"><gap reason="illegible"></gap></del><add>&#11789;</add></subst>&non; moria mia uita inseme .</l>
+                </lg>
+                <lg type="dblvrs" corresp="#canvasline">
+                    <l n="45">An&#xa763;i uiuea di me loptima parte .</l>
+                    <l n="46">Or mie speran&#xa763;e sparte .</l>
+                </lg>
+                <lg type="dblvrs" corresp="#canvasline">
+                    <l n="47">A morte . &amp7; poca terra ilmio ben preme . </l>
+                    <l n="48">&amp7; uiuo . &amp7; mai nol <choice><abbr>pēso</abbr><expan>penso</expan></choice> chi&non; treme .</l>
+                </lg>
+             </lg>
+		 <pb n="charta 65 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-065v.jpg" />
+			 <lg type="stanza">
+				 <lg type="dblvrs" corresp="#canvasline">
+					<l n="49"><hi rendition="#stanza_marker">⸗</hi>Se stato fusse il mio poco intellecto &virg;</l>
+					<l n="50">Meco albisogno .&amp7; &non; altra uaghe&#xa763;&#xa763;a</l>
+				 </lg>
+				 <lg type="dblvrs" corresp="#canvasline">
+					<l n="51">Lauesse disuiando altroue uolto .</l>
+					<l n="52">Nela<choice><abbr>frōte</abbr><expan>fronte</expan></choice> a<choice><abbr>madōna</abbr><expan>madonna</expan></choice> aurei ben lecto .</l>
+				 </lg>
+				 <lg type="dblvrs" corresp="#canvasline">
+					<l n="53">Alfin se <choice><abbr>giūto</abbr><expan>giunto</expan></choice> dogni tua dolce&#xa763;&#xa763;a</l>
+					<l n="54">&amp7; al<choice><abbr>prīcipio</abbr><expan>principio</expan></choice> deltuo amaro molto .</l>
+				 </lg>
+				 <lg type="dblvrs" corresp="#canvasline">
+					<l n="55">Questo <choice><abbr>ītendēdo</abbr><expan>intendendo</expan></choice> &virg; <choice><abbr>dolcemēte</abbr><expan>dolcemente</expan></choice> sciolto</l>
+					<l n="56">In sua <choice><abbr>presētia</abbr><expan>presentia</expan></choice> delmortal mio uelo .</l>
+				 </lg>
+				 <lg type="dblvrs" corresp="#canvasline">
+					<l n="57">&amp7; diquesta noiosa &amp7; graue carne</l>
+					<l n="58">Potea <choice><abbr>inā&#xa763;i</abbr><expan>inan&#xa763;i</expan></choice> lei andarne .</l>
+				 </lg>
+				 <lg type="dblvrs" corresp="#canvasline">
+					<l n="59">A ueder preparar sua sedia &in; cielo .</l>
+					<l n="60">Or landro dietro&#11805;omai &con; altro pelo .</l>
+				 </lg>
+			 </lg>
+			 <lg type="stanza">
+				 <lg type="dblvrs" corresp="#canvasline">
+					<l n="61"><hi rendition="#stanza_marker">⸗</hi>Can&#xa763;on suom troui &in; suo amor uiuer queto .</l>
+					<l n="62">Di &virg;muor&#11805;mentre se lieto .</l>
+				 </lg>
+				 <lg type="dblvrs" corresp="#canvasline">
+					<l n="63">Che morte al<choice><abbr>tēpo</abbr><expan>tempo</expan></choice> &virg;e &non; duol &virg;marefugio .</l>
+					<l n="64">&amp7; chi ben po morir &non; cerchi &in;dugio .</l>
+				 </lg>
+			  </lg>  
+		  </lg>
+		  <space corresp="#canvasline"/>
+          <lg xml:id="rvf332" type="sestina" n="332"  rendition="#columns_2"> <!-- Change the sestina xml:id and number according to the sestina to be encoded -->
+              <cb n="1-of-2"/> <!-- Encoding column 1 -->
+              <l n="1" corresp="#canvasline"><hi rendition="#fs24pt">M</hi><hi rendition="#small-caps">i</hi>a benigna fortuna &virg; eluiuer lieto</l> <!-- Change initial color (red or blue) according to the initiasl of the sestina to be encoded -->
+              <l n="2" corresp="#canvasline">I chiari giorni .&amp7; le <choice><abbr>trāquille</abbr><expan>tranquille</expan></choice> notti .</l>
+              <l n="3" corresp="#canvasline">Ei soaui sospiri el dolce stile &#11776;</l><!--PUNCTUS ELEVATUS DIAGONAL STROKE? -->
+              <l n="4" corresp="#canvasline">Chesolea resonare &in; uersi &virg;en rime .</l>
+              <l n="5" corresp="#canvasline">Volti <choice><abbr>subitamēte</abbr><expan>subitamente</expan></choice> &in; doglia &virg; en <choice><abbr>piāto</abbr><expan>pianto</expan></choice></l>
+              <l n="6" corresp="#canvasline">Odiar uita mi<choice><abbr>fāno</abbr><expan>fanno</expan></choice> &#11789;&amp7; bramar morte .</l>
+              <l n="7" corresp="#canvasline"><hi rendition="#stanza_marker">⸗</hi>Crudele&virg; acerba &virg; inexorabil morte &virg;</l> <!-- Change pilcrow color (red or blue) when necessary -->
+              <l n="8" corresp="#canvasline">Cagion mi dai dimai &non; esser lieto .</l>
+              <l n="9" corresp="#canvasline">Madimenar tutta mia uita &in; <choice><abbr>piāto</abbr><expan>pianto</expan></choice> .</l>
+              <l n="10" corresp="#canvasline">E igiorni oscuri &virg;&amp7; le dogliose notti .</l>
+              <l n="11" corresp="#canvasline">I mei graui sospir &non; <choice><abbr>uāno</abbr><expan>uanno</expan></choice> &in; rime.</l>
+              <l n="12" corresp="#canvasline">Elmio duro martir <choice><abbr>uīce</abbr><expan>uince</expan></choice> ogni stile .</l>
+              <l n="13" corresp="#canvasline"><hi rendition="#stanza_marker">⸗</hi>Oue e &con;dutto ilmio amoroso stile <g ref="#punctinter"/></l> <!-- Change pilcrow color (red or blue) when necessary -->
+              <l n="14" corresp="#canvasline">A parlar dira . aragionar dimorte .</l>
+              <l n="15" corresp="#canvasline">V sono i uersi . V son giunte lerime .</l>
+              <l n="16" corresp="#canvasline">Che <choice><abbr>gētil</abbr><expan>gentil</expan></choice> cor udia pensoso &#11789;&amp7; lieto .</l>
+              <l n="17" corresp="#canvasline">Ouel fauoleggiar damor le notti .</l>
+              <l n="18" corresp="#canvasline">Or &non; parlio&virg;ne penso altro che <choice><abbr>piāto</abbr><expan>pianto</expan></choice> .</l>
+              <l n="19" corresp="#canvasline"><hi rendition="#stanza_marker">⸗</hi>Gia mi fu col desir si dolce ilpianto .</l> <!-- Change pilcrow color (red or blue) when necessary -->
+              <l n="20" corresp="#canvasline">Che condia didolce&#xa763;&#xa763;a ogni agro stile.</l>
+              <l n="21" corresp="#canvasline">&amp7; uegghiar mi facea tutte le notti .</l>
+              <l n="22" corresp="#canvasline">Or mel <choice><abbr>piāger</abbr><expan>pianger</expan></choice> amaro piu che morte .</l>
+              
+			  <cb n="2-of-2"/> <!-- encoding column 2 -->
+			  <l n="23">&Non; sperando mailguardo honesto &amp7; lieto .</l>
+              <l n="24">Alto sogetto &virg; ale mie basse rime .</l>
+              <l n="25"><hi rendition="#stanza_marker">⸗</hi>Chiaro segno amor pose ale mie rime .</l> <!-- Change pilcrow color (red or blue) when necessary -->
+              <l n="26">Dentro abelli occhi .&amp7; or laposto &in; <choice><abbr>piāto</abbr><expan>pianto</expan></choice> .</l>
+              <l n="27">&Con; dolor rimembrando iltempo lieto .</l>
+              <l n="28">Ondio uo col penser cangiando stile .</l>
+              <l n="29">&amp7; ripregando te pallida morte &virg;</l>
+              <l n="30">Che mi sottragghi a si penose notti .</l>
+              <l n="31"><hi rendition="#stanza_marker">⸗</hi>Fuggito el <choice><abbr>sōno</abbr><expan>sonno</expan></choice> alemie crude notti .</l> <!-- Change pilcrow color (red or blue) when necessary -->
+              <l n="32">El suono usato alemie roche rime .</l>
+              <l n="33">Che &non; <choice><abbr>sāno</abbr><expan>sanno</expan></choice> trattar altro che morte</l>
+              <l n="34">Cosi el mio cantar &con;uerso &in; <choice><abbr>piāto</abbr><expan>pianto</expan></choice>.</l>
+              <l n="35">&Non; alregno damor &virg; si uario stile</l>
+              <l n="36">Che <choice><abbr>tāto</abbr><expan>tanto</expan></choice> or tristo &virg; quanto mai fu lieto .</l>
+			  <l n="37"><hi rendition="#stanza_marker">⸗</hi>Nesun uisse giamai piu dime lieto .</l> <!-- Change pilcrow color (red or blue) when necessary -->
+              <l n="38">Nesun uiue piu tristo &amp7; giorni &amp7; notti .</l>
+              <l n="39">&amp7; <choice><abbr>doppiādol</abbr><expan>doppiandol</expan></choice> dolor &amp7; doppia Lo stile</l>
+              <l n="40">Che trae delcor si lacrimose rime .</l>
+              <l n="41">Vissi di speme &virg; Or uiuo purdi<choice><abbr>piāto</abbr><expan>pianto</expan></choice></l>
+              <l n="42">Ne &con;tra morte spero altro chemorte .</l>
+              <l n="43"><hi rendition="#stanza_marker">⸗</hi>Morte mamorto .&amp7; sola po far morte</l> <!-- Change pilcrow color (red or blue) when necessary -->
+              <l n="44">Chi torni a riueder quel uiso lieto .</l>
+			  
+			  <pb n="charta 66 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-066r.jpg" />
+             
+			   <cb n="1-of-2"/>
+			  <l n="45" corresp="#canvasline">Che piacer mi facea isospiri elpianto .</l>
+              <l n="46" corresp="#canvasline">Laura dolce &virg;&amp7; lapioggia alemie notti .</l>
+              <l n="47" corresp="#canvasline"><add place="margin-left">·</add>&Quando; ipenseri electi tessea in rime &virg;</l>
+              <l n="48" corresp="#canvasline">Amor &virg;al&#xa763;ando ilmio debile stile .</l>
+              <l n="49" corresp="#canvasline"><hi rendition="#stanza_marker">⸗</hi>Or auessio un si pietoso stile &virg;</l> 
+              <l n="50" corresp="#canvasline">Che Laura mia potesse torre amorte .</l>
+              <l n="51" corresp="#canvasline">Come euridice orpheo sua sen&#xa763;a rime .</l>
+              <l n="52" corresp="#canvasline">Chi uiuerei anchor piu chemai lieto.</l>
+              <l n="53" corresp="#canvasline">Sesser &non; po &virg; qualchuna deste notti .</l>
+              <l n="54" corresp="#canvasline">Chiuda omai queste due <choice><abbr>fōti</abbr><expan>fonti</expan></choice> di<choice><abbr>piāto</abbr><expan>pianto</expan></choice> .</l>
+			  <l n="55" corresp="#canvasline"><hi rendition="#stanza_marker">⸗</hi>Amor i o molti &amp7; <choice><abbr>moltāni</abbr><expan>moltanni</expan></choice> pianto .</l> 
+              <l n="56" corresp="#canvasline">Mio graue <choice><abbr>dāno</abbr><expan>danno</expan></choice> in doloroso stile .</l>
+              <l n="57" corresp="#canvasline">Ne da te spero mai men fere notti .</l>
+              <l n="58" corresp="#canvasline">&amp7; &per;o mi son mosso a pregar morte</l>
+              <l n="59" corresp="#canvasline">Che mi tolla diqui&virg;&per; farme lieto .</l>
+              <l n="60" corresp="#canvasline">Oue e colei chi canto &virg; &amp7; <choice><abbr>piāgo</abbr><expan>piango</expan></choice> &in; rime .</l>
+			  
+			  <cb n="2-of-2"/> <!-- encoding column 2 -->
+			  <l n="61"><hi rendition="#stanza_marker">⸗</hi>Se si alto pon gir mie stanche rime .</l> <!-- Change pilcrow color (red or blue) when necessary -->
+              <l n="62">Ch<choice><abbr>agiūgan</abbr><expan>agiungan</expan></choice> lei &virg; che fuor dira &amp7; di <choice><abbr>piāto</abbr><expan>pianto</expan></choice> .</l>
+              <l n="63">&amp7; fal ciel or disue belle&#xa763;&#xa763;e lieto .</l>
+              <l n="64">Ben riconosceral mutato stile .</l>
+              <l n="65">Che gia forse le piacque &virg;an&#xa763;i che morte</l>
+              <l n="66">Chiaro alei giorno &virg; ame fesse atre notti .</l>
+              <l n="67"><hi rendition="#stanza_marker">⸗</hi>O Voi che sospirate amiglior notti .</l> <!-- Change pilcrow color (red or blue) when necessary -->
+              <l n="68">Chascoltate damore &virg; o dite in rime .</l>
+              <l n="69">Pregate &non; mi sia piu sorda morte .</l>
+              <l n="70">Porto dele miserie &amp7; fin del pianto .</l>
+              <l n="71">Muti una uolta quel suo <choice><abbr>ātiquo</abbr><expan>antiquo</expan></choice> stile .</l>
+              <l n="72">Chogni Vom attrista &virg; &amp7; me po far silieto . </l>
+			  <l n="73"><hi rendition="#stanza_marker">⸗</hi>Far mi po lieto in una onpoche notti .</l> <!-- Change pilcrow color (red or blue) when necessary -->
+              <l n="74">En aspro stile &virg; en angosciose rime .</l>
+			  <l n="75">Prego chelpianto mio finisca morte .</l>
+              <space ana="#space.stop" extent="1" />
+		  </lg>
+          
+		   <space corresp="#canvasline"/>
+          <lg xml:id="rvf333" type="sonnet" n="333"> <!-- Change the sonnet xml:id and number according to the sonnet to be encoded -->
+              <lg type="octave">
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="1"><hi rendition="#fs24pt">I</hi>te rime dolenti alduro sasso &virg;</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
+                      <l n="2">Chelmio caro thesoro in terra <choice><abbr>ascōde</abbr><expan>asconde</expan></choice></l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="3">Iui chiamata chidalciel risponde .</l>
+                      <l n="4">Ben chelmortal sia un loco oscuro &#11789;&amp7; basso .</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="5">Ditele chi son gia di uiuer lasso .</l>
+                      <l n="6">Del nauigar &per; queste horribili onde .</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="7">Ma ricogliendo le sue sparte <choice><abbr>frōde</abbr><expan>fronde</expan></choice> &virg;</l>
+                      <l n="8">Dietro le uo pur cosi passo passo .</l>
+                  </lg>
+              </lg>
+              <lg type="sestet">
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="9"><hi rendition="#sestet_marker">·</hi>Sol di le<subst><del type="erasure"><gap reason="illegible"></gap></del><add>i</add></subst> <choice><abbr>ragionādo</abbr><expan>ragionando</expan></choice> uiua &amp7; morta.</l>
+                      <l n="10">An&#xa763;i pur uiua . &amp7; or fatta <choice><abbr>īmortale</abbr><expan>immortale</expan></choice> .</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="11">Acio chel <choice><abbr>mōdo</abbr><expan>mondo</expan></choice> la conosca &#11789;&amp7; ame .</l>
+                      <l n="12">Piacciale almio passar esser accorta</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="13">Che presso omai . siami al&in;&con;tro &amp7; quale &virg;</l>
+                      <l n="14">Ella e in cielo a se mi tiri &amp7; chiame .</l>
+                  </lg>
+              </lg>
+          </lg>
+          <space corresp="#canvasline"/>
+          <lg xml:id="rvf334" type="sonnet" n="334"> <!-- Change the sonnet xml:id and number according to the sonnet to be encoded -->
+              <lg type="octave">
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="1"><hi rendition="#fs24pt">S</hi>onesto amor po meritar mercede .</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
+                      <l n="2">&amp7; se pieta anchor po&#11805; <choice><abbr>quāt</abbr><expan>quant</expan></choice>ella suole &virg;</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="3">Mercede auro &virg; che piu chara chelsole &#11805;</l>
+                      <l n="4">A <choice><abbr>madōna</abbr><expan>madonna</expan></choice> &amp7; al mondo |e la mia fede .</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="5">Gia dime <choice><abbr>pauētosa</abbr><expan>pauentosa</expan></choice> . or sa &virg;nol crede .</l>
+                      <l n="6">Che quello stesso chor &per; me si uole &virg;</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="7">Sempre si uolse . &amp7; sella udia parole &virg;</l>
+                      <l n="8">O uedealuolto . or lanimo &virg;elcor uede .</l>
+                  </lg>
+              </lg>
+              <lg type="sestet">
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="9"><hi rendition="#sestet_marker">·</hi>Ondi spero chenfin alciel si doglia</l>
+                      <l n="10">Di miei <choice><abbr>tāti</abbr><expan>tanti</expan></choice> sospiri . &amp7; cosi mostra &virg;</l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="11">Tornando a me si piena di pietate .</l>
+                      <l n="12">&amp7; spero chal por giu di questa spoglia <g ref="#virgsusp"/></l>
+                  </lg>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="13">Venga &per; me &virg;&con; quella <choice><abbr>gēte</abbr><expan>gente</expan></choice> nostra .</l>
+                      <l n="14">Vera amica di cristo &#11789;&amp7; donestate .</l>
+                  </lg>
+              </lg>
+          </lg>
+      </body>
+   </text>
+</TEI>
