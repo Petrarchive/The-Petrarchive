@@ -1703,3 +1703,6 @@ note {
 note[type="sequence"] {
  display:none;
 }
+
+/* for sort strings in textindex.html */
+.sort { display: none;}
