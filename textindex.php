@@ -14,6 +14,10 @@
 
     <link rel="stylesheet" type="text/css" href="css/stylesheets/screen.css" />
     <link href="css/auxillaryPage.css" media="screen, projection" rel="stylesheet" type="text/css" />      
+    <style type="text/css">
+	.sort {display:none;}
+    </style>
+
 
     <script defer="true" type="text/javascript" src="dist/js/textindex.bundle.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
