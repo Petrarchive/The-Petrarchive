@@ -44,9 +44,8 @@
     <div id="bannerresp">Edited by
       <a href="https://frit.indiana.edu/about/emeriti-faculty/storey-h.html" target="_blank">H. Wayne Storey</a>,
       <a href="http://info.ils.indiana.edu/~jawalsh/" target="_blank">John A. Walsh</a> and
-      <a href="http://isamagni.com/" target="_blank">Isabella Magni</a>
-    </div>
-	<div style="font-size:12pt;">With Chief Associate Editor Paolo Scartoni and Associate Editors Maria Teresa De Luca and Giulia Benghi</div>
+      <a href="http://isamagni.com/" target="_blank">Isabella Magni</a><br/>
+	<span style="font-size:12pt;">with Chief Associate Editor Paolo Scartoni and Associate Editors Maria Teresa De Luca and Giulia Benghi</span></div>
   </div>
 
   <div class="hidden-md-up show-sm-down">
