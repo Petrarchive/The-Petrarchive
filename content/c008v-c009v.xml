@@ -59,7 +59,7 @@
 <!ENTITY c2p "<choice><orig>,</orig><reg>.</reg></choice>">
 <!ENTITY v2c "<choice><orig> /</orig><reg>,</reg></choice>">
 <!ENTITY v2q "<choice><orig> /</orig><reg>?</reg></choice>">
-<!ENTITY pilcrow2section "<choice><orig class='pilcrow'>¶</orig><reg>§</reg></choice>">
+<!ENTITY pilcrow2section "<choice><orig>¶</orig><reg>§</reg></choice>">
 <!ENTITY punctelevhiback "&#xF1FA;">
 <!ENTITY encodingDesc SYSTEM "encodingDesc.xml"> 
 ]>
