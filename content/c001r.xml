@@ -635,7 +635,9 @@ the line wraps. -->
             </lg>
          </lg>
       </body>
-
+       <!-- In commentary tag all non-English text as <foreign xml:lang="xxx">. For italicized text, add rendition="#i". -->
+       
+       <!--
       <back>
         <div type="commentary" corresp="#rvf001">
             <note type="introduction">
@@ -648,7 +650,7 @@ the line wraps. -->
                 While many editions prefer a medial pause (: or ;) at the end of vv. 4 and 11 (rather than our brief pauses (,), it is clear that the sonnet’s syntax is organized along two full syntactic stops (.) that define the octave (vv. 1–8) and the sestet (9–14), a division that is also reiterated by the adversative conjunction <foreign xml:lang="ita" rendition="#i">Ma</foreign> at the opening of v. 9 and reinforced by the adverb and verb of perception (<foreign xml:lang="ita" rendition="#i">ben veggio</foreign>) that clarifies the contrast (also in the first syntactic unit) between the introductory sonnet’s predominant present tense (<foreign xml:lang="ita" rendition="#i">ascoltate, spero, veggio, mi vergogno, è</foreign>) and the poet’s past (<foreign xml:lang="ita" rendition="#i">io nudriva,</foreign> [<foreign xml:lang="ita" rendition="#i">io</foreign>] <foreign xml:lang="ita" rendition="#i">era, fui</foreign>). 
             </note>
           <note type="genesis" resp="#hws">
-            <!-- tag all non-English text as <foreign xml:lang="xxx">. For italicized text, add rendition="#i". -->
+            
               The <foreign xml:lang="lat" rendition="#i">exordium</foreign> to the song book, the first sonnet introduces the notion of audience (<foreign xml:lang="ita" rendition="#i">Voi</foreign> [assigned later in diverse contexts to Laura]), the poetic “I” from youth (<foreign xml:lang="ita" rendition="#i">giovenile errore</foreign>) and its changes to adulthood (<foreign xml:lang="ita" rendition="#i">era … altr’ uom da quel ch’i’ sono</foreign>) and the reflection and shame in older age (<foreign xml:lang="ita" rendition="#i">Favola fui … mi vergogno … vergogna è ’l frutto</foreign>), and multiple styles (<foreign xml:lang="ita" rendition="#i">Del vario stile</foreign>) and devices (<foreign xml:lang="ita" rendition="#i">rime sparse</foreign>) by borrowing from both classical and vernacular sources, especially notions dear to Due- and Trecento stilnovisti: <foreign xml:lang="ita" rendition="#i">sospiri, piango e ragiono,</foreign> the initiates of love (<foreign xml:lang="ita" rendition="#i">chi per prova intenda amore</foreign>). Attempts to date the sonnet’s original composition vary from as early as 1347 to 1350. These dates are all based, however, on conjectures about the conceptualization of the <title level="m">Rvf</title> as a book project. While absent from the draft MS Vaticano Latino 3196, the earliest attestation of the sonnet’s role as the introductory poem to the work is found in Boccaccio’s transcription of the <foreign xml:lang="lat" rendition="#i">Fragmentorum liber</foreign>, MS Chigiano L v 176, cc. 43v–79r, where Boccaccio reads: <foreign xml:lang="ita" rendition="#i">In sul mio primo giovenile amore</foreign> (c. 43v, Rvf 1,3).
           </note>
           <note type="diplomatics" resp="#hws">
@@ -676,5 +678,6 @@ the line wraps. -->
           </note>
         </div>
       </back>
+      -->
    </text>
 </TEI>
