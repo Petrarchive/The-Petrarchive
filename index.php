@@ -46,7 +46,7 @@
       <a href="http://info.ils.indiana.edu/~jawalsh/" target="_blank">John A. Walsh</a> and
       <a href="http://isamagni.com/" target="_blank">Isabella Magni</a>
     </div>
-	<div id="bannerresp" style="font-size:80%;">With Chief Associate Editor Paolo Scartoni and Associate Editors Maria Teresa De Luca and Giulia Benghi</div>
+	<div style="font-size:12pt;">With Chief Associate Editor Paolo Scartoni and Associate Editors Maria Teresa De Luca and Giulia Benghi</div>
   </div>
 
   <div class="hidden-md-up show-sm-down">
