@@ -578,7 +578,7 @@
               <lg type="stanza">
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="29"><hi rendition="#blue #fs24pt">¶</hi>Quando <choice><orig>uedel</orig><reg>vede ’l</reg></choice> pastor calare i raggi</l>
-                      <l n="30">Del gran pianeta al nido ouegli alberga.</l>
+                      <l n="30">Del gran pianeta al nido <choice><orig>ouegli</orig><reg>ov’ egli</reg></choice> alberga.</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="31"><choice><orig>Enbrunir</orig><reg>E ’nbrunir</reg></choice> le contrade <choice><orig>doriente</orig><reg>d’oriente</reg></choice>&p2c;</l>
@@ -733,7 +733,7 @@
                   
               </lg>
               <lg type="dblvrs" corresp="#canvasline">
-                  <l n="4"><choice><orig>Cha</orig><reg>h’a</reg></choice> me la pastorella alpestra &amp7; cruda</l>
+                  <l n="4"><choice><orig>Cha</orig><reg>Ch’a</reg></choice> me la pastorella alpestra &amp7; cruda</l>
                   <l n="5">Posta a bagnar un leggiadretto <choice><orig>uelo</orig><reg>velo</reg></choice>&p2c;</l>
               </lg>
               <lg type="single" corresp="#canvasline">
