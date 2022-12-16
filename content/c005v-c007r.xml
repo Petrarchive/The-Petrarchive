@@ -966,7 +966,7 @@ the line wraps. -->
                      <l n="44">Al fortunato <choice><orig>f[i]ancho</orig><reg>fiancho</reg></choice></l>
                  </lg>
                  <lg type="dblvrs" corresp="#canvasline">
-                     <l n="45"><choice><orig>Quandol</orig><reg>Quando ’l</reg></choice> bel parto <choice><orig>giu</orig><reg>giú</reg></choice> nel <choice><abbr>mōdo</abbr><expan>mondo</expan></choice> scorse<choice><orig>.</orig><reg>!</reg></choice></l>
+                     <l n="45"><choice><orig>Quandol</orig><reg>Quando ’l</reg></choice> bel parto <choice><orig>giu</orig><reg>giù</reg></choice> nel <choice><abbr>mōdo</abbr><expan>mondo</expan></choice> scorse<choice><orig>.</orig><reg>!</reg></choice></l>
                      <l n="46"><choice><orig>Che</orig><reg>Ch’è</reg></choice> stella<g ref="#punctelevhiback"/>    in terra&p2c; &amp7; come &in; lauro foglia<choice><orig> /</orig><reg></reg></choice></l>
                  </lg>
                  <lg type="dblvrs" corresp="#canvasline">
@@ -994,7 +994,7 @@ the line wraps. -->
                      <l n="56">Dolce del mio cor <choice><orig>chiaue</orig><reg>chiave</reg></choice><choice><orig>.</orig><reg>?</reg></choice></l>
                  </lg>
                  <lg type="dblvrs" corresp="#canvasline">
-                     <l n="57"><hi rendition="#blue #fs24pt">&pilcrow2section;</hi>Quanto il sol gira<choice><orig><g ref="#punctelevhiback"/></orig><reg>,</reg></choice> Amor <choice><orig>piu</orig><reg>piú</reg></choice> caro pegno&v2c;</l>
+                     <l n="57"><hi rendition="#blue #fs24pt">&pilcrow2section;</hi>Quanto il sol gira<choice><orig><g ref="#punctelevhiback"/></orig><reg>,</reg></choice> Amor &piu; caro pegno&v2c;</l>
                      <l n="58">Donna&v2c; di <choice><orig>uoi</orig><reg>voi</reg></choice> non <choice><orig>aue</orig><reg>ave</reg></choice>.</l>
                  </lg>
              </lg>
