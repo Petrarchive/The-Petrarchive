@@ -531,7 +531,7 @@ the line wraps. -->
                <l n="2">Nel bel <choice><orig>uiso</orig><reg>viso</reg></choice> di quella che <choice><orig>uamorti</orig><reg>v’ à morti</reg></choice>&v2c;</l>
             </lg>
             <lg type="dblvrs" corresp="#canvasline">
-               <l n="3"><choice><orig>Pregoui</orig><reg>Pregovi</reg></choice>&v2c; s<hi rendition="#b">ia</hi>te accorti&p2colon;</l> <!-- ia in bold! -->
+               <l n="3"><choice><orig>Pregoui</orig><reg>Pregovi</reg></choice>&v2c; <choice><orig>s<hi rendition="#b">ia</hi>te</orig><reg>siate</reg></choice> accorti&p2colon;</l> <!-- ia in bold! -->
                <l n="4"><choice><orig>Che</orig><reg>Ché</reg></choice> <choice><orig>gia</orig><reg>già</reg></choice> <choice><orig>uisfida</orig><reg>vi sfida</reg></choice> <choice><orig>amore</orig><reg>Amore</reg></choice>&p2c; <choice><orig>ondio</orig><reg>ond’io</reg></choice> sospiro.</l>
             </lg>
             <lg type="dblvrs" corresp="#canvasline">
