@@ -50,6 +50,8 @@ John A. Walsh is the Director of the <a href="https://www.hathitrust.org/htrc">H
             <br/>
             Homepage: <a href="http://isamagni.com">http://isamagni.com</a>.<br/>
             </dd>
+            <dt>Francesco Marco Aresu, Editor</dt>
+            <dd/>
             </dl>
 
 						<dl>
