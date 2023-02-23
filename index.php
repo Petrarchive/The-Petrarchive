@@ -44,7 +44,7 @@
     <div id="bannerresp">Edited by
       <a href="https://frit.indiana.edu/about/emeriti-faculty/storey-h.html" target="_blank">H. Wayne Storey</a>,
       <a href="http://info.ils.indiana.edu/~jawalsh/" target="_blank">John A. Walsh</a>, 
-      <a href="http://isamagni.com/" target="_blank">Isabella Magni</a>
+      <a href="https://www.sheffield.ac.uk/dhi/about-dhi/people/isabella-magni" target="_blank">Isabella Magni</a>
       and Francesco Marco Aresu
 <br/>
 	<span style="font-size:12pt;">with Chief Associate Editor Paolo Scartoni and Associate Editors Maria Teresa De Luca and Giulia Benghi</span></div>
