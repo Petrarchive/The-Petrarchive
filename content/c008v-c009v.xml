@@ -185,6 +185,8 @@
             <mapping type="PUA">U+F1F4</mapping>
         </char>
     </charDecl>
+    
+    <!-- Check the "visual" of punctus interroativus. (See MUFI p. 137 "PUNCTUS INTERROGATIVUS" https://folk.uib.no/hnooh/mufi/specs/MUFI-Alphabetic-2-0.pdf)  -->
     <charDecl>
         <char xml:id="punctinter">
             <charName>PUNCTUS INTERROGATIVUS</charName>
@@ -192,11 +194,12 @@
                 <localName>entity</localName>
                 <value>punctinter</value>
             </charProp>
-            <mapping type="visual">?</mapping>
+            <mapping type="visual">&#xF160;</mapping>
             <mapping type="MUFI">U+F160</mapping>
             <mapping type="PUA">U+F160</mapping>
         </char>
-    </charDecl>
+    </charDecl> 
+
     <charDecl>
         <char xml:id="brvbar">
             <charName>BROKEN BAR</charName>
