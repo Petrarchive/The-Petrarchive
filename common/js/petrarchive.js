@@ -33,8 +33,8 @@ function Petrarchive() {
 
   this.switchCustomCSS = function (theme) {
     let  dict = {
-      diplomatic: '../css/custom.css',
-      edited: '../css/custom_norm.css'
+      diplomatic: 'common/css/custom.css',
+      edited: 'common/css/custom_norm.css'
     }
 
     let stylesheet = dict[theme]

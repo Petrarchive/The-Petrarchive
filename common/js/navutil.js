@@ -59,8 +59,8 @@ NavUtil.prototype.events = function() {
     that._theme(newValue)
 
     let dict = {
-      diplomatic: '../css/custom.css',
-      edited: '../css/custom_norm.css'
+      diplomatic: 'common/css/custom.css',
+      edited: 'common/css/custom_norm.css'
     }
 
     let stylesheet = dict[that._theme()]
