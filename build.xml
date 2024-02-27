@@ -136,7 +136,7 @@ is loaded when Ant starts up. Please run Ant again like this:
     <xslt destdir="${toDir.static}"
           basedir="tei"
           includes="*.xml"
-          style="common${file.separator}xslt${file.separator}petrarchive2html.xsl"
+          style="common${file.separator}xslt${file.separator}petrarchive.xsl"
 
           classpath="${processor.location}">
       <!-- To prevent Ant/Saxon from hitting the W3C servers too hard with requests 

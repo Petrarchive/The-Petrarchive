@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="3.0"
+<xsl:stylesheet version="1.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
   xmlns:eg="http://www.tei-c.org/ns/Examples"
   xmlns:tei="http://www.tei-c.org/ns/1.0" 
@@ -22,7 +22,7 @@
 	</xd:doc>
 	<xsl:include href="xml-to-string.xsl"/>
 
-	<xsl:output encoding="UTF-8" method="xhtml" omit-xml-declaration="yes"/>
+	<xsl:output encoding="UTF-8" method="xml" omit-xml-declaration="yes"/>
 	
 	<xsl:param name="teibpHome" select="'http://dcl.slis.indiana.edu/teibp/'"/>
 	<xsl:param name="inlineCSS" select="true()"/>
@@ -44,15 +44,15 @@
 		<xsl:param name="filePrefix" select="'http://dcl.slis.indiana.edu/teibp'"/>
 		
 	-->
-	<xsl:param name="filePrefix" select="''"/>
+	<xsl:param name="filePrefix" select="'..'"/>
 	
-	<xsl:param name="teibpCSS" select="concat($filePrefix,'common/css/teibp.css')"/>
-	<xsl:param name="customCSS" select="concat($filePrefix,'common/css/custom.css')"/>
-	<xsl:param name="teibpJS" select="concat($filePrefix,'common/js/teibp.js')"/>
-	<xsl:param name="lessJS" select="concat($filePrefix,'common/js/build-support/less.min.js')"/>
-	<xsl:param name="theme.default" select="concat($filePrefix,'common/css/teibp.css')"/>
-	<xsl:param name="theme.sleepytime" select="concat($filePrefix,'common/css/sleepy.css')"/>
-	<xsl:param name="theme.terminal" select="concat($filePrefix,'common/css/terminal.css')"/>
+	<xsl:param name="teibpCSS" select="concat($filePrefix,'/css/teibp.css')"/>
+	<xsl:param name="customCSS" select="concat($filePrefix,'/css/custom.css')"/>
+	<xsl:param name="teibpJS" select="concat($filePrefix,'/js/teibp.js')"/>
+	<xsl:param name="lessJS" select="concat($filePrefix,'/js/build-support/less.min.js')"/>
+	<xsl:param name="theme.default" select="concat($filePrefix,'/css/teibp.css')"/>
+	<xsl:param name="theme.sleepytime" select="concat($filePrefix,'/css/sleepy.css')"/>
+	<xsl:param name="theme.terminal" select="concat($filePrefix,'/css/terminal.css')"/>
 	
 	<xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
 		<xd:desc>
@@ -300,12 +300,13 @@
 		<head>
 			<meta charset="UTF-8"/>
 
-			<link id="maincss" rel="stylesheet" type="text/css" href="{$teibpCSS}"/><!-- <xsl:comment>Gimme some comment!</xsl:comment></style> -->
-			<link id="customcss" rel="stylesheet" type="text/css" href="{$customCSS}"/><!-- <xsl:comment>Gimme some comment!</xsl:comment></style>-->
+			<script src="{$lessJS}"></script>
+			<link id="maincss" rel="stylesheet" type="text/css" href="{$teibpCSS}"/>
+			<link id="customcss" rel="stylesheet" type="text/css" href="{$customCSS}"/>
 
-			<!-- <xsl:call-template name="tagUsage2style"/> -->
+			<xsl:call-template name="tagUsage2style"/>
 			<xsl:call-template name="rendition2style"/>
-			<title>Petrarchive<!-- don't leave empty. --></title>
+			<title><!-- don't leave empty. --></title>
 			<xsl:if test="$includeAnalytics = true()">
 				<xsl:call-template name="analytics"/>
 			</xsl:if>

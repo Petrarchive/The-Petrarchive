@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    version="1.0"
+    version="3.0"
     xmlns:eg="http://www.tei-c.org/ns/Examples"
     xmlns:tei="http://www.tei-c.org/ns/1.0" 
     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" 
@@ -12,34 +12,38 @@
     exclude-result-prefixes="xsl tei xd eg fn #default">
     
   <xsl:import href="teibp.xsl"/>
-  <xsl:output method="html" encoding="utf-8" version="1.0" indent="yes" standalone="no" media-type="text/html" omit-xml-declaration="no" doctype-system="about:legacy-compat" /> 
+  <xsl:output method="xhtml" encoding="utf-8" omit-xml-declaration="no" doctype-system="about:legacy-compat" /> 
   <xsl:param name="pbNote" select="''"/>
   
-
-  <xsl:param name="bootstrapCSS" select="concat(
-  $filePrefix, '/css/lib/bootstrap.min.css')"/>
-  
-  <xsl:param name="customCSS.norm" select="concat($filePrefix,'/css/custom_norm.css')"/>
-  <xsl:param name="customCSS" select="concat($filePrefix,'/css/custom.css')"/>
-  <xsl:param name="frameCSS" select="concat($filePrefix,'/css/frame.css')"/>
+  <xsl:param name="filePrefix" select="''"/>
+  <xsl:param name="bootstrapCSS" select="concat($filePrefix,'common/css/lib/bootstrap.min.css')"/>
+  <xsl:param name="teibpCSS" select="concat($filePrefix,'common/css/teibp.css')"/>
+  <xsl:param name="theme.default" select="concat($filePrefix,'/css/teibp.css')"/>
+  <xsl:param name="theme.sleepytime" select="concat($filePrefix,'/css/sleepy.css')"/>
+  <xsl:param name="theme.terminal" select="concat($filePrefix,'/css/terminal.css')"/>
+  <xsl:param name="customCSS.norm" select="concat($filePrefix,'common/css/custom_norm.css')"/>
+  <xsl:param name="customCSS" select="concat($filePrefix,'common/css/custom.css')"/>
+  <xsl:param name="teibpJS" select="concat($filePrefix,'common/js/teibp.js')"/>
+  <xsl:param name="lessJS" select="concat($filePrefix,'common/js/build-support/less.min.js')"/>
+  <xsl:param name="frameCSS" select="concat($filePrefix,'common/css/frame.css')"/>
 
   <xsl:template name="stickyHeader">
     <xsl:variable name="header">
-      <xsl:copy-of select="document('../sticky_header.html')"/>
+      <xsl:copy-of select="document('../includes/sticky_header.html')"/>
     </xsl:variable>
     <xsl:copy-of select="$header"/>
   </xsl:template>
 
   <xsl:template name="mailSignup">
     <xsl:variable name="signup">
-      <xsl:copy-of select="document('../mail-signup.html')"/>
+      <xsl:copy-of select="document('../includes/mail-signup.html')"/>
     </xsl:variable>
     <xsl:copy-of select="$signup"/>
   </xsl:template>
 
   <xsl:template name="htmlFooter">
     <xsl:variable name="footer">
-      <xsl:copy-of select="document('../footer.html')"/>
+      <xsl:copy-of select="document('../includes/footer.html')"/>
     </xsl:variable>
     <xsl:copy-of select="$footer"/>
   </xsl:template>
@@ -237,7 +241,7 @@
           
             <script type="text/javascript" src="{$teibpJS}"><xsl:comment> </xsl:comment></script>
 
-            <script type="text/javascript" src="../dist/js/poem.bundle.js"></script>
+            <script type="text/javascript" src="common/js/poem.bundle.js"></script>
           
             <!-- google analytics. -->
           <!-- Global site tag (gtag.js) - Google Analytics -->
