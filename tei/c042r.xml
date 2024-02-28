@@ -482,7 +482,7 @@
 
    <text>
       <body>
-         <pb n="charta 42 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-042r.jpg" /> 
+         <pb n="charta 42 recto" facs="common/images/vat-lat3195-f/vat-lat3195-f-042r.jpg" /> 
           <lg type="sonnet" xml:id="rvf210" n="210">
               <lg type="octave">
                   <lg type="dblvrs" corresp="#canvasline">

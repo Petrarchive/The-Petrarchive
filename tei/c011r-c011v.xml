@@ -478,7 +478,7 @@
 
    <text>
       <body>
-         <pb n="charta 11 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-011r.jpg" />
+         <pb n="charta 11 recto" facs="common/images/vat-lat3195-f/vat-lat3195-f-011r.jpg" />
          <lg xml:id="rvf049" type="sonnet" n="49">
            <lg type="octave">
             <lg type="dblvrs" corresp="#canvasline">
@@ -615,7 +615,7 @@
                       <l n="46">Ma io<supplied>,</supplied> &perche; <choice><orig>sattuffi</orig><reg>s’attuffi</reg></choice> in <choice><orig>meçço</orig><reg>mezzo</reg></choice> <choice><orig>londe</orig><reg>l’onde</reg></choice>&v2c;</l>
                   </lg>
                   
-               <pb xml:id="c011v" n="charta 11 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-011v.jpg"/>
+               <pb xml:id="c011v" n="charta 11 verso" facs="common/images/vat-lat3195-f/vat-lat3195-f-011v.jpg"/>
                  
                   <lg type="dblvrs" corresp="#canvasline">  
                       <l n="47">Et lasci <choice><orig>hispagna</orig><reg>Hispagna</reg></choice> dietro a le sue spalle<choice><orig>.</orig><reg/></choice></l>

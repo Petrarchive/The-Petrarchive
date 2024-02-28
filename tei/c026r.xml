@@ -167,7 +167,7 @@
 
    <text>
       <body>
-         <pb n="charta 26 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-026r.jpg"/>
+         <pb n="charta 26 recto" facs="common/images/vat-lat3195-f/vat-lat3195-f-026r.jpg"/>
         <ab type="blockSubst" xml:id="rvf121palimpsestGroup">
           <!-- jawalsh: Do we know the sonnet underneath?" -->
           <!-- <note resp="#jaw">Sonnet 194 has been written over an erased version of ???.</note>-->

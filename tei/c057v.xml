@@ -480,7 +480,7 @@
 
    <text>
       <body>
-         <pb n="charta 57 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-057v.jpg" /> <!-- Change the number of the charta in both places "charta 1 verso" and -f-0001v.jpg", according to the charta to be encoded -->
+         <pb n="charta 57 verso" facs="common/images/vat-lat3195-f/vat-lat3195-f-057v.jpg" /> <!-- Change the number of the charta in both places "charta 1 verso" and -f-0001v.jpg", according to the charta to be encoded -->
           <lg type="sonnet" xml:id="rvf281" n="281"> <!-- Change the sonnet xml:id and number according to the sonnet to be encoded -->
               <lg type="octave">
                   <lg type="dblvrs" corresp="#canvasline">

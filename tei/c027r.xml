@@ -478,7 +478,7 @@
 
    <text>
       <body>
-         <pb xml:id="c027r" n="charta 27 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-027r.jpg"/> 
+         <pb xml:id="c027r" n="charta 27 recto" facs="common/images/vat-lat3195-f/vat-lat3195-f-027r.jpg"/> 
          <lg type="canzone" xml:id="rvf126" n="126"> 
          <lg type="stanza">
              <lg type="trplvrs" corresp="#canvasline">

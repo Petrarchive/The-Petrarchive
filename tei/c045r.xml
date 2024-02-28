@@ -472,7 +472,7 @@ the line wraps. -->
    </teiHeader>
    <text>
       <body>
-         <pb n="charta 45 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-045r.jpg" />
+         <pb n="charta 45 recto" facs="common/images/vat-lat3195-f/vat-lat3195-f-045r.jpg" />
          <lg xml:id="rvf232" type="sonnet" n="232">
            <lg type="octave">
             <lg type="dblvrs" corresp="#canvasline">

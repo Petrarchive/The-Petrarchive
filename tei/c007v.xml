@@ -467,7 +467,7 @@
 
    <text>
       <body>
-          <pb n="charta 7 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-007v.jpg" /> 
+          <pb n="charta 7 verso" facs="common/images/vat-lat3195-f/vat-lat3195-f-007v.jpg" /> 
         <lg xml:id="rvf030" type="sestina" n="30"  rendition="#columns_2">
             <cb n="1-of-2"/>
             <l n="1" corresp="#canvasline"><choice><orig><hi rendition="#red #fs24pt">G</hi><hi rendition="#small-caps">i</hi>ouane</orig><reg><hi rendition="#red #fs24pt">G</hi><hi rendition="#small-caps">i</hi>ovane</reg></choice> <choice><abbr>dōna</abbr><expan>donna</expan></choice> sotto un <choice><orig>uerde</orig><reg>verde</reg></choice> lauro</l>

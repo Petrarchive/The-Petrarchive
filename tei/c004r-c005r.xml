@@ -470,7 +470,7 @@ the line wraps. -->
    </teiHeader>
    <text>
       <body>
-         <pb xml:id="c004r" n="charta 4 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-004r.jpg"/>
+         <pb xml:id="c004r" n="charta 4 recto" facs="common/images/vat-lat3195-f/vat-lat3195-f-004r.jpg"/>
          <lg type="canzone_20vv" xml:id="rvf023" n="23">
          <lg type="stanza">
             <lg type="dblvrs" corresp="#canvasline">
@@ -605,7 +605,7 @@ the line wraps. -->
                <l n="61"><hi rendition="#blue #fs24pt">¶</hi><choice><orig>Cosi</orig><reg>Così</reg></choice> lungo <choice><orig>lamate</orig><reg>l’amate</reg></choice> <choice><orig>riue</orig><reg>rive</reg></choice> andai&v2c;</l>
                <l n="62">Che <choice><orig>uolendo</orig><reg>volendo</reg></choice> parlar<supplied>,</supplied> <choice><orig>cantaua</orig><reg>cantava</reg></choice> sempre<supplied>,</supplied></l>
             </lg>
-            <pb xml:id="c004v" n="charta 4 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-004v.jpg"/>
+            <pb xml:id="c004v" n="charta 4 verso" facs="common/images/vat-lat3195-f/vat-lat3195-f-004v.jpg"/>
             <lg type="dblvrs" corresp="#canvasline">   
                <l n="63"><choice><orig>Merce</orig><reg>Mercé</reg></choice> chiamando con estrania <choice><orig>uoce</orig><reg>voce</reg></choice>&p2semicolon;</l>
                <l n="64"><choice><orig>Ne</orig><reg>Né</reg></choice> mai &in; &si; dolci<choice><orig> &virg;</orig><reg/></choice> o <choice><orig>insi</orig><reg>in sì</reg></choice> <choice><orig>soaui</orig><reg>soavi</reg></choice> tempre</l>
@@ -737,7 +737,7 @@ the line wraps. -->
                   <l n="123">Simile al suo <choice><orig>factor</orig><reg>Factor</reg></choice> stato ritene.</l>
                   <l n="124"><choice><orig>Pero</orig><reg>Però</reg></choice> di perdonar mai non &e; sacia<choice><orig> &virg;</orig><reg/></choice></l>
                </lg>
-               <pb xml:id="c005r" n="charta 5 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-005r.jpg"/>  
+               <pb xml:id="c005r" n="charta 5 recto" facs="common/images/vat-lat3195-f/vat-lat3195-f-005r.jpg"/>  
                <lg type="dblvrs" corresp="#canvasline">
                   <l n="125">	A chi col core &amp7; col sembiante humile</l>
                   <l n="126">Dopo <choice><abbr>quātūque</abbr><expan>quantunque</expan></choice> offese a <choice><orig>merce</orig><reg>mercé</reg></choice> <choice><orig>uene</orig><reg>vene</reg></choice>.</l>

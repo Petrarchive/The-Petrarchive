@@ -478,7 +478,7 @@
    <text>
       <body>
  
-        <pb xml:id="c063v" n="charta 63 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-063v.jpg"/> <!-- Change the number of the charta in both places "charta 1 verso" and -f-0001v.jpg", according to the charta to be encoded -->
+        <pb xml:id="c063v" n="charta 63 verso" facs="common/images/vat-lat3195-f/vat-lat3195-f-063v.jpg"/> <!-- Change the number of the charta in both places "charta 1 verso" and -f-0001v.jpg", according to the charta to be encoded -->
           
            <lg type="canzone_15vv" xml:id="rvf325" n="325"> <!-- Change the canzone xml:id and number according to the canzone to be encoded -->
               <lg type="stanza"> <!-- Be careful: each canzone might be structurally different. Check how many verses per stanza the canzone has and encode accordingly. Some canzoni also might have some three verses per line (encode: <lg type="trplvrs" corresp="#canvasline">) or a single verse per line (encode: <lg type="single" corresp="#canvasline">) -->
@@ -613,7 +613,7 @@
                        <l n="58">&amp7; reggo &#11789; &amp7; uoluo &quanto; <choice><abbr>almōdo</abbr><expan>almondo</expan></choice> uedi .</l>
                        <l n="59">Tien pur liocchi come aquila &in; quel sole .</l>
                    </lg>
-                   <pb xml:id="c064r" n="charta 64 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-064r.jpg" />
+                   <pb xml:id="c064r" n="charta 64 recto" facs="common/images/vat-lat3195-f/vat-lat3195-f-064r.jpg" />
                    <lg type="single" corresp="#canvasline">
                        <l n="60">Parte da orecchi a queste mie parole .</l>
                    </lg>

@@ -490,7 +490,7 @@ the line wraps. -->
    </teiHeader>
    <text>
       <body>
-         <pb n="charta 12 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-012r.jpg" />
+         <pb n="charta 12 recto" facs="common/images/vat-lat3195-f/vat-lat3195-f-012r.jpg" />
          <space corresp="#canvasline"/>
          <lg xml:id="rvf053" type="canzone_14vv" n="53">
              <lg type="stanza">
@@ -627,7 +627,7 @@ the line wraps. -->
                       <l n="62">Gridan<supplied>:</supplied> <choice><orig>o</orig><reg>O</reg></choice> <choice><orig>signor</orig><reg>Signor</reg></choice> nostro&v2c; aita<choice><orig> /</orig><reg>!</reg></choice> aita<choice><orig>.</orig><reg>!</reg></choice></l>
                   </lg>
                  
-                 <pb xml:id="c012v" n="charta 12 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-012v.jpg"/> 
+                 <pb xml:id="c012v" n="charta 12 verso" facs="common/images/vat-lat3195-f/vat-lat3195-f-012v.jpg"/> 
                  
                          <lg type="dblvrs" corresp="#canvasline">
                              <l n="63">Et la <choice><orig>pouera</orig><reg>povera</reg></choice> gente sbigottita</l>

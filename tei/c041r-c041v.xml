@@ -483,7 +483,7 @@
    <text>
       <body>
  
-        <pb xml:id="c041r" n="charta 41 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-041r.jpg"/> <!-- Change the number of the charta in both places "charta 1 verso" and -f-0001v.jpg", according to the charta to be encoded -->
+        <pb xml:id="c041r" n="charta 41 recto" facs="common/images/vat-lat3195-f/vat-lat3195-f-041r.jpg"/> <!-- Change the number of the charta in both places "charta 1 verso" and -f-0001v.jpg", according to the charta to be encoded -->
           
            <lg type="canzone_13vv" xml:id="rvf207" n="207"> <!-- Change the canzone xml:id and number according to the canzone to be encoded -->
               <lg type="stanza"> <!-- Be careful: each canzone might be structurally different. Check how many verses per stanza the canzone has and encode accordingly. Some canzoni also might have some three verses per line (encode: <lg type="trplvrs" corresp="#canvasline">) or a single verse per line (encode: <lg type="single" corresp="#canvasline">) -->
@@ -633,7 +633,7 @@
                        <l n="67">In alcun modo piu &non; po celarsi .</l>
                    </lg>
              
-                   <pb xml:id="c041v" n="charta 41 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-041v.jpg"/> 
+                   <pb xml:id="c041v" n="charta 41 verso" facs="common/images/vat-lat3195-f/vat-lat3195-f-041v.jpg"/> 
                    
                            
                            <lg type="dblvrs" corresp="#canvasline">

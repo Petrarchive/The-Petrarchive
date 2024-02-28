@@ -491,7 +491,7 @@ the line wraps. -->
     
    <text>
       <body>
-         <pb n="charta 24 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-024v.jpg" />
+         <pb n="charta 24 verso" facs="common/images/vat-lat3195-f/vat-lat3195-f-024v.jpg" />
          <lg xml:id="rvf116" type="sonnet" n="116">
             <lg type="octave">
                <lg type="dblvrs" corresp="#canvasline">
@@ -633,7 +633,7 @@ the line wraps. -->
                
                <fw type="catch" rendition="#center">Tal che</fw>
                
-               <pb xml:id="c025r" n="charta 25 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-025r.jpg"/>
+               <pb xml:id="c025r" n="charta 25 recto" facs="common/images/vat-lat3195-f/vat-lat3195-f-025r.jpg"/>
                <lg type="dblvrs" corresp="#canvasline">
                    <l n="13">Tal che <choice><orig>si</orig><reg>s’i’</reg></choice> <choice><orig>arruo</orig><reg>arrivo</reg></choice> al disiato porto<supplied>,</supplied></l>
                   <l n="14">Spero per lei gran tempo</l>
@@ -763,7 +763,7 @@ the line wraps. -->
                         <l n="70">Fa subito sparire <choice><orig>ognialtra</orig><reg>ogni altra</reg></choice> stella&v2c;</l>
                      </lg>           
                      
-                     <pb xml:id="c025v" n="charta 25 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-025v.jpg"/>
+                     <pb xml:id="c025v" n="charta 25 verso" facs="common/images/vat-lat3195-f/vat-lat3195-f-025v.jpg"/>
                      
                      <lg type="dblvrs" corresp="#canvasline">
                         <l n="71"><choice><orig>Cosi</orig><reg>Così</reg></choice> par or men bella</l>

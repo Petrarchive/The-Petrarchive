@@ -467,7 +467,7 @@ the line wraps. -->
 
    <text>
       <body>
-         <pb n="charta 19 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-019r.jpg" />
+         <pb n="charta 19 recto" facs="common/images/vat-lat3195-f/vat-lat3195-f-019r.jpg" />
          <lg xml:id="rvf080" type="sestina" n="80" rendition="#columns_2">
             <cb n="1-of-2"/>
             <l n="1"><hi rendition="#red #fs24pt">C</hi><hi rendition="#small-caps">h</hi>i &e; fermato di menar sua <choice><orig>uita</orig><reg>vita</reg></choice><supplied>,</supplied></l>

@@ -383,7 +383,7 @@
 
     <text>
         <body>
-            <pb n="charta 31 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-031v.jpg"/>
+            <pb n="charta 31 verso" facs="common/images/vat-lat3195-f/vat-lat3195-f-031v.jpg"/>
             <lg xml:id="rvf136" type="sonnet" n="136"> 
                 <lg type="octave">
                     <lg type="dblvrs" corresp="#canvasline">

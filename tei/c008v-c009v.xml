@@ -481,7 +481,7 @@
 
    <text>
       <body>
-         <pb xml:id="c008v" n="charta 8 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-008v.jpg"/> 
+         <pb xml:id="c008v" n="charta 8 verso" facs="common/images/vat-lat3195-f/vat-lat3195-f-008v.jpg"/> 
           <lg xml:id="rvf036" type="sonnet" n="36">
               <lg type="octave">
                   <lg type="dblvrs" corresp="#canvasline">
@@ -617,7 +617,7 @@
             </lg>
           <fw type="catch" rendition="#center">.et quanto.</fw>
           
-          <pb n="charta 9 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-009r.jpg" />
+          <pb n="charta 9 recto" facs="common/images/vat-lat3195-f/vat-lat3195-f-009r.jpg" />
           <space corresp="#canvasline"/>
               <lg type="stanza">
                   <lg type="dblvrs" corresp="#canvasline">
@@ -753,7 +753,7 @@
                       <l n="108"><choice><orig>Serge</orig><reg>S'erge</reg></choice> la speme&p2c; et poi non sa star ferma&p2c;</l>
                   </lg>
                   
-              <pb n="charta 9 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-009v.jpg" />
+              <pb n="charta 9 verso" facs="common/images/vat-lat3195-f/vat-lat3195-f-009v.jpg" />
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="109">Ma ricadendo afferma</l>
                       <l n="110">Di mai non <choice><orig>ueder</orig><reg>veder</reg></choice> lei <choice><orig>chel</orig><reg>che ’l</reg></choice> ciel honora&p2c;</l>

@@ -148,7 +148,7 @@
 
    <text>
       <body>
-         <pb xml:id="c022v" n="charta 22 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-022v.jpg"/>
+         <pb xml:id="c022v" n="charta 22 verso" facs="common/images/vat-lat3195-f/vat-lat3195-f-022v.jpg"/>
          <lg type="canzone_15vv" xml:id="rvf105" n="105">
          <lg type="stanza">
             <lg type="dblvrs" corresp="#canvasline">
@@ -280,7 +280,7 @@
                <l n="58">Et dolendo adolcisse il mio dolore&p2c;</l>
                <l n="59"><choice><orig>Ondio</orig><reg>Ond’io</reg></choice> ringratio <choice><orig>amore</orig><reg>Amore</reg></choice></l>
             </lg>
-            <pb xml:id="c023r" n="charta 23 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-023r.jpg"/>
+            <pb xml:id="c023r" n="charta 23 recto" facs="common/images/vat-lat3195-f/vat-lat3195-f-023r.jpg"/>
             <!-- line 29 and 45, erasure? -->
             <lg type="single" corresp="#canvasline">   
                <l n="60">Che <choice><orig>piu</orig><reg>più</reg></choice> nol sento&p2c; &amp7; &e; non men che suole.</l>

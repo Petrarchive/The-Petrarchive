@@ -494,7 +494,7 @@ the line wraps. -->
    
    <text>
       <body>
-         <pb n="charta 8 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-008r.jpg" />
+         <pb n="charta 8 recto" facs="common/images/vat-lat3195-f/vat-lat3195-f-008r.jpg" />
          <lg xml:id="rvf032" type="sonnet" n="32">
             <lg type="octave">
                <lg type="dblvrs" corresp="#canvasline">

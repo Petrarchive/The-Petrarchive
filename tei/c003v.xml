@@ -472,7 +472,7 @@ the line wraps. -->
 
    <text>
       <body>
-        <pb n="charta 3 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-003v.jpg" />
+        <pb n="charta 3 verso" facs="common/images/vat-lat3195-f/vat-lat3195-f-003v.jpg" />
               <lg xml:id="rvf021" type="sonnet" n="21">
                 <lg type="octave">
                 <lg type="dblvrs"><l n="1"><hi rendition="#red #fs24pt">M</hi><hi rendition="#small-caps">i</hi>lle fiate<supplied>,</supplied> o dolce mia guerrera<supplied>,</supplied></l>	

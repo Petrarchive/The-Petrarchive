@@ -477,7 +477,7 @@
 
    <text>
       <body>
-         <pb n="charta 65 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-065r.jpg" /> <!-- Change the number of the charta in both places "charta 1 verso" and -f-0001v.jpg", according to the charta to be encoded -->
+         <pb n="charta 65 recto" facs="common/images/vat-lat3195-f/vat-lat3195-f-065r.jpg" /> <!-- Change the number of the charta in both places "charta 1 verso" and -f-0001v.jpg", according to the charta to be encoded -->
           <lg type="sonnet" xml:id="rvf330" n="330"> <!-- Change the sonnet xml:id and number according to the sonnet to be encoded -->
               <lg type="octave">
                   <lg type="dblvrs" corresp="#canvasline">
@@ -622,7 +622,7 @@
                     <l n="48">&amp7; uiuo . &amp7; mai nol <choice><abbr>pēso</abbr><expan>penso</expan></choice> chi&non; treme .</l>
                 </lg>
              </lg>
-		 <pb n="charta 65 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-065v.jpg" />
+		 <pb n="charta 65 verso" facs="common/images/vat-lat3195-f/vat-lat3195-f-065v.jpg" />
 			 <lg type="stanza">
 				 <lg type="dblvrs" corresp="#canvasline">
 					<l n="49"><hi rendition="#stanza_marker">⸗</hi>Se stato fusse il mio poco intellecto &virg;</l>
@@ -710,7 +710,7 @@
               <l n="43"><hi rendition="#stanza_marker">⸗</hi>Morte mamorto .&amp7; sola po far morte</l> <!-- Change pilcrow color (red or blue) when necessary -->
               <l n="44">Chi torni a riueder quel uiso lieto .</l>
 			  
-			  <pb n="charta 66 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-066r.jpg" />
+			  <pb n="charta 66 recto" facs="common/images/vat-lat3195-f/vat-lat3195-f-066r.jpg" />
              
 			   <cb n="1-of-2"/>
 			  <l n="45" corresp="#canvasline">Che piacer mi facea isospiri elpianto .</l>

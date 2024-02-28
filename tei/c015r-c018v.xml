@@ -455,7 +455,7 @@ the line wraps. -->
             -->
         <body>
             <pb xml:id="c015r" n="charta 15 recto"
- facs="../images/vat-lat3195-f/vat-lat3195-f-015r.jpg"/>
+ facs="common/images/vat-lat3195-f/vat-lat3195-f-015r.jpg"/>
             <lg xml:id="rvf068" type="sonnet" n="68">
               <lg type="octave">
                 <lg type="dblvrs" corresp="#canvasline">
@@ -619,7 +619,7 @@ the line wraps. -->
                     <l n="30"><choice><orig>Cosi</orig><reg>Così</reg></choice> nel mio parlar <choice><orig>uoglio</orig><reg>voglio</reg></choice> esser aspro.</l>
                 </lg>
               </lg>
-              <pb  xml:id="c015v" n="charta 15 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-015v.jpg" />
+              <pb  xml:id="c015v" n="charta 15 verso" facs="common/images/vat-lat3195-f/vat-lat3195-f-015v.jpg" />
               <lg type="stanza">
                 <lg type="dblvrs" corresp="#canvasline">
                   <l n="31"><hi rendition="#red #fs24pt">&pilcrow2section;</hi>Che parlo<choice><orig> /</orig><reg>?</reg></choice> o <choice><orig>doue</orig><reg>dove</reg></choice> sono<choice><orig> /</orig><reg>?</reg></choice> et chi 
@@ -758,7 +758,7 @@ the line wraps. -->
                       <l n="38">O testimon<supplied>’</supplied> de la mia <choice><orig>graue</orig><reg>grave</reg></choice> <choice><orig>uita</orig><reg>vita</reg></choice>&p2c;</l>
                   </lg>
                     
-                    <pb xml:id="c016r" n="charta 16 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-016r.jpg"/> 
+                    <pb xml:id="c016r" n="charta 16 recto" facs="common/images/vat-lat3195-f/vat-lat3195-f-016r.jpg"/> 
                             <lg type="dblvrs" corresp="#canvasline">
                                 <l n="39">Quante &uolte; <choice><orig>mudiste</orig><reg>m’udiste</reg></choice> chiamar morte<choice><orig>.</orig><reg>?</reg></choice></l>
                                 <l n="40">Ai<supplied>!</supplied> dolorosa sorte<supplied>!</supplied></l>
@@ -887,7 +887,7 @@ the line wraps. -->
                                     <l n="96">Farmi <choice><abbr>īmortal</abbr><expan>immortal</expan></choice><choice><orig> &virg-underdot;</orig><reg>,</reg></choice> &perche; la carne moia.</l>
                                 </lg>
                             </lg>
-                            <pb xml:id="c016v" n="charta 16 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-016v.jpg"/>
+                            <pb xml:id="c016v" n="charta 16 verso" facs="common/images/vat-lat3195-f/vat-lat3195-f-016v.jpg"/>
               <lg type="stanza">
                   <lg type="dblvrs" corresp="#canvasline" class="no-indent">
                       <l n="97">Fugge al <choice><orig>uostro</orig><reg>vostro</reg></choice> apparire angoscia &amp7; <subst><del type="erasure"><gap reason="illegible"/></del><add>noia</add></subst><choice><orig>&#12539;&#8260;</orig><reg>,</reg></choice></l>
@@ -1031,7 +1031,7 @@ the line wraps. -->
           <!-- check encoding of the catchword 
                http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-fw.html -->
           <fw type="catch" rendition="#center">Et solo</fw>
-          <pb xml:id="c017r" n="charta 17 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-017r.jpg"/>
+          <pb xml:id="c017r" n="charta 17 recto" facs="common/images/vat-lat3195-f/vat-lat3195-f-017r.jpg"/>
          <lg type="stanza">
                <lg type="single" corresp="#canvasline">
                    <l n="45">Et solo <choice><orig>iui</orig><reg>ivi</reg></choice> con <choice><orig>uoi</orig><reg>voi</reg></choice> rimanse <choice><orig>amore</orig><reg>Amore</reg></choice>.</l>
@@ -1162,7 +1162,7 @@ the line wraps. -->
                       <l n="20">Mi porse a ragionar quel <choice><orig>chi</orig><reg>ch’i</reg></choice><supplied>’</supplied> sentia.</l>
                       <l n="21">Or <choice><orig>mabbandona</orig><reg>m’abbandona</reg></choice> al tempo&p2c; et si dilegua.</l>
                   </lg>
-                  <pb xml:id="c017v" n="charta 17 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-017v.jpg"/>
+                  <pb xml:id="c017v" n="charta 17 verso" facs="common/images/vat-lat3195-f/vat-lat3195-f-017v.jpg"/>
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="22">Ma pur <choice><orig>conuen</orig><reg>conven</reg></choice> che <choice><orig>lalta</orig><reg>l’alta</reg></choice> impresa segua</l>
                       <l n="23">Continuando <choice><orig>lamorose</orig><reg>l’amorose</reg></choice> note</l>
@@ -1291,7 +1291,7 @@ the line wraps. -->
                           <l n="79">Solamente quel nodo</l>
                       </lg>
                   </lg>
-                  <pb xml:id="c018r" n="charta 18 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-018r.jpg"/>
+                  <pb xml:id="c018r" n="charta 18 recto" facs="common/images/vat-lat3195-f/vat-lat3195-f-018r.jpg"/>
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="80"><choice><orig>Chamor</orig><reg>Ch’Amor</reg></choice> cerconda a la mia lingua &quando;</l>
                       <l n="81"><choice><orig>Lumana</orig><reg>L’umana</reg></choice> <choice><orig>uista</orig><reg>vista</reg></choice> il troppo lume <choice><orig>auança</orig><reg>avanza</reg></choice>&v2c;</l>
@@ -1425,7 +1425,7 @@ the line wraps. -->
                           </lg>
                       </lg>
                   </lg>
-                  <pb xml:id="c018v" n="Charta 18 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-018v.jpg" />
+                  <pb xml:id="c018v" n="Charta 18 verso" facs="common/images/vat-lat3195-f/vat-lat3195-f-018v.jpg" />
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="13">Dirai: <choice><orig>Si</orig><reg>S’i’</reg></choice> guard<subst><del type="erasure"><gap reason="illegible"/></del><add>o</add></subst> &amp7; giudico ben dritto&v2c;</l>
                       <l n="14">Questi <choice><orig>auea</orig><reg>avea</reg></choice> poco andare ad esser morto.</l>

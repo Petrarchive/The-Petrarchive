@@ -492,7 +492,7 @@ the line wraps. -->
 
    <text>
       <body>
-         <pb n="charta 5 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-005v.jpg" />
+         <pb n="charta 5 verso" facs="common/images/vat-lat3195-f/vat-lat3195-f-005v.jpg" />
          <lg xml:id="rvf025" type="sonnet" n="25">
            <lg type="octave">
             <lg type="dblvrs" corresp="#canvasline">
@@ -630,7 +630,7 @@ the line wraps. -->
             </lg>
               
               <!-- CHARTA 6R starts here -->
-              <pb xml:id="c006r" n="charta 6 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-006r.jpg"/>
+              <pb xml:id="c006r" n="charta 6 recto" facs="common/images/vat-lat3195-f/vat-lat3195-f-006r.jpg"/>
               <lg type="single" corresp="#canvasline">
                  <l n="15">Al <choice><orig>uerace</orig><reg>verace</reg></choice> oriente&v2c; <choice><orig>ọuella</orig><reg>ov’ella</reg></choice> &e; <choice><orig>uolta</orig><reg>volta</reg></choice>.</l>
               </lg>
@@ -760,7 +760,7 @@ the line wraps. -->
                      <l n="71">Si desti al suono del tuo chiaro sermone&p2c;</l>
                      <l n="72"><choice><abbr>Tāto</abbr><expan>Tanto</expan></choice> che &per; <choice><orig>Jh&#7630;u</orig><reg>Ihesù</reg></choice> la lancia pigli&p2semicolon;</l> <!-- "es" in "Ihesu" is italicized, accent over h? -->
                   </lg>
-                  <pb xml:id="c006v" n="charta 6 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-006v.jpg"/>
+                  <pb xml:id="c006v" n="charta 6 verso" facs="common/images/vat-lat3195-f/vat-lat3195-f-006v.jpg"/>
                   <lg type="dblvrs" corresp="#canvasline">
                      <l n="73">Che <choice><orig>sal</orig><reg>s’al</reg></choice> <choice><orig>uer</orig><reg>ver</reg></choice> mira questa anticha madre&v2c;</l>
                      <l n="74">In nulla sua tentione</l>
@@ -887,7 +887,7 @@ the line wraps. -->
                   <l n="12">Subita <choice><orig>uista</orig><reg>vista</reg></choice>&p2c; <choice><orig>che</orig><reg>ché</reg></choice> <choice><orig>d<subst><del type="erasure"><gap reason="illegible"/></del><add>e</add></subst>l</orig><reg>del</reg></choice> cor mi rade</l>
                   <l n="13"><choice><orig>O<subst><del type="erasure"><gap reason="illegible"/></del><add>g</add></subst>ni</orig><reg>Ogni</reg></choice> <choice><orig>de lira</orig><reg>delira</reg></choice>     impresa&p2c; &amp7; ogni sdegno<choice><orig>.</orig><reg></reg></choice></l>
                </lg>
-                <pb xml:id="c007r" n="charta 7 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-007r.jpg"/>
+                <pb xml:id="c007r" n="charta 7 recto" facs="common/images/vat-lat3195-f/vat-lat3195-f-007r.jpg"/>
                 <lg type="single" corresp="#canvasline">
                     <l n="14"><choice><orig>Fal</orig><reg>Fa ’l</reg></choice> <choice><orig>u[<subst><del type="erasure"><gap reason="illegible"/></del><add>e</add></subst>]der</orig><reg>veder</reg></choice> lei <choice><orig>soaue</orig><reg>soave</reg></choice>.</l>
                 </lg>

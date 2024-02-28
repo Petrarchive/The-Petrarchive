@@ -486,7 +486,7 @@ the line wraps. -->
     
     <text>
         <body>
-            <pb n="charta 39 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-039r.jpg"/>
+            <pb n="charta 39 recto" facs="common/images/vat-lat3195-f/vat-lat3195-f-039r.jpg"/>
             <!-- new type= value to distinguish from block substitutions with known erasures. -->
             <ab type="blockSubstUnknownErasure">
                 <!-- jawalsh: Do we know the sonnet underneath?" -->

@@ -479,7 +479,7 @@
 
    <text>
       <body>
-         <pb xml:id="c028r" n="charta 28 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-028r.jpg"/> 
+         <pb xml:id="c028r" n="charta 28 recto" facs="common/images/vat-lat3195-f/vat-lat3195-f-028r.jpg"/> 
          <lg type="canzone" xml:id="rvf127" n="127">
          <lg type="stanza">
             <lg type="dblvrs" corresp="#canvasline">
@@ -616,7 +616,7 @@
                      <l n="22">Del barbarico sangue si depinga<choice><orig>.</orig><reg>?</reg></choice></l>
                  </lg>
                      
-                     <pb xml:id="c028v" n="charta 28 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-028v.jpg"/>
+                     <pb xml:id="c028v" n="charta 28 verso" facs="common/images/vat-lat3195-f/vat-lat3195-f-028v.jpg"/>
                      <lg type="dblvrs" corresp="#canvasline">
                          <l n="23">Vano error <choice><orig>ui</orig><reg>vi</reg></choice> lusinga.</l>
                          <l n="24">Poco <choice><orig>uedete</orig><reg>vedete</reg></choice><choice><orig> .</orig><reg>,</reg></choice> et <choice><orig>parui</orig><reg>parvi</reg></choice> <choice><orig>ueder</orig><reg>veder</reg></choice> molto&p2c;</l>
@@ -750,7 +750,7 @@
                      <l n="84">Non &e; questa la patria&v2c; in <choice><orig>chio</orig><reg>ch’io</reg></choice> mi fido&p2c;</l>
                  </lg>
                  
-                 <pb xml:id="c029r" n="charta 29 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-029r.jpg"/>
+                 <pb xml:id="c029r" n="charta 29 recto" facs="common/images/vat-lat3195-f/vat-lat3195-f-029r.jpg"/>
                  <lg type="dblvrs" corresp="#canvasline">
                      <l n="85">Madre benigna et pia<choice><orig> .</orig><reg>,</reg></choice></l>
                      <l n="86">Che copre <choice><orig>lun</orig><reg>l’un</reg></choice> <choice><orig><subst><del type="erasure"><gap reason="illegible"/></del><add>&virg;</add></subst></orig><reg/></choice> &amp7; <choice><orig>laltro</orig><reg>l’altro</reg></choice> mio parente<supplied>?</supplied></l>

@@ -476,7 +476,7 @@
 
    <text>
       <body>
-         <pb n="charta 54 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-054v.jpg" /> <!-- Change the number of the charta in both places "charta 1 verso" and -f-0001v.jpg", according to the charta to be encoded -->
+         <pb n="charta 54 verso" facs="common/images/vat-lat3195-f/vat-lat3195-f-054v.jpg" /> <!-- Change the number of the charta in both places "charta 1 verso" and -f-0001v.jpg", according to the charta to be encoded -->
           <lg type="canzone_11vv" xml:id="rvf268" n="268"> <!-- Change the sonnet xml:id and number according to the sonnet to be encoded -->
               <lg type="stanza">
                   <lg type="dblvrs" corresp="#canvasline">
@@ -622,7 +622,7 @@
                   <l n="68">Che &per; souerchie uoglie</l>
               </lg>
               
-              <pb n="charta 55 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-055r.jpg" />
+              <pb n="charta 55 recto" facs="common/images/vat-lat3195-f/vat-lat3195-f-055r.jpg" />
               
               <lg type="dblvrs" corresp="#canvasline">
                   <l n="69">Si perdel cielo <add>/</add>ouel tuo core aspira .</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
@@ -754,7 +754,7 @@
                       <l n="27">Cosa seguir che mai giugner non spero .</l>
                       <l n="28">Or al tuo richiamar uenir non degno .</l>
                   </lg>
-                  <pb n="charta 55 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-055v.jpg" />
+                  <pb n="charta 55 verso" facs="common/images/vat-lat3195-f/vat-lat3195-f-055v.jpg" />
                   <lg type="single" corresp="#canvasline">
                       <l n="30">Che segnoria non ai fuor del tuo regno .</l>
                   </lg>
@@ -883,7 +883,7 @@
                       <l n="86">El sedere &virg; &amp7; lo star &virg; che spesso altrui</l>
                       <l n="87">Poser in dubbio &virg; a cui</l>
                   </lg> 
-                  <pb n="charta 56 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-056r.jpg" />
+                  <pb n="charta 56 recto" facs="common/images/vat-lat3195-f/vat-lat3195-f-056r.jpg" />
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="88">Deuesse il pregio di piu laude darsi .Deuesse il pregio di piu laude darsi .</l> 
                       <l n="89">Con questarmi uinceui ogni cor duro .</l>

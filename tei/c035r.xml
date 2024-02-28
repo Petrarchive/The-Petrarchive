@@ -480,7 +480,7 @@
 
     <text>
         <body>
-            <pb n="charta 35 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-035r.jpg" /> 
+            <pb n="charta 35 recto" facs="common/images/vat-lat3195-f/vat-lat3195-f-035r.jpg" /> 
             <lg type="sonnet" xml:id="rvf162" n="162"> <!-- Change the sonnet xml:id and number according to the sonnet to be encoded -->
                 <lg type="octave">
                     <lg type="dblvrs" corresp="#canvasline">

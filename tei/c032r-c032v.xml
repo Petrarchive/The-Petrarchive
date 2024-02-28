@@ -383,7 +383,7 @@
 
     <text>
         <body>
-            <pb n="charta 32 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-032r.jpg"/>
+            <pb n="charta 32 recto" facs="common/images/vat-lat3195-f/vat-lat3195-f-032r.jpg"/>
             <lg xml:id="rvf140" type="sonnet" n="140">
                 <lg type="octave">
                     <lg type="dblvrs" corresp="#canvasline">
@@ -491,7 +491,7 @@
                 <l n="29" corresp="#canvasline">Fuggir disposi <choice><orig>glinuescati</orig><reg>gli ’nvescati</reg></choice> rami<supplied>,</supplied></l>
                 <l n="30" corresp="#canvasline">Tosto <choice><orig><abbr>chincomīciai</abbr><expan>chincominciai</expan></orig><reg>ch’incominciai</reg></choice> di <choice><orig>ueder</orig><reg>veder</reg></choice> lume<supplied>.</supplied></l>
                   
-            <pb n="charta 32 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-032v.jpg"/>
+            <pb n="charta 32 verso" facs="common/images/vat-lat3195-f/vat-lat3195-f-032v.jpg"/>
             
                 <cb n="3-of-4"/>
                 <l n="31" corresp="#canvasline"><hi rendition="#blue #fs24pt">&pilcrow2section;</hi>Tanto mi piacque prima il dolce lume</l>

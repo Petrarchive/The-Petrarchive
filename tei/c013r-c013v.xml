@@ -444,7 +444,7 @@ the line wraps. -->
     </teiHeader>
    <text>
       <body>
-          <pb xml:id="c013r" n="charta 13 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-013r.jpg" />
+          <pb xml:id="c013r" n="charta 13 recto" facs="common/images/vat-lat3195-f/vat-lat3195-f-013r.jpg" />
           <lg xml:id="rvf055" type="ballata_mezzana" n="55">
               <lg type="dblvrs" corresp="#canvasline">
                   <l n="1"><hi rendition="#red #fs24pt">Q</hi><hi rendition="#small-caps">v</hi>el foco <choice><orig>chi</orig><reg>ch’i’</reg></choice> pensai che fosse spento</l>
@@ -574,7 +574,7 @@ the line wraps. -->
                   </lg>
               </lg>
           </lg>
-         <pb xml:id="c013v" n="charta 13 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-013v.jpg" />
+         <pb xml:id="c013v" n="charta 13 verso" facs="common/images/vat-lat3195-f/vat-lat3195-f-013v.jpg" />
            <lg type="sestet">
             <lg type="dblvrs" corresp="#canvasline">
                <l n="9">Et col <choice><orig>terço</orig><reg>terzo</reg></choice> <choice><orig>beuete</orig><reg>bevete</reg></choice> un suco <choice><orig>derba</orig><reg>d’erba</reg></choice></l>

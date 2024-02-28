@@ -477,7 +477,7 @@
 
    <text>
       <body>
-         <pb n="charta 42 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-042v.jpg" /> 
+         <pb n="charta 42 verso" facs="common/images/vat-lat3195-f/vat-lat3195-f-042v.jpg" /> 
           <lg xml:id="rvf214" type="sestina" n="214"  rendition="#columns_2">
               <cb n="1-of-2"/> <!-- Encoding column 1 -->
               <l n="1" corresp="#canvasline"><hi rendition= "#fs24pt">A</hi><hi rendition="#small-caps">n</hi>çi tre di creata era Alma in parte .</l>
