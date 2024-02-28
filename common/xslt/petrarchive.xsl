@@ -12,7 +12,7 @@
     exclude-result-prefixes="xsl tei xd eg fn #default">
     
   <xsl:import href="teibp.xsl"/>
-  <xsl:output method="xhtml" encoding="utf-8" omit-xml-declaration="no" doctype-system="about:legacy-compat" /> 
+  <xsl:output indent="no" method="xhtml" encoding="utf-8" omit-xml-declaration="no" doctype-system="about:legacy-compat" /> 
   <xsl:param name="pbNote" select="''"/>
   
   <xsl:param name="filePrefix" select="''"/>
