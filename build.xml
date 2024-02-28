@@ -121,6 +121,11 @@ is loaded when Ant starts up. Please run Ant again like this:
     <copy todir="${toDir.static}${file.separator}common">
       <fileset dir="common" excludes="lib/ tests/"/>
     </copy>
+    <copy todir="${toDir.static}">
+      <fileset dir=".">
+        <include name="*.html"/>
+      </fileset>
+    </copy>
     <!-- Download a copy of the W3C XHTML 1.0 Strict DTD, and its supporting 
       character entity files. If these are already present in the Petrarchive-static 
       directory, nothing is downloaded. -->
