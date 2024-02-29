@@ -144,6 +144,8 @@ is loaded when Ant starts up. Please run Ant again like this:
           style="common${file.separator}xslt${file.separator}petrarchive.xsl"
 
           classpath="${processor.location}">
+          <sysproperty key="org.apache.xerces.xni.parser.XMLParserConfiguration"
+                 value="org.apache.xerces.parsers.XIncludeParserConfiguration"/>
       <!-- To prevent Ant/Saxon from hitting the W3C servers too hard with requests 
         for the XHTML DTD, we use a catalog entry to map the ID to the local copy of 
         the DTD. -->
