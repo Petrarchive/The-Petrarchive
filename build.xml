@@ -107,6 +107,16 @@ is loaded when Ant starts up. Please run Ant again like this:
   <target name="html">
     <saxon-xslt basedir="${dir.to_xtf}" includes="*.xml" destdir="${dir.rdf}" force="true" extension=".rdf" style="${xslt.swinburne2rdf}" />
   </target>
+  
+  <target name="processStaticHTML">
+    <xslt destdir="${toDir.static}"
+      basedir="html"
+      includes="*.xml"
+      style="common${file.separator}xslt${file.separator}processHTML.xsl"
+      classpath="${processor.location}">
+    </xslt>
+  </target>
+    
 
   <!-- Generate a static version of the Petrarchive website. -->
   <target name="generateSite" depends="checkXmlResolver"

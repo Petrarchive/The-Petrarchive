@@ -1,4 +1,5 @@
-<!DOCTYPE html SYSTEM "about:legacy-compat">
+<?xml version="1.0"?>
+<!-- <!DOCTYPE html SYSTEM "about:legacy-compat">-->
 <html lang="en" xmlns:xi="http://www.w3.org/2001/XInclude">
 <head>
 	<meta charset="utf-8" />
@@ -19,7 +20,7 @@
 
  	<main class="container">
         <header>
-        	<xi:xinclude href="sticky_header.html"/>
+        	<xi:xinclude href="../common/includes/sticky_header.xml"/>
         </header>
 
         <main class="row">
@@ -38,7 +39,7 @@
         </main>
     </main>
 
-	<xi:xinclude href="footer.html"/>
+	<xi:xinclude href="../common/includes/footer.xml"/>
 
 	<script src="https://use.fontawesome.com/57840704ee.js"></script>
 
