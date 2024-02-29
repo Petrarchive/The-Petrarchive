@@ -2,6 +2,8 @@
    name="petrarchive"
    default="previewArticle">
   
+  
+  
   <description>
     Apache Ant buildfile for The Petrarchive.
   </description>
@@ -113,7 +115,11 @@ is loaded when Ant starts up. Please run Ant again like this:
       basedir="html"
       includes="*.xml"
       style="common${file.separator}xslt${file.separator}processHTML.xsl"
-      classpath="${processor.location}">
+      >
+      <factory name="${processor.name}">
+        <attribute name="http://saxon.sf.net/feature/xinclude-aware" 
+          value="on"/>
+      </factory>
     </xslt>
   </target>
     
@@ -152,10 +158,7 @@ is loaded when Ant starts up. Please run Ant again like this:
           basedir="tei"
           includes="*.xml"
           style="common${file.separator}xslt${file.separator}petrarchive.xsl"
-
           classpath="${processor.location}">
-          <sysproperty key="org.apache.xerces.xni.parser.XMLParserConfiguration"
-                 value="org.apache.xerces.parsers.XIncludeParserConfiguration"/>
       <!-- To prevent Ant/Saxon from hitting the W3C servers too hard with requests 
         for the XHTML DTD, we use a catalog entry to map the ID to the local copy of 
         the DTD. -->

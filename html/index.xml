@@ -29,11 +29,11 @@
 <main class="container">
 
 <header class="flakey">
-  <xi:xinclude href="nav.html"/>
+  <xi:include href="../common/includes/nav.xml"/>
 </header>
 
 <header class="sticky hide">
-  <xi:xinclude href="sticky_header.html"/>
+  <xi:include href="../common/includes/sticky_header.xml"/>
 </header>
 
 <div class="row" id="banner">
@@ -64,7 +64,7 @@
 
 <div id="vizindex" class="container">
   <div class="row built-vizindex">
-    <xi:xinclude href="vizindex.html"/>
+    <xi:include href="../common/includes/vizindex.xml"/>
   </div>
 </div>
 
@@ -78,7 +78,7 @@
 </section>
 </main>
 
-  <xi:xinclude href="footer.html"/>
+  <xi:include href="../common/includes/footer.xml"/>
 
 <script src="https://use.fontawesome.com/57840704ee.js"></script>
 

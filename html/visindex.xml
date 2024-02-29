@@ -20,7 +20,7 @@
 
  	<main class="container">
         <header>
-        	<xi:xinclude href="../common/includes/sticky_header.xml"/>
+        	<xi:include href="../common/includes/sticky_header.xml"/>
         </header>
 
         <main class="row">
@@ -39,7 +39,7 @@
         </main>
     </main>
 
-	<xi:xinclude href="../common/includes/footer.xml"/>
+	<xi:include href="../common/includes/footer.xml"/>
 
 	<script src="https://use.fontawesome.com/57840704ee.js"></script>
 
