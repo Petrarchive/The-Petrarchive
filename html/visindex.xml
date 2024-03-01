@@ -6,15 +6,15 @@
 	<title>Petrarchive: Acknowledgements</title>	
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 
-    <link rel="stylesheet" type="text/css" href="css/lib/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="js/jquery-ui/jquery-ui.min.css" />
+    <link rel="stylesheet" type="text/css" href="common/css/lib/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="common/js/jquery-ui/jquery-ui.min.css" />
 
     
-    <link href="css/teibp.css" media="screen, projection" rel="stylesheet" type="text/css" />  
-    <link href="css/custom.css" media="screen, projection" rel="stylesheet" type="text/css" />  
-    <link href="css/auxillaryPage.css" media="screen, projection" rel="stylesheet" type="text/css" />      
+    <link href="common/css/teibp.css" media="screen, projection" rel="stylesheet" type="text/css" />  
+    <link href="common/css/custom.css" media="screen, projection" rel="stylesheet" type="text/css" />  
+    <link href="common/css/auxillaryPage.css" media="screen, projection" rel="stylesheet" type="text/css" />      
 
-    <link rel="stylesheet" type="text/css" href="css/stylesheets/screen.css" />	   
+    <link rel="stylesheet" type="text/css" href="common/css/stylesheets/screen.css" />	   
 </head>
 <body>
 
