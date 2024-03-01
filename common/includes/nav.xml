@@ -3,25 +3,25 @@
 	  <i class="fa fa-bars"></i>
 	</button>
 	<div class="dropdown-menu">
-		<a class="dropdown-item" href="./index.php">Home</a>
-		<a class="dropdown-item inactive" href="./introduction.php">Introduction</a>
-		<a class="dropdown-item" href="./instructions.php">Instructions</a>
+		<a class="dropdown-item" href="./index.html">Home</a>
+		<a class="dropdown-item inactive" href="./introduction.html">Introduction</a>
+		<a class="dropdown-item" href="./instructions.html">Instructions</a>
 	  <a class="dropdown-item inactive" >About the texts</a>
 	  <a class="dropdown-item inactive">Editorial conventions</a>
-	  <a class="dropdown-item" href="./textindex.php">
+	  <a class="dropdown-item" href="./textindex.html">
 		  <strong>
 		  <cite>Rerum vulgarium fragmenta (Rvf)</cite>
 		  </strong>
 	  </a>
-	  <a class="dropdown-item" href="./visindex.php">
+	  <a class="dropdown-item" href="./visindex.html">
 		  A visual index to the <cite>Rvf</cite>
 	  </a>
 	  <a class="dropdown-item" href="./content/glossary.xml">Appendix: Glossary</a> 
 
 	  <div class="divider">Colophon</div>
 	  <ul>
-		  <li><a href="./people.php">People</a></li>
-		  <li><a href="./technical.php">Technical architecture</a></li>
+		  <li><a href="./people.html">People</a></li>
+		  <li><a href="./technical.html">Technical architecture</a></li>
 
 		  <!-- <li><a class="inactive">Grant proposals</a></li> -->
 
@@ -32,7 +32,7 @@
 			  </a>
 		  </li>
 
-		  <li><a href="./acknowledgments.php">Acknowledgments</a></li>
+		  <li><a href="./acknowledgments.html">Acknowledgments</a></li>
 	  </ul>
 	</div>
   </div>
