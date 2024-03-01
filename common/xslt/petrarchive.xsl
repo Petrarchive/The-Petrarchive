@@ -29,21 +29,21 @@
 
   <xsl:template name="stickyHeader">
     <xsl:variable name="header">
-      <xsl:copy-of select="document('../includes/sticky_header.html')"/>
+      <xsl:copy-of select="document('../includes/sticky_header.xml')"/>
     </xsl:variable>
     <xsl:copy-of select="$header"/>
   </xsl:template>
 
   <xsl:template name="mailSignup">
     <xsl:variable name="signup">
-      <xsl:copy-of select="document('../includes/mail-signup.html')"/>
+      <xsl:copy-of select="document('../includes/mail-signup.xml')"/>
     </xsl:variable>
     <xsl:copy-of select="$signup"/>
   </xsl:template>
 
   <xsl:template name="htmlFooter">
     <xsl:variable name="footer">
-      <xsl:copy-of select="document('../includes/footer.html')"/>
+      <xsl:copy-of select="document('../includes/footer.xml')"/>
     </xsl:variable>
     <xsl:copy-of select="$footer"/>
   </xsl:template>
