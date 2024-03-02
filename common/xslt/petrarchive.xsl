@@ -241,7 +241,7 @@
           
             <script type="text/javascript" src="{$teibpJS}"><xsl:comment> </xsl:comment></script>
 
-            <script type="text/javascript" src="common/js/poem.bundle.js"></script>
+            <script type="text/javascript" src="dist/js/poem.bundle.js"></script>
           
             <!-- google analytics. -->
           <!-- Global site tag (gtag.js) - Google Analytics -->
