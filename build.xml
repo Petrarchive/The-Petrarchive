@@ -137,6 +137,10 @@ is loaded when Ant starts up. Please run Ant again like this:
     <copy todir="${toDir.static}${file.separator}common">
       <fileset dir="common" excludes="lib/ tests/"/>
     </copy>
+
+    <copy todir="${toDir.static}${file.separator}dist">
+      <fileset dir="dist" excludes=""/>
+    </copy>
     
     <copy todir="${toDir.static}">
       <fileset dir=".">
