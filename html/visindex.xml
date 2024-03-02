@@ -43,8 +43,8 @@
 
 	<script src="https://use.fontawesome.com/57840704ee.js"></script>
 
-	<script type="text/javascript" src="js/jquery/jquery.min.js"></script>
-	<script type="text/javascript" src="js/tether/tether.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap/bootstrap.min.js"></script>
+	<script type="text/javascript" src="common/js/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="common/js/tether/tether.min.js"></script>
+	<script type="text/javascript" src="common/js/bootstrap/bootstrap.min.js"></script>
 </body>
 </html>
