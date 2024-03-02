@@ -3,12 +3,13 @@ const webpack = require('webpack');
 
 module.exports = {
     mode: 'development',
+    target: 'web',
     entry: {
-        poem: './js/poem.js',
-        index: './js/index.js',
-        glossary: './js/glossary.js',
-        vizindex: './js/vizindex.js',
-        textindex: './js/textindex.js'
+        poem: './common/js/poem.js',
+        index: './common/js/index.js',
+        glossary: './common/js/glossary.js',
+        vizindex: './common/js/vizindex.js',
+        textindex: './common/js/textindex.js'
     },
     /*plugins: [
         new webpack.LoaderOptionsPlugin({
