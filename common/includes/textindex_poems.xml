@@ -1933,6 +1933,7 @@
                 </tr>
             </tbody>
         </table>
+        <!--
         <script>
             var href = location.href
             var r = /content/i
@@ -1945,6 +1946,7 @@
                 })
             }
         </script>
+        -->
 
 		</div>
 		
