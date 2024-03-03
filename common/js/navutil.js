@@ -10,7 +10,7 @@ function NavUtil() {
   // fetch and store vizindex.html data in #shadow-data
   // Then we can query this list of links to compute prev/next hrefs.
   if (!document.querySelector('.vizindex')) {
-    $.get('../vizindex.html', function(html) {
+    $.get('./vizindex.html', function(html) {
       let vizindex = $('<div class="vizindex convert-url"></div>')
       vizindex.appendTo('#shadow-data')
       vizindex.append(html)
