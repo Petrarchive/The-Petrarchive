@@ -83,7 +83,7 @@ function setupTextindex() {
 
   if (!textindex.attr('data-events-loaded')) {
     // put this into petrarchive.xsl
-    $.get('../textindex.html', function(html) {
+    $.get('./textindex.html', function(html) {
       let $html = $(html)
 
       //textindex.find('.modal-content').html('<table id="index"></table>')
