@@ -1937,7 +1937,7 @@
             var href = location.href
             var r = /content/i
             var isContentDirectory = href.search(r)
-		if (isContentDirectory > -1) {
+			if (isContentDirectory &gt; -1) {
                 var links = document.querySelectorAll('.textindex a')
                 links.forEach(function(el) {
                     var old = el.getAttribute('href')
