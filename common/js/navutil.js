@@ -31,7 +31,7 @@ function NavUtil() {
   this._theme = ko.observable('diplomatic')
 
   // url to xslt Document we are using
-  this.xsl = './petrarchive.xsl'
+  this.xsl = 'common/xslt/petrarchive.xsl'
   this.xslDoc
 
   this.events()
