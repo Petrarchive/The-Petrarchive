@@ -1,18 +1,17 @@
-<!DOCTYPE HTML system "about:legacy-compat">
-<html lang="en">
+<html lang="en" xmlns:xi="http://www.w3.org/2001/XInclude">
 <head>
 	<meta charset="utf-8" />
 	<title>Petrarchive: Instructions</title>
 
-  <link rel="stylesheet" type="text/css" href="css/lib/bootstrap.min.css" />
-  <link rel="stylesheet" type="text/css" href="js/jquery-ui/jquery-ui.min.css" />
+  <link rel="stylesheet" type="text/css" href="common/css/lib/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="common/js/jquery-ui/jquery-ui.min.css" />
 
   
-  <link href="css/teibp.css" media="screen, projection" rel="stylesheet" type="text/css" />  
-  <link href="css/custom.css" media="screen, projection" rel="stylesheet" type="text/css" />  
-  <link href="css/auxillaryPage.css" media="screen, projection" rel="stylesheet" type="text/css" />      
+  <link href="common/css/teibp.css" media="screen, projection" rel="stylesheet" type="text/css" />  
+  <link href="common/css/custom.css" media="screen, projection" rel="stylesheet" type="text/css" />  
+  <link href="common/css/auxillaryPage.css" media="screen, projection" rel="stylesheet" type="text/css" />      
 
-  <link rel="stylesheet" type="text/css" href="css/stylesheets/screen.css" />
+  <link rel="stylesheet" type="text/css" href="common/css/stylesheets/screen.css" />
 
   <style>
     ol {
@@ -62,7 +61,7 @@
     }
   </style>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165728171-1"></script>
+<script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-165728171-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -74,7 +73,7 @@
 <body>
   <main class="container  ">
     <header>
-        <?php include( "sticky_header.html"); ?>
+      <xi:include href="../common/includes/sticky_header.xml"/>
     </header>
 
     <aside class="col-12 col-md-3 nav flex-column">
@@ -87,7 +86,7 @@
     </main>
   </main>
 
-	<?php include "footer.html"; ?>
+  <xi:include href="../common/includes/footer.xml"/>
 
 	<script src="https://use.fontawesome.com/57840704ee.js"></script>
 
