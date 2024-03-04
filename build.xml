@@ -162,6 +162,7 @@ is loaded when Ant starts up. Please run Ant again like this:
     <xslt destdir="${toDir.static}"
           basedir="tei"
           includes="*.xml"
+          excludes="glossary.xml"
           style="common${file.separator}xslt${file.separator}petrarchive.xsl"
           classpath="${processor.location}">
       <!-- To prevent Ant/Saxon from hitting the W3C servers too hard with requests 
@@ -170,6 +171,23 @@ is loaded when Ant starts up. Please run Ant again like this:
       <xmlcatalog>
         <dtd publicId="-//W3C//DTD XHTML 1.0 Strict//EN"
              location="${toDir.base}${file.separator}xhtml1-strict.dtd"/>
+      </xmlcatalog>
+      <factory name="${processor.name}"/>
+      <param name="assets-path" expression="..${file.separator}"/>
+      <param name="context" expression="petrarchive"/>
+    </xslt>
+    
+    <xslt destdir="${toDir.static}"
+      basedir="tei"
+      includes="glossary.xml"
+      style="common${file.separator}xslt${file.separator}petrarchive-glossary.xsl"
+      classpath="${processor.location}">
+      <!-- To prevent Ant/Saxon from hitting the W3C servers too hard with requests 
+        for the XHTML DTD, we use a catalog entry to map the ID to the local copy of 
+        the DTD. -->
+      <xmlcatalog>
+        <dtd publicId="-//W3C//DTD XHTML 1.0 Strict//EN"
+          location="${toDir.base}${file.separator}xhtml1-strict.dtd"/>
       </xmlcatalog>
       <factory name="${processor.name}"/>
       <param name="assets-path" expression="..${file.separator}"/>
