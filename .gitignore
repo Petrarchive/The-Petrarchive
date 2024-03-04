@@ -20,6 +20,10 @@ Thumbs.db
 ##########
 doc/
 
+# webpack bundles #
+###################
+dist/
+
 # Caches #
 ##########
 
@@ -30,6 +34,7 @@ content/c001r.html
 content/c022r.html
 config.codekit
 content/test.xml
+
 
 node_modules
 *.swp
