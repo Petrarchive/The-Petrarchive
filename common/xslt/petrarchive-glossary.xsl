@@ -15,6 +15,7 @@
   <xsl:output indent="no" method="xhtml" encoding="utf-8" omit-xml-declaration="no" doctype-system="about:legacy-compat" /> 
   <xsl:param name="pbNote" select="''"/>
   
+  <xsl:param name="filePrefix" select="''"/>
 
   <xsl:param name="bootstrapCSS" select="concat(
   $filePrefix, 'common/css/lib/bootstrap.min.css')"/>
