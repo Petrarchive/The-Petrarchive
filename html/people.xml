@@ -1,21 +1,20 @@
-<!DOCTYPE HTML system "about:legacy-compat">
-<html lang="en">
+<html lang="en" xmlns:xi="http://www.w3.org/2001/XInclude">
 <head>
 	<meta charset="utf-8" />
 	<title>Petrarchive: People</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 
-  <link rel="stylesheet" type="text/css" href="css/lib/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="common/css/lib/bootstrap.min.css" />
   <link rel="stylesheet" type="text/css" href="js/jquery-ui/jquery-ui.min.css" />
 
 
-  <link href="css/teibp.css" media="screen, projection" rel="stylesheet" type="text/css" />
-  <link href="css/custom.css" media="screen, projection" rel="stylesheet" type="text/css" />
-  <link href="css/auxillaryPage.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <link href="common/css/teibp.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <link href="common/css/custom.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <link href="common/css/auxillaryPage.css" media="screen, projection" rel="stylesheet" type="text/css" />
 
-  <link rel="stylesheet" type="text/css" href="css/stylesheets/screen.css" />
+  <link rel="stylesheet" type="text/css" href="common/css/stylesheets/screen.css" />
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165728171-1"></script>
+<script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-165728171-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -27,7 +26,7 @@
 <body>
   <main class="container">
         <header>
-            <?php include( "sticky_header.html"); ?>
+            <xi:include href="../common/includes/sticky_header.xml"/>
         </header>
 
         <main class="row">
@@ -60,7 +59,7 @@ John A. Walsh is the Director of the <a href="https://www.hathitrust.org/htrc">H
 <br/>
 She has extensive experience working on the main Italian etymological and historical dictionaries (LEI - <cite>Lessico Etimologico Italiano</cite>, DI - <cite>Deonomasticon Italicum</cite> and TLIO - <cite>Tesoro della Lingua Italiana delle Origini</cite>). Maria Teresa is also working on the reconstruction of the editorial history of manuscript Ashb. 956, one of the very few southern Italian vernacular translations of the <cite>Liber abaci</cite> by Leonardo Pisano, and a strategic linguistic and lexical source for understanding southern Italian culture of the Middle Ages. She is co-editor of the newly founded Digital Humanities project <cite>Divine Networks: An Interactive Visualization of Dante’s Comedy</cite>. She previously studied at the Universität des Saarlandes where she obtained a Ph.D. in Italian linguistics. Her dissertation, ‘La terminologia linguistica in <cite>Lingua nostra</cite> (1939-1978)’ was awarded the premio Giovanni Nencioni by the Accademia della Crusca.<br/>
 Homepage: <a href="https://italian.rutgers.edu/people/phd-students/115-departmental-info/people/phd-graduate-students/398-maria-teresa-de-luca">https://italian.rutgers.edu/people/phd-students/115-departmental-info/people/phd-graduate-students/398-maria-teresa-de-luca</a>
-<dd>
+</dd>
             </dl>
 
 						<dl>
@@ -117,17 +116,17 @@ Homepage: <a href="https://italian.rutgers.edu/people/phd-students/115-departmen
         </main>
     </main>
 
-	<?php include "footer.html"; ?>
+  <xi:include href="../common/includes/footer.xml"/>
 
 	<script src="https://use.fontawesome.com/57840704ee.js"></script>
 
-	<script type="text/javascript" src="js/jquery/jquery.min.js"></script>
-	<script type="text/javascript" src="js/jquery-ui/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="common/js/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="common/js/jquery-ui/jquery-ui.min.js"></script>
 
-	<script type="text/javascript" src="js/tether/tether.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap/bootstrap.min.js"></script>
+	<script type="text/javascript" src="common/js/tether/tether.min.js"></script>
+	<script type="text/javascript" src="common/js/bootstrap/bootstrap.min.js"></script>
 
 
-  <script type="text/javascript" src="js/auxillary_page.js"></script>
+  <script type="text/javascript" src="common/js/auxillary_page.js"></script>
 </body>
 </html>
