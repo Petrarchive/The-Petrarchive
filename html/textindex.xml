@@ -13,7 +13,7 @@
     <link href="common/css/custom.css" media="screen, projection" rel="stylesheet" type="text/css" />  
 
     <link rel="stylesheet" type="text/css" href="common/css/stylesheets/screen.css" />
-    <link href="common/css/auxillaryPage.css" media="screen, projection" rel="stylesheet" type="text/css" />      
+	<link href="common/css/auxillaryPage.css" media="screen, projection" rel="stylesheet" type="text/css" /> 
     <style type="text/css">
 	.sort {display:none;}
     </style>
@@ -39,7 +39,7 @@
 
         <main class="row col-12">
             <div style='margin-top: 5em;'>
-                <xi:include href="../common/includes/textindex_poems.xml"/>
+                <xi:include href="textindex_poems.xml"/>
             </div>
         </main>
     </main>
