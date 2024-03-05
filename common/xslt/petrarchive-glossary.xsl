@@ -133,7 +133,7 @@
             <script src="https://use.fontawesome.com/57840704ee.js"></script>
           
             <script type="text/javascript" src="{$teibpJS}"><xsl:comment> </xsl:comment></script>
-            <script type="text/javascript" src="../dist/js/glossary.bundle.js"></script>
+            <script type="text/javascript" src="dist/js/glossary.bundle.js"></script>
 
         </head>
     </xsl:template>
