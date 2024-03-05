@@ -22,8 +22,8 @@ $(document).ready(function() {
     // so that the sticky header does not cover content
     return true
   })
-
-  util_browser.convertUrl()
+  //util_browser.convertUrl() not necessary with glossary and all tei files at root.
+  //util_browser.convertUrl()
 })
 
 function insertIntoNav(queryString, nav, navTextQuery) {
