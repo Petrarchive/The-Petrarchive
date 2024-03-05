@@ -138,7 +138,7 @@ Petrarchive.prototype.setupFacsThumb = function() {
   $('#teibpToolbox').append(cloned)
 
   if (util_browser.getParam('incomplete')) {
-    let baseDir = "../images/thumb-vat-lat3195-f/vat-lat3195-f-",
+    let baseDir = "common/images/thumb-vat-lat3195-f/vat-lat3195-f-",
         ch = this.getCurrentDoc().getFirstSide().charta,
         rv = this.getCurrentDoc().getLastSide().rv,
         facsSrc = baseDir + ch + rv + ".jpg";
