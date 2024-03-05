@@ -21,7 +21,9 @@
   $filePrefix, 'common/css/lib/bootstrap.min.css')"/>
   
   <xsl:param name="customCSS" select="concat($filePrefix,'common/css/custom.css')"/>
-  <xsl:param name="auxPageCSS" select="concat($filePrefix,'common/css/auxillaryPage.css')"/>
+  <xsl:param name="auxPageCSS" select="concat($filePrefix,'common/css/auxillaryPage.css')"/>  
+  <xsl:param name="teibpCSS" select="concat($filePrefix,'common/css/teibp.css')"/> 
+  <xsl:param name="teibpJS" select="concat($filePrefix,'common/js/teibp.js')"/>
 
 
   <xsl:template name="stickyHeader">
