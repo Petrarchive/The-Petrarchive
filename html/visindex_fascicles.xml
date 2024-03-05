@@ -294,7 +294,7 @@
 			<xi:include href="../common/includes/visindex_images.xml"/>
 		</div>
 
-		<xi:include href="../common/includes/textindex_poems.xml"/>
+		<xi:include href="textindex_poems.xml"/>
 	</section>
 
 	<?php include "footer.html"; ?>
