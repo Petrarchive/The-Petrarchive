@@ -24,6 +24,10 @@ doc/
 ###################
 dist/
 
+# system-specific utilities #
+#############################
+build.sh
+
 # Caches #
 ##########
 
