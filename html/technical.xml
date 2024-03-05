@@ -1,5 +1,4 @@
-<!DOCTYPE HTML system "about:legacy-compat">
-<html lang="en">
+<html lang="en" xmlns:xi="http://www.w3.org/2001/XInclude">
 <head>
 	<meta charset="utf-8" />
     <title>Petrarchive: Technical</title>
@@ -29,7 +28,7 @@
 <body>
     <main class="container">
         <header>
-            <?php include( "sticky_header.html"); ?>
+            <xi:include href="../common/includes/sticky_header.xml"/>
         </header>
 
         <main class="row">
@@ -45,18 +44,18 @@
         </main>
     </main>
 
-    <?php include "footer.html"; ?>
+    <xi:include href="../common/includes/footer.xml"/>
 
 
     <script src="https://use.fontawesome.com/57840704ee.js"></script>
 
-    <script type="text/javascript" src="js/jquery/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jquery-ui/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="common/js/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="common/js/jquery-ui/jquery-ui.min.js"></script>
     
-    <script type="text/javascript" src="js/tether/tether.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap/bootstrap.min.js"></script>
+    <script type="text/javascript" src="common/js/tether/tether.min.js"></script>
+    <script type="text/javascript" src="common/js/bootstrap/bootstrap.min.js"></script>
 
 
-    <script type="text/javascript" src="js/auxillary_page.js"></script>
+    <script type="text/javascript" src="common/js/auxillary_page.js"></script>
 </body>
 </html>
