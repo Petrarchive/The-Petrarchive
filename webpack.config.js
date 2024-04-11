@@ -8,7 +8,7 @@ module.exports = {
         poem: './common/js/poem.js',
         index: './common/js/index.js',
         glossary: './common/js/glossary.js',
-        vizindex: './common/js/vizindex.js',
+        visindex: './common/js/visindex.js',
         textindex: './common/js/textindex.js'
     },
     /*plugins: [

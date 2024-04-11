@@ -7,13 +7,13 @@ import PetrarchiveDocument from './petrarchivedocument'
 export default NavUtil
 
 function NavUtil() {  
-  // fetch and store vizindex.html data in #shadow-data
+  // fetch and store visindex.html data in #shadow-data
   // Then we can query this list of links to compute prev/next hrefs.
-  if (!document.querySelector('.vizindex')) {
-    $.get('./vizindex.html', function(html) {
-      let vizindex = $('<div class="vizindex convert-url"></div>')
-      vizindex.appendTo('#shadow-data')
-      vizindex.append(html)
+  if (!document.querySelector('.visindex')) {
+    $.get('./visindex.html', function(html) {
+      let visindex = $('<div class="visindex convert-url"></div>')
+      visindex.appendTo('#shadow-data')
+      visindex.append(html)
 
       util_browser.convertUrl('content')
     })
@@ -132,7 +132,7 @@ NavUtil.prototype.setupNextHref = function() {
 }
 
 NavUtil.prototype.getHref = function(name) {
-  let href = $('#shadow-data .vizindex a[data-charta="' + name + '"]').attr('href')
+  let href = $('#shadow-data .visindex a[data-charta="' + name + '"]').attr('href')
   
   return href.split('#')[0]
 }
