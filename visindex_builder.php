@@ -7,7 +7,7 @@ $meta = json_decode($meta_file, true);
 
 $contents_dir = __DIR__ . '/content/';
 
-$fn = fopen('vizindex.html', 'w') or die("can't open file");
+$fn = fopen('visindex.html', 'w') or die("can't open file");
 $textindex = fopen('textindex-2.html', 'w') or die("can't open file");
 
 $files = new DirectoryIterator($dir);
