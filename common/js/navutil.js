@@ -10,7 +10,7 @@ function NavUtil() {
   // fetch and store visindex.html data in #shadow-data
   // Then we can query this list of links to compute prev/next hrefs.
   if (!document.querySelector('.visindex')) {
-    $.get('./visindex.html', function(html) {
+    $.get('./visindex-data.html', function(html) {
       let visindex = $('<div class="visindex convert-url"></div>')
       visindex.appendTo('#shadow-data')
       visindex.append(html)
@@ -97,7 +97,7 @@ NavUtil.prototype.navigateTo = function(href) {
 
     return
   }
-
+	/*
   util_browser.turboXml(href, this.xsl).then(function(xmlResult) {
     let tei = $(xmlResult).find('#tei_wrapper #tei_main')
 		
@@ -105,8 +105,10 @@ NavUtil.prototype.navigateTo = function(href) {
     history.pushState({}, null, href)
     $(document).trigger('Petrarchive:async-load')
   })
+  */
 
 }
+
 
 NavUtil.prototype.setupPrevHref = function() {
   let firstSide = this.current.getFirstSide()
