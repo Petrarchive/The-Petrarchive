@@ -86,11 +86,11 @@
          Text encoding is not yet finished.
       </body-404>
       <div class="col-12">
-        <img class="viz" style="width: 320px" />
+        <img class="vis" style="width: 320px" />
       </div>
    </text>
 
-   <vizindex>
+   <visindex>
      
-   </vizindex>
+   </visindex>
 </TEI>

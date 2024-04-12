@@ -6,11 +6,11 @@ nav #smallbanner {
 	display: none;
 }
 #bannertitle {color: #afafaf;}
-#vizindex img {width:100%;}
-#vizindex a { padding: 0}
+#visindex img {width:100%;}
+#visindex a { padding: 0}
 
 @media screen and (min-width: 992px) {
-	#vizindex .col-lg-1-24 {
+	#visindex .col-lg-1-24 {
 		max-width: 4.1%;}
 }
 .no-file {opacity: .4;}

@@ -100,7 +100,7 @@ export default class Fascicler {
             })
             .attr('data-charta', (d) => d.charta)
             .attr('data-side', (d) => d.rv)
-            .attr('data-viz-url', (d) => {
+            .attr('data-vis-url', (d) => {
                 return d.getViz()
             })
             .attr('d', function(d, i) {

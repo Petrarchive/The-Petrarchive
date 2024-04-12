@@ -62,7 +62,7 @@
   </div>
 </div>
 
-<div id="vizindex" class="container">
+<div id="visindex" class="container">
   
     <xi:include href="../common/includes/visindex_images.xml"/>
   

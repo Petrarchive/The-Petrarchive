@@ -147,7 +147,7 @@ Petrarchive.prototype.setupFacsThumb = function() {
     
     $('#sticky-header .facs-thumb').attr('data-charta', "charta " + this.getCurrentDoc().getFirstSide().getPrettyName())
 
-    $('.viz').attr('src', '../' + this.getCurrentDoc().getFirstSide().getViz())
+    $('.vis').attr('src', '../' + this.getCurrentDoc().getFirstSide().getViz())
   } else {
     // Setup the sticky header
     let thumb = $('.-teibp-thumbnail'),
