@@ -6,7 +6,7 @@ import NavUtil from '../navutil'
 
 export default class extends Controller {
   static targets = ['title', 'single', 
-                    'viz', 'min', 'max',
+                    'vis', 'min', 'max',
                     'xmlLink', 'singlePoemFirstLine'
                    ]
   
@@ -56,7 +56,7 @@ export default class extends Controller {
 
     side.classList.add('click-active')
 
-    this.vizTarget.setAttribute('src', side.getAttribute('data-viz-url'))
+    this.visTarget.setAttribute('src', side.getAttribute('data-vis-url'))
     let name = `${side.getAttribute('data-charta')}${side.getAttribute('data-side')}`
     let navUtil = new NavUtil()
     let href = navUtil.getHref(name)

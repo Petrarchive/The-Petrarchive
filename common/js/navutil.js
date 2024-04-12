@@ -133,7 +133,14 @@ NavUtil.prototype.setupNextHref = function() {
 
 NavUtil.prototype.getHref = function(name) {
   let href = $('#shadow-data .visindex a[data-charta="' + name + '"]').attr('href')
-  
-  return href.split('#')[0]
+  console.log(href)
+  try {
+    // ❌ Fails this condition, as data is a undefined 
+    return href.split('#')[0]
+    
+  } catch (error) {
+    // ✅ executes this line, as data has undefined value
+    console.log('Something happened! 🤔', error);
+  } 
 }
 

@@ -24,7 +24,7 @@ const debouncedStickyHeader = util_browser.debounce(function($window, $threshHol
 function indexInit() {
 	let $window = $(window),
 		$stickyHeader = $('header.sticky'),
-		$threshHold = $('#vizindex').offset().top;
+		$threshHold = $('#visindex').offset().top;
 
 	$(window).scroll(() => {
 		debouncedStickyHeader($window, $threshHold, $stickyHeader)
@@ -32,7 +32,7 @@ function indexInit() {
 
 	// Add on a facsimile preview tooltip functionality
 	$(document).tooltip({
-		items: $(".built-vizindex a"),
+		items: $(".built-visindex a"),
 	/* hide: {
 			effect: "explode",
 			delay: 30000
@@ -59,7 +59,7 @@ function indexInit() {
 		}
 	})
 
-	$('.built-vizindex img').each((i, el) => {
+	$('.built-visindex img').each((i, el) => {
 		let src = $(el).attr('data-src')
 
 		$(el).attr('src', src)

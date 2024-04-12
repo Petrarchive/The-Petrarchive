@@ -54,7 +54,7 @@
 		width: 100%;
 	}
 
-	#vizindex a {
+	#visindex a {
 		max-width:100px !important;
 		max-height:200px !important;
 	}
@@ -170,7 +170,7 @@
 
 				<div class="col">
 					<div class="col-lg-10">
-						<img data-target="fascicles.viz" class="viz fit" />
+						<img data-target="fascicles.vis" class="vis fit" />
 					</div>
 
 					<p data-target="fascicles.singlePoemFirstLine" class="col">
@@ -290,7 +290,7 @@
 	</div>
 
 	<section class="hide" id="shadow-data">
-		<div class="vizindex convert-url">
+		<div class="visindex convert-url">
 			<xi:include href="../common/includes/visindex_images.xml"/>
 		</div>
 
