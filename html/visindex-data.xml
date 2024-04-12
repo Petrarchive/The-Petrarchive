@@ -1,3 +1,4 @@
+<div>
 <a data-charta="001r" class="col-4 col-sm-3 col-md-1 col-lg-1-24" href="content/c001r.xml#c001r"><img alt="001r" class="vi-img" data-src="images/visindex/c001r.svg" /></a>
 <a data-charta="001v" class="col-4 col-sm-3 col-md-1 col-lg-1-24" href="content/c001v.xml#c001v"><img alt="001v" class="vi-img" data-src="images/visindex/c001v.svg" /></a>
 <a data-charta="002r" class="col-4 col-sm-3 col-md-1 col-lg-1-24" href="content/c002r.xml#c002r"><img alt="002r" class="vi-img" data-src="images/visindex/c002r.svg" /></a>
@@ -95,13 +96,13 @@
 <a data-charta="048r" class="col-4 col-sm-3 col-md-1 col-lg-1-24" href="content/c048r.xml#c048r"><img alt="048r" class="vi-img" data-src="images/visindex/c048r.svg" /></a>
 <a data-charta="048v" class="col-4 col-sm-3 col-md-1 col-lg-1-24" href="content/c048v.xml#c048v"><img alt="048v" class="vi-img" data-src="images/visindex/c048v.svg" /></a>
 <a data-charta="049r" class="col-4 col-sm-3 col-md-1 col-lg-1-24" href="content/c049r.xml#c049r"><img alt="049r" class="vi-img" data-src="images/visindex/c049r.svg" /></a>
-<a data-charta="049v" class="col-4 col-sm-3 col-md-1 col-lg-1-24 no-file" href="content/charta-404.xml?incomplete=true&ch=049v"><img alt="049v" class="vi-img" data-src="images/visindex/c049v.svg" /></a>
-<a data-charta="050r" class="col-4 col-sm-3 col-md-1 col-lg-1-24 no-file" href="content/charta-404.xml?incomplete=true&ch=050r"><img alt="050r" class="vi-img" data-src="images/visindex/c050r.svg" /></a>
-<a data-charta="050v" class="col-4 col-sm-3 col-md-1 col-lg-1-24 no-file" href="content/charta-404.xml?incomplete=true&ch=050v"><img alt="050v" class="vi-img" data-src="images/visindex/c050v.svg" /></a>
-<a data-charta="051r" class="col-4 col-sm-3 col-md-1 col-lg-1-24 no-file" href="content/charta-404.xml?incomplete=true&ch=051r"><img alt="051r" class="vi-img" data-src="images/visindex/c051r.svg" /></a>
-<a data-charta="051v" class="col-4 col-sm-3 col-md-1 col-lg-1-24 no-file" href="content/charta-404.xml?incomplete=true&ch=051v"><img alt="051v" class="vi-img" data-src="images/visindex/c051v.svg" /></a>
-<a data-charta="052r" class="col-4 col-sm-3 col-md-1 col-lg-1-24 no-file" href="content/charta-404.xml?incomplete=true&ch=052r"><img alt="052r" class="vi-img" data-src="images/visindex/c052r.svg" /></a>
-<a data-charta="052v" class="col-4 col-sm-3 col-md-1 col-lg-1-24 no-file" href="content/charta-404.xml?incomplete=true&ch=052v"><img alt="052v" class="vi-img" data-src="images/visindex/c052v.svg" /></a>
+<a data-charta="049v" class="col-4 col-sm-3 col-md-1 col-lg-1-24 no-file" href="content/charta-404.xml?incomplete=true&amp;ch=049v"><img alt="049v" class="vi-img" data-src="images/visindex/c049v.svg" /></a>
+<a data-charta="050r" class="col-4 col-sm-3 col-md-1 col-lg-1-24 no-file" href="content/charta-404.xml?incomplete=true&amp;ch=050r"><img alt="050r" class="vi-img" data-src="images/visindex/c050r.svg" /></a>
+<a data-charta="050v" class="col-4 col-sm-3 col-md-1 col-lg-1-24 no-file" href="content/charta-404.xml?incomplete=true&amp;ch=050v"><img alt="050v" class="vi-img" data-src="images/visindex/c050v.svg" /></a>
+<a data-charta="051r" class="col-4 col-sm-3 col-md-1 col-lg-1-24 no-file" href="content/charta-404.xml?incomplete=true&amp;ch=051r"><img alt="051r" class="vi-img" data-src="images/visindex/c051r.svg" /></a>
+<a data-charta="051v" class="col-4 col-sm-3 col-md-1 col-lg-1-24 no-file" href="content/charta-404.xml?incomplete=true&amp;ch=051v"><img alt="051v" class="vi-img" data-src="images/visindex/c051v.svg" /></a>
+<a data-charta="052r" class="col-4 col-sm-3 col-md-1 col-lg-1-24 no-file" href="content/charta-404.xml?incomplete=true&amp;ch=052r"><img alt="052r" class="vi-img" data-src="images/visindex/c052r.svg" /></a>
+<a data-charta="052v" class="col-4 col-sm-3 col-md-1 col-lg-1-24 no-file" href="content/charta-404.xml?incomplete=true&amp;ch=052v"><img alt="052v" class="vi-img" data-src="images/visindex/c052v.svg" /></a>
 <a data-charta="053r" class="col-4 col-sm-3 col-md-1 col-lg-1-24" href="content/c053r-c054r.xml#c053r"><img alt="053r" class="vi-img" data-src="images/visindex/c053r.svg" /></a>
 <a data-charta="053v" class="col-4 col-sm-3 col-md-1 col-lg-1-24" href="content/c053r-c054r.xml#c053v"><img alt="053v" class="vi-img" data-src="images/visindex/c053v.svg" /></a>
 <a data-charta="054r" class="col-4 col-sm-3 col-md-1 col-lg-1-24" href="content/c053r-c054r.xml#c054r"><img alt="054r" class="vi-img" data-src="images/visindex/c054r.svg" /></a>
@@ -118,11 +119,11 @@
 <a data-charta="059v" class="col-4 col-sm-3 col-md-1 col-lg-1-24" href="content/c059v.xml#c059v"><img alt="059v" class="vi-img" data-src="images/visindex/c059v.svg" /></a>
 <a data-charta="060r" class="col-4 col-sm-3 col-md-1 col-lg-1-24" href="content/c060r.xml#c060r"><img alt="060r" class="vi-img" data-src="images/visindex/c060r.svg" /></a>
 <a data-charta="060v" class="col-4 col-sm-3 col-md-1 col-lg-1-24" href="content/c060v.xml#c060v"><img alt="060v" class="vi-img" data-src="images/visindex/c060v.svg" /></a>
-<a data-charta="061r" class="col-4 col-sm-3 col-md-1 col-lg-1-24 no-file" href="content/charta-404.xml?incomplete=true&ch=061r"><img alt="061r" class="vi-img" data-src="images/visindex/c061r.svg" /></a>
-<a data-charta="061v" class="col-4 col-sm-3 col-md-1 col-lg-1-24 no-file" href="content/charta-404.xml?incomplete=true&ch=061v"><img alt="061v" class="vi-img" data-src="images/visindex/c061v.svg" /></a>
+<a data-charta="061r" class="col-4 col-sm-3 col-md-1 col-lg-1-24 no-file" href="content/charta-404.xml?incomplete=true&amp;ch=061r"><img alt="061r" class="vi-img" data-src="images/visindex/c061r.svg" /></a>
+<a data-charta="061v" class="col-4 col-sm-3 col-md-1 col-lg-1-24 no-file" href="content/charta-404.xml?incomplete=true&amp;ch=061v"><img alt="061v" class="vi-img" data-src="images/visindex/c061v.svg" /></a>
 <a data-charta="062r" class="col-4 col-sm-3 col-md-1 col-lg-1-24" href="content/c062r.xml.xml#c062r"><img alt="062r" class="vi-img" data-src="images/visindex/c062r.svg" /></a>
-<a data-charta="062v" class="col-4 col-sm-3 col-md-1 col-lg-1-24 no-file" href="content/charta-404.xml?incomplete=true&ch=062v"><img alt="062v" class="vi-img" data-src="images/visindex/c062v.svg" /></a>
-<a data-charta="063r" class="col-4 col-sm-3 col-md-1 col-lg-1-24 no-file" href="content/charta-404.xml?incomplete=true&ch=063r"><img alt="063r" class="vi-img" data-src="images/visindex/c063r.svg" /></a>
+<a data-charta="062v" class="col-4 col-sm-3 col-md-1 col-lg-1-24 no-file" href="content/charta-404.xml?incomplete=true&amp;ch=062v"><img alt="062v" class="vi-img" data-src="images/visindex/c062v.svg" /></a>
+<a data-charta="063r" class="col-4 col-sm-3 col-md-1 col-lg-1-24 no-file" href="content/charta-404.xml?incomplete=true&amp;ch=063r"><img alt="063r" class="vi-img" data-src="images/visindex/c063r.svg" /></a>
 <a data-charta="063v" class="col-4 col-sm-3 col-md-1 col-lg-1-24" href="content/c063v-c064r.xml#c063v"><img alt="063v" class="vi-img" data-src="images/visindex/c063v.svg" /></a>
 <a data-charta="064r" class="col-4 col-sm-3 col-md-1 col-lg-1-24" href="content/c063v-c064r.xml#c064r"><img alt="064r" class="vi-img" data-src="images/visindex/c064r.svg" /></a>
 <a data-charta="064v" class="col-4 col-sm-3 col-md-1 col-lg-1-24" href="content/c064v.xml#c064v"><img alt="064v" class="vi-img" data-src="images/visindex/c064v.svg" /></a>
@@ -132,13 +133,14 @@
     <a data-charta="066v" class="col-4 col-sm-3 col-md-1 col-lg-1-24" href="content/c066v.xml#c066v"><img alt="066v" class="vi-img" data-src="images/visindex/c066v.svg" /></a>
     <a data-charta="067r" class="col-4 col-sm-3 col-md-1 col-lg-1-24" href="content/c067r.xml#c067r"><img alt="067r" class="vi-img" data-src="images/visindex/c067r.svg" /></a>
     <a data-charta="067v" class="col-4 col-sm-3 col-md-1 col-lg-1-24" href="content/c067v.xml#c067v"><img alt="067v" class="vi-img" data-src="images/visindex/c067v.svg" /></a>
-<a data-charta="068r" class="col-4 col-sm-3 col-md-1 col-lg-1-24 no-file" href="content/charta-404.xml?incomplete=true&ch=068r"><img alt="068r" class="vi-img" data-src="images/visindex/c068r.svg" /></a>
-<a data-charta="068v" class="col-4 col-sm-3 col-md-1 col-lg-1-24 no-file" href="content/charta-404.xml?incomplete=true&ch=068v"><img alt="068v" class="vi-img" data-src="images/visindex/c068v.svg" /></a>
-<a data-charta="069r" class="col-4 col-sm-3 col-md-1 col-lg-1-24 no-file" href="content/charta-404.xml?incomplete=true&ch=069r"><img alt="069r" class="vi-img" data-src="images/visindex/c069r.svg" /></a>
+<a data-charta="068r" class="col-4 col-sm-3 col-md-1 col-lg-1-24 no-file" href="content/charta-404.xml?incomplete=true&amp;ch=068r"><img alt="068r" class="vi-img" data-src="images/visindex/c068r.svg" /></a>
+<a data-charta="068v" class="col-4 col-sm-3 col-md-1 col-lg-1-24 no-file" href="content/charta-404.xml?incomplete=true&amp;ch=068v"><img alt="068v" class="vi-img" data-src="images/visindex/c068v.svg" /></a>
+<a data-charta="069r" class="col-4 col-sm-3 col-md-1 col-lg-1-24 no-file" href="content/charta-404.xml?incomplete=true&amp;ch=069r"><img alt="069r" class="vi-img" data-src="images/visindex/c069r.svg" /></a>
 <a data-charta="069v" class="col-4 col-sm-3 col-md-1 col-lg-1-24" href="content/c069v-c070r.xml#c069v"><img alt="069v" class="vi-img" data-src="images/visindex/c069v.svg" /></a>
 <a data-charta="070r" class="col-4 col-sm-3 col-md-1 col-lg-1-24" href="content/c069v-c070r.xml#c070r"><img alt="070r" class="vi-img" data-src="images/visindex/c070r.svg" /></a>
-<a data-charta="070v" class="col-4 col-sm-3 col-md-1 col-lg-1-24 no-file" href="content/charta-404.xml?incomplete=true&ch=070v"><img alt="070v" class="vi-img" data-src="images/visindex/c070v.svg" /></a>
-<a data-charta="071r" class="col-4 col-sm-3 col-md-1 col-lg-1-24 no-file" href="content/charta-404.xml?incomplete=true&ch=071r"><img alt="071r" class="vi-img" data-src="images/visindex/c071r.svg" /></a>
-<a data-charta="071v" class="col-4 col-sm-3 col-md-1 col-lg-1-24 no-file" href="content/charta-404.xml?incomplete=true&ch=071v"><img alt="071v" class="vi-img" data-src="images/visindex/c071v.svg" /></a>
-<a data-charta="072r" class="col-4 col-sm-3 col-md-1 col-lg-1-24 no-file" href="content/charta-404.xml?incomplete=true&ch=072r"><img alt="072r" class="vi-img" data-src="images/visindex/c072r.svg" /></a>
-<a data-charta="072v" class="col-4 col-sm-3 col-md-1 col-lg-1-24 no-file" href="content/charta-404.xml?incomplete=true&ch=072v"><img alt="072v" class="vi-img" data-src="images/visindex/c072v.svg" /></a>
+<a data-charta="070v" class="col-4 col-sm-3 col-md-1 col-lg-1-24 no-file" href="content/charta-404.xml?incomplete=true&amp;ch=070v"><img alt="070v" class="vi-img" data-src="images/visindex/c070v.svg" /></a>
+<a data-charta="071r" class="col-4 col-sm-3 col-md-1 col-lg-1-24 no-file" href="content/charta-404.xml?incomplete=true&amp;ch=071r"><img alt="071r" class="vi-img" data-src="images/visindex/c071r.svg" /></a>
+<a data-charta="071v" class="col-4 col-sm-3 col-md-1 col-lg-1-24 no-file" href="content/charta-404.xml?incomplete=true&amp;ch=071v"><img alt="071v" class="vi-img" data-src="images/visindex/c071v.svg" /></a>
+<a data-charta="072r" class="col-4 col-sm-3 col-md-1 col-lg-1-24 no-file" href="content/charta-404.xml?incomplete=true&amp;ch=072r"><img alt="072r" class="vi-img" data-src="images/visindex/c072r.svg" /></a>
+<a data-charta="072v" class="col-4 col-sm-3 col-md-1 col-lg-1-24 no-file" href="content/charta-404.xml?incomplete=true&amp;ch=072v"><img alt="072v" class="vi-img" data-src="images/visindex/c072v.svg" /></a>
+</div>
