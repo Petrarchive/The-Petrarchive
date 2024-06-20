@@ -2,7 +2,7 @@
 <?xml-model href="petrarchive.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/xsl" href="petrarchive.xsl"?>
 <!DOCTYPE TEI [
-<!-- Firefox does not play nice with parameter entities. So I had to embed the stuff in here. We can go back to the "better" way with parameter entities, but need to pre-process the documents to remove all entity references before moving to petarchive.org. 
+<!-- Firefox does not play nice with parameter entities. So I had to embed the stuff in here. We can go back to the "better" way with parameter entities, but need to pre-process the documents to remove all entity references before moving to petarchive.org.
 <!ENTITY % petrarchive_entities SYSTEM "petrarchive.ent">
 %petrarchive_entities;
 -->
@@ -61,7 +61,7 @@
 <!ENTITY v2q "<choice><orig> /</orig><reg>?</reg></choice>">
 <!ENTITY pilcrow2section "<choice><orig>¶</orig><reg>§</reg></choice>">
 <!ENTITY punctelevhiback "&#xF1FA;">
-<!ENTITY encodingDesc SYSTEM "encodingDesc.xml"> 
+<!ENTITY encodingDesc SYSTEM "encodingDesc.xml">
 ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -206,7 +206,7 @@
             <mapping type="MUFI">U+00A6</mapping>
             <mapping type="PUA">U+00A6</mapping>
         </char>
-        
+
         <char xml:id="pflour">
             <charName>LATIN SMALL LETTER P WITH
                 FLOURISH</charName>
@@ -219,7 +219,7 @@
             <mapping type="MUFI">U+A753</mapping>
             <mapping type="PUA">U+A753</mapping>
         </char>
-        
+
     </charDecl>
     <charDecl>
         <char xml:id="verbar">
@@ -243,63 +243,63 @@
             <mapping type="visual">&#xF1E1;</mapping>
         </char>
     </charDecl>
-    
+
     <tagsDecl>
 
         <rendition xml:id="sestet_marker" scheme="css"></rendition>
-        
+
         <rendition xml:id="b" n="tiebp:bold" scheme="css">
             font-weight:bold;
-        </rendition> 
-        
+        </rendition>
+
         <rendition xml:id="i" n="tiebp:italic" scheme="css">
             font-style:italic;
-        </rendition> 
-        
+        </rendition>
+
         <rendition xml:id="u" n="tiebp:underline" scheme="css">
             text-decoration:underline;
-        </rendition> 
-        
+        </rendition>
+
         <rendition xml:id="n" n="teibp:normal" scheme="css">
             font-weight:normal;
             text-decoration:none;
             font-style:normal;
         </rendition>
-        
+
         <rendition xml:id="mono" n="teibp:mono" scheme="css">
             font-family:Monaco,Courier,monospace;
         </rendition>
-        
+
         <rendition xml:id="super" n="tiebp:super" scheme="css">
             vertical-align:super;
             font-size:80%;
         </rendition>
-        
+
         <rendition xml:id="sub" n="tiebp:sub" scheme="css">
             vertical-align:sub;
             font-size:80%;
         </rendition>
-        
+
         <rendition xml:id="lowercase" n="tiebp:lowercase" scheme="css">
             text-transform:lowercase;
         </rendition>
-        
+
         <rendition xml:id="uppercase" n="tiebp:uppercase" scheme="css">
             text-transform:uppercase;
         </rendition>
-        
+
         <rendition xml:id="capitalize" n="tiebp:capitalize" scheme="css">
             text-transform:capitalize;
         </rendition>
-        
+
         <rendition xml:id="small-caps" n="tiebp:small-caps" scheme="css">
             font-variant:small-caps;
         </rendition>
- 
+
         <rendition xml:id="block" n="tiebp:block" scheme="css">
             display:block;
-        </rendition> 
-        
+        </rendition>
+
         <rendition xml:id="blockquote" n="tiebp:blockquote" scheme="css">
             display:block;
             font-size:90%;
@@ -311,17 +311,17 @@
             padding-top:.75em;
             padding-bottom:.75em;
         </rendition>
-        
+
         <rendition corresp="#blockquote" n="tiebp:blockquote" scheme="css" scope="before">
 
             content:"" !important;
         </rendition>
-        
+
         <rendition corresp="#blockquote" n="tiebp:blockquote" scheme="css" scope="after">
 
             content:"" !important;
         </rendition>
-        
+
         <rendition xml:id="codeblock" n="teibp:codeblock" scheme="css">
             display: block;
             font-size: 80%;
@@ -335,134 +335,134 @@
             font-family:Monaco,Courier,monospace;
             white-space:pre;
         </rendition>
-        
+
         <rendition xml:id="inline" n="teibp:inline" scheme="css">
             display:inline;
         </rendition>
-        
+
         <rendition xml:id="center" n="tiebp:center" scheme="css">
             display:block;
             text-align:center;
             margin-left:auto;
             margin-right:auto;
         </rendition>
-        
+
         <rendition xml:id="left" n="teibp:left" scheme="css">
             text-align:left;
         </rendition>
-        
+
         <rendition xml:id="right" n="teibp:right" scheme="css">
             text-align:right;
         </rendition>
-        
+
         <rendition xml:id="justify" n="teibp:justify" scheme="css">
             text-align:justify;
         </rendition>
-        
+
         <rendition xml:id="center-block" n="tiebp:center-block" scheme="css">
             display:block;
             margin-left:auto;
             margin-right:auto;
         </rendition>
-        
+
         <rendition xml:id="hang" n="teibp:hang" scheme="css">
             display:block;
             padding-left:2.5em;
             text-indent:-2.5em;
         </rendition>
-        
+
         <rendition xml:id="l-indent-01" n="tiebp:l-indent-01" scheme="css">
             display:block;
             padding-left:4em;
             text-indent:-2em;
         </rendition>
-        
+
         <rendition xml:id="l-indent-02" n="tiebp:l-indent-02" scheme="css">
             display:block;
             padding-left:6em;
             text-indent:-2em;
         </rendition>
-        
+
         <rendition xml:id="l-indent-03" n="tiebp:l-indent-03" scheme="css">
             display:block;
             padding-left:8em;
             text-indent:-2em;
         </rendition>
-        
+
         <rendition xml:id="l-indent-04" n="tiebp:l-indent-04" scheme="css">
             display:block;
             padding-left:10em;
             text-indent:-2em;
         </rendition>
-        
+
         <rendition xml:id="l-indent-05" n="tiebp:l-indent-05" scheme="css">
             display:block;
             padding-left:12em;
             text-indent:-2em;
         </rendition>
-        
+
         <rendition xml:id="l-indent-06" n="tiebp:l-indent-06" scheme="css">
             display:block;
             padding-left:14em;
             text-indent:-2em;
         </rendition>
-        
+
         <rendition xml:id="l-indent-07" n="tiebp:l-indent-07" scheme="css">
             display:block;
             padding-left:16em;
             text-indent:-2em;
         </rendition>
-        
+
         <rendition xml:id="l-indent-08" n="tiebp:l-indent-08" scheme="css">
             display:block;
             padding-left:18em;
             text-indent:-2em;
         </rendition>
-        
+
         <rendition xml:id="indent" n="tiebp:indent" scheme="css" scope="before">
             /* text-indent:4em; */
-            /* The above method of describing an indentation for, say, a paragraph is 
-            preferred. The method being used is in response to a bug in some browsers 
-            whereby a block element, like a paragraph, is erroneously re-indented 
+            /* The above method of describing an indentation for, say, a paragraph is
+            preferred. The method being used is in response to a bug in some browsers
+            whereby a block element, like a paragraph, is erroneously re-indented
             after interruption by another block element (like a list, which is valid,
             in TEI, inside a paragraph). */
             content:"\A0\A0\A0\A0\A0\A0";
         </rendition>
-        
+
         <rendition xml:id="small" n="tiebp:small" scheme="css">
             font-size:90%;
         </rendition>
-        
+
         <rendition xml:id="x-small" n="tiebp:x-small" scheme="css">
             font-size:85%;
         </rendition>
-        
+
         <rendition xml:id="xx-small" n="tiebp:xx-small" scheme="css">
             font-size:80%;
         </rendition>
-        
+
         <rendition xml:id="large" n="tiebp:large" scheme="css">
             font-size:110%;
         </rendition>
-        
+
         <rendition xml:id="x-large" n="tiebp:x-large" scheme="css">
             font-size:115%;
         </rendition>
-        
+
         <rendition xml:id="xxx-large" n="tiebp:xxx-large" scheme="css">
             font-size:120%;
         </rendition>
-        
+
         <rendition xml:id="bracket" n="teibp:bracket" scheme="css"/>
-        
+
         <rendition corresp="#bracket" n="tiebp:bracket" scheme="css" scope="before">
             content:"&lt;";
         </rendition>
-        
+
         <rendition corresp="#bracket" n="tiebp:bracket" scheme="css" scope="after">
             content:">";
         </rendition>
-        
+
         <rendition xml:id="red" scheme="css"
             >color:#9f1706;</rendition>
         <rendition xml:id="blue" scheme="css"
@@ -482,34 +482,34 @@
           <lg type="sonnet" xml:id="rvf297" n="297"> <!-- Change the sonnet xml:id and number according to the sonnet to be encoded -->
               <lg type="octave">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="1"><hi rendition="#red #fs24pt">D</hi><hi rendition="#small-caps">v</hi>e gran nemiche inseme erano a&#x32d;<choice><abbr>giūte</abbr><expan>giunte</expan></choice></l> <!-- COMBINING CIRCUMFLEX ACCENT BELOW: https://www.fileformat.info/info/unicode/char/032d/index.htm For non combined: &#x2F0; -->
-                      <l n="2">Belleçça &amp7; honesta &virg; &con; pace tanta .</l>
+                      <l n="1"><hi rendition="#red #fs24pt">D</hi><hi rendition="#small-caps">v</hi>e gran nemiche inseme erano <choice><orig>a&#x32d;<choice><abbr>giūte</abbr><expan>giunte</expan></choice></orig><reg>agiunte</reg></choice><supplied>,</supplied></l> <!-- COMBINING CIRCUMFLEX ACCENT BELOW: https://www.fileformat.info/info/unicode/char/032d/index.htm For non combined: &#x2F0; -->
+                      <l n="2"><choice><orig>Belleçça</orig><reg>Bellezza</reg></choice> &amp7; <choice><orig>honesta</orig><reg>honestà</reg></choice><choice><orig> &virg;</orig><reg>,</reg></choice> &con; pace tanta<choice><orig> .</orig><reg>,</reg></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="3">Che mai¦r<subst><del type="erasure"><gap reason="illegible"/></del><add>e</add></subst>bellion lanima santa</l>
-                      <l n="4">Non senti poi &virg; cha star seco fur giunte</l>
+                      <l n="3">Che mai¦r<subst><del type="erasure"><gap reason="illegible"/></del><add>e</add></subst>bellion <choice><orig>lanima</orig><reg>l’anima</reg></choice> santa</l>
+                      <l n="4">Non <choice><orig>senti</orig><reg>sentì</reg></choice> poi<choice><orig> &virg;</orig><reg></reg></choice> <choice><orig>cha</orig><reg>ch’ a</reg></choice> star seco fur giunte<supplied>;</supplied></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="5">Et or &per; morte son sparse &amp7; <choice><abbr>disgiūte</abbr><expan>disgiunte</expan></choice> .</l>
-                      <l n="6">Luna e nel ciel &virg; che se ne gloria &virg;&amp7; <choice><abbr>uāta</abbr><expan>uanta</expan></choice> .</l>
+                      <l n="5">Et or &per; morte son sparse &amp7; <choice><abbr>disgiūte</abbr><expan>disgiunte</expan></choice><choice><orig> .</orig><reg>;</reg></choice></l>
+                      <l n="6"><choice><orig>Luna</orig><reg>L’una</reg></choice> <choice><orig>e</orig><reg>è</reg></choice> nel ciel<choice><orig> &virg;</orig><reg>,</reg></choice> che se ne gloria <choice><orig>&virg;</orig><reg></reg></choice>&amp7; <choice><orig><choice><abbr>uāta</abbr><expan>uanta</expan></choice></orig><reg>vanta</reg></choice><choice><orig> .</orig><reg>;</reg></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="7">Laltra sotterra &virg; che begliocchi <choice><abbr>amāta</abbr><expan>amanta</expan></choice> .</l>
-                      <l n="8">Onde uscir gia tantamorose punte .</l>
+                      <l n="7"><choice><orig>Laltra</orig><reg>L’altra</reg></choice> sotterra<choice><orig> &virg;</orig><reg>,</reg></choice> che <choice><orig>begliocchi</orig><reg>begli occhi</reg></choice> <choice><abbr>amāta</abbr><expan>amanta</expan></choice><choice><orig> .</orig><reg>,</reg></choice></l>
+                      <l n="8">Onde uscir <choice><orig>gia</orig><reg>già</reg></choice> <choice><orig>tantamorose</orig><reg>tant’amorose</reg></choice> punte<choice><orig> .</orig><reg>.</reg></choice></l>
                   </lg>
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">Latto soaue &virg; el parlar saggio humile</l>
-                      <l n="10">Che mouea dalto loco &virg; el dolce sguardo</l>
+                      <l n="9"><choice><orig>Latto</orig><reg>L’atto</reg></choice> <choice><orig>soaue</orig><reg>soave</reg></choice><choice><orig> &virg;</orig><reg>,</reg></choice> <choice><orig>el</orig><reg>e ’l</reg></choice> parlar saggio humile</l>
+                      <l n="10">Che <choice><orig>mouea</orig><reg>movea</reg></choice> <choice><orig>dalto</orig><reg>d’alto</reg></choice> loco <choice><orig>&virg; </orig><reg></reg></choice><choice><orig>el</orig><reg>e ’l</reg></choice> dolce sguardo</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="11">Che piagaua il mio core <subst><del type="erasure"><gap reason="illegible"/></del><add> &virg; anc</add></subst>hor <choice><abbr>lacēna</abbr><expan>lacenna</expan></choice> .</l>
+                      <l n="11">Che <choice><orig>piagaua</orig><reg>piagava</reg></choice> il mio core <subst><del type="erasure"><gap reason="illegible"/></del><add><choice><orig> &virg;</orig><reg>,</reg></choice> anc</add></subst>hor <choice><orig><choice><abbr>lacēna</abbr><expan>lacenna</expan></choice></orig><reg>l’accenna</reg></choice><choice><orig> .</orig><reg>,</reg></choice></l>
                       <l n="12">Sono spariti. &amp7; sal seguir son tardo <g ref="#virgsusp"/></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="13">Forse auerra &virg; chel bel nome gentile</l>
-                      <l n="14">Consecrero &con; questa stanca penna .</l>
+                      <l n="13">Forse <choice><orig>auerra</orig><reg>averrà</reg></choice><choice><orig> &virg;</orig><reg></reg></choice> <choice><orig>chel</orig><reg>che ’l</reg></choice> bel nome gentile</l>
+                      <l n="14"><choice><orig>Consecrero</orig><reg>Consecrerò</reg></choice> &con; questa stanca penna<choice><orig> .</orig><reg>.</reg></choice></l>
                   </lg>
               </lg>
           </lg>
@@ -517,34 +517,34 @@
           <lg xml:id="rvf298" type="sonnet" n="298"> <!-- Change the sonnet xml:id and number according to the sonnet to be encoded -->
               <lg type="octave">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="1"><hi rendition="#blue #fs24pt">Q</hi><hi rendition="#small-caps">v</hi>andio mi uolgo in dietro a mirar <choice><abbr>gliāni</abbr><expan>glianni</expan></choice></l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
-                      <l n="2"><choice><abbr>Chāno</abbr><expan>Channo</expan></choice> <choice><abbr>fuggēdo</abbr><expan>fuggendo</expan></choice> i miei penseri sparsi &virg;</l>
+                      <l n="1"><choice><orig><hi rendition="#blue #fs24pt">Q</hi><hi rendition="#small-caps">v</hi>andio</orig><reg>Quand’io</reg></choice> mi <choice><orig>uolgo</orig><reg>volgo</reg></choice> in dietro a mirar <choice><orig><choice><abbr>gliāni</abbr><expan>glianni</expan></choice></orig><reg>gli anni</reg></choice></l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
+                      <l n="2"><choice><orig><choice><abbr>Chāno</abbr><expan>Channo</expan></choice></orig><reg>Ch’anno</reg></choice> <choice><abbr>fuggēdo</abbr><expan>fuggendo</expan></choice> i miei penseri sparsi<choice><orig> &virg;</orig><reg>,</reg></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="3">Et spentol foco &virg; oue <choice><abbr>agghiacciādo</abbr><expan>agghiacciando</expan></choice> io arsi .</l>
-                      <l n="4">Et finito il riposo pien daffann[i] .</l>
+                      <l n="3">Et <choice><orig>spentol</orig><reg>spento ’l</reg></choice> foco<choice><orig> &virg;</orig><reg></reg></choice> <choice><orig>oue</orig><reg>ove</reg></choice> <choice><abbr>agghiacciādo</abbr><expan>agghiacciando</expan></choice> io arsi<choice><orig> .</orig><reg>,</reg></choice></l>
+                      <l n="4">Et finito il riposo pien <choice><orig>daffann[i]</orig><reg>d’affanni</reg></choice><choice><orig> .</orig><reg>.</reg></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="5">Rotta la fe de gliamorosi inganni .</l>
-                      <l n="6"><subst><del type="erasure"><gap reason="illegible"/><add>&Amp7;</add></del></subst> sol due parti dogni mio ben farsi .</l>
+                      <l n="5">Rotta la <choice><orig>fe</orig><reg>fe’</reg></choice> <choice><orig>de gliamorosi</orig><reg>degli amorosi</reg></choice> inganni<choice><orig> .</orig><reg>,</reg></choice></l>
+                      <l n="6"><subst><del type="erasure"><gap reason="illegible"/><add>&Amp7;</add></del></subst> sol due parti <choice><orig>dogni</orig><reg>d’ogni</reg></choice> mio ben farsi<choice><orig> .</orig><reg>,</reg></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="7">Luna nel cielo . &amp7; laltra in terra starsi .</l>
-                      <l n="8"><subst><del type="erasure"><gap reason="illegible"/><add>&Amp7;</add></del></subst> perduto il guadagno de miei damni .</l>
+                      <l n="7"><choice><orig>Luna</orig><reg>L’una</reg></choice> nel cielo<choice><orig> .</orig><reg></reg></choice> &amp7;<choice><orig>laltra</orig><reg>l’altra</reg></choice> in terra starsi<choice><orig> .</orig><reg>,</reg></choice></l>
+                      <l n="8"><subst><del type="erasure"><gap reason="illegible"/><add>&Amp7;</add></del></subst> perduto il guadagno <choice><orig>de</orig><reg>de’</reg></choice> miei damni<choice><orig> .</orig><reg>,</reg></choice></l>
                   </lg>
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><hi rendition="#sestet_maker">~</hi> I mi riscuoto . &amp7; trouomi si nudo .</l> <!-- Indentation of ~ -->
-                      <l n="10">Chi porto inuidia adogni extrema sorte .</l>
+                      <l n="9"><hi rendition="#sestet_maker">~</hi> <choice><orig>I</orig><reg>I’</reg></choice> mi riscuoto<choice><orig> .</orig><reg>,</reg></choice> &amp7; <choice><orig>trouomi</orig><reg>trovomi</reg></choice> <choice><orig>si</orig><reg>sì</reg></choice> nudo<choice><orig> .</orig><reg>,</reg></choice></l> <!-- Indentation of ~ -->
+                      <l n="10"><choice><orig>Chi</orig><reg>Ch’i’</reg></choice> porto <choice><orig>inuidia</orig><reg>invidia</reg></choice> <choice><orig>adogni</orig><reg>ad ogni</reg></choice> extrema sorte<choice><orig> .</orig><reg>;</reg></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="11">Tal cordoglio &amp7; paura o di me stesso .</l>
-                      <l n="12">O mia stella &virg; o fortuna &virg; o fato &virg; o morte .</l>
+                      <l n="11">Tal cordoglio &amp7; paura <choice><orig>o</orig><reg>ò</reg></choice> di me stesso<choice><orig> .</orig><reg>.</reg></choice></l>
+                      <l n="12">O mia stella<choice><orig> &virg;</orig><reg>,</reg></choice> o fortuna<choice><orig> &virg;</orig><reg>,</reg></choice> o fato<choice><orig> &virg;</orig><reg>,</reg></choice> o morte<choice><orig> .</orig><reg>,</reg></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="13">O &per; me sempre dolce giorno &amp7; crudo &virg;</l>
-                      <l n="14">Come mauete in basso stato messo .</l>
+                      <l n="13">O &per; me sempre dolce giorno &amp7; crudo<choice><orig> &virg;</orig><reg>,</reg></choice></l>
+                      <l n="14">Come <choice><orig>mauete</orig><reg>m’avete</reg></choice> in basso stato messo<choice><orig> .</orig><reg>.</reg></choice></l>
                   </lg>
               </lg>
           </lg>
@@ -552,34 +552,34 @@
           <lg xml:id="rvf299" type="sonnet" n="299"> <!-- Change the sonnet xml:id and number according to the sonnet to be encoded -->
               <lg type="octave">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="1"><hi rendition="#red #fs24pt">O</hi><hi rendition="#small-caps">v</hi>e la fronte &virg; che con picciol <choice><abbr>cēno</abbr><expan>cenno</expan></choice></l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
-                      <l n="2">Volgea il mio core &in; questa parte &virg; en quella <g ref="#punctinter"/></l>
+                      <l n="1"><choice><orig><hi rendition="#red #fs24pt">O</hi><hi rendition="#small-caps">v</hi>e</orig><reg>Ov’è</reg></choice> la fronte<choice><orig> &virg;</orig><reg>,</reg></choice> che con picciol <choice><abbr>cēno</abbr><expan>cenno</expan></choice></l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
+                      <l n="2">Volgea il mio core &in; questa parte<choice><orig> &virg;</orig><reg></reg></choice> <choice><orig>en</orig><reg>e ’n</reg></choice> quella <choice><orig><g ref="#punctinter"/></orig><reg>?</reg></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="3">Ouel bel ciglio. &amp7; luna &amp7; laltra stella</l>
-                      <l n="4">Chal corso del mio uiuer lume denno <g ref="#punctinter"/></l>
+                      <l n="3"><choice><orig>Ouel</orig><reg>Ov’è ’l</reg></choice> bel ciglio<choice><orig>.</orig><reg></reg></choice> &amp7; <choice><orig>luna</orig><reg>l’una</reg></choice> &amp7; <choice><orig>laltra</orig><reg>l’altra</reg></choice> stella</l>
+                      <l n="4"><choice><orig>Chal</orig><reg>Ch’ al</reg></choice> corso del mio <choice><orig>uiuer</orig><reg>viver</reg></choice> lume denno <choice><orig><g ref="#punctinter"/></orig><reg>?</reg></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="5">Ouel ualor. la <choice><abbr>conoscēça</abbr><expan>conoscença</expan></choice> . el <choice><abbr>sēno</abbr><expan>senno</expan></choice> <g ref="#punctinter"/></l>
-                      <l n="6">Laccorta &virg; honesta &virg; humil &virg; dolce &virg; fauella <g ref="#punctinter"/></l>
+                      <l n="5"><choice><orig>Ouel</orig><reg>Ov’è ’l</reg></choice> <choice><orig>ualor</orig><reg>valor</reg></choice><choice><orig>.</orig><reg>,</reg></choice> la <choice><orig><choice><abbr>conoscēça</abbr><expan>conoscença</expan></choice></orig><reg>conoscenza</reg></choice><choice><orig> .</orig><reg></reg></choice> <choice><orig>el</orig><reg>e ’l</reg></choice> <choice><abbr>sēno</abbr><expan>senno</expan></choice> <choice><orig><g ref="#punctinter"/></orig><reg>?</reg></choice></l>
+                      <l n="6"><choice><orig>Laccorta</orig><reg>L’accorta</reg></choice><choice><orig> &virg;</orig><reg>,</reg></choice> honesta<choice><orig> &virg;</orig><reg>,</reg></choice> humil<choice><orig> &virg;</orig><reg>,</reg></choice> dolce<choice><orig> &virg;</orig><reg></reg></choice> <choice><orig>fauella</orig><reg>favella</reg></choice> <choice><orig><g ref="#punctinter"/></orig><reg>?</reg></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="7">Oue son le belleççe accolte in ella &virg-underdot;̣</l>
-                      <l n="8">Che gran tempo di me lor uoglia fenno <g ref="#punctinter"/></l>
+                      <l n="7"><choice><orig>Oue</orig><reg>Ove</reg></choice> son le <choice><orig>belleççe</orig><reg>bellezze</reg></choice> accolte in ella<choice><orig> &virg-underdot;̣</orig><reg>,</reg></choice></l>
+                      <l n="8">Che gran tempo di me lor <choice><orig>uoglia</orig><reg>voglia</reg></choice> fenno <choice><orig><g ref="#punctinter"/></orig><reg>?</reg></choice></l>
                   </lg>
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><hi rendition="#sestet_maker">~</hi> Oue lombra gentil del uiso humano</l> <!-- Indentation of ~ -->
-                      <l n="10">Chora &amp7; riposo daua a lalma stanca .</l>
+                      <l n="9"><hi rendition="#sestet_maker">~</hi> <choice><orig>Oue</orig><reg>Ov’è</reg></choice> <choice><orig>lombra</orig><reg>l’ombra</reg></choice> gentil del <choice><orig>uiso</orig><reg>viso</reg></choice> humano</l> <!-- Indentation of ~ -->
+                      <l n="10"><choice><orig>Chora</orig><reg>Ch’ora</reg></choice> &amp7; riposo <choice><orig>daua</orig><reg>dava</reg></choice> a <choice><orig>lalma</orig><reg>l’alma</reg></choice> stanca<choice><orig> .</orig><reg>,</reg></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="11">Et laue i <subst><del type="erasure"><gap reason="illegible"/><add>miei pensier</add></del></subst> scritti eran tutti <g ref="#punctinter"/></l>
-                      <l n="12">Oue colei che mia uita ebbe &in; mano <g ref="#punctinter"/></l>
+                      <l n="11">Et <choice><orig>laue</orig><reg>là ’ve</reg></choice> i <choice><orig><subst><del type="erasure"><gap reason="illegible"/><add>miei pensier</add></del></subst></orig><reg>miei pensier’</reg></choice> scritti eran tutti <choice><orig><g ref="#punctinter"/></orig><reg>?</reg></choice></l>
+                      <l n="12"><choice><orig>Oue</orig><reg>Ov’è</reg></choice> colei che mia <choice><orig>uita</orig><reg>vita</reg></choice> ebbe &in; mano <choice><orig><g ref="#punctinter"/></orig><reg>?</reg></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="13">&Quanto; al misero mondo<g ref="#punctinter"/> &amp7; &quanto; <choice><abbr>māca</abbr><expan>manca</expan></choice></l>
-                      <l n="14">A gliocchi miei che mai &non; fien asciutti <g ref="#punctinter"/></l>
+                      <l n="14"><choice><orig>A gliocchi</orig><reg>Agli occhi</reg></choice> miei che mai &non; fien asciutti <choice><orig><g ref="#punctinter"/></orig><reg>?</reg></choice></l>
                   </lg>
               </lg>
           </lg>
@@ -587,34 +587,34 @@
           <lg xml:id="rvf300" type="sonnet" n="300"> <!-- Change the sonnet xml:id and number according to the sonnet to be encoded -->
               <lg type="octave">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="1"><hi rendition="#fs24pt #blue">Q</hi><hi rendition="#small-caps">v</hi>anta inuidia io ti porto auara terra</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
-                      <l n="2">Chabbracci quella &virg; cui ueder me tolto .</l>
+                      <l n="1"><hi rendition="#fs24pt #blue">Q</hi><hi rendition="#small-caps">v</hi>anta <choice><orig>inuidia</orig><reg>invidia</reg></choice> io ti porto<supplied>,</supplied> <choice><orig>auara</orig><reg>avara</reg></choice> terra<supplied>,</supplied></l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
+                      <l n="2"><choice><orig>Chabbracci</orig><reg>Ch’abbracci</reg></choice> quella<choice><orig> &virg;</orig><reg></reg></choice> cui <choice><orig>ueder</orig><reg>veder</reg></choice> <choice><orig>me</orig><reg>m’è</reg></choice> tolto<choice><orig> .</orig><reg>,</reg></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="3">Et mi contendi laria del bel uolto .</l>
-                      <l n="4">Doue pace trouai dogni mia guerra .</l>
+                      <l n="3">Et mi contendi <choice><orig>laria</orig><reg>l’aria</reg></choice> del bel <choice><orig>uolto</orig><reg>volto</reg></choice><choice><orig> .</orig><reg>,</reg></choice></l>
+                      <l n="4"><choice><orig>Doue</orig><reg>Dove</reg></choice> pace <choice><orig>trouai</orig><reg>trovai</reg></choice> <choice><orig>dogni</orig><reg>d’ogni</reg></choice> mia guerra<choice><orig> .</orig><reg>!</reg></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="5"><choice><abbr>Quāta</abbr><expan>Quanta</expan></choice> ne porto al ciel che chiude &amp7; serra &virg;</l>
-                      <l n="6">Et si cupidamente a inse raccolto</l>
+                      <l n="5"><choice><abbr>Quāta</abbr><expan>Quanta</expan></choice> ne porto al ciel che chiude &amp7; serra<choice><orig> &virg;</orig><reg>,</reg></choice></l>
+                      <l n="6">Et <choice><orig>si</orig><reg>sì</reg></choice> cupidamente <choice><orig>a</orig><reg>à</reg></choice> <choice><orig>inse</orig><reg>in sé</reg></choice> raccolto</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="7">Lo spirto da le belle membra sciolto .</l>
-                      <l n="8">Et &per; altrui si rado si diserra .</l>
+                      <l n="7">Lo spirto da le belle membra sciolto<choice><orig> .</orig><reg>,</reg></choice></l>
+                      <l n="8">Et &per; altrui <choice><orig>si</orig><reg>sì</reg></choice> rado si diserra<choice><orig> .</orig><reg>!</reg></choice></l>
                   </lg>
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><hi rendition="#sestet_maker">~</hi> <choice><abbr>Quāta</abbr><expan>Quanta</expan></choice> inuidia a quellanime chen forte</l> <!-- Indentation of ~ -->
-                      <l n="10">Anno or sua santa &amp7; dolce <choice><abbr>cōpagnia</abbr><expan>compagnia</expan></choice></l>
+                      <l n="9"><hi rendition="#sestet_maker">~</hi> <choice><abbr>Quāta</abbr><expan>Quanta</expan></choice> <choice><orig>inuidia</orig><reg>invidia</reg></choice> a <choice><orig>quellanime</orig><reg>quell’anime</reg></choice> <choice><orig>chen</orig><reg>che ’n</reg></choice> sorte</l> <!-- Indentation of ~ -->
+                      <l n="10"><choice><orig>Anno</orig><reg>Ànno</reg></choice> or sua santa &amp7; dolce <choice><abbr>cōpagnia</abbr><expan>compagnia</expan></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="11">La qual io cercai &sempre; &con; t<subst><del type="erasure"><gap reason="illegible"/><add>a</add></del></subst>l brama&virg;</l>
-                      <l n="12"><choice><abbr>Quāta</abbr><expan>Quanta</expan></choice> la dispietata &amp7; dura morte</l>
+                      <l n="11">La qual io cercai &sempre; &con; t<subst><del type="erasure"><gap reason="illegible"/><add>a</add></del></subst>l brama<choice><orig>&virg;</orig><reg>!</reg></choice></l>
+                      <l n="12"><choice><orig><choice><abbr>Quāta</abbr><expan>Quanta</expan></choice></orig><reg>Quant’ a</reg></choice> la dispietata &amp7; dura morte</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="13"><choice><abbr>Chauēdo</abbr><expan>Chauendo</expan></choice> spento in lei la uita mia &virg;</l>
-                      <l n="14">Stassi ne suoi begliocchi. &amp7; me &non; chiama</l>
+                      <l n="13"><choice><orig><choice><abbr>Chauēdo</abbr><expan>Chauendo</expan></choice></orig><reg>Ch’ avendo</reg></choice> spento in lei la <choice><orig>uita</orig><reg>vita</reg></choice> mia<choice><orig> &virg;</orig><reg>,</reg></choice></l>
+                      <l n="14">Stassi <choice><orig>ne</orig><reg>ne’</reg></choice> suoi <choice><orig>begliocchi</orig><reg>begli occhi</reg></choice><choice><orig>.</orig><reg>,</reg></choice> &amp7; me &non; chiama<supplied>!</supplied></l>
                   </lg>
               </lg>
           </lg>
