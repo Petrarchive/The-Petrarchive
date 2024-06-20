@@ -480,38 +480,38 @@
 
    <text>
       <body>
-         <pb n="charta 1 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-058v.jpg" /> <!-- Change the number of the charta in both places "charta 1 verso" and -f-0001v.jpg", according to the charta to be encoded -->
+         <pb n="charta 58 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-058v.jpg" /> <!-- Change the number of the charta in both places "charta 1 verso" and -f-0001v.jpg", according to the charta to be encoded -->
           <lg type="sonnet" xml:id="rvf289" n="289"> <!-- Change the sonnet xml:id and number according to the sonnet to be encoded -->
               <lg type="octave">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="1"><hi rendition="#red #fs24pt">L</hi><hi rendition="#small-caps">a</hi>lma mia <choice><abbr>fiāma</abbr><expan>fiamma</expan></choice> oltra le belle bella .</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
-                      <l n="2">Chebbe quil ciel si amico &amp7; si cortese</l>
+                      <l n="1"><choice><orig><hi rendition="#red #fs24pt">L</hi><hi rendition="#small-caps">a</hi>lma</orig><reg><hi rendition="#red #fs24pt">L</hi><hi rendition="#small-caps">’ a</hi>lma</reg></choice> mia <choice><abbr>fiāma</abbr><expan>fiamma</expan></choice> oltra le belle bella<choice><orig> .</orig><reg>,</reg></choice></l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
+                      <l n="2"><choice><orig>Chebbe</orig><reg>Ch’ebbe</reg></choice> <choice><orig>quil</orig><reg>qui ’l</reg></choice> ciel <choice><orig>si</orig><reg>sì</reg></choice> amico &amp7; <choice><orig>si</orig><reg>sì</reg></choice> cortese<supplied>,</supplied></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="3">Ançi tempo &per; m<subst><del type="erasure"><gap reason="illegible"/></del><add>e</add></subst> nel suo paese</l>
-                      <l n="4">E ritornata &virg-underdot; et a la par sua stella .</l>
+                      <l n="3"><choice><orig>Ançi</orig><reg>Anzi</reg></choice> tempo &per; m<subst><del type="erasure"><gap reason="illegible"/></del><add>e</add></subst> nel suo paese</l>
+                      <l n="4"><choice><orig>E</orig><reg>È</reg></choice> ritornata<choice><orig> &virg-underdot;</orig><reg>,</reg></choice> et a la par sua stella<choice><orig> .</orig><reg>.</reg></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="5">Or <choice><abbr>comīcio</abbr><expan>comincio</expan></choice> asuegliarmi .&amp7; ueggio chella</l>
-                      <l n="6">&Per; lo migliore al mio desir contese .</l>
+                      <l n="5">Or <choice><abbr>comīcio</abbr><expan>comincio</expan></choice> <choice><orig>asuegliarmi</orig><reg>a svegliarmi</reg></choice><choice><orig> .</orig><reg>, </reg></choice>&amp7; <choice><orig>ueggio</orig><reg>veggio</reg></choice> <choice><orig>chella</orig><reg>ch’ ella</reg></choice></l>
+                      <l n="6">&Per; lo migliore al mio desir contese<choice><orig> .</orig><reg>,</reg></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="7">Et quelle uoglie giouenil<subst><del type="erasure"><gap reason="illegible"/></del><add>i</add></subst> accese </l>
-                      <l n="8">Tempro &con; una uista dolce &amp7; fella .</l>
+                      <l n="7">Et quelle <choice><orig>uoglie</orig><reg>vogli</reg></choice> <choice><orig>giouenil<subst><del type="erasure"><gap reason="illegible"/></del><add>i</add></subst></orig><reg>giovenili</reg></choice> accese </l>
+                      <l n="8"><choice><orig>Tempro</orig><reg>Temprò</reg></choice> &con; una <choice><orig>uista</orig><reg>vista</reg></choice> dolce &amp7; fella<choice><orig> .</orig><reg>.</reg></choice></l>
                   </lg>
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><hi rendition="#sestet_maker">~</hi> Lei ne ringratio <subst><del type="erasure"><gap reason="illegible" /></del><add>.</add></subst> el suo alto <choice><abbr>cōsiglio</abbr><expan>consiglio</expan></choice></l>
-                      <l n="10">Che col bel uiso &virg;&amp7; co soaui sdegni</l>
+                      <l n="9"><choice><orig><hi rendition="#sestet_maker">~</hi> </orig><reg></reg></choice>Lei ne ringratio<choice><orig> <subst><del type="erasure"><gap reason="illegible" /></del><add>.</add></subst></orig><reg>,</reg></choice> <choice><orig>el</orig><reg>e ’l</reg></choice> suo alto <choice><abbr>cōsiglio</abbr><expan>consiglio</expan></choice><supplied>,</supplied></l>
+                      <l n="10">Che col bel <choice><orig>uiso</orig><reg>viso</reg></choice> <choice><orig>&virg;</orig><reg></reg></choice>&amp7; <choice><orig>co</orig><reg>co’</reg></choice> <choice><orig>soaui</orig><reg>soavi</reg></choice> sdegni</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="11">Fecemi ardendo pensar mia salute .</l>
-                      <l n="12">O leggiadre art<subst><del type="erasure"><gap reason="illegible"/></del><add>i</add></subst> &virg; &amp7; lor effetti degni &virg;</l>
+                      <l n="11">Fecemi ardendo pensar mia salute<choice><orig> .</orig><reg>.</reg></choice></l>
+                      <l n="12">O leggiadre art<subst><del type="erasure"><gap reason="illegible"/></del><add>i</add></subst><choice><orig> &virg;</orig><reg></reg></choice> &amp7; lor effetti degni<choice><orig> &virg;</orig><reg>,</reg></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="13">Lun cola <choice><abbr>līgua</abbr><expan>lingua</expan></choice> oprar &virg; laltr<subst><del type="erasure"><gap reason="illegible"/></del><add>a</add></subst> col ciglio .</l>
-                      <l n="14">Io gloria in lei .&amp7; ella in me uirtute .</l>
+                      <l n="13"><choice><orig>Lun</orig><reg>L’un</reg></choice> cola <choice><abbr>līgua</abbr><expan>lingua</expan></choice> oprar<choice><orig> &virg;</orig><reg>,</reg></choice> <choice><orig>laltr<subst><del type="erasure"><gap reason="illegible"/></del><add>a</add></subst></orig><reg>l’altra</reg></choice> col ciglio<choice><orig> .</orig><reg>,</reg></choice></l>
+                      <l n="14">Io gloria in lei<choice><orig> .</orig><reg>, </reg></choice>&amp7; ella in me <choice><orig>uirtute</orig><reg>virtute</reg></choice><choice><orig> .</orig><reg>.</reg></choice></l>
                   </lg>
               </lg>
           </lg>
@@ -519,34 +519,34 @@
           <lg xml:id="rvf290" type="sonnet" n="290"> <!-- Change the sonnet xml:id and number according to the sonnet to be encoded -->
               <lg type="octave">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="1"><hi rendition="#blue #fs24pt">C</hi><hi rendition="#small-caps">o</hi>me ual mondo &virg; or mi diletta &amp7; piace</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
-                      <l n="2">Quel che piu mi dispiacque . or ueggio &amp7; <choice><abbr>sēto</abbr><expan>sento</expan></choice> &virg;</l>
+                      <l n="1"><hi rendition="#blue #fs24pt">C</hi><hi rendition="#small-caps">o</hi>me <choice><orig>ual</orig><reg>va ’l</reg></choice> mondo<choice><orig> &virg;</orig><reg>!</reg></choice> or mi diletta &amp7; piace</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
+                      <l n="2">Quel che <choice><orig>piu</orig><reg>più</reg></choice> mi dispiacque<choice><orig> .</orig><reg>;</reg></choice> or <choice><orig>ueggio</orig><reg>veggio</reg></choice> &amp7; <choice><abbr>sēto</abbr><expan>sento</expan></choice><choice><orig> &virg;</orig><reg></reg></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="3">Che per auer salute &virg; ebbi tormento .</l>
-                      <l n="4">Et breue guerra &per; eterna pace .</l>
+                      <l n="3">Che per <choice><orig>auer</orig><reg>aver</reg></choice> salute<choice><orig> &virg;</orig><reg></reg></choice> ebbi tormento<choice><orig> .</orig><reg>,</reg></choice></l>
+                      <l n="4">Et <choice><orig>breue</orig><reg>breve</reg></choice> guerra &per; eterna pace<choice><orig> .</orig><reg>.</reg></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="5">O sperança &virg; o desir sempre fallace .</l>
-                      <l n="6">Et de gliamanti piu ben &per; un cento .</l>
+                      <l n="5">O <choice><orig>sperança</orig><reg>speranza</reg></choice><choice><orig> &virg;</orig><reg>,</reg></choice> o desir sempre fallace<choice><orig> .</orig><reg>,</reg></choice></l>
+                      <l n="6">Et de <choice><orig>gliamanti</orig><reg>gli amanti</reg></choice> <choice><orig>piu</orig><reg>più</reg></choice> ben &per; un cento<choice><orig> .</orig><reg>!</reg></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="7">O <choice><abbr>quātera</abbr><expan>quantera</expan></choice> il peggior farmi <choice><abbr>cōtento</abbr><expan>contento</expan></choice></l>
-                      <l n="8">Quella chor siede in cielo . en terra giace .</l>
+                      <l n="7">O <choice><orig><abbr>quātera</abbr><expan>quantera</expan></orig><reg>quant’ era</reg></choice> il peggior farmi <choice><abbr>cōtento</abbr><expan>contento</expan></choice></l>
+                      <l n="8">Quella <choice><orig>chor</orig><reg>ch’or</reg></choice> siede in cielo<choice><orig> .</orig><reg></reg></choice> <choice><orig>en</orig><reg>e ’n</reg></choice> terra giace<choice><orig> .</orig><reg>!</reg></choice></l>
                   </lg>
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><hi rendition="#sestet_maker">~</hi> Mal ceco amor &virg; et la mia sorda¦ <choice><abbr>mēte</abbr><expan>mente</expan></choice></l>
-                      <l n="10">Mi trauiauan si &virg; chandar&per; uiua</l>
+                      <l n="9"><choice><orig><hi rendition="#sestet_maker">~</hi> </orig><reg></reg></choice><choice><orig>Mal</orig><reg>Ma ’l</reg></choice> ceco <choice><orig>amor</orig><reg>Amor</reg></choice><choice><orig> &virg;</orig><reg></reg></choice> et la mia sorda<choice><orig>¦</orig><reg></reg></choice> <choice><abbr>mēte</abbr><expan>mente</expan></choice></l>
+                      <l n="10">Mi <choice><orig>trauiauan</orig><reg>traviavan</reg></choice> <choice><orig>si</orig><reg></reg></choice><choice><orig> &virg;</orig><reg>,</reg></choice> <choice><orig>chandar&per;</orig><reg>ch’andar per</reg></choice> <choice><orig>uiua</orig><reg>viva</reg></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="11">Força mi <choice><abbr>cōuenia</abbr><expan>conuenia</expan></choice> <g ref="#virgsusp"/> doue morte era .</l>
-                      <l n="12">Benedetta colei cha miglior riua</l>
+                      <l n="11"><choice><orig>Força</orig><reg>Forza</reg></choice> mi <choice><orig><abbr>cōuenia</abbr><expan>conuenia</expan></orig><reg>convenia</reg></choice> <g ref="#virgsusp"/> <choice><orig>doue</orig><reg>dove</reg></choice> morte era<choice><orig> .</orig><reg>.</reg></choice></l>
+                      <l n="12">Benedetta colei <choice><orig>cha</orig><reg>ch ’a</reg></choice> miglior <choice><orig>riua</orig><reg>riva</reg></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="13">Volse il mio corso &virg; &amp7; <choice><abbr>lēpia</abbr><expan>lempia</expan></choice> uoglia <choice><abbr>ardēte</abbr><expan>ardente</expan></choice> .</l>
-                      <l n="14">Lusingando affreno &virg; <choice><abbr>&per;chio</abbr><expan>perchio</expan></choice> non pera .</l>
+                      <l n="13">Volse il mio corso<choice><orig> &virg;</orig><reg>,</reg></choice> &amp7; <choice><orig><abbr>lēpia</abbr><expan>lempia</expan></orig><reg>l’empia</reg></choice> <choice><orig>uoglia</orig><reg>voglia</reg></choice> <choice><abbr>ardēte</abbr><expan>ardente</expan></choice><choice><orig> .</orig><reg></reg></choice></l>
+                      <l n="14">Lusingando <choice><orig>affreno</orig><reg>affrenò</reg></choice><choice><orig> &virg;</orig><reg></reg></choice> <choice><orig><abbr>&per;chio</abbr><expan>perchio</expan></orig><reg>perch’io</reg></choice> non pera<choice><orig> .</orig><reg>.</reg></choice></l>
                   </lg>
               </lg>
           </lg>
