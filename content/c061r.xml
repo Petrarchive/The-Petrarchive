@@ -586,7 +586,7 @@
          <lg xml:id="rvf312" type="sonnet" n="312"> <!-- Change the sonnet xml:id and number according to the sonnet to be encoded -->
              <lg type="octave">
                  <lg type="dblvrs" corresp="#canvasline">
-                     <l n="1"><choice><orig><hi rendition="#fs24pt #blue">N</hi><hi rendition="#small-caps">e</hi></orig><hi rendition="#fs24pt #blue">N</hi><hi rendition="#small-caps">é</hi></choice><choice><orig>&per;</orig><reg> per</reg></choice> sereno ciel ir <choice><orig>uaghe</orig><reg>vaghe</reg></choice> stelle<choice><orig> .</orig><reg>,</reg></choice></l>
+                     <l n="1"><choice><orig><hi rendition="#fs24pt #blue">N</hi><hi rendition="#small-caps">e</hi></orig><reg><hi rendition="#fs24pt #blue">N</hi><hi rendition="#small-caps">é</hi></reg></choice><choice><orig>&per;</orig><reg> per</reg></choice> sereno ciel ir <choice><orig>uaghe</orig><reg>vaghe</reg></choice> stelle<choice><orig> .</orig><reg>,</reg></choice></l>
                      <l n="2"><choice><orig>Ne</orig><reg>Né</reg></choice> &per; tranquillo mar legni spalmati<choice><orig>.</orig><reg>,</reg></choice></l>
                  </lg>
                  <lg type="dblvrs" corresp="#canvasline">
