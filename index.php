@@ -42,12 +42,12 @@
     <div id="bannersubtitle">An edition of Petrarch’s songbook</div>
     <div id="bannerrvf">Rerum vulgarium fragmenta</div>
     <div id="bannerresp">Edited by
+      <a href="https://www.sheffield.ac.uk/dhi/about-dhi/people/isabella-magni" target="_blank">Isabella Magni</a>,
       <a href="https://frit.indiana.edu/about/emeriti-faculty/storey-h.html" target="_blank">H. Wayne Storey</a>,
       <a href="http://info.ils.indiana.edu/~jawalsh/" target="_blank">John A. Walsh</a>, 
-      <a href="https://www.sheffield.ac.uk/dhi/about-dhi/people/isabella-magni" target="_blank">Isabella Magni</a>
       and Francesco Marco Aresu
 <br/>
-	<span style="font-size:12pt;">with Chief Associate Editor Paolo Scartoni and Associate Editors Maria Teresa De Luca and Giulia Benghi</span></div>
+	<span style="font-size:12pt;">with Chief Associate Editor Paolo Scartoni, and Associate Editors Maria Teresa De Luca and Giulia Benghi</span></div>
   </div>
 
   <div class="hidden-md-up show-sm-down">
@@ -55,9 +55,9 @@
     <div id="bannersubtitle">An edition of Petrarch’s songbook</div>
     <div id="bannerrvf">Rerum vulgarium fragmenta</div>
     <div id="bannerresp">Edited by
+      <a href="https://www.sheffield.ac.uk/dhi/about-dhi/people/isabella-magni" target="_blank">Isabella Magni</a>
       <a href="https://frit.indiana.edu/about/emeriti-faculty/storey-h.html" target="_blank">H. Wayne Storey</a>,
       <a href="http://info.ils.indiana.edu/~jawalsh/" target="_blank">John A. Walsh</a> and
-      <a href="http://isamagni.com/" target="_blank">Isabella Magni</a>
     </div>
   </div>
 </div>
@@ -71,7 +71,7 @@
 <section class="row justify-content-center">
   <main class="col-lg-8 col-md-12">
     <p class="">
-      Designed for students, casual readers and specialists, the Petr<em>archive</em> proposes a corrected diplomatic edition and a new edition of Petrarch’s songbook, the <em>Rerum vulgarium fragmenta</em> (<em>Canzoniere</em>), together with a new 13-part commentary of the material properties, prosody, syntax and early history of the work, a new translation, historical translations in English that demonstrate the influence of Petrarch’s vernacular poems in the history of Anglo-American literature, and multiple visual indexes to navigate, for the first time, Petrarch’s visual poetics and the material constructions of his songbook. We encourage users to first read our <a href="https://dcl.ils.indiana.edu/petrarchive/instructions.php">Instructions</a> and consult the <a href="https://dcl.ils.indiana.edu/petrarchive/content/glossary.xml">Glossary</a> for conceptual and pragmatic use in order to have an overview of the core principles of the edition as well as directions on how to navigate the site.
+      Designed for students, casual readers and specialists, the Petr<em>archive</em> proposes a corrected diplomatic edition and a new edition of Petrarch’s songbook, the <em>Rerum vulgarium fragmenta</em> (<em>Canzoniere</em>), together with multiple visual indexes to navigate, for the first time, Petrarch’s visual poetics and the material constructions of his songbook. We encourage users to first read our <a href="https://dcl.ils.indiana.edu/petrarchive/instructions.php">Instructions</a> and consult the <a href="https://dcl.ils.indiana.edu/petrarchive/content/glossary.xml">Glossary</a> for conceptual and pragmatic use in order to have an overview of the core principles of the edition as well as directions on how to navigate the site.
     </p>
 
   </main>
