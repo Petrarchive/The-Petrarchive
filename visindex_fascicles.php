@@ -279,7 +279,7 @@
 		</div>
 
 		<div class="extra-binion">
-			<a href="content/c071r-c071v.xml#c071r"><img alt="vat. lat. 3195, c. 71r" src="images/visindex/c071r.svg" /></a> <a href="content/c071r-c071v.xml#c071v"><img alt="vat. lat. 3195, c. 71v" src="images/visindex/c071v.svg" /></a> <img alt="vat. lat. 3195, c. 72r" src="images/visindex/c072r.svg" /> <img alt="vat. lat. 3195, c. 72v" src="images/visindex/c072v.svg" />
+			<img alt="vat. lat. 3195, c. 71r" src="images/visindex/c071r.svg" /> <a href="content/c071v-c072v.xml#c071v"><img alt="vat. lat. 3195, c. 71v" src="images/visindex/c071v.svg" /></a> <a href="content/c071v-c072v.xml#c072r"><img alt="vat. lat. 3195, c. 72r" src="images/visindex/c072r.svg" /></a> <a href="content/c071v-c072v.xml#c072v"><img alt="vat. lat. 3195, c. 72v" src="images/visindex/c072v.svg" /></a>
 		</div>
 	</div>
 </div>
