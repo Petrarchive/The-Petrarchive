@@ -477,7 +477,7 @@
    <text>
       <body>
  
-        <pb xml:id="c071v" n="charta 71 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-071r.jpg"/> <!-- Change the number of the charta in both places "charta 1 verso" and -f-0001v.jpg", according to the charta to be encoded -->
+        <pb xml:id="c071v" n="charta 71 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-071v.jpg"/> <!-- Change the number of the charta in both places "charta 1 verso" and -f-0001v.jpg", according to the charta to be encoded -->
           
            <lg type="canzone_13vv" xml:id="rvf366" n="366">
               <lg type="stanza"> <!-- Be careful: each canzone might be structurally different. Check how many verses per stanza the canzone has and encode accordingly. Some canzoni also might have some three verses per line (encode: <lg type="trplvrs" corresp="#canvasline">) or a single verse per line (encode: <lg type="single" corresp="#canvasline">) -->
@@ -757,7 +757,7 @@
                       <l n="116">Sen<g ref="#visigz"/>a terrestro limo .</l>
                   </lg>
                   
-                  <pb xml:id="c073v" n="charta 73 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-073v.jpg"/>
+                  <pb xml:id="c072v" n="charta 72 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-072v.jpg"/>
                   
                   <lg type="single" corresp="#canvasline">
                       <l n="117">Come ful primo <subst><del type="erasure"><gap reason="illegible"/></del><add>&non; dinsania</add></subst> uoto .</l>
