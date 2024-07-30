@@ -6,8 +6,8 @@
 <!ENTITY % petrarchive_entities SYSTEM "petrarchive.ent">
 %petrarchive_entities;
 -->
-<!ENTITY amp7 "<choice><abbr>&amp;</abbr><expan>et</expan></choice>">
-<!ENTITY Amp7 "<choice><abbr>&amp;</abbr><expan>Et</expan></choice>">
+<!ENTITY amp7 "<choice><abbr>⁊</abbr><expan>et</expan></choice>">
+<!ENTITY Amp7 "<choice><abbr>⁊</abbr><expan>Et</expan></choice>">
 <!ENTITY per "<choice><abbr>ꝑ</abbr><expan>per</expan></choice>">
 <!ENTITY Per "<choice><abbr>Ꝑ</abbr><expan>Per</expan></choice>">
 <!ENTITY virg "/">
@@ -484,7 +484,7 @@
                       <l n="2">Lauro chamor disua man fila &amp7; tesse .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="3"><subst><del type="erasure"><gap reason="illegible"></gap></del><add>Ladabelli</add></subst>occhi &virg-underdot;&amp7; dele chiome stesse</l> 
+                      <l n="3"><subst><del type="erasure"><gap reason="illegible"></gap></del><add>Ladabelli</add></subst> occhi &virg-underdot;&amp7; dele chiome stesse</l> 
                       <l n="4">Legal cor lasso . ei <subst><del type="erasure"><gap reason="illegible"></gap></del><add>lieui</add></subst> spirti cribra .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -498,7 +498,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">· Vedendo ardere ilumi <choice><abbr>ōdio</abbr><expan>ondio</expan></choice> maccendo .</l> <!-- check dot at beginning of sestet -->
+                      <l n="9"><hi rendition="#sestet_maker">·</hi>Vedendo ardere ilumi <choice><abbr>ōdio</abbr><expan>ondio</expan></choice> maccendo .</l> <!-- check dot at beginning of sestet -->
                       <l n="10"><subst><del type="erasure"><gap reason="illegible"></gap></del><add>&Amp7;</add></subst> folgorare i nodi ondio son preso .</l> 
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -533,7 +533,7 @@
               </lg>
               <lg type="sestet"> <!-- check dot at the beginning -->
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">· Candido leggiadretto &amp7; caro <choice><abbr>guāto</abbr><expan>guanto</expan></choice> .</l>
+                      <l n="9"><hi rendition="#sestet_maker">·</hi>Candido leggiadretto &amp7; caro <choice><abbr>guāto</abbr><expan>guanto</expan></choice> .</l>
                       <l n="10">Che copri<subst><del type="erasure"><gap reason="illegible"></gap></del><add>a</add></subst> netto auorio &virg; &amp7; fresche rose</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -568,7 +568,7 @@
               </lg>
               <lg type="sestet"> <!-- dot at the beginning -->
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">· Liocchi sereni . &amp7; <choice><abbr>lestellāti</abbr><expan>lestellanti</expan></choice> ciglia .</l>
+                      <l n="9"><hi rendition="#sestet_maker">·</hi>Liocchi sereni . &amp7; <choice><abbr>lestellāti</abbr><expan>lestellanti</expan></choice> ciglia .</l>
                       <l n="10">La bella bocca&virg;angelica<g ref="#punctelevhiback"/>di perle</l> 
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -603,7 +603,7 @@
               </lg>
               <lg type="sestet"> <!-- dot at the beginning of the sestet -->
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">· Chelamia nobil preda&virg; &non; piu stretta</l>
+                      <l n="9"><hi rendition="#sestet_maker">·</hi>Chelamia nobil preda&virg; &non; piu stretta</l>
                       <l n="10"><choice><abbr>Tēni</abbr><expan>Tenni</expan></choice> albisogno.&amp7; &non; fui piu <choice><abbr>cōstante</abbr><expan>constante</expan></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
