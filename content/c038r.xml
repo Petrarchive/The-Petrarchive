@@ -6,8 +6,8 @@
 <!ENTITY % petrarchive_entities SYSTEM "petrarchive.ent">
 %petrarchive_entities;
 -->
-<!ENTITY amp7 "<choice><abbr>&amp;</abbr><expan>et</expan></choice>">
-<!ENTITY Amp7 "<choice><abbr>&amp;</abbr><expan>Et</expan></choice>">
+<!ENTITY amp7 "<choice><abbr>⁊</abbr><expan>et</expan></choice>">
+<!ENTITY Amp7 "<choice><abbr>⁊</abbr><expan>Et</expan></choice>">
 <!ENTITY per "<choice><abbr>ꝑ</abbr><expan>per</expan></choice>">
 <!ENTITY Per "<choice><abbr>Ꝑ</abbr><expan>Per</expan></choice>">
 <!ENTITY virg "/">
@@ -550,7 +550,7 @@
           <lg xml:id="rvf188" type="sonnet" n="188"> 
               <lg type="octave">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="1"><hi rendition="#fs24pt">A</hi><hi rendition="#small-caps">l</hi>mo sol &virg; quella fronde chio sola amo </l>
+                      <l n="1"><hi rendition="#red #fs24pt">A</hi><hi rendition="#small-caps">l</hi>mo sol &virg; quella fronde chio sola amo </l>
                       <l n="2">Tu prima amasti &virg; or sola albel soggiorno</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -585,7 +585,7 @@
           <lg xml:id="rvf189" type="sonnet" n="189"> 
               <lg type="octave">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="1"><hi rendition="#fs24pt">P</hi><hi rendition="#small-caps">a</hi>ssa la naue mia colma doblio</l>
+                      <l n="1"><hi rendition="#blue #fs24pt">P</hi><hi rendition="#small-caps">a</hi>ssa la naue mia colma doblio</l>
                       <l n="2">Per aspro mare &virg; a meçça notte il uerno &virg;</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -593,12 +593,12 @@
                       <l n="4">Siedel signore . ançil nimico mio .</l> 
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="5">A ciascun remo un penser <choice><abbr>prōto</abbr><expan>pronto</expan></choice> et rio</l>
+                      <l n="5">A ciascun remo un penser <choice><abbr>prōto</abbr><expan>pronto</expan></choice> &amp7; rio</l>
                       <l n="6">Che la tempesta el fin par chabbi a scherno .</l> 
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="7">La uela <choice><abbr>rōpe</abbr><expan>rompe</expan></choice> un uento humido eterno</l>
-                      <l n="8">Di sospir &virg; di sperançe &virg; et di desio .</l>
+                      <l n="8">Di sospir &virg; di sperançe &virg; &amp7; di desio .</l>
                   </lg>
               </lg>
               <lg type="sestet"> 
