@@ -6,8 +6,8 @@
 <!ENTITY % petrarchive_entities SYSTEM "petrarchive.ent">
 %petrarchive_entities;
 -->
-<!ENTITY amp7 "<choice><abbr>&amp;</abbr><expan>et</expan></choice>">
-<!ENTITY Amp7 "<choice><abbr>&amp;</abbr><expan>Et</expan></choice>">
+<!ENTITY amp7 "<choice><abbr>⁊</abbr><expan>et</expan></choice>">
+<!ENTITY Amp7 "<choice><abbr>⁊</abbr><expan>Et</expan></choice>">
 <!ENTITY per "<choice><abbr>ꝑ</abbr><expan>per</expan></choice>">
 <!ENTITY Per "<choice><abbr>Ꝑ</abbr><expan>Per</expan></choice>">
 <!ENTITY virg "/">
@@ -481,10 +481,10 @@
               <lg type="octave">
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="1"><hi rendition="#fs24pt">D</hi><hi rendition="#small-caps">v</hi>n bel chiaro polito &amp7; uiuo ghiaccio .</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded --><!-- check -o- in polito -->
-                      <l n="2">Moue <hi rendition="#b">l</hi>a <subst><del type="erasure"><gap reason="illegible"/></del><add><choice><abbr>fiāma</abbr><expan>fiamma</expan></choice></add></subst> &virg; <add>/</add>che <choice><abbr>mīcende</abbr><expan>mincende</expan></choice> &amp7; strugge .</l>
+                      <l n="2">Moue <hi rendition="#b">l</hi>a <subst><del type="erasure"><gap reason="illegible"/></del><add><choice><abbr>fiāma</abbr><expan>fiamma</expan></choice></add></subst> &virg; &#11789;che <choice><abbr>mīcende</abbr><expan>mincende</expan></choice> &amp7; strugge .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="3">&Amp7; si leuene el cor &virg; masciuga<add>/</add> &amp7; sugge</l> <!-- Substituted &#11789; with <add>/</add>. Check with Wayne -->
+                      <l n="3">&Amp7; si leuene el cor &virg; masciuga&#11789; &amp7; sugge</l> <!-- Substituted &#11789; with <add>/</add>. Check with Wayne -->
                       <l n="4">Chenuisibilemente i mi disfaccio .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -493,12 +493,12 @@
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="7">Va &per; <choice><abbr>seguēdo</abbr><expan>seguendo</expan></choice> mia uita che fugge.</l>
-                      <l n="8">Et io. pien di paura &virg; tremo <add>(</add>&amp7; taccio .</l> <!-- check punctuation -->
+                      <l n="8">Et io. pien di paura &virg; tremo &#8317;&amp7; taccio .</l> <!-- check punctuation: unicode superscript left parenthesis &#8317; -->
                   </lg>
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">· Ben poria <choice><abbr>āchor</abbr><expan>anchor</expan></choice> pieta &con; amor mista .<!-- check dot all line 9 --></l>
+                      <l n="9"><hi rendition="#sestet_maker">·</hi>Ben poria <choice><abbr>āchor</abbr><expan>anchor</expan></choice> pieta &con; amor mista .<!-- check dot all line 9 --></l>
                       <l n="10">&Per; sostegno di me doppia colonna</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -507,7 +507,7 @@
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="13">Di quella dolce mia nemica &virg; &amp7; donna.</l>
-                      <l n="14">Ne dicio lei <hi rend="subscript">(</hi>ma mia <choice><abbr>uētura</abbr><expan>uentura</expan></choice> incolpo .<!-- check punctuation --></l>
+                      <l n="14">Ne dicio lei &#8333;ma mia <choice><abbr>uētura</abbr><expan>uentura</expan></choice> incolpo .<!-- check punctuation; unicode subscript left parenthesis &#8333; --></l>
                   </lg>
               </lg>
           </lg>
@@ -519,11 +519,11 @@
                       <l n="2">Si crede ogniuom &virg;senon sola colei .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="3">Che sourognialtra <add>(</add>&amp7; chi sola uorrei .</l> <!-- check punctuation -->
+                      <l n="3">Che sourognialtra &#8317;&amp7; chi sola uorrei .</l> <!-- check punctuation -->
                       <l n="4">Ella &non; par chelcreda . &amp7; si sel uede .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="5">Infinita belleçça <add>(</add>&amp7; poca fede</l> <!-- check punctuation -->
+                      <l n="5">Infinita belleçça &#8317;&amp7; poca fede</l> <!-- check punctuation -->
                       <l n="6">&Non; uedete uoilcor nelli occhi mei .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -533,7 +533,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">· Questarder mio&virg;diche ui cal si poco</l>
+                      <l n="9"><hi rendition="#sestet_maker">·</hi>Questarder mio&virg;diche ui cal si poco</l>
                       <l n="10">Ei uostri honori &virg;&in; mie rime diffusi.</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -555,10 +555,10 @@
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="3">Occhi miei uaghi .&amp7; tu fra lialtri sensi .</l>
-                      <l n="4">Che scorgi alcor<hi rend="subscript">(</hi> lalte parole <hi rend="subscript">(</hi>sante .</l> <!-- check punctuation -->
+                      <l n="4">Che scorgi alcor&#8333; lalte parole &#8333;sante .</l> <!-- check punctuation -->
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="5">&Per; &quanto; &non; uorreste o poscia<add>(</add>od ante</l><!-- chech punctutation -->
+                      <l n="5">&Per; &quanto; &non; uorreste o poscia&#8317;od ante</l><!-- chech punctutation -->
                       <l n="6">Esser <choice><abbr>giūti</abbr><expan>giunti</expan></choice> al camin (che si mal tiensi.</l><!-- check punctuation -->
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -568,7 +568,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">· Or &con; si chiara luce . &amp7; &con; tai segni.</l>
+                      <l n="9"><hi rendition="#sestet_maker">·</hi>Or &con; si chiara luce . &amp7; &con; tai segni.</l>
                       <l n="10">Errar &non; desi in quel breue uiaggio.</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -594,7 +594,7 @@
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="5">Alma &non; tilagnar. ma soffra &amp7; taci .</l>
-                      <l n="6">&Amp7; <choice><abbr>tēpra</abbr><expan>tempra</expan></choice> il dolce amaro <add>(</add>che na offeso .<!-- check punctuation --></l>
+                      <l n="6">&Amp7; <choice><abbr>tēpra</abbr><expan>tempra</expan></choice> il dolce amaro &#8317;che na offeso .<!-- check punctuation --></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="7">Col dolce honor che d<subst><del type="erasure"><gap reason="illegible"/></del><add>amar <choice><abbr>&q-macron;lla</abbr><expan>quella</expan></choice>[…] so</add></subst></l> <!-- check footnote -->
@@ -603,7 +603,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">· Forse anchor fia chi <choice><abbr>sospirādo</abbr><expan>sospirando</expan></choice> dica .</l>
+                      <l n="9"><hi rendition="#sestet_maker">·</hi>Forse anchor fia chi <choice><abbr>sospirādo</abbr><expan>sospirando</expan></choice> dica .</l>
                       <l n="10">Tinto di dolce inuidia &virg;assai <choice><abbr>sostēne</abbr><expan>sostenne</expan></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
