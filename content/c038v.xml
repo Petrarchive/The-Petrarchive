@@ -498,7 +498,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">~	Nessun mi tocchi &virg-underdot; al bel collo <subst><del type="erasure"><gap reason="illegible"/></del><add><choice><abbr>dītorno</abbr><expan>dintorno</expan></choice></add></subst></l>
+                      <l n="9"><hi rendition="#sestet_maker">~</hi>	Nessun mi tocchi &virg-underdot; al bel collo <subst><del type="erasure"><gap reason="illegible"/></del><add><choice><abbr>dītorno</abbr><expan>dintorno</expan></choice></add></subst></l>
                       <l n="10">Scritto auea di diamanti &amp7; di topaçi</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -533,7 +533,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">·  Et se &non; fusse ilsuo fuggir si ratto .</l>
+                      <l n="9"><hi rendition="#sestet_maker">·</hi> Et se &non; fusse ilsuo fuggir si ratto .</l>
                       <l n="10">Piu &non; demanderei . Che salcun uiue &virg;</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -568,7 +568,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">·  Lerbetta uerde e ifior di ùcolor mille</l>
+                      <l n="9"><hi rendition="#sestet_maker">·</hi> Lerbetta uerde e ifior di ùcolor mille</l>
                       <l n="10">Sparsi sotto quel elce antiqua &amp7; negra<g ref="#punctelevhiback"/></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -603,7 +603,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">·	Che quella uoce. infin alciel gradita .</l>
+                      <l n="9"><hi rendition="#sestet_maker">·</hi>	Che quella uoce. infin alciel gradita .</l>
                       <l n="10">Suona in parole si leggiadre &virg; &amp7; care .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
