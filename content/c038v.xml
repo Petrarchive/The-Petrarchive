@@ -582,7 +582,7 @@
               </lg>
           </lg>
           <space corresp="#canvasline"/>
-          <lg xml:id="rvf193" type="sonnet" n="181"> <!-- Change the sonnet xml:id and number according to the sonnet to be encoded -->
+          <lg xml:id="rvf193" type="sonnet" n="193"> <!-- Change the sonnet xml:id and number according to the sonnet to be encoded -->
               <lg type="octave">
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="1"><hi rendition="#fs24pt #blue">P</hi><hi rendition="#small-caps">a</hi>sco lamente dura si nobil cibo .</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
@@ -612,7 +612,7 @@
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="13">Visibilmente &quanto; in questa uita.</l>
-                      <l n="14">Arte &virg; ingegno &virg; &amp7; natura &virg; el ciel po fare .</l>
+                      <l n="14">Arte &virg; ingegno &virg; &amp7; natura &#11789; el ciel po fare .</l>
                   </lg>
               </lg>
           </lg>
