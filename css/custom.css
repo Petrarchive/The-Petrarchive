@@ -561,6 +561,7 @@ lg[type='canzone'] lg[type='stanza'] lg[type='dblvrs']:first-of-type,
 lg[type='canzone'] lg[type='stanza'] lg[type='trplvrs']:first-of-type,
 lg[type='canzone_7vv'] lg[type='stanza'] lg[type='dblvrs']:first-of-type,
 lg[type='canzone_7vv'] lg[type='stanza'] lg[type='dblvrs']:nth-of-type(5n),
+/* lg[type='canzone_9vv'] lg[type='stanza'] lg[type='dblvrs']:first-of-type, */
 lg[type='canzone_10vv'] lg[type='stanza'] lg[type='dblvrs']:first-of-type,
 lg[type='canzone_14vv'] lg[type='stanza'] lg[type='dblvrs']:first-of-type,
 lg[type='canzone_14vv'] lg[type='stanza'] lg[type='trplvrs']:first-of-type,
