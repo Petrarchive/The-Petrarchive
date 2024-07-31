@@ -229,7 +229,8 @@
     </charDecl>
     
     <tagsDecl>
-
+        <rendition xml:id="sestet_marker" scheme="css"></rendition>
+        
         <rendition xml:id="b" n="tiebp:bold" scheme="css">
             font-weight:bold;
         </rendition> 
