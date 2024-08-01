@@ -249,6 +249,8 @@
     </charDecl>
     
     <tagsDecl>
+        <rendition xml:id="stanza_marker" scheme="css"></rendition>
+        
         <rendition xml:id="sestet_marker" scheme="css"></rendition>
         
         <rendition xml:id="b" n="tiebp:bold" scheme="css">
@@ -489,7 +491,7 @@
                 
                 <lg type="dblvrs" corresp="#canvasline">
                     <l n="1"><hi rendition="#fs24pt">B<!-- initial --></hi><hi rendition="#small-caps">e<!-- second letter --></hi>n  mi credea passar mio tempo omai .<!-- rest of the line --></l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
-                    <l n="2">Come passat<hi rendition="#b">o</hi><subst><del type="erasure"><gap reason="illegible"/></del><add>auea <choice><abbr>questāni</abbr><expan>questanni</expan></choice></add></subst> &virg; adietro .</l>
+                    <l n="2">Come passat<hi rendition="#b">o</hi> <subst><del type="erasure"><gap reason="illegible"/></del><add>auea <choice><abbr>questāni</abbr><expan>questanni</expan></choice></add></subst> &virg; adietro .</l>
                 </lg>
                 <lg type="dblvrs" corresp="#canvasline">
                     <l n="3">Sençaltro studio&virg;&amp7; sença noui <choice><abbr>īgegni</abbr><expan>ingegni</expan></choice> .</l>
@@ -506,7 +508,7 @@
                 </lg>
                 <lg type="dblvrs" corresp="#canvasline">
                     <l n="10">Sençalqual &non; uiurei &in; <choice><abbr>tāti</abbr><expan>tanti</expan></choice> affanni</l>
-                    <l n="11">Cosi auessio i primi anni <g ref="virgsusp"/></l>
+                    <l n="11">Cosi auessio i primi anni <g ref="#virgsusp"/></l>
                 </lg>
                 <lg type="dblvrs" corresp="#canvasline">
                     <l n="12">Preso lostil &virg; chor <choice><abbr>prēder</abbr><expan>prender</expan></choice> mibisogna .</l>
@@ -516,7 +518,7 @@
                
                <lg type="stanza">
                  <lg type="dblvrs" corresp="#canvasline"> <!-- check beginning all stanzas -->
-                     <l n="14">⫽	Liocchi soaui ondio soglio auer uita &virg;</l>
+                     <l n="14"><hi rendition="#stanza_maker">⫽</hi> Liocchi soaui ondio soglio auer uita &virg;</l>
                      <l n="15">De le diuine lor alte belleççe &virg;</l>
                  </lg>
                  <lg type="dblvrs" corresp="#canvasline">
@@ -544,7 +546,7 @@
                
                <lg type="stanza"> 
                    <lg type="dblvrs" corresp="#canvasline">
-                       <l n="27">⫽	Chio cercate gia uie piu di mille .</l>
+                       <l n="27"><hi rendition="#stanza_maker">⫽</hi> Chio cercate gia uie piu di mille .</l>
                        <l n="28">&Per; &#42835;uar sença lor se mortal cosa</l>
                    </lg>
                    <lg type="dblvrs" corresp="#canvasline">
@@ -572,8 +574,8 @@
                    
                <lg type="stanza"> 
                    <lg type="dblvrs" corresp="#canvasline">
-                       <l n="40">⫽	Di mia morte mipasco &amp7; uiuo &in; <choice><abbr>fiāme</abbr><expan>fiamme</expan></choice> .</l>
-                       <l n="41">Stranio cibo <g ref="punctelevhiback"/> &amp7; mirabil salamandra .</l>
+                       <l n="40"><hi rendition="#stanza_maker">⫽</hi> Di mia morte mipasco &amp7; uiuo &in; <choice><abbr>fiāme</abbr><expan>fiamme</expan></choice> .</l>
+                       <l n="41">Stranio cibo <g ref="#punctelevhiback"/> &amp7; mirabil salamandra .</l>
                    </lg>
                    <lg type="dblvrs" corresp="#canvasline">
                        <l n="42">Ma miracol &non; e da tal siuole .</l>
@@ -585,7 +587,7 @@
                    </lg>
                    <lg type="trplvrs" corresp="#canvasline">
                        <l n="46">Cosi rose &#11789;&amp7; uiole .</l><!-- check punctuation -->
-                       <l n="47">A primauera <g ref="punctelevhiback"/> eluerno a&#x00A6;neue&virg;&amp7; ghiaccio .</l><!-- check punctuation -->
+                       <l n="47">A primauera <g ref="#punctelevhiback"/> eluerno a&#x00A6;neue&virg;&amp7; ghiaccio .</l><!-- check punctuation -->
                        <l n="48">&Per;o simi &#42835;caccio</l>
                    </lg>
                    <lg type="dblvrs" corresp="#canvasline">
@@ -594,13 +596,13 @@
                    </lg>
                    <lg type="dblvrs" corresp="#canvasline">
                        <l n="51">Si ricca <choice><abbr>dōna</abbr><expan>donna</expan></choice> deue esser contenta .</l>
-                       <l n="52">Saltri uiue delsuo <g ref="punctelevhiback"/> chella nol senta .</l>
+                       <l n="52">Saltri uiue delsuo <g ref="#punctelevhiback"/> chella nol senta .</l>
                    </lg>
                </lg>
                
                <lg type="stanza"> 
                    <lg type="dblvrs" corresp="#canvasline">
-                       <l n="53">⫽	Chi nol sa di chio uiuo &virg; &amp7; uissi &sempre; .</l>
+                       <l n="53"><hi rendition="#stanza_maker">⫽</hi> Chi nol sa di chio uiuo &virg; &amp7; uissi &sempre; .</l>
                        <l n="54">Dal di chen prima que belliocchi uidi .</l>
                    </lg>
                    <lg type="dblvrs" corresp="#canvasline">
@@ -608,7 +610,7 @@
                        <l n="56">&Per; cercar&#x00A6;terra &#11789;&amp7; mar da tutti lidi .</l><!-- check punctuation -->
                    </lg>
                    <lg type="dblvrs" corresp="#canvasline">
-                       <l n="57">Chi po sauer tutte lumane tempre<g ref="punctelevhiback"/></l>
+                       <l n="57">Chi po sauer tutte lumane tempre<g ref="#punctelevhiback"/></l>
                        <l n="58">Lun uiue &virg; ecco &virg; dodor &virg; la sulgran fiume .</l>
                    </lg>
                    <lg type="trplvrs" corresp="#canvasline">
@@ -621,14 +623,14 @@
                        <l n="63">Tu ai listrali &#11789;&amp7; larco .</l>
                    </lg>
                    <lg type="dblvrs" corresp="#canvasline">
-                       <l n="64">Fa di tua man &virg; &non; pur <choice><abbr>bramādio</abbr><expan>bramandio</expan></choice>bramādio mora .</l>
+                       <l n="64">Fa di tua man &virg; &non; pur <choice><abbr>bramādio</abbr><expan>bramandio</expan></choice> mora .</l>
                        <l n="65">Chun bel morir tutta lauita honora .</l>
                    </lg>
                </lg>
                
                <lg type="stanza"> 
                    <lg type="dblvrs" corresp="#canvasline">
-                       <l n="66">⫽	Chiusa &fiamma; e piu <choice><abbr>ardēte</abbr><expan>ardente</expan></choice>.&Amp7; se pur cresce .</l><!-- chech capitalization after 'ardente' -->
+                       <l n="66"><hi rendition="#stanza_maker">⫽</hi> Chiusa &fiamma; e piu <choice><abbr>ardēte</abbr><expan>ardente</expan></choice>.&Amp7; se pur cresce .</l><!-- chech capitalization after 'ardente' -->
                        <l n="67">In alcun modo piu &non; po celarsi .</l>
                    </lg>
              
@@ -660,7 +662,7 @@
                        
                        <lg type="stanza"> 
                            <lg type="dblvrs" corresp="#canvasline">
-                               <l n="79">⫽ Cosi diben amar porto tormento .</l> <!-- check stanza sign -->
+                               <l n="79"><hi rendition="#stanza_maker">⫽</hi> Cosi diben amar porto tormento .</l> <!-- check stanza sign -->
                                <l n="80">&amp7; delpeccato altrui cheggio &per;dono .</l>
                            </lg>
                            <lg type="dblvrs" corresp="#canvasline">
@@ -688,7 +690,7 @@
                        
                        <lg type="stanza"> 
                            <lg type="trplvrs" corresp="#canvasline">
-                               <l n="92">⫽ Cançon mia fermo &in; <choice><abbr>cāpo</abbr><expan>campo</expan></choice> .</l> 
+                               <l n="92"><hi rendition="#stanza_maker">⫽</hi> Cançon mia fermo &in; <choice><abbr>cāpo</abbr><expan>campo</expan></choice> .</l> 
                                <l n="93">Staro&punctelevhiback;chelli e disnor&#11789;morir <choice><abbr>fuggēdo</abbr><expan>fuggendo</expan></choice> . </l>
                                <l n="94">&Amp7; mestesso <choice><abbr>reprēdo</abbr><expan>reprendo</expan></choice> .</l>
                            </lg>
