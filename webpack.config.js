@@ -1,8 +1,10 @@
 const path = require('path');
 const webpack = require('webpack');
 
+
 module.exports = {
     mode: 'development',
+    resolve: { modules: [path.resolve(__dirname, './node_modules')] },
     target: 'web',
     entry: {
         poem: './common/js/poem.js',
