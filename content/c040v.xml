@@ -245,6 +245,8 @@
     </charDecl>
     
     <tagsDecl>
+        <rendition xml:id="stanza_marker" scheme="css"></rendition>
+        
         <rendition xml:id="sestet_marker" scheme="css"></rendition>
         
         <rendition xml:id="b" n="tiebp:bold" scheme="css">
@@ -488,7 +490,7 @@
                     <l n="2">Delcui amor uiuo &amp7; sençal qual morrei.</l>
                 </lg>
                 <lg type="dblvrs" corresp="#canvasline">
-                    <l n="3">Sildissi &virg; <subst><del type="erasure"><gap reason="illegible"></gap></del><add>chemiei di sian</add></subst> pochi <add>/</add> &amp7; rei.</l> <!-- previously &#11789; -->
+                    <l n="3">Sildissi &virg; <subst><del type="erasure"><gap reason="illegible"></gap></del><add>chemiei di sian</add></subst> pochi &#11789; &amp7; rei.</l> <!-- previously &#11789; -->
                     <l n="4">&Amp7; diuil <subst><del type="erasure"><gap reason="illegible"></gap></del><add>signoria</add></subst> lanima ancella.</l>
                 </lg>
                   <lg type="trplvrs" corresp="#canvasline">
@@ -504,15 +506,15 @@
                
                <lg type="stanza"> 
                    <lg type="dblvrs" corresp="#canvasline">
-                       <l n="10">= Sildissi &virg;Amor laurate sue quadrella.</l> <!-- check equal sign at the beginning of the verse -->
+                       <l n="10"><hi rendition="#stanza_maker">=</hi> Sildissi &virg;Amor laurate sue quadrella.</l> <!-- check equal sign at the beginning of the verse -->
                        <l n="11">Spenda &in; me tutte. &amp7; <choice><abbr>limpiōbate</abbr><expan>limpiombate</expan></choice> in lei.</l>
                    </lg>
                    <lg type="dblvrs" corresp="#canvasline">
-                       <l n="12">Sildissi &virg; Cielo <add>/</add>&amp7; terra&virg;Vomini&virg;&amp7; dei.</l>
+                       <l n="12">Sildissi &virg; Cielo &#11789;&amp7; terra&virg;Vomini&virg;&amp7; dei.</l>
                        <l n="13">Mi sian <choice><abbr>cōtrari</abbr><expan>contrari</expan></choice>. &amp7; essa ognior piu fella.</l>
                    </lg>
                    <lg type="trplvrs" corresp="#canvasline">
-                       <l n="14">Sildissi<add>/</add>chi con sua cieca facella.</l>
+                       <l n="14">Sildissi&#11789;chi con sua cieca facella.</l>
                        <l n="15">Dritto amorte minuia.</l> 
                        <l n="16">Pur come suol sistia.</l>
                    </lg>
@@ -524,15 +526,15 @@
                
                <lg type="stanza"> 
                    <lg type="dblvrs" corresp="#canvasline">
-                       <l n="19">= S<subst><del type="erasure"><gap reason="illegible"></gap></del><add>ildissi mai</add></subst>&virg; diquel chi menuorrei</l> <!-- Check mai (darker in diplomatic) -->
-                       <l n="20">Piena troui questaspra <add>/</add>&amp7; breue uia.</l>
+                       <l n="19"><hi rendition="#stanza_maker">=</hi> S<subst><del type="erasure"><gap reason="illegible"></gap></del><add>ildissi mai</add></subst>&virg; diquel chi menuorrei</l> <!-- Check mai (darker in diplomatic) -->
+                       <l n="20">Piena troui questaspra &#11789;&amp7; breue uia.</l>
                    </lg>
                    <lg type="dblvrs" corresp="#canvasline">
-                       <l n="21">Sil dissi<hi rend="subscript">(</hi> <add>/</add>il fero ardor &virg;che mi desuia.</l> <!-- check punctuation -->
+                       <l n="21">Sil dissi&#8333; &#11789;il fero ardor &virg;che mi desuia.</l> <!-- check punctuation -->
                        <l n="22">Cresca &in; me &quanto; il fier ghiaccio &in; costei.</l>
                    </lg>
                    <lg type="trplvrs" corresp="#canvasline">
-                       <l n="23">Sildissi <add>/</add><choice><abbr>ūqua</abbr><expan>unqua</expan></choice> &non; ueggian liocchi mei.</l>
+                       <l n="23">Sildissi &#11789;<choice><abbr>ūqua</abbr><expan>unqua</expan></choice> &non; ueggian liocchi mei.</l>
                        <l n="24">Sol chiaro &virg; o sua sorella.</l>
                        <l n="25">Ne <choice><abbr>dōna</abbr><expan>donna</expan></choice> &virg;ne <choice><abbr>dōçella</abbr><expan>donçella</expan></choice> .</l>
                    </lg>
@@ -544,11 +546,11 @@
                
                <lg type="stanza"> 
                    <lg type="dblvrs" corresp="#canvasline">
-                       <l n="28">= Sildissi <add>/</add>Coi sospir&virg;<choice><abbr>quātio</abbr><expan>quantio</expan></choice> mai fei.</l> 
-                       <l n="29">Sia pieta &per; me morta <add>/</add>&amp7; cortesia .</l>
+                       <l n="28"><hi rendition="#stanza_maker">=</hi> Sildissi &#11789;Coi sospir&virg;<choice><abbr>quātio</abbr><expan>quantio</expan></choice> mai fei.</l> 
+                       <l n="29">Sia pieta &per; me morta &#11789;&amp7; cortesia .</l>
                    </lg>
                    <lg type="dblvrs" corresp="#canvasline">
-                       <l n="30">Sildissi <add>(</add>ildir <choice><abbr>sīnaspri</abbr><expan>sinnaspri</expan></choice> <add>/</add>che sudia</l> <!-- check punctuation -->
+                       <l n="30">Sildissi &#8317;ildir <choice><abbr>sīnaspri</abbr><expan>sinnaspri</expan></choice> &#11789;che sudia</l> <!-- check punctuation -->
                        <l n="31">Sidolce allor che uinto mirendei .</l>
                    </lg>
                    <lg type="trplvrs" corresp="#canvasline">
@@ -558,13 +560,13 @@
                    </lg>
                    <lg type="dblvrs" corresp="#canvasline">
                        <l n="35">Lasciai (finche si suella</l>
-                       <l n="36">Da me lalma <add>(</add>adorar&virg; <subst><del type="erasure"><gap reason="illegible"></gap></del><add>forse el farei</add></subst> .</l> <!-- check punctuation -->
+                       <l n="36">Da me lalma &#8317;adorar&virg; <subst><del type="erasure"><gap reason="illegible"></gap></del><add>forse el farei</add></subst> .</l> <!-- check punctuation -->
                    </lg>
                </lg>
                
                <lg type="stanza"> 
                    <lg type="dblvrs" corresp="#canvasline">
-                       <l n="37">[<add>⸧</add>]Ma sio nol dissi &virg;chi si dolce apria .</l> <!-- sign at the beginning of diplomatic? -->
+                       <l n="37"><hi rendition="#stanza_maker">[<add>&#11815;</add>]</hi>Ma sio nol dissi &virg;chi si dolce apria .</l> <!-- sign at the beginning of diplomatic? -->
                        <l n="38">Meo cor aspeme nel eta nouella .</l>
                    </lg>
                    <lg type="dblvrs" corresp="#canvasline">
@@ -578,14 +580,14 @@
                    </lg>
                    <lg type="dblvrs" corresp="#canvasline">
                        <l n="44">Ne piu <choice><abbr>&per;d[e]r</abbr><expan>perder</expan></choice> deure[i] .</l> 
-                       <l n="45">Mal fa <add>(</add>chi <subst><del type="erasure"><gap reason="illegible"></gap></del><add>tanta</add></subst> fe &virg;si tosto oblia .</l> <!-- check punctuation -->
+                       <l n="45">Mal fa &#8317;chi <subst><del type="erasure"><gap reason="illegible"></gap></del><add>tanta</add></subst> fe &virg;si tosto oblia .</l> <!-- check punctuation -->
                    </lg>
                </lg>
                
                <lg type="stanza"> 
                    <lg type="dblvrs" corresp="#canvasline">
-                       <l n="46">=⸜·I· nol dissi giamai. ne dir poria.</l> <!-- check punctuation after equal sign -->
-                       <l n="47">&Per; oro&virg; o &per; cittadi <add>(</add>o &per; castella.</l> <!-- check punctuation -->
+                       <l n="46"><hi rendition="#stanza_maker">=&#65128;</hi>·I· nol dissi giamai. ne dir poria.</l> <!-- check punctuation after equal sign -->
+                       <l n="47">&Per; oro&virg; o &per; cittadi &#8317;o &per; castella.</l> <!-- check punctuation -->
                    </lg>
                    <lg type="dblvrs" corresp="#canvasline">
                        <l n="48"><choice><abbr>Vīcal</abbr><expan>Vincal</expan></choice> uer <choice><abbr>dūque</abbr><expan>dunque</expan></choice> .&amp7; <choice><abbr>sirimāga</abbr><expan>sirimanga</expan></choice> &in; sella .</l>
@@ -598,12 +600,12 @@
                    </lg>
                    <lg type="dblvrs" corresp="#canvasline">
                        <l n="53">Tre uolte . &amp7; quattro &virg;&amp7; sei .</l> 
-                       <l n="54">Chi <choice><abbr>deuēdo</abbr><expan>deuendo</expan></choice> <choice><abbr>lāguir</abbr><expan>languir</expan></choice><add>(</add> si mori pria .</l><!-- check punctuation -->
+                       <l n="54">Chi <choice><abbr>deuēdo</abbr><expan>deuendo</expan></choice> <choice><abbr>lāguir</abbr><expan>languir</expan></choice>&#8317; si mori pria .</l><!-- check punctuation -->
                    </lg>
                </lg>
                <lg type="stanza">
                    <lg type="trplvrs" corresp="#canvasline">
-                       <l n="55">= &Per; Rachel o seruito . &amp7; &non; &per; Lia.</l>
+                       <l n="55"><hi rendition="#stanza_maker">=</hi> &Per; Rachel o seruito . &amp7; &non; &per; Lia.</l>
                        <l n="56">Ne &con; altra saprei .</l>
                        <l n="57">Viuer. &amp7; sosterrei</l>
                    </lg>
