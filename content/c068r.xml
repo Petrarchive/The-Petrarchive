@@ -479,7 +479,7 @@
       <body>
           
          
-         <pb n="charta 68 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-068r.jpg" /> <!-- Change the number of the charta in both places "charta 1 verso" and -f-0001v.jpg", according to the charta to be encoded -->
+          <pb xml:id="c068r" n="charta 68 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-068r.jpg" /> <!-- Change the number of the charta in both places "charta 1 verso" and -f-0001v.jpg", according to the charta to be encoded -->
           <lg type="sonnet" xml:id="rvf345" n="347 [345]"><!-- Change the sonnet xml:id and number according to the sonnet to be encoded -->
               <note type="sequence">
                   <bibl>

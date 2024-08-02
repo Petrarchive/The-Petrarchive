@@ -477,7 +477,7 @@
 
    <text>
       <body>
-         <pb n="charta 62 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-062v.jpg" /> <!-- Change the number of the charta in both places "charta 1 verso" and -f-0001v.jpg", according to the charta to be encoded -->
+          <pb xml:id="c062v" n="charta 62 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-062v.jpg" /> <!-- Change the number of the charta in both places "charta 1 verso" and -f-0001v.jpg", according to the charta to be encoded -->
           <lg type="sonnet" xml:id="rvf321" n="321"> <!-- Change the sonnet xml:id and number according to the sonnet to be encoded -->
               <lg type="octave">
                   <lg type="dblvrs" corresp="#canvasline">
@@ -580,7 +580,7 @@
               </lg>
               
               <lg type="stanza"> 
-                  <lg type="dblvrs" corresp="#canvasline" class="indent"> <!-- Paolo added the class indent to have the pilcrow in the right position in the edited. Is that compatible with the stanza marker? -->
+                  <lg type="dblvrs" corresp="#canvasline"> <!-- <lg type="dblvrs" corresp="#canvasline" class="indent"> Paolo had added the class indent to have the pilcrow in the right position in the edited. Is that compatible with the stanza marker? -->
                       <l n="13"><choice><orig><hi rendition="#stanza_marker">&#11799;</hi></orig><reg><hi rendition="#fs24pt">¶</hi></reg></choice>Indi &per; alto mar<choice><orig>&virg;</orig><reg></reg></choice> <choice><orig>uidi</orig><reg>vidi</reg></choice> una <choice><orig>naue</orig><reg>nave</reg></choice><choice><orig> .</orig><reg></reg></choice></l><!-- check stanza markers -->
                       <l n="14">Con le sarte <choice><orig>diseta</orig><reg>di seta</reg></choice> <choice><orig>&#11789;</orig><reg></reg></choice>&amp7; <choice><orig>dor</orig><reg>d’or</reg></choice> <choice><orig>lauela</orig><reg>la vela</reg></choice><choice><orig> .</orig><reg></reg></choice></l>
                   </lg>

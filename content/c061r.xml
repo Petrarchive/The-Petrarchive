@@ -476,7 +476,7 @@
    </teiHeader>
 <text>
      <body>
-        <pb n="charta 61 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-061r.jpg" />
+         <pb xml:id="c061r" n="charta 61 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-061r.jpg" />
          <lg type="sonnet" xml:id="rvf309" n="309">
              <lg type="octave">
                  <lg type="dblvrs" corresp="#canvasline">

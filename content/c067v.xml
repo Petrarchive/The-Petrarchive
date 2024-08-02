@@ -470,7 +470,6 @@
             >font-size:18pt;</rendition>
         <rendition xml:id="fs24pt" scheme="css"
             >font-size:24pt;</rendition>
-        <rendition xml:id="sestet_marker" scheme="css"></rendition>
     </tagsDecl>
 </encodingDesc>
 
@@ -478,7 +477,7 @@
 
    <text>
       <body>
-         <pb n="charta 67 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-067v.jpg" /> 
+          <pb xml:id="c067v" n="charta 67 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-067v.jpg" /> 
           <lg type="sonnet" xml:id="rvf343" n="341 [343]">
               <note type="sequence">
                   <bibl>

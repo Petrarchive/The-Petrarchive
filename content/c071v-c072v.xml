@@ -815,9 +815,8 @@
                   </lg>      
              </lg> 
            </lg>
-		 <add place="bottom margin-left">38.cū duab&#42864; &q-macron; st&#x0304;
-						  <lb></lb>
-			 &in; papiro</add>
+		 <l><add place="bottom margin-left">38.cū duab&#42864; &q-macron; st&#x0304;</add></l>
+			<l><add>&in; papiro</add></l>
       </body>
    </text>
 </TEI>

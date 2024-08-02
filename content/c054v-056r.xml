@@ -477,7 +477,7 @@
 
    <text>
       <body>
-         <pb n="charta 54 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-054v.jpg" /> <!-- Change the number of the charta in both places "charta 1 verso" and -f-0001v.jpg", according to the charta to be encoded -->
+          <pb xml:id="c054v" n="charta 54 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-054v.jpg" /> <!-- Change the number of the charta in both places "charta 1 verso" and -f-0001v.jpg", according to the charta to be encoded -->
           <lg type="canzone_11vv" xml:id="rvf268" n="268"> <!-- Change the sonnet xml:id and number according to the sonnet to be encoded -->
               <lg type="stanza">
                   <lg type="dblvrs" corresp="#canvasline">
@@ -623,7 +623,7 @@
                   <l n="68"><choice><orig>Che</orig><reg>Ché</reg></choice> &per; <choice><orig>souerchie</orig><reg>soverchie</reg></choice> <choice><orig>uoglie</orig><reg>voglie</reg></choice></l>
               </lg>
 
-              <pb n="charta 55 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-055r.jpg" />
+              <pb xml:id="c055r" n="charta 55 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-055r.jpg" />
 
               <lg type="dblvrs" corresp="#canvasline">
                   <l n="69">Si <choice><orig>perdel</orig><reg>perde ’l</reg></choice> cielo <add>/</add><choice><orig>ouel</orig><reg>ove ’l</reg></choice> tuo core aspira<choice><orig>.</orig><reg>,</reg></choice></l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
@@ -757,7 +757,9 @@
                       <l n="28">Cosa seguir che mai giugner non spero<choice><orig> .</orig><reg>.</reg></choice></l>
                       <l n="29">Or al tuo richiamar <choice><orig>uenir</orig><reg>venir</reg></choice> non degno<choice><orig> .</orig><reg>,</reg></choice> .</l>
                   </lg>
-                  <pb n="charta 55 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-055v.jpg" />
+                  
+                  <pb xml:id="c055v" n="charta 55 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-055v.jpg" />
+                 
                   <lg type="single" corresp="#canvasline">
                       <l n="30"><choice><orig>Che</orig><reg>Ché</reg></choice> segnoria non <choice><orig>ai</orig><reg>ài</reg></choice> fuor del tuo regno<choice><orig> .</orig><reg>.</reg></choice></l>
                   </lg>
@@ -886,7 +888,9 @@
                       <l n="86"><choice><orig>El</orig><reg>E ’l</reg></choice> sedere<choice><orig> &virg;</orig><reg></reg></choice> &amp7; lo star<choice><orig> &virg;</orig><reg>,</reg></choice> che spesso altrui</l>
                       <l n="87">Poser in dubbio<choice><orig> &virg;</orig><reg></reg></choice> a cui</l>
                   </lg>
-                  <pb n="charta 56 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-056r.jpg" />
+                  
+                  <pb xml:id="c056r" n="charta 56 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-056r.jpg" />
+                  
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="88"><choice><orig>Deuesse</orig><reg>Devesse</reg></choice> il pregio di <choice><orig>piu</orig><reg>più</reg></choice> laude darsi<choice><orig> .</orig><reg>.</reg></choice></l>
                       <l n="89">Con <choice><orig>questarmi</orig><reg>quest’armi</reg></choice> <choice><orig>uinceui</orig><reg>vincevi</reg></choice> ogni cor duro<choice><orig> .</orig><reg>;</reg></choice></l>

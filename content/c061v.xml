@@ -477,7 +477,7 @@
 
    <text>
       <body>
-         <pb n="charta 61 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-061v.jpg" />
+          <pb xml:id="c061v" n="charta 61 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-061v.jpg" />
           <lg type="sonnet" xml:id="rvf313" n="313"> <!-- Change the sonnet xml:id and number according to the sonnet to be encoded -->
               <lg type="octave">
                   <lg type="dblvrs" corresp="#canvasline">
@@ -494,7 +494,7 @@
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="7">Al cor <choice><orig>gia</orig><reg>già</reg></choice> mio<choice><orig> .</orig><reg>,</reg></choice> che seguendo partissi</l>
-                      <l n="8">Lei <choice><orig>chauolto</orig>ch’avolto<reg></reg></choice> <choice><orig>lauea</orig><reg>l’avea</reg></choice> nel suo bel manto<choice><orig> </orig><reg></reg></choice>.</l>
+                      <l n="8">Lei <choice><orig>chauolto</orig><reg>ch’avolto</reg></choice> <choice><orig>lauea</orig><reg>l’avea</reg></choice> nel suo bel manto<choice><orig> </orig><reg></reg></choice>.</l>
                   </lg>
               </lg>
               <lg type="sestet">

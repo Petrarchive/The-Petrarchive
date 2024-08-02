@@ -479,7 +479,7 @@
       <body>
           
          
-         <pb n="charta 71 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-071r.jpg"/>
+          <pb xml:id="c071r" n="charta 71 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-071r.jpg"/>
           <lg type="sonnet" xml:id="rvf351" n="362 [351]">
               <note type="sequence">
                   <bibl>
