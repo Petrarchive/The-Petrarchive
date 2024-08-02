@@ -506,7 +506,7 @@
                
                <lg type="stanza"> 
                    <lg type="dblvrs" corresp="#canvasline">
-                       <l n="10"><hi rendition="#stanza_maker">=</hi> Sildissi &virg;Amor laurate sue quadrella.</l> <!-- check equal sign at the beginning of the verse -->
+                       <l n="10"><hi rendition="#stanza_marker">=</hi> Sildissi &virg;Amor laurate sue quadrella.</l> <!-- check equal sign at the beginning of the verse -->
                        <l n="11">Spenda &in; me tutte. &amp7; <choice><abbr>limpiōbate</abbr><expan>limpiombate</expan></choice> in lei.</l>
                    </lg>
                    <lg type="dblvrs" corresp="#canvasline">
@@ -526,7 +526,7 @@
                
                <lg type="stanza"> 
                    <lg type="dblvrs" corresp="#canvasline">
-                       <l n="19"><hi rendition="#stanza_maker">=</hi> S<subst><del type="erasure"><gap reason="illegible"></gap></del><add>ildissi mai</add></subst>&virg; diquel chi menuorrei</l> <!-- Check mai (darker in diplomatic) -->
+                       <l n="19"><hi rendition="#stanza_marker">=</hi> S<subst><del type="erasure"><gap reason="illegible"></gap></del><add>ildissi mai</add></subst>&virg; diquel chi menuorrei</l> <!-- Check mai (darker in diplomatic) -->
                        <l n="20">Piena troui questaspra &#11789;&amp7; breue uia.</l>
                    </lg>
                    <lg type="dblvrs" corresp="#canvasline">
@@ -546,7 +546,7 @@
                
                <lg type="stanza"> 
                    <lg type="dblvrs" corresp="#canvasline">
-                       <l n="28"><hi rendition="#stanza_maker">=</hi> Sildissi &#11789;Coi sospir&virg;<choice><abbr>quātio</abbr><expan>quantio</expan></choice> mai fei.</l> 
+                       <l n="28"><hi rendition="#stanza_marker">=</hi> Sildissi &#11789;Coi sospir&virg;<choice><abbr>quātio</abbr><expan>quantio</expan></choice> mai fei.</l> 
                        <l n="29">Sia pieta &per; me morta &#11789;&amp7; cortesia .</l>
                    </lg>
                    <lg type="dblvrs" corresp="#canvasline">
@@ -566,7 +566,7 @@
                
                <lg type="stanza"> 
                    <lg type="dblvrs" corresp="#canvasline">
-                       <l n="37"><hi rendition="#stanza_maker">[<add>&#11815;</add>]</hi>Ma sio nol dissi &virg;chi si dolce apria .</l> <!-- sign at the beginning of diplomatic? -->
+                       <l n="37"><hi rendition="#stanza_marker">[<add>&#11815;</add>]</hi>Ma sio nol dissi &virg;chi si dolce apria .</l> <!-- sign at the beginning of diplomatic? -->
                        <l n="38">Meo cor aspeme nel eta nouella .</l>
                    </lg>
                    <lg type="dblvrs" corresp="#canvasline">
@@ -586,7 +586,7 @@
                
                <lg type="stanza"> 
                    <lg type="dblvrs" corresp="#canvasline">
-                       <l n="46"><hi rendition="#stanza_maker">=&#65128;</hi>·I· nol dissi giamai. ne dir poria.</l> <!-- check punctuation after equal sign -->
+                       <l n="46"><hi rendition="#stanza_marker">=&#65128;</hi>·I· nol dissi giamai. ne dir poria.</l> <!-- check punctuation after equal sign -->
                        <l n="47">&Per; oro&virg; o &per; cittadi &#8317;o &per; castella.</l> <!-- check punctuation -->
                    </lg>
                    <lg type="dblvrs" corresp="#canvasline">
@@ -605,7 +605,7 @@
                </lg>
                <lg type="stanza">
                    <lg type="trplvrs" corresp="#canvasline">
-                       <l n="55"><hi rendition="#stanza_maker">=</hi> &Per; Rachel o seruito . &amp7; &non; &per; Lia.</l>
+                       <l n="55"><hi rendition="#stanza_marker">=</hi> &Per; Rachel o seruito . &amp7; &non; &per; Lia.</l>
                        <l n="56">Ne &con; altra saprei .</l>
                        <l n="57">Viuer. &amp7; sosterrei</l>
                    </lg>
