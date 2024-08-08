@@ -499,7 +499,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><hi rendition="#sestet_marker">·</hi>Vedendo ardere ilumi <choice><abbr>ōdio</abbr><expan>ondio</expan></choice> maccendo .</l> <!-- check dot at beginning of sestet -->
+                      <l n="9"><hi rendition="#sestet_marker">·</hi> Vedendo ardere ilumi <choice><abbr>ōdio</abbr><expan>ondio</expan></choice> maccendo .</l> <!-- check dot at beginning of sestet -->
                       <l n="10"><subst><del type="erasure"><gap reason="illegible"></gap></del><add>&Amp7;</add></subst> folgorare i nodi ondio son preso .</l> 
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -534,7 +534,7 @@
               </lg>
               <lg type="sestet"> <!-- check dot at the beginning -->
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><hi rendition="#sestet_marker">·</hi>Candido leggiadretto &amp7; caro <choice><abbr>guāto</abbr><expan>guanto</expan></choice> .</l>
+                      <l n="9"><hi rendition="#sestet_marker">·</hi> Candido leggiadretto &amp7; caro <choice><abbr>guāto</abbr><expan>guanto</expan></choice> .</l>
                       <l n="10">Che copri<subst><del type="erasure"><gap reason="illegible"></gap></del><add>a</add></subst> netto auorio &virg; &amp7; fresche rose</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -569,7 +569,7 @@
               </lg>
               <lg type="sestet"> <!-- dot at the beginning -->
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><hi rendition="#sestet_marker">·</hi>Liocchi sereni . &amp7; <choice><abbr>lestellāti</abbr><expan>lestellanti</expan></choice> ciglia .</l>
+                      <l n="9"><hi rendition="#sestet_marker">·</hi> Liocchi sereni . &amp7; <choice><abbr>lestellāti</abbr><expan>lestellanti</expan></choice> ciglia .</l>
                       <l n="10">La bella bocca&virg;angelica<g ref="#punctelevhiback"/>di perle</l> 
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -604,7 +604,7 @@
               </lg>
               <lg type="sestet"> <!-- dot at the beginning of the sestet -->
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><hi rendition="#sestet_marker">·</hi>Chelamia nobil preda&virg; &non; piu stretta</l>
+                      <l n="9"><hi rendition="#sestet_marker">·</hi> Chelamia nobil preda&virg; &non; piu stretta</l>
                       <l n="10"><choice><abbr>Tēni</abbr><expan>Tenni</expan></choice> albisogno.&amp7; &non; fui piu <choice><abbr>cōstante</abbr><expan>constante</expan></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">

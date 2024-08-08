@@ -566,7 +566,7 @@
                
                <lg type="stanza"> 
                    <lg type="dblvrs" corresp="#canvasline">
-                       <l n="37"><hi rendition="#stanza_marker">[<add>&#11815;</add>]</hi>Ma sio nol dissi &virg;chi si dolce apria .</l> <!-- sign at the beginning of diplomatic? -->
+                       <l n="37"><hi rendition="#stanza_marker">[<add>&#11815;</add>]</hi> Ma sio nol dissi &virg;chi si dolce apria .</l> <!-- sign at the beginning of diplomatic? -->
                        <l n="38">Meo cor aspeme nel eta nouella .</l>
                    </lg>
                    <lg type="dblvrs" corresp="#canvasline">
@@ -586,7 +586,7 @@
                
                <lg type="stanza"> 
                    <lg type="dblvrs" corresp="#canvasline">
-                       <l n="46"><hi rendition="#stanza_marker">=&#65128;</hi>·I· nol dissi giamai. ne dir poria.</l> <!-- check punctuation after equal sign -->
+                       <l n="46"><hi rendition="#stanza_marker">=&#65128;</hi> ·I· nol dissi giamai. ne dir poria.</l> <!-- check punctuation after equal sign -->
                        <l n="47">&Per; oro&virg; o &per; cittadi &#8317;o &per; castella.</l> <!-- check punctuation -->
                    </lg>
                    <lg type="dblvrs" corresp="#canvasline">
