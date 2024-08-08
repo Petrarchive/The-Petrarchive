@@ -663,7 +663,7 @@
 		  </lg>
 		  <space corresp="#canvasline"/>
           <lg xml:id="rvf332" type="sestina" n="332"  rendition="#columns_2"> <!-- Change the sestina xml:id and number according to the sestina to be encoded -->
-              <cb n="1-of-2"/> <!-- Encoding column 1 -->
+              <cb n="1-of-4"/> <!-- Encoding column 1 -->
               <l n="1" corresp="#canvasline"><hi rendition="#fs24pt">M</hi><hi rendition="#small-caps">i</hi>a benigna fortuna &virg; eluiuer lieto</l> <!-- Change initial color (red or blue) according to the initiasl of the sestina to be encoded -->
               <l n="2" corresp="#canvasline">I chiari giorni .&amp7; le <choice><abbr>trāquille</abbr><expan>tranquille</expan></choice> notti .</l>
               <l n="3" corresp="#canvasline">Ei soaui sospiri el dolce stile &#11776;</l><!--PUNCTUS ELEVATUS DIAGONAL STROKE? -->
@@ -687,7 +687,7 @@
               <l n="21" corresp="#canvasline">&amp7; uegghiar mi facea tutte le notti .</l>
               <l n="22" corresp="#canvasline">Or mel <choice><abbr>piāger</abbr><expan>pianger</expan></choice> amaro piu che morte .</l>
               
-			  <cb n="2-of-2"/> <!-- encoding column 2 -->
+			  <cb n="2-of-4"/> <!-- encoding column 2 -->
 			  <l n="23">&Non; sperando mailguardo honesto &amp7; lieto .</l>
               <l n="24">Alto sogetto &virg; ale mie basse rime .</l>
               <l n="25"><hi rendition="#stanza_marker">⸗</hi>Chiaro segno amor pose ale mie rime .</l> <!-- Change pilcrow color (red or blue) when necessary -->
@@ -713,7 +713,7 @@
 			  
               <pb xml:id="c066r" n="charta 66 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-066r.jpg" />
              
-			   <cb n="1-of-2"/>
+			   <cb n="3-of-4"/>
 			  <l n="45" corresp="#canvasline">Che piacer mi facea isospiri elpianto .</l>
               <l n="46" corresp="#canvasline">Laura dolce &virg;&amp7; lapioggia alemie notti .</l>
               <l n="47" corresp="#canvasline"><add place="margin-left">·</add>&Quando; ipenseri electi tessea in rime &virg;</l>
@@ -731,7 +731,7 @@
               <l n="59" corresp="#canvasline">Che mi tolla diqui&virg;&per; farme lieto .</l>
               <l n="60" corresp="#canvasline">Oue e colei chi canto &virg; &amp7; <choice><abbr>piāgo</abbr><expan>piango</expan></choice> &in; rime .</l>
 			  
-			  <cb n="2-of-2"/> <!-- encoding column 2 -->
+			  <cb n="4-of-4"/> <!-- encoding column 2 -->
 			  <l n="61"><hi rendition="#stanza_marker">⸗</hi>Se si alto pon gir mie stanche rime .</l> <!-- Change pilcrow color (red or blue) when necessary -->
               <l n="62">Ch<choice><abbr>agiūgan</abbr><expan>agiungan</expan></choice> lei &virg; che fuor dira &amp7; di <choice><abbr>piāto</abbr><expan>pianto</expan></choice> .</l>
               <l n="63">&amp7; fal ciel or disue belle&#xa763;&#xa763;e lieto .</l>
