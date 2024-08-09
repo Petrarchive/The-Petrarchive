@@ -594,10 +594,10 @@
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="19">Poi <subst><del type="erasure"><gap reason="illegible"/></del><add><choice><abbr>repēte</abbr><expan>repente</expan></choice></add></subst> tempesta</l>
-                      <l n="20"><choice><abbr>Oriēta<subst><del type="erasure"><gap reason="illegible"/></del><add>l</add></subst></abbr><expan>Oriental</expan></choice><choice><orig><del type="erasure"><gap reason="illegible"/></del><add> &virg;</add></subst></orig><reg/></choice> <choice><orig><del type="erasure"><gap reason="illegible"/></del><add>tu</add></subst>rbo</orig><reg>turbò</reg></choice> <choice><orig>si</orig><reg>sì</reg></choice> <choice><orig>laere</orig><reg>l’aere</reg></choice> &amp7; <choice><orig>londe</orig><reg>l’onde</reg></choice><choice><orig> .</orig><reg>,</reg></choice></l><!-- check Oriental -->
+                      <l n="20"><choice><abbr>Oriēta<subst><del type="erasure"><gap reason="illegible"/></del><add>l</add></subst></abbr><expan>Oriental</expan></choice><choice><orig><subst><del type="erasure"><gap reason="illegible"/></del><add> &virg;</add></subst></orig><reg/></choice> <choice><orig><subst><del type="erasure"><gap reason="illegible"/></del><add>tu</add></subst>rbo</orig><reg>turbò</reg></choice> <choice><orig>si</orig><reg>sì</reg></choice> <choice><orig>laere</orig><reg>l’aere</reg></choice> &amp7; <choice><orig>londe</orig><reg>l’onde</reg></choice><choice><orig> .</orig><reg>,</reg></choice></l><!-- check Oriental -->
                   </lg>
                    <lg type="dblvrs" corresp="#canvasline">
-                       <l n="21"><choice><orig>Chelanaue</orig><reg>Che la nave</reg></choice> <choice><abbr>ꝑcosse</abbr><expan>percosse</expan></choice> ad uno scoglio<choice><orig> </orig><reg></reg></choice>.
+                       <l n="21"><choice><orig>Chelanaue</orig><reg>Che la nave</reg></choice> <choice><abbr>ꝑcosse</abbr><expan>percosse</expan></choice> ad uno scoglio<choice><orig> </orig><reg></reg></choice>.</l>
                        <l n="22">O che <choice><orig>graue</orig><reg>grave</reg></choice> cordoglio<choice><orig> .</orig><reg>!</reg></choice></l>
                    </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -667,7 +667,7 @@
               <lg type="stanza">
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="49"><choice><orig><hi rendition="#stanza_marker">&#11799;/</hi></orig><reg><hi rendition="#stanza_marker">¶</hi></reg></choice><choice><orig><subst><del type="erasure"><gap reason="illegible"></gap></del><add>Vna</add></subst></orig><reg>Una</reg></choice> <subst><del type="erasure"><gap reason="illegible"/></del><add>strania fenice</add></subst><supplied>,</supplied> <choice><orig><subst><del type="erasure"><gap reason="illegible"/></del><add>a</add></subst>|mbedue</orig><reg>ambedue</reg></choice> <choice><orig>lale</orig><reg>l’ale</reg></choice><choice><orig> &virg;</orig><reg></reg></choice></l>
-                      <l n="50"><choice><orig>Diporpora</orig><reg>Di porpora</reg></choice> <choice><orig>uestita</orig><reg>vestita</reg></choice> <choice><orig>. </orig><reg></reg></choice><choice><orig>elcapo</orig><reg>e ’l capo</reg></choice> <choice><orig>dor<subst><del type="erasure"><gap reason="illegible"/></del><add>o</orig><reg>d’oro</reg></choice><choice><orig> .</orig><reg>,</reg></choice></add></subst></l>
+                      <l n="50"><choice><orig>Diporpora</orig><reg>Di porpora</reg></choice> <choice><orig>uestita</orig><reg>vestita</reg></choice> <choice><orig>. </orig><reg></reg></choice><choice><orig>elcapo</orig><reg>e ’l capo</reg></choice> <choice><orig>dor<subst><del type="erasure"><gap reason="illegible"/></del><add>o</add></subst></orig><reg>d’oro</reg></choice><choice><orig> .</orig><reg>,</reg></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="51">Vedendo &per; la <choice><orig>selua</orig><reg>selva</reg></choice> altera &amp7; sola<choice><orig> .</orig><reg>,</reg></choice></l>
