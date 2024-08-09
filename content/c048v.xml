@@ -470,7 +470,6 @@
         <rendition xml:id="fs24pt" scheme="css"
             >font-size:24pt;</rendition>
         <rendition xml:id="reddish" scheme="css">color:#b94a04;</rendition><!--check decl -->
-        <rendition xml:id="sestet_marker" scheme="css"></rendition>
     </tagsDecl>
 </encodingDesc>
 
@@ -500,7 +499,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><hi rendition="#sestet_marker">·</hi>Lalma cui morte delsuo albergo caccia .</l>
+                      <l n="9"><hi rendition="#sestet_marker">·</hi> Lalma cui morte delsuo albergo caccia .</l>
                       <l n="10">Dame si parte . &amp7; di tal nodo sciolta &virg;</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -535,7 +534,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><hi rendition="#sestet_marker">·</hi>Ma lauista priuata delsuo obiecto</l>
+                      <l n="9"><hi rendition="#sestet_marker">·</hi> Ma lauista priuata delsuo obiecto</l>
                       <l n="10">Quasi <choice><abbr>sognādo</abbr><expan>sognando</expan></choice> si facea far uia&#11805;</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -570,7 +569,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><hi rendition="#sestet_marker">·</hi>Lalma nudrita sempre &in; <subst><del type="erasure"><gap reason="illegible"></gap></del><add>doglia enpene .</add></subst></l>
+                      <l n="9"><hi rendition="#sestet_marker">·</hi> Lalma nudrita sempre &in; <subst><del type="erasure"><gap reason="illegible"></gap></del><add>doglia enpene .</add></subst></l>
                       <l n="10">&Quanto; elpoder duna <choice><abbr>&p-macron;scritta</abbr><expan>prescritta</expan></choice> <choice><abbr>usāça</abbr><expan>usança</expan></choice><g ref="#punctelevhiback"/></l><!-- check punctuation -->
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -605,7 +604,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><hi rendition="#sestet_marker">·</hi>Ma mia fortuna ame &sempre; nemica</l>
+                      <l n="9"><hi rendition="#sestet_marker">·</hi> Ma mia fortuna ame &sempre; nemica</l>
                       <l n="10">Mi risospigne alloco ouio mi sdegno</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
