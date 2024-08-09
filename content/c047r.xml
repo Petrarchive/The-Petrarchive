@@ -499,7 +499,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><hi rendition="#sestet_marker">·</hi>Ben chi &non; sia diquel <choice><abbr>grādonor</abbr><expan>grandonor</expan></choice> degno .</l><!-- check all sestet markers-->
+                      <l n="9"><hi rendition="#sestet_marker">·</hi> Ben chi &non; sia diquel <choice><abbr>grādonor</abbr><expan>grandonor</expan></choice> degno .</l><!-- check all sestet markers-->
                       <l n="10">Che tu mi fai . che <choice><abbr>tenīgana</abbr><expan>teningana</expan></choice> amore &virg;</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -534,7 +534,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><hi rendition="#sestet_marker">·</hi>&Non; uede un simil par <choice><abbr>damāti</abbr><expan>damanti</expan></choice> il sole</l>
+                      <l n="9"><hi rendition="#sestet_marker">·</hi> &Non; uede un simil par <choice><abbr>damāti</abbr><expan>damanti</expan></choice> il sole</l>
                       <l n="10">Dicea &#11805; ridendo &virg; &amp7; sospirando&virg; inseme .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -569,7 +569,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><subst><del type="erasure"><gap reason="illegible"/></del><add><hi rendition="#sestet_marker">·</hi>Si chio <hi rendition="#red">&non; u</hi>eggia ilgran publico <choice><abbr>dāno</abbr><expan>danno</expan></choice></add></subst></l>
+                      <l n="9"><subst><del type="erasure"><gap reason="illegible"/></del><add><hi rendition="#sestet_marker">·</hi> Si chio <hi rendition="#red">&non; u</hi>eggia ilgran publico <choice><abbr>dāno</abbr><expan>danno</expan></choice></add></subst></l>
                       <l n="10"><subst><del type="erasure"><gap reason="illegible"/></del><add>El <hi rendition="#red">- - <choice><abbr>mōdo</abbr><expan>mondo</expan></choice> remaner sençal suo</hi> sole.</add></subst></l><!-- check dashes -->
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -604,7 +604,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><hi rendition="#sestet_marker">·</hi>Si dira ben <subst><del type="erasure"><gap reason="illegible"/></del><add>&virg;</add></subst> quello&#11804;oue questi aspira</l>
+                      <l n="9"><hi rendition="#sestet_marker">·</hi> Si dira ben <subst><del type="erasure"><gap reason="illegible"/></del><add>&virg;</add></subst> quello&#11804;oue questi aspira</l>
                       <l n="10">E cosa da stancare athene arpino .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
