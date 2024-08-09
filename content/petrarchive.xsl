@@ -311,6 +311,19 @@
     
     tei:lg[@type = 'canzone_14vv']//tei:l[@n mod 7 = 0]|
     
+    tei:lg[@type = 'canzone_9vv']//tei:l[@n = '5']|
+    tei:lg[@type = 'canzone_9vv']//tei:l[@n = '10']|
+    tei:lg[@type = 'canzone_9vv']//tei:l[@n = '14']|
+    tei:lg[@type = 'canzone_9vv']//tei:l[@n = '19']|
+    tei:lg[@type = 'canzone_9vv']//tei:l[@n = '23']|
+    tei:lg[@type = 'canzone_9vv']//tei:l[@n = '28']|
+    tei:lg[@type = 'canzone_9vv']//tei:l[@n = '32']|
+    tei:lg[@type = 'canzone_9vv']//tei:l[@n = '37']|
+    tei:lg[@type = 'canzone_9vv']//tei:l[@n = '41']|
+    tei:lg[@type = 'canzone_9vv']//tei:l[@n = '46']|
+    tei:lg[@type = 'canzone_9vv']//tei:l[@n = '50']|
+    tei:lg[@type = 'canzone_9vv']//tei:l[@n = '55']|
+    
     tei:lg[@type = 'canzone_14vvAlt1']//tei:l[@n = '5'] |
     tei:lg[@type = 'canzone_14vvAlt1']//tei:l[@n = '15'] |
     tei:lg[@type = 'canzone_14vvAlt1']//tei:l[@n = '25'] |
