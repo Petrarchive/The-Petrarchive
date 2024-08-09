@@ -487,13 +487,13 @@
               <l n="4" corresp="#canvasline">Questanchor dubbia del fatal suo corso</l>
               <l n="5" corresp="#canvasline">Sola pensando &#x007c; pargoletta &#11789;&amp7; sciolta</l><!-- check punctuation -->
               <l n="6" corresp="#canvasline">Intro di primauera &in; un bel bosco .</l>
-              <l n="7" corresp="#canvasline"><hi rendition="#stanza_marker">⫽</hi>Era un tenero fior nato &in; quel bosco</l> <!-- Check beginning all sections -->
+              <l n="7" corresp="#canvasline"><hi rendition="#stanza_marker">⫽</hi> Era un tenero fior nato &in; quel bosco</l> <!-- Check beginning all sections -->
               <l n="8" corresp="#canvasline">Il giorno <choice><abbr>auāti</abbr><expan>avanti</expan></choice> . &amp7; laradice in parte</l>
               <l n="9" corresp="#canvasline">>Chappressar nolpoteua anima sciolta</l>
               <l n="10" corresp="#canvasline">Cheueran dilacciuo forme si noue.</l>
               <l n="11" corresp="#canvasline">&Amp7; tal piacer precipitaua al corso &virg;</l>
               <l n="12" corresp="#canvasline">Che &per;der libertate iui era &in; pregio .</l>
-              <l n="13" corresp="#canvasline"><hi rendition="#stanza_marker">⫽</hi>Caro &virg; dolce &virg; alto &virg; &amp7; faticoso pregio</l>
+              <l n="13" corresp="#canvasline"><hi rendition="#stanza_marker">⫽</hi> Caro &virg; dolce &virg; alto &virg; &amp7; faticoso pregio</l>
               <l n="14" corresp="#canvasline">Che ratto <subst><del type="erasure"><gap reason="illegible"/></del><add>mi</add></subst> uolgesti al uerde bosco .</l>
               <l n="15" corresp="#canvasline">Vsato di suiarne a meççol corso .</l>
               <l n="16" corresp="#canvasline">&Amp7; o cerco poilmondo a parte a parte</l>
@@ -507,19 +507,19 @@
               <cb n="2-of-2"/> <!-- encoding column 2 -->
               <l n="23" corresp="#canvasline"><subst><del type="erasure"><gap reason="illegible"/></del><add>Folto di</add></subst> spine &virg; ondio ben tal parte .</l>
               <l n="24">Che çoppo nesco . entraui asigran corso</l>
-              <l n="25"><hi rendition="#stanza_marker">⫽</hi>Pien di lacci &virg; &amp7; di stecchi unduro corso</l>
+              <l n="25"><hi rendition="#stanza_marker">⫽</hi> Pien di lacci &virg; &amp7; di stecchi unduro corso</l>
               <l n="26">Aggio a fornire . oue leggera &amp7; sciolta</l>
               <l n="27">Pianta aurebbe uopo &virg; &amp7; sana dogni parte</l>
               <l n="28">Ma tu signor chai di pietate il pregio</l>
               <l n="29">Porgimi laman dextra <g ref="virgsusp"/> &in; &q-macron;sto bosco .</l>
               <l n="30"><choice><abbr>Vīcal</abbr><expan>Vincal</expan></choice> tuo sol &virg; le mie tenebre noue .</l><!-- space after V in 'Vinca'?; check abbreviation -->
-              <l n="31"><hi rendition="#stanza_marker">⫽</hi>Guard<subst><del type="erasure"><gap reason="illegible"/></del><add>al</add></subst> mio stato . Ale uagheççe noue</l> <!-- Change pilcrow color (red or blue) when necessary -->
+              <l n="31"><hi rendition="#stanza_marker">⫽</hi> Guard<subst><del type="erasure"><gap reason="illegible"/></del><add>al</add></subst> mio stato . Ale uagheççe noue</l> <!-- Change pilcrow color (red or blue) when necessary -->
               <l n="32"><choice><abbr>Chenterrōpendo</abbr><expan>Chenterrompendo</expan></choice> dimia uita il corso</l>
               <l n="33">Man fatto habitador dombroso bosco .</l>
               <l n="34">Rendimi sesser po &virg; libera &amp7; sciolta</l>
               <l n="35">Lerrante mia <choice><abbr>cōsorte</abbr><expan>consorte</expan></choice> . &amp7; fia tuol&p-macron;gio</l>
               <l n="36">Sanchor teco la trouo in miglior parte .</l>
-              <l n="37"><hi rendition="#stanza_marker">⫽</hi>Or ecco &in; parte le question mie noue .</l> 
+              <l n="37"><hi rendition="#stanza_marker">⫽</hi> Or ecco &in; parte le question mie noue .</l> 
               <l n="38">Salcun pregio &in; me uiue . ontutto e corso</l>
               <l n="39">O lalma sciolta . o ritenuta al bosco .</l>       
           </lg>
@@ -547,7 +547,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><hi rendition="#sestet_marker">·</hi>Amor se &in; lei &con; honestate aggiunto</l><!-- check sestet marker -->
+                      <l n="9"><hi rendition="#sestet_marker">·</hi> Amor se &in; lei &con; honestate aggiunto</l><!-- check sestet marker -->
                       <l n="10">&Con; belta naturale&#x007c;habito adorno .</l><!-- check vertical line, also v. 12 -->
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
