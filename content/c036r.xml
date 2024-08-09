@@ -499,7 +499,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><choice><orig>⸝	Ondio</orig><reg>Ond'io</reg></choice> non <choice><orig>pote</orig><reg>poté'</reg></choice> mai formar parola</l>
+                      <l n="9"><hi rendition="#sestet_marker">&#11805;</hi> <choice><orig>Ondio</orig><reg>Ond'io</reg></choice> non <choice><orig>pote</orig><reg>poté'</reg></choice> mai formar parola</l>
                       <l n="10"><choice><orig>Chaltro</orig><reg>Ch'altro</reg></choice> che da me stesso fosse intesa<choice><orig> .</orig><reg>;</reg></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -534,7 +534,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">⸝	Nulla posso <choice><orig>leuar</orig><reg>levar</reg></choice> io &per; <choice><orig>mingegno</orig><reg>mi' 'ngegno</reg></choice></l>
+                      <l n="9"><hi rendition="#sestet_marker">&#11805;</hi>	Nulla posso <choice><orig>leuar</orig><reg>levar</reg></choice> io &per; <choice><orig>mingegno</orig><reg>mi' 'ngegno</reg></choice></l>
                       <l n="10">Del bel diamante<choice><orig> .</orig><reg>,</reg></choice> <choice><orig>ondella</orig><reg>ond'ell'à</reg></choice> il cor &si; duro<choice><orig> .</orig><reg>;</reg></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -569,7 +569,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">⸝	<choice><orig>Ne</orig><reg>Né</reg></choice> <choice><orig>&per;o</orig><reg>però</reg></choice> che &con; atti acerbi et rei</l>
+                      <l n="9"><hi rendition="#sestet_marker">&#11805;</hi>	<choice><orig>Ne</orig><reg>Né</reg></choice> <choice><orig>&per;o</orig><reg>però</reg></choice> che &con; atti acerbi et rei</l>
                       <l n="10">Del mio ben <choice><abbr>piāga</abbr><expan>pianga</expan></choice><choice><orig> .</orig><reg>, </reg></choice>&amp7; del mio <choice><abbr>piāger</abbr><expan>pianger</expan></choice> rida<choice><orig> .</orig><reg>,</reg></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -604,7 +604,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">⸝	Per questi extremi duo <choice><abbr>cōtrari</abbr><expan>contrari</expan></choice> &amp7; misti</l>
+                      <l n="9"><hi rendition="#sestet_marker">&#11805;</hi> Per questi extremi duo <choice><abbr>cōtrari</abbr><expan>contrari</expan></choice> &amp7; misti</l>
                       <l n="10">Or &con; <choice><orig>uoglie</orig><reg>voglie</reg></choice> gelate&v2c; or &con; accese</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
