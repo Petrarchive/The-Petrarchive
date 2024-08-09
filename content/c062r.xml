@@ -24,7 +24,7 @@
 <!ENTITY giorno "<choice><abbr>giõno</abbr><expan>giorno</expan></choice>">
 <!ENTITY non "<choice><abbr>nō</abbr><expan>non</expan></choice>">
 <!ENTITY in "<choice><abbr>ī</abbr><expan>in</expan></choice>">
-<!ENTITY pre "<choice><abbr>&p-macron;</abbr><expan>pre</expan></choice">
+<!ENTITY pre "<choice><abbr>&p-macron;</abbr><expan>pre</expan></choice>">
 <!ENTITY con "<choice><abbr>cō</abbr><expan>con</expan></choice>">
 <!ENTITY Con "<choice><abbr>cō</abbr><expan>Con</expan></choice>">
 <!ENTITY son "<choice><abbr>sō</abbr><expan>son</expan></choice>">
@@ -499,7 +499,7 @@
                 </lg>
                 <lg type="sestet">
                     <lg type="dblvrs" corresp="#canvasline">
-                        <l n="9"><hi rendition="#sestet_marker">~</hi>Pur <choice><orig>uiuendo</orig><reg>vivendo</reg></choice> <choice><orig>ueniasi</orig><reg>veniasi</reg></choice><supplied>,</supplied> <choice><orig>oue</orig><reg>ove</reg></choice> deposto</l>
+                        <l n="9"><hi rendition="#sestet_marker">~</hi> Pur <choice><orig>uiuendo</orig><reg>vivendo</reg></choice> <choice><orig>ueniasi</orig><reg>veniasi</reg></choice><supplied>,</supplied> <choice><orig>oue</orig><reg>ove</reg></choice> deposto</l>
                         <l n="10">In quelle caste orecchie aurei <choice><abbr>parlādo</abbr><expan>parlando</expan></choice></l>
                     </lg>
                     <lg type="dblvrs" corresp="#canvasline">
@@ -534,7 +534,7 @@
                 </lg>
                 <lg type="sestet">
                     <lg type="dblvrs" corresp="#canvasline">
-                        <l n="9"><hi rendition="#sestet_marker">~</hi>Quel <choice><orig>uiuo</orig><reg>vivo</reg></choice> lauro <choice><orig>oue</orig><reg>ove</reg></choice> solean far nido</l>
+                        <l n="9"><hi rendition="#sestet_marker">~</hi> Quel <choice><orig>uiuo</orig><reg>vivo</reg></choice> lauro <choice><orig>oue</orig><reg>ove</reg></choice> solean far nido</l>
                         <l n="10">Li alti penseri<choice><orig> .</orig><reg></reg></choice> <choice><orig>ei</orig><reg>e i</reg></choice> miei sospiri ardenti<choice><orig> .</orig><reg>,</reg></choice></l>
                     </lg>
                     <lg type="dblvrs" corresp="#canvasline">
@@ -569,7 +569,7 @@
                 </lg>
                 <lg type="sestet">
                     <lg type="dblvrs" corresp="#canvasline">
-                        <l n="9"><hi rendition="#sestet_marker">·</hi>Ma la forma miglior che <choice><orig>uiue</orig><reg>vive</reg></choice> <choice><abbr>āchora</abbr><expan>anchora</expan></choice><choice><orig> .</orig><reg>,</reg></choice></l>
+                        <l n="9"><hi rendition="#sestet_marker">·</hi> Ma la forma miglior che <choice><orig>uiue</orig><reg>vive</reg></choice> <choice><abbr>āchora</abbr><expan>anchora</expan></choice><choice><orig> .</orig><reg>,</reg></choice></l>
                         <l n="10">Et <choice><orig>uiura</orig><reg>vivrà</reg></choice> sempre su nel alto cielo<choice><orig> .</orig><reg>,</reg></choice></l>
                     </lg>
                     <lg type="dblvrs" corresp="#canvasline">
@@ -604,7 +604,7 @@
                 </lg>
                 <lg type="sestet">
                     <lg type="dblvrs" corresp="#canvasline">
-                        <l n="9"><hi rendition="#sestet_marker">·</hi><choice><orig><subst><del type="erasure"><gap reason="illegible"></gap></del><add><choice><abbr>Sperādo</abbr><expan>Sperando</expan></choice> alfin .</add></subst></orig><reg>Sperando alfin,</reg></choice> <choice><orig>dale</orig><reg>da le</reg></choice> <choice><orig>soaui</orig><reg>soavi</reg></choice> piante<choice><orig> .</orig><reg></reg></choice></l>
+                        <l n="9"><hi rendition="#sestet_marker">·</hi> <choice><orig><subst><del type="erasure"><gap reason="illegible"></gap></del><add><choice><abbr>Sperādo</abbr><expan>Sperando</expan></choice> alfin .</add></subst></orig><reg>Sperando alfin,</reg></choice> <choice><orig>dale</orig><reg>da le</reg></choice> <choice><orig>soaui</orig><reg>soavi</reg></choice> piante<choice><orig> .</orig><reg></reg></choice></l>
                         <l n="10">&Amp7; <choice><orig>dabelli</orig><reg>da’ belli</reg></choice> occhi suoi<choice><orig> &#11805;</orig><reg>,</reg></choice> <choice><orig>chel</orig><reg>che ’l</reg></choice> cor <choice><orig><abbr>mānarso</abbr><expan>mannarso</expan></orig><reg>m’ànn’arso</reg></choice><choice><orig> .</orig><reg>,</reg></choice></l>
                     </lg>
                     <lg type="dblvrs" corresp="#canvasline">
