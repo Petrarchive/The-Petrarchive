@@ -24,7 +24,7 @@
 <!ENTITY giorno "<choice><abbr>giõno</abbr><expan>giorno</expan></choice>">
 <!ENTITY non "<choice><abbr>nō</abbr><expan>non</expan></choice>">
 <!ENTITY in "<choice><abbr>ī</abbr><expan>in</expan></choice>">
-<!ENTITY pre "<choice><abbr>&p-macron;</abbr><expan>pre</expan></choice">
+<!ENTITY pre "<choice><abbr>&p-macron;</abbr><expan>pre</expan></choice>">
 <!ENTITY con "<choice><abbr>cō</abbr><expan>con</expan></choice>">
 <!ENTITY Con "<choice><abbr>cō</abbr><expan>Con</expan></choice>">
 <!ENTITY son "<choice><abbr>sō</abbr><expan>son</expan></choice>">
