@@ -24,7 +24,7 @@
 <!ENTITY giorno "<choice><abbr>giõno</abbr><expan>giorno</expan></choice>">
 <!ENTITY non "<choice><abbr>nō</abbr><expan>non</expan></choice>">
 <!ENTITY in "<choice><abbr>ī</abbr><expan>in</expan></choice>">
-<!ENTITY pre "<choice><abbr>&p-macron;</abbr><expan>pre</expan></choice">
+<!ENTITY pre "<choice><abbr>&p-macron;</abbr><expan>pre</expan></choice>">
 <!ENTITY con "<choice><abbr>cō</abbr><expan>con</expan></choice>">
 <!ENTITY Con "<choice><abbr>cō</abbr><expan>Con</expan></choice>">
 <!ENTITY son "<choice><abbr>sō</abbr><expan>son</expan></choice>">
@@ -499,7 +499,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><choice><orig><hi rendition="#sestet_marker">~</hi></orig><reg></reg></choice><choice><orig>Ellalsene</orig><reg>Ella ’l se ne</reg></choice> <choice><orig>porto</orig><reg>portò</reg></choice> sotterra<choice><orig> .</orig><reg></reg></choice> <choice><orig>en</orig><reg>e ’n</reg></choice> cielo</l><!-- check sestet markers all sonnets -->
+                      <l n="9"><choice><orig><hi rendition="#sestet_marker">~</hi></orig><reg></reg></choice> <choice><orig>Ellalsene</orig><reg>Ella ’l se ne</reg></choice> <choice><orig>porto</orig><reg>portò</reg></choice> sotterra<choice><orig> .</orig><reg></reg></choice> <choice><orig>en</orig><reg>e ’n</reg></choice> cielo</l><!-- check sestet markers all sonnets -->
                       <l n="10"><choice><orig>Oue</orig><reg>Ove</reg></choice> or triumpha<choice><orig> &virg;</orig><reg>,</reg></choice> ornata <choice><orig>delalloro</orig><reg>de l’alloro</reg></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -534,7 +534,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><choice><orig><hi rendition="#sestet_marker">~</hi></orig><reg></reg></choice>Qual <choice><orig>dolceçça</orig><reg>dolcezza</reg></choice> fu quella<supplied>,</supplied> o misera alma<choice><orig> </orig><reg></reg></choice>.</l>
+                      <l n="9"><choice><orig><hi rendition="#sestet_marker">~</hi></orig><reg></reg></choice> Qual <choice><orig>dolceçça</orig><reg>dolcezza</reg></choice> fu quella<supplied>,</supplied> o misera alma<choice><orig> </orig><reg></reg></choice>.</l>
                       <l n="10">Come <choice><orig>ardauamo</orig><reg>ardavamo</reg></choice> in quel <choice><abbr>pūto</abbr><expan>punto</expan></choice> <choice><orig>chi</orig><reg>ch’i’</reg></choice> <choice><orig>uidj</orig><reg>vidi</reg></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -569,7 +569,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><choice><orig><hi rendition="#sestet_marker">~</hi></orig><reg></reg></choice>Presso <choice><orig>eral</orig><reg>era ’l</reg></choice> tempo <choice><orig>doue</orig><reg>dove</reg></choice> amor si <choice><abbr>scōtra</abbr><expan>scontra</expan></choice></l>
+                      <l n="9"><choice><orig><hi rendition="#sestet_marker">~</hi></orig><reg></reg></choice> Presso <choice><orig>eral</orig><reg>era ’l</reg></choice> tempo <choice><orig>doue</orig><reg>dove</reg></choice> amor si <choice><abbr>scōtra</abbr><expan>scontra</expan></choice></l>
                       <l n="10">&Con; castitate<choice><orig> .</orig><reg>, </reg></choice>&amp7; <choice><orig>a gliamanti</orig><reg>agli amanti</reg></choice> <choice><orig>e</orig><reg>è</reg></choice> dato</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -604,7 +604,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><choice><orig><hi rendition="#sestet_marker">~</hi></orig><reg></reg></choice>Poco <choice><orig>aueu&#7841;</orig><reg>aveva</reg></choice> <choice><orig>andugiar</orig><reg>a ’ndugiar</reg></choice><supplied>;</supplied> <choice><orig>che</orig><reg>ché</reg></choice> <choice><orig><abbr>gliāni</abbr><expan>glianni</expan></orig><reg>gli anni</reg></choice> <choice><orig>el</orig><reg>e ’l</reg></choice> pelo</l><!-- check a with dot below -->
+                      <l n="9"><choice><orig><hi rendition="#sestet_marker">~</hi></orig><reg></reg></choice> Poco <choice><orig>aueu&#7841;</orig><reg>aveva</reg></choice> <choice><orig>andugiar</orig><reg>a ’ndugiar</reg></choice><supplied>;</supplied> <choice><orig>che</orig><reg>ché</reg></choice> <choice><orig><abbr>gliāni</abbr><expan>glianni</expan></orig><reg>gli anni</reg></choice> <choice><orig>el</orig><reg>e ’l</reg></choice> pelo</l><!-- check a with dot below -->
                       <l n="10"><choice><orig><abbr>Cāgiauano</abbr><expan>Cangiauano</expan></orig><reg>Cangiavano</reg></choice> i costumi<choice><orig> .</orig><reg>,</reg></choice> onde sospetto</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
