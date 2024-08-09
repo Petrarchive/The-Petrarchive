@@ -324,6 +324,28 @@
     tei:lg[@type = 'canzone_9vv']//tei:l[@n = '50']|
     tei:lg[@type = 'canzone_9vv']//tei:l[@n = '55']|
     
+    tei:lg[@type = 'canzone_18vv']//tei:l[@n = '5']|
+    tei:lg[@type = 'canzone_18vv']//tei:l[@n = '9']|
+    tei:lg[@type = 'canzone_18vv']//tei:l[@n = '15']|
+    tei:lg[@type = 'canzone_18vv']//tei:l[@n = '19']|
+    tei:lg[@type = 'canzone_18vv']//tei:l[@n = '25']|
+    tei:lg[@type = 'canzone_18vv']//tei:l[@n = '35']|
+    tei:lg[@type = 'canzone_18vv']//tei:l[@n = '37']|
+    tei:lg[@type = 'canzone_18vv']//tei:l[@n = '45']|
+    tei:lg[@type = 'canzone_18vv']//tei:l[@n = '55']|
+    tei:lg[@type = 'canzone_18vv']//tei:l[@n = '65']|
+    tei:lg[@type = 'canzone_18vv']//tei:l[@n = '73']|
+    tei:lg[@type = 'canzone_18vv']//tei:l[@n = '75']|
+    tei:lg[@type = 'canzone_18vv']//tei:l[@n = '85']|
+    tei:lg[@type = 'canzone_18vv']//tei:l[@n = '91']|
+    tei:lg[@type = 'canzone_18vv']//tei:l[@n = '95']|
+    tei:lg[@type = 'canzone_18vv']//tei:l[@n = '105']|
+    tei:lg[@type = 'canzone_18vv']//tei:l[@n = '109']|
+    tei:lg[@type = 'canzone_18vv']//tei:l[@n = '115']|
+    tei:lg[@type = 'canzone_18vv']//tei:l[@n = '125']|
+    tei:lg[@type = 'canzone_18vv']//tei:l[@n = '127']|
+    tei:lg[@type = 'canzone_18vv']//tei:l[@n = '135']|
+
     tei:lg[@type = 'canzone_14vvAlt1']//tei:l[@n = '5'] |
     tei:lg[@type = 'canzone_14vvAlt1']//tei:l[@n = '15'] |
     tei:lg[@type = 'canzone_14vvAlt1']//tei:l[@n = '25'] |
