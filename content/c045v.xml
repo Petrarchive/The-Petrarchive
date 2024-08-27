@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="petrarchive.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-stylesheet type="text/xsl" href="../petrarchive.xsl"?>
+<?xml-stylesheet type="text/xsl" href="petrarchive.xsl"?>
 <!DOCTYPE TEI [
 <!-- Firefox does not play nice with parameter entities. So I had to embed the stuff in here. We can go back to the "better" way with parameter entities, but need to pre-process the documents to remove all entity references before moving to petarchive.org. 
 <!ENTITY % petrarchive_entities SYSTEM "petrarchive.ent">
@@ -67,7 +67,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Petrarch’s <title rendition="#i">Rerum vulgarium fragmenta</title>: Charta 1 verso</title> <!-- Change the charta number according to the charta that is being encoded. Here the example is encoding c.1v -->
+            <title>Petrarch’s <title rendition="#i">Rerum vulgarium fragmenta</title>: Charta 45 verso</title> <!-- Change the charta number according to the charta that is being encoded. Here the example is encoding c.1v -->
             <editor xml:id="hws">H. Wayne Storey</editor>
             <editor xml:id="jaw">John A. Walsh</editor>
             <respStmt>
@@ -247,6 +247,7 @@
     </charDecl>
     
     <tagsDecl>
+        <rendition xml:id="stanza_marker" scheme="css"></rendition>
         <rendition xml:id="sestet_marker" scheme="css"></rendition>
         
         <rendition xml:id="b" n="tiebp:bold" scheme="css">
@@ -479,7 +480,7 @@
 
    <text>
       <body>
-         <pb n="charta 45 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-045v.jpg" /> 
+          <pb xml:id="c045v" n="charta 45 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-045v.jpg" /> 
           <lg type="sonnet" xml:id="rvf236" n="236"> 
               <lg type="octave">
                   <lg type="dblvrs" corresp="#canvasline">
@@ -523,19 +524,19 @@
 			  <l n="4">Ne <choice><abbr>tāti</abbr><expan>tanti</expan></choice>&#9550;augelli albergan &per; liboschi .</l> <!--check punctuation-->
 			  <l n="5">Ne <choice><abbr>tāterbe</abbr><expan>tanterbe</expan></choice> ebbe mai <choice><abbr>cāpo</abbr><expan>campo</expan></choice>&#9550;nepiaggia .</l>
 			  <l n="6"><choice><abbr>Quātal</abbr><expan>Quantal</expan></choice> mio cor <choice><abbr>pēsier</abbr><expan>pensier</expan></choice> ciascuna sera .</l>
-			  <l n="7">⫽ Di di indi spero omai lultima sera</l> <!--check stanza marker-->
+              <l n="7"><hi rendition="#stanza_maker">⫽</hi> Di di indi spero omai lultima sera</l> <!--check stanza marker-->
 			  <l n="8">Che sceuri &in; me daluiuo terren <choice><abbr>lōde</abbr><expan>londe</expan></choice></l>
 			  <l n="9">&Amp7; mi lasci dormire &in; qual che piaggia.</l>
 			  <l n="10">Che <choice><abbr>tāti</abbr><expan>tanti</expan></choice> <choice><abbr>affāni</abbr><expan>affanni</expan></choice> uom mai sotto laluna</l>
 			  <l n="11">&Non; sofferse <choice><abbr>quātio</abbr><expan>quantio</expan></choice> . <choice><abbr>sānolsi</abbr><expan>sannolsi</expan></choice> iboschi .</l>
 			  <l n="12">Che sol uo <choice><abbr>ricercādo</abbr><expan>ricercando</expan></choice> giorno  &amp7; notte.</l>
-			  <l n="13">⫽ I &non; ebbi giamai <choice><abbr>trāquilla</abbr><expan>tranquilla</expan></choice> notte.</l> <!--check stanza marker-->
+              <l n="13"><hi rendition="#stanza_maker">⫽</hi> I &non; ebbi giamai <choice><abbr>trāquilla</abbr><expan>tranquilla</expan></choice> notte.</l> <!--check stanza marker-->
 			  <l n="14">Ma <choice><abbr>sospirādo</abbr><expan>sospirando</expan></choice> andai matino &amp7; sera .</l>
 			  <l n="15">Poi chamor <choice><abbr>fēmi</abbr><expan>femmi</expan></choice> un cittadin de boschi.</l>
 			  <l n="16">Ben fia prima chi posi ilmar <choice><abbr>sençōde</abbr><expan>sençonde</expan></choice>.</l>
 			  <l n="17">&Amp7; la sua luce aural sol da laluna</l>
 			  <l n="18">Ei fior dapril <choice><abbr>morrāno</abbr><expan>morranno</expan></choice> &in; ogni piaggia .</l>
-			  <l n="19">⫽ <choice><abbr>Cōsumādo</abbr><expan>Consumando</expan></choice> mi uo da piaggia &in; piaggia .</l> <!--check stanza marker-->
+              <l n="19"><hi rendition="#stanza_maker">⫽</hi> <choice><abbr>Cōsumādo</abbr><expan>Consumando</expan></choice> mi uo da piaggia &in; piaggia .</l> <!--check stanza marker-->
 			  <l n="20">El di pensoso &virg; poi <choice><abbr>piāgo</abbr><expan>piango</expan></choice> la notte .</l>
 			  <l n="21">Ne stato o mai&virg; <choice><abbr>senō</abbr><expan>senno</expan></choice> <choice><abbr>quāto</abbr><expan>quanto</expan></choice> laluna.</l>
 			  <l n="22">Ratto come <choice><abbr>ībrunir</abbr><expan>imbrunir</expan></choice> ueggio la sera&virg;</l>
@@ -544,19 +545,19 @@
 			  <cb n="2-of-2" />
 			  
 			  <l n="24">Da bagnar lerbe .&amp7; da crollare i boschi .</l>
-			  <l n="25">⫽ Le citta son nemiche &virg; Amici i boschi .</l> <!--check stanza marker-->
+              <l n="25"><hi rendition="#stanza_maker">⫽</hi> Le citta son nemiche &virg; Amici i boschi .</l> <!--check stanza marker-->
 			  <l n="26">Amiei pensier &virg; che &per; questalta piaggia</l>
 			  <l n="27">Sfogando uo col mormorar de londe .</l>
 			  <l n="28">&Per; lo dolce silentio dela notte .</l>
 			  <l n="29">Tal chio aspetto tuttol di&#11789; la sera.</l>
 			  <l n="30">Chel sol siparta &#11789;&amp7; dia luogo alaluna.</l>
-			  <l n="31">⫽ De or fossio col uago de laluna&virg;</l> <!--check stanza marker-->
+              <l n="31"><hi rendition="#stanza_maker">⫽</hi> De or fossio col uago de laluna&virg;</l> <!--check stanza marker-->
 			  <l n="32"><choice><abbr>Adormētato</abbr><expan>Adormentato</expan></choice> in qua che uerdi boschi .</l>
 			  <l n="33">&Amp7; questa chançi uespro a me fa sera</l>
 			  <l n="34">Con essa &amp7; con amor &in; quella piaggia .</l>
 			  <l n="35">Sola uenisse a starsi iui una notte .</l>
 			  <l n="36">El di si stesse el sol sempre nel onde .</l>
-			  <l n="37">⫽ Soura dure onde &virg; allume de laluna</l> <!--check stanza marker-->
+              <l n="37"><hi rendition="#stanza_maker">⫽</hi> Soura dure onde &virg; allume de laluna</l> <!--check stanza marker-->
 			  <l n="38">Cançon nata di notte &in; meçço i boschi &virg;</l>
 			  <l n="39">Ricca piaggia uedrai deman dasera .</l>
           </lg>

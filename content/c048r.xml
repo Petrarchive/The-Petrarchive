@@ -470,7 +470,6 @@
             >font-size:18pt;</rendition>
         <rendition xml:id="fs24pt" scheme="css"
             >font-size:24pt;</rendition>
-        <rendition xml:id="sestet_marker" scheme="css"></rendition>
     </tagsDecl>
 </encodingDesc>
 
@@ -500,7 +499,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><hi rendition="#sestet_marker">·</hi>&Amp7; &per; <choice><abbr>prēdere</abbr><expan>prendere</expan></choice> il ciel | debito alui &virg;</l>
+                      <l n="9"><hi rendition="#sestet_marker">·</hi> &Amp7; &per; <choice><abbr>prēdere</abbr><expan>prendere</expan></choice> il ciel | debito alui &virg;</l>
                       <l n="10">&Non; curi che si sia diloro in terra .	</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -535,7 +534,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><hi rendition="#sestet_marker">·</hi>&Amp7; se talor da belliocchi soaui</l>
+                      <l n="9"><hi rendition="#sestet_marker">·</hi> &Amp7; se talor da belliocchi soaui</l>
                       <l n="10">Oue mia uita &virg; elmio pensero alberga</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -570,7 +569,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><hi rendition="#sestet_marker">·</hi>Ançi un sole . &amp7; se questọ e &virg; la mia uita &virg;</l>
+                      <l n="9"><hi rendition="#sestet_marker">·</hi> Ançi un sole . &amp7; se questọ e &virg; la mia uita &virg;</l>
                       <l n="10">I miei <subst><del type="erasure"><gap reason="illegible"></gap></del><add>corti</add></subst> riposi &virg; ei <choice><abbr>lūghi</abbr><expan>lunghi</expan></choice> affanni</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -605,7 +604,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><hi rendition="#sestet_marker">·</hi>Come gia fece . allor che  primi rami</l>
+                      <l n="9"><hi rendition="#sestet_marker">·</hi> Come gia fece . allor che  primi rami</l>
                       <l n="10">Verdeggiar &virg; che nelcor radice <choice><abbr>māno</abbr><expan>manno</expan></choice> .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">

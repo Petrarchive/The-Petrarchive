@@ -480,7 +480,7 @@
 
     <text>
         <body>
-            <pb n="charta 30 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-030v.jpg"/>
+            <pb xml:id="c030v" n="charta 30 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-030v.jpg"/>
             <lg xml:id="rvf134" type="sonnet" n="134"> 
                 <lg type="octave">
                     <lg type="dblvrs" corresp="#canvasline">
@@ -614,7 +614,7 @@
                         <l n="44">Et <choice><orig>gliocchi</orig><reg>gli occhi</reg></choice> <choice><orig>uaghi</orig><reg>vaghi</reg></choice> <choice><orig>fien</orig><reg>sien</reg></choice> cagion <choice><orig>chio</orig><reg>ch’io</reg></choice> pera&p2c;</l>
                     </lg>
 
-                <pb n="charta 31 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-031r.jpg"/>
+                    <pb xml:id="c031r" n="charta 31 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-031r.jpg"/>
 
                         <lg type="single" corresp="#canvasline">
                             <l n="45">Di questa fera <choice><orig>(</orig><reg/></choice> angelica innocente.</l>

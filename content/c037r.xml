@@ -499,7 +499,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><hi rendition="#sestet_maker">~</hi><choice><orig>Vn</orig><reg>Un</reg></choice> amico penser le mostra il <choice><orig>uado</orig><reg>vado</reg></choice></l>
+                      <l n="9"><hi rendition="#sestet_marker">~</hi> <choice><orig>Vn</orig><reg>Un</reg></choice> amico penser le mostra il <choice><orig>uado</orig><reg>vado</reg></choice></l>
                       <l n="10">Non <choice><orig>dacqua</orig><reg>d’acqua</reg></choice><choice><orig> &virg;</orig><reg></reg></choice> che &per; gli occhi si <choice><orig>resolua</orig><reg>resolva</reg></choice><supplied>,</supplied></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -569,7 +569,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><hi rendition="#sestet_maker">~</hi>Re <choice><orig>de<subst><del type="erasure"><gap reason="illegible"/></del><add>g~li</add></subst></orig><reg>degli</reg></choice><supplied> </supplied>altri<supplied>,</supplied> superbo altero fiume&v2c;</l>
+                      <l n="9"><hi rendition="#sestet_marker">~</hi> Re <choice><orig>de<subst><del type="erasure"><gap reason="illegible"/></del><add>g~li</add></subst></orig><reg>degli</reg></choice><supplied> </supplied>altri<supplied>,</supplied> superbo altero fiume&v2c;</l>
                       <l n="10"><choice><orig>Chencontri</orig><reg>Che ’ncontri</reg></choice><choice><orig><subst><del type="erasure"><gap reason="illegible"/></del><add><hi rendition="#b">l</hi></add></subst></orig><reg> ’l</reg></choice> sol<choice><orig> &virg;</orig><reg></reg></choice> quando <choice><orig>e</orig><reg>e’</reg></choice> ne <choice><orig>menal</orig><reg>mena ’l</reg></choice> giorno<choice><orig> .</orig><reg>,</reg></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -604,7 +604,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><hi rendition="#sestet_maker"><subst><del type="erasure"><gap reason="illegible"/></del><add>⸝</add></subst></hi><choice><orig>El</orig><reg>E ’l</reg></choice> chiaro lume che sparir <choice><orig>fal</orig><reg>fa ’l</reg></choice> sole</l>
+                      <l n="9"><hi rendition="#sestet_marker"><subst><del type="erasure"><gap reason="illegible"/></del><add>&#11805;</add></subst></hi> <choice><orig>El</orig><reg>E ’l</reg></choice> chiaro lume che sparir <choice><orig>fal</orig><reg>fa ’l</reg></choice> sole</l>
                       <l n="10"><choice><orig>[<subst><del type="erasure"><gap reason="illegible"/></del><add>f</add></subst>]<subst><del type="erasure"><gap reason="illegible"/></del><add><hi rendition="#b">F</hi></add></subst>olgoraua</orig><reg>Folgorava</reg></choice> <choice><orig>dintorno</orig><reg>d’intorno</reg></choice><choice><orig> .</orig><reg>;</reg></choice> <choice><orig>el</orig><reg>e ’l</reg></choice> fune <choice><orig>auolto</orig><reg>avolto</reg></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">

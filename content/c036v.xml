@@ -534,7 +534,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">⸝	Quel sol&v2c; che solo <choice><orig>a gliocchi</orig><reg>agli occhi</reg></choice> mei <choice><abbr>resplēde</abbr><expan>resplende</expan></choice>&v2c;</l>
+                      <l n="9"><hi rendition="#sestet_marker">&#11805;</hi>	Quel sol&v2c; che solo <choice><orig>a gliocchi</orig><reg>agli occhi</reg></choice> mei <choice><abbr>resplēde</abbr><expan>resplende</expan></choice>&v2c;</l>
                       <l n="10">Coi <choice><orig>uaghi</orig><reg>vaghi</reg></choice> raggi anchor indi mi scalda .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -569,7 +569,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><choice><orig>.	Parme</orig><reg>Parme</reg></choice> <choice><orig>dudirla</orig><reg>d'udirla</reg></choice>&p2c; udendo <choice><orig>irami</orig><reg>i rami</reg></choice> <choice><orig>&amp7;lore</orig><reg>et l'ore</reg></choice><choice><orig>.</orig><reg></reg></choice></l>
+                      <l n="9"><hi rendition="#sestet_marker">.</hi> <choice><orig>Parme</orig><reg>Parme</reg></choice> <choice><orig>dudirla</orig><reg>d'udirla</reg></choice>&p2c; udendo <choice><orig>irami</orig><reg>i rami</reg></choice> <choice><orig>&amp7;lore</orig><reg>et l'ore</reg></choice><choice><orig>.</orig><reg></reg></choice></l>
                       <l n="10">Et le frondi&v2c; &amp7; <choice><orig>gliaugei</orig><reg>gli augei</reg></choice> lagnarsi&v2c; et <choice><orig>lacque</orig><reg>l'acque</reg></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -604,7 +604,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9">⸝	Pur giunto al fin de la giornata oscura<supplied>,</supplied></l>
+                      <l n="9"><hi rendition="#sestet_marker">&#11805;</hi>	Pur giunto al fin de la giornata oscura<supplied>,</supplied></l>
                       <l n="10"><choice><abbr>Rimēbrando</abbr><expan>Rimembrando</expan></choice> <choice><orig>ondio</orig><reg>ond'io</reg></choice> <choice><orig>uegno</orig><reg>vegno</reg></choice><choice><orig> &virg;</orig><reg></reg></choice> &amp7; &con; quai piume<supplied>,</supplied></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">

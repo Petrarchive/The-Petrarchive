@@ -499,7 +499,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><hi rendition="#sestet_maker">-</hi> Quel fiore anticho di uertuti &amp7; darme</l> <!-- encode indentation of - -->
+                      <l n="9"><hi rendition="#sestet_marker">-</hi> Quel fiore anticho di uertuti &amp7; darme</l> <!-- encode indentation of - -->
                       <l n="10">Come sembiante stella ebbe con quest<subst><del type="erasure"><gap reason="illegible"></gap></del><add>o</add></subst></l> 
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -534,7 +534,7 @@
               </lg>
               <lg type="sestet"> 
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><hi rendition="#sestet_maker">~</hi> Che domero dignissima &virg; &amp7; dorpheo &virg;</l>
+                      <l n="9"><hi rendition="#sestet_marker">~</hi> Che domero dignissima &virg; &amp7; dorpheo &virg;</l>
                       <l n="10">O del pastor chanchor Mantoua honora .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -569,7 +569,7 @@
               </lg>
               <lg type="sestet"> 
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><hi rendition="#sestet_maker">~</hi> Lombra che cade da quel humil colle .</l>
+                      <l n="9"><hi rendition="#sestet_marker">~</hi> Lombra che cade da quel humil colle .</l>
                       <l n="10">Oue fauilla il mio soaue foco</l> 
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -604,7 +604,7 @@
               </lg>
               <lg type="sestet"> 
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><hi rendition="#sestet_maker">-</hi> Pioggia di lagrimar &virg; nebbia di sdegni</l>
+                      <l n="9"><hi rendition="#sestet_marker">-</hi> Pioggia di lagrimar &virg; nebbia di sdegni</l>
                       <l n="10">Bagna &amp7; <choice><abbr>rallēta</abbr><expan>rallenta</expan></choice> le gia stanche sarte .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">

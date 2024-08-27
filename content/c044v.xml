@@ -476,7 +476,7 @@
 
    <text>
       <body>
-         <pb n="charta 44 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-044v.jpg" /> 
+          <pb xml:id="c044v" n="charta 44 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-044v.jpg" /> 
           <lg type="sonnet" xml:id="rvf228" n="228">
               <lg type="octave">
                   <lg type="dblvrs" corresp="#canvasline">
@@ -498,7 +498,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><hi rendition="#sestet_marker">·</hi>Fama . honor . &amp7; uertute.&amp7; leggiadria .</l><!-- check sestet markers -->
+                      <l n="9"><hi rendition="#sestet_marker">·</hi> Fama . honor . &amp7; uertute.&amp7; leggiadria .</l><!-- check sestet markers -->
                       <l n="10">Casta belleçça in habito celeste .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -533,7 +533,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><hi rendition="#sestet_marker">·</hi>Tengan <choice><abbr>dūque</abbr><expan>dunque</expan></choice> uer&#x00A6;me lusato stile</l><!-- check punctuation -->
+                      <l n="9"><hi rendition="#sestet_marker">·</hi> Tengan <choice><abbr>dūque</abbr><expan>dunque</expan></choice> uer&#x00A6;me lusato stile</l><!-- check punctuation -->
                       <l n="10">Amor &virg; <choice><abbr>madōna</abbr><expan>madonna</expan></choice>. il <choice><abbr>mōdo</abbr><expan>mondo</expan></choice> &virg; &amp7; mia fortuna .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -568,7 +568,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><hi rendition="#sestet_marker">·</hi>Si <g ref="pflour"/>fondo era &virg; &amp7; di si larga uena</l><!-- check 'profondo' -->
+                      <l n="9"><hi rendition="#sestet_marker">·</hi> Si <g ref="pflour"/>fondo era &virg; &amp7; di si larga uena</l><!-- check 'profondo' -->
                       <l n="10">Il <choice><abbr>piāger</abbr><expan>pianger</expan></choice> mio &amp7; si lunge la riua .</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -603,7 +603,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><hi rendition="#sestet_marker">·</hi>O natura pietosa &amp7; fera madre</l>
+                      <l n="9"><hi rendition="#sestet_marker">·</hi> O natura pietosa &amp7; fera madre</l>
                       <l n="10">Onde tal possa &virg; &amp7; si <choice><abbr>cōtrarie</abbr><expan>contrarie</expan></choice> uoglie</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">

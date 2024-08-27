@@ -108,7 +108,7 @@
 			<a href="content/c013r-c013v.xml#c013v"><img alt="vat. lat. 3195, c. 13v" class="visindex-verso" src="images/visindex/c013v.svg" id="c013v" /></a>  <a href="content/c014r.xml"><img alt="vat. lat. 3195, c. 14r" class="visindex-recto" src="images/visindex/c014r.svg" id="c014r" /></a>
 		</div>
 		<div>
-			<a href="content/c014v.xml"><img alt="vat. lat. 3195, c. 14v" class="visindex-verso" src="images/visindex/c014v.svg" id="c014v" /></a>  <a href="content/c015r-c015v.xml"><img alt="vat. lat. 3195, c. 15r" class="visindex-recto" src="images/visindex/c015r.svg" id="c015r" /></a>
+			<a href="content/c014v.xml"><img alt="vat. lat. 3195, c. 14v" class="visindex-verso" src="images/visindex/c014v.svg" id="c014v" /></a>  <a href="content/c015r-c018v.xml#c015r"><img alt="vat. lat. 3195, c. 15r" class="visindex-recto" src="images/visindex/c015r.svg" id="c015r" /></a>
 		</div>
 		<div>
 			<a href="content/c015r-c018v.xml#c015v"><img alt="vat. lat. 3195, c. 15v" class="visindex-verso" src="images/visindex/c015v.svg" id="c015v" /></a>  <a href="content/c015r-c018v.xml#c016r"><img alt="vat. lat. 3195, c. 16r" class="visindex-recto" src="images/visindex/c016r.svg" id="c016r" /></a>

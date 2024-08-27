@@ -478,7 +478,7 @@
    <text>
       <body>
           
-         <pb n="charta 68 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-068v.jpg"/>
+          <pb xml:id="c068v" n="charta 68 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-068v.jpg"/>
           <lg type="sonnet" xml:id="rvf351" n="349 [351]">
               <note type="sequence">
                   <bibl>

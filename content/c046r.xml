@@ -245,6 +245,7 @@
     </charDecl>
     
     <tagsDecl>
+        <rendition xml:id="stanza_marker" scheme="css"></rendition>
         <rendition xml:id="sestet_marker" scheme="css"></rendition>
         
         <rendition xml:id="b" n="tiebp:bold" scheme="css">
@@ -499,7 +500,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><hi rendition="#sestet_marker">·</hi>Laltre maggior <choice><abbr>ditēpo</abbr><expan>ditempo</expan></choice>&virg;o di fortuna</l>
+                      <l n="9"><hi rendition="#sestet_marker">·</hi> Laltre maggior <choice><abbr>ditēpo</abbr><expan>ditempo</expan></choice>&virg;o di fortuna</l>
                       <l n="10">Trarsi &in; disparte comando &con; mano.</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -521,19 +522,19 @@
               <l n="4" corresp="#canvasline">Si <choice><abbr>dolcemēte</abbr><expan>dolcemente</expan></choice> i pensier <choice><abbr>dētro</abbr><expan>dentro</expan></choice> alalma</l>
               <l n="5" corresp="#canvasline">Mouer mi <choice><abbr>sēto</abbr><expan>sento</expan></choice> a chi lia tutti <choice><abbr>īforça</abbr><expan>inforça</expan></choice>.</l>
               <l n="6" corresp="#canvasline">Cheritornar <choice><abbr>cōuēmi</abbr><expan>convemmi</expan></choice> ale mie note</l><!-- check abbreviation -->
-              <l n="7" corresp="#canvasline"><hi rendition="#stanza_marker">⫽</hi><choice><abbr>Tēprar</abbr><expan>Temprar</expan></choice> potessio &in; si soaui note</l> <!-- Check ALL stanza markers. &dblsol;? -->
+              <l n="7" corresp="#canvasline"><hi rendition="#stanza_marker">⫽</hi> <choice><abbr>Tēprar</abbr><expan>Temprar</expan></choice> potessio &in; si soaui note</l> <!-- Check ALL stanza markers. &dblsol;? -->
               <l n="8" corresp="#canvasline">I miei sospiri chaddolcissen laura.</l>
               <l n="9" corresp="#canvasline"><choice><abbr>Faccēdo</abbr><expan>Faccendo</expan></choice> alei ragion chame fa força.</l>
               <l n="10" corresp="#canvasline">Ma pria fial uerno lastagion defiori .</l>
               <l n="11" corresp="#canvasline">Chamor <subst><del type="erasure"><gap reason="illegible"/></del><add>fiorisca</add></subst> &in; quella nobil alma.</l>
               <l n="12" corresp="#canvasline">Che &non; curo giamai rime &#11805;ne uersi</l>
-              <l n="13" corresp="#canvasline"><hi rendition="#stanza_marker">⫽</hi><choice><abbr>Quāte</abbr><expan>Quante</expan></choice> lagrime lasso .&amp7; <choice><abbr>quāti</abbr><expan>quanti</expan></choice> uersi &#11789;</l>
+              <l n="13" corresp="#canvasline"><hi rendition="#stanza_marker">⫽</hi> <choice><abbr>Quāte</abbr><expan>Quante</expan></choice> lagrime lasso .&amp7; <choice><abbr>quāti</abbr><expan>quanti</expan></choice> uersi &#11789;</l>
               <l n="14" corresp="#canvasline">O gia sparti almio <choice><abbr>tēpo</abbr><expan>tempo</expan></choice> . <choice><abbr>enquāte</abbr><expan>enquante</expan></choice> note</l>
               <l n="15" corresp="#canvasline">O riprouato humiliar quellalma .</l>
               <l n="16" corresp="#canvasline">Ella sista pur comaspralpe alaura.</l>
               <l n="17" corresp="#canvasline">Dolce laqual ben moue <choice><abbr>frōdi</abbr><expan>frondi</expan></choice> &amp7;fiori.</l>
               <l n="18" corresp="#canvasline">Ma nulla po <choice><abbr>sencōtra</abbr><expan>sencontra</expan></choice> maggior força .</l>
-              <l n="19" corresp="#canvasline"><hi rendition="#stanza_marker">⫽</hi>Homini &amp7; dei solea uincer &per; força</l> 
+              <l n="19" corresp="#canvasline"><hi rendition="#stanza_marker">⫽</hi> Homini &amp7; dei solea uincer &per; força</l> 
               <l n="20" corresp="#canvasline">Amor come si legge &in; prose enuersi .</l>
               <l n="21" corresp="#canvasline">&Amp7; iolprouai &in;sul primo aprir defiori .</l><!-- check abbreviation -->
               <l n="22" corresp="#canvasline">Ora nelmio signor &#11789;ne le sue note &amp7;</l>
@@ -541,19 +542,19 @@
               <cb n="2-of-2"/> <!-- encoding column 2 -->
               <l n="23" corresp="#canvasline">Nelpianger <subst><del type="erasure"><gap reason="illegible"/></del><add>mio &virg; neipreghi <g ref="#brvbar"/>pon far la</add></subst>ura</l><!-- check vertical bar -->
               <l n="24">Tra<subst><del type="erasure"><gap reason="illegible"/></del><add>rre</add></subst>&virg; odiuita &virg; odimartir&#11805;questalma .</l><!-- check punctuation -->
-              <l n="25"><hi rendition="#stanza_marker">⫽</hi>Alultimo bisogno o misera alma .</l>
+              <l n="25"><hi rendition="#stanza_marker">⫽</hi> Alultimo bisogno o misera alma .</l>
               <l n="26"><choice><abbr>Accāmpa</abbr><expan>Accampa</expan></choice> ogni tuo <choice><abbr>īgegno</abbr><expan>ingegno</expan></choice> &virg; ogni tua força .</l>
               <l n="27"><choice><abbr>Mētre</abbr><expan>Mentre</expan></choice> fra noi diuita alberga Laura</l>
               <l n="28">Nulla <choice><abbr>almōdo</abbr><expan>almondo</expan></choice> e che &non; possano iuersi .</l>
               <l n="29">&Amp7; liaspidi <choice><abbr>īcantar</abbr><expan>incantar</expan></choice> <choice><abbr>sāno</abbr><expan>sanno</expan></choice> in lor note .</l>
               <l n="30">&Non; chel gielo adornar dinoui fiori .</l>
-              <l n="31"><hi rendition="#stanza_marker">⫽</hi>Ridon or &per; lepiagge herbette &amp7; fiori .</l>
+              <l n="31"><hi rendition="#stanza_marker">⫽</hi> Ridon or &per; lepiagge herbette &amp7; fiori .</l>
               <l n="32">Esser &non; po che quella <choice><abbr>āgelica</abbr><expan>angelica</expan></choice> alma .</l>
               <l n="33">&Non; senta ilsuon delamorose note</l>
               <l n="34">Se nostra ria fortuna e di piu força</l>
               <l n="35"><choice><abbr>Lagrimādo</abbr><expan>Lagrimando</expan></choice> &amp7; cantando i nostri uersi</l>
               <l n="36">&Amp7; col bue çoppo andrem <choice><abbr>cacciādo</abbr><expan>cacciando</expan></choice> laura .</l>
-              <l n="37"><hi rendition="#stanza_marker">⫽</hi>In rete accolgo laura . enghiaccio ifiori .</l>
+              <l n="37"><hi rendition="#stanza_marker">⫽</hi> In rete accolgo laura . enghiaccio ifiori .</l>
               <l n="38">En uersi <choice><abbr>tēto</abbr><expan>tento</expan></choice> sorda &amp7; rigida alma .</l>
               <l n="39">Che ne força damor preçça.ne note .</l>       
           </lg>

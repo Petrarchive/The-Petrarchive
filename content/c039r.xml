@@ -523,7 +523,7 @@ the line wraps. -->
                           </lg>
                           <lg type="sestet">
                             <lg type="dblvrs">
-                                <l n="9"><hi rendition="#sestet_maker">·</hi> Nel qual <choice><orig>prouo</orig><reg>provo</reg></choice> <choice><orig>dolceççe</orig><reg>dolcezze</reg></choice> <choice><orig>tāte</orig><reg>tante</reg></choice> 
+                                <l n="9"><hi rendition="#sestet_marker">·</hi> Nel qual <choice><orig>prouo</orig><reg>provo</reg></choice> <choice><orig>dolceççe</orig><reg>dolcezze</reg></choice> <choice><orig>tāte</orig><reg>tante</reg></choice> 
                                     &amp7; tali</l>
                                 <l n="10"><choice><orig>Chamor</orig><reg>Ch’Amor</reg></choice> &per; <choice><orig>força</orig><reg>forza</reg></choice> <choice><orig>alui</orig><reg>a lui</reg></choice> mi riconduce.</l>
                             </lg>
@@ -571,7 +571,7 @@ the line wraps. -->
                 </lg>
               <lg type="sestet">
                 <lg type="dblvrs">
-                    <l n="9"><hi rendition="#sestet_maker">·</hi> &Non; spero <choice><orig>delmio</orig><reg>del mio</reg></choice> <choice><orig>affāno</orig><reg>affanno</reg></choice> 
+                    <l n="9"><hi rendition="#sestet_marker">·</hi> &Non; spero <choice><orig>delmio</orig><reg>del mio</reg></choice> <choice><orig>affāno</orig><reg>affanno</reg></choice> 
                         <choice><orig>auer</orig><reg>aver</reg></choice> mai posa&p2c;</l>
                     <l n="10">Infin <choice><orig>chi</orig><reg>ch’i’</reg></choice> mi disosso<choice><orig> /</orig><reg/></choice> &amp7; <choice><orig>sneruo</orig><reg>snervo</reg></choice><choice><orig> /</orig><reg/></choice> &amp7; spolpo&p2c;</l>
                 </lg>
@@ -618,7 +618,7 @@ the line wraps. -->
               </lg>
               <lg type="sestet">
                 <lg type="dblvrs">
-                    <l n="9"><hi rendition="#sestet_maker">·</hi> <choice><orig>Lequali</orig><reg>Le quali</reg></choice> ella spargea&v2c; &si; dolcemente&p2c;</l>
+                    <l n="9"><hi rendition="#sestet_marker">·</hi> <choice><orig>Lequali</orig><reg>Le quali</reg></choice> ella spargea&v2c; &si; dolcemente&p2c;</l>
                     <l n="10">&Amp7; raccoglea <choice><orig><abbr>cōsi</abbr><expan>consi</expan></orig><reg>con sì</reg></choice> 
                         leggiadri modi&p2c;</l>
                 </lg>
@@ -663,7 +663,7 @@ the line wraps. -->
               </lg>
               <lg type="sestet">
                 <lg type="dblvrs">
-                    <l n="9"><hi rendition="#sestet_maker">·</hi> Dico <choice><orig>lechiome</orig><reg>le chiome</reg></choice> <choice><abbr>biōde</abbr><expan>bionde</expan></choice><choice><orig> /</orig><reg/></choice> <choice><orig>el</orig><reg>e ’l</reg></choice> crespo laccio&p2c;</l>
+                    <l n="9"><hi rendition="#sestet_marker">·</hi> Dico <choice><orig>lechiome</orig><reg>le chiome</reg></choice> <choice><abbr>biōde</abbr><expan>bionde</expan></choice><choice><orig> /</orig><reg/></choice> <choice><orig>el</orig><reg>e ’l</reg></choice> crespo laccio&p2c;</l>
                     <l n="10"><choice><orig><subst><del type="erasure"><gap reason="illegible"/></del><add>Chesisoauemente lega</add></subst></orig><reg>Che &si; soavemente lega</reg></choice><choice><orig> /</orig><reg/></choice> 
                         <choice><orig>――</orig><reg></reg></choice> &amp7; stringe</l>
                 </lg>

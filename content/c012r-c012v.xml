@@ -494,7 +494,7 @@ the line wraps. -->
       <body>
          <pb n="charta 12 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-012r.jpg" />
          <space corresp="#canvasline"/>
-         <lg xml:id="rvf053" type="canzone_14vv" n="53">
+         <lg xml:id="rvf053" type="canzone_14vvAlt1" n="53">
              <lg type="stanza">
                  <lg type="dblvrs" corresp="#canvasline">
                      <l n="1"><hi rendition="#red #fs24pt">S</hi><hi rendition="#small-caps">p</hi>irto gentil&v2c; che quelle membra reggi</l>

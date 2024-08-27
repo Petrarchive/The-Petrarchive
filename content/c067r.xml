@@ -67,7 +67,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Petrarch’s <title rendition="#i">Rerum vulgarium fragmenta</title>: Charta 67r verso</title> <!-- Change the charta number according to the charta that is being encoded. Here the example is encoding c.1v -->
+            <title>Petrarch’s <title rendition="#i">Rerum vulgarium fragmenta</title>: Charta 67 recto</title> <!-- Change the charta number according to the charta that is being encoded. Here the example is encoding c.1v -->
             <editor xml:id="hws">H. Wayne Storey</editor>
             <editor xml:id="jaw">John A. Walsh</editor>
             <editor xml:id="im">Isabella Magni</editor>
@@ -470,7 +470,6 @@
             >font-size:18pt;</rendition>
         <rendition xml:id="fs24pt" scheme="css"
             >font-size:24pt;</rendition>
-        <rendition xml:id="sestet_marker" scheme="css"></rendition>
     </tagsDecl>
 </encodingDesc>
 
@@ -478,7 +477,7 @@
 
    <text>
       <body>
-         <pb n="charta 67 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-067v.jpg" />
+          <pb xml:id="c067r" n="charta 67 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-067r.jpg" />
           <lg type="sonnet" xml:id="rvf337" n="339 [337]">
               <note type="sequence">
                   <bibl>

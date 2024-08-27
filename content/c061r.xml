@@ -24,7 +24,7 @@
 <!ENTITY giorno "<choice><abbr>giõno</abbr><expan>giorno</expan></choice>">
 <!ENTITY non "<choice><abbr>nō</abbr><expan>non</expan></choice>">
 <!ENTITY in "<choice><abbr>ī</abbr><expan>in</expan></choice>">
-<!ENTITY pre "<choice><abbr>&p-macron;</abbr><expan>pre</expan></choice">
+<!ENTITY pre "<choice><abbr>&p-macron;</abbr><expan>pre</expan></choice>">
 <!ENTITY con "<choice><abbr>cō</abbr><expan>con</expan></choice>">
 <!ENTITY Con "<choice><abbr>cō</abbr><expan>Con</expan></choice>">
 <!ENTITY son "<choice><abbr>sō</abbr><expan>son</expan></choice>">
@@ -476,7 +476,7 @@
    </teiHeader>
 <text>
      <body>
-        <pb n="charta 61 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-061r.jpg" />
+         <pb xml:id="c061r" n="charta 61 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-061r.jpg" />
          <lg type="sonnet" xml:id="rvf309" n="309">
              <lg type="octave">
                  <lg type="dblvrs" corresp="#canvasline">
@@ -498,7 +498,7 @@
              </lg>
              <lg type="sestet">
                  <lg type="dblvrs" corresp="#canvasline">
-                     <l n="9"><hi rendition="#sestet_marker">~</hi>Non son al <choice><abbr>sōmo</abbr><expan>sommo</expan></choice> anchor giunte le rime<supplied>,</supplied></l><!-- check sestet markers -->
+                     <l n="9"><hi rendition="#sestet_marker">~</hi> Non son al <choice><abbr>sōmo</abbr><expan>sommo</expan></choice> anchor giunte le rime<supplied>,</supplied></l><!-- check sestet markers -->
                      <l n="10">In me il conosco<supplied>,</supplied> &amp7; <choice><orig>proual</orig><reg>proval</reg></choice> ben <choice><abbr>chiūque</abbr><expan>chiunque</expan></choice></l>
                  </lg>
                  <lg type="dblvrs" corresp="#canvasline">
@@ -533,7 +533,7 @@
              </lg>
              <lg type="sestet">
                  <lg type="dblvrs" corresp="#canvasline">
-                     <l n="9"><hi rendition="#sestet_marker">~</hi>Ma &per; me<supplied>,</supplied> lasso<supplied>,</supplied> tornano i <choice><orig>piu</orig><reg>più</reg></choice> <choice><orig>graui</orig><reg>gravi</reg></choice></l><!-- check all sestet markers -->
+                     <l n="9"><hi rendition="#sestet_marker">~</hi> Ma &per; me<supplied>,</supplied> lasso<supplied>,</supplied> tornano i <choice><orig>piu</orig><reg>più</reg></choice> <choice><orig>graui</orig><reg>gravi</reg></choice></l><!-- check all sestet markers -->
                      <l n="10">Sospiri<choice><orig> .</orig><reg>,</reg></choice> che del cor profondo tragge</l>
                  </lg>
                  <lg type="dblvrs" corresp="#canvasline">
@@ -568,7 +568,7 @@
              </lg>
              <lg type="sestet">
                  <lg type="dblvrs" corresp="#canvasline">
-                     <l n="9"><hi rendition="#sestet_marker">~</hi>O che <choice><orig>lieue</orig><reg>lieve</reg></choice> <choice><orig>e</orig><reg>è</reg></choice> inganar chi <choice><orig>sassecura</orig><reg>s’assecura</reg></choice><choice><orig> &#xF160;</orig><reg>!</reg></choice></l><!-- check punctuation -->
+                     <l n="9"><hi rendition="#sestet_marker">~</hi> O che <choice><orig>lieue</orig><reg>lieve</reg></choice> <choice><orig>e</orig><reg>è</reg></choice> inganar chi <choice><orig>sassecura</orig><reg>s’assecura</reg></choice><choice><orig> &#xF160;</orig><reg>!</reg></choice></l><!-- check punctuation -->
                      <l n="10"><choice><orig>Que</orig><reg>Que’</reg></choice> duo bei lumi assai <choice><orig>piu</orig><reg>più</reg></choice> <choice><orig>chel</orig><reg>che ’l</reg></choice> sol chiari</l>
                  </lg>
                  <lg type="dblvrs" corresp="#canvasline">
@@ -603,7 +603,7 @@
              </lg>
              <lg type="sestet">
                  <lg type="dblvrs" corresp="#canvasline">
-                     <l n="9"><choice><orig><hi rendition="#sestet_marker">~</hi>Ne</orig><reg>Né</reg></choice> altro <choice><orig>sara</orig><reg>sarà</reg></choice> mai <choice><orig>chal</orig><reg>ch’al</reg></choice> cor <choice><orig><abbr>maggiūga</abbr><expan>maggiunga</expan></orig><reg>m’aggiunga</reg></choice><choice><orig> .</orig><reg>,</reg></choice></l>
+                     <l n="9"><choice><orig><hi rendition="#sestet_marker">~</hi> Ne</orig><reg>Né</reg></choice> altro <choice><orig>sara</orig><reg>sarà</reg></choice> mai <choice><orig>chal</orig><reg>ch’al</reg></choice> cor <choice><orig><abbr>maggiūga</abbr><expan>maggiunga</expan></orig><reg>m’aggiunga</reg></choice><choice><orig> .</orig><reg>,</reg></choice></l>
                      <l n="10"><choice><orig>Si</orig><reg>Sì</reg></choice> seco il seppe quella sepellire</l>
                  </lg>
                  <lg type="dblvrs" corresp="#canvasline">

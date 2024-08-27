@@ -618,7 +618,7 @@
             </lg>
           <fw type="catch" rendition="#center">.et quanto.</fw>
           
-          <pb n="charta 9 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-009r.jpg" />
+             <pb xml:id="c009r" n="charta 9 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-009r.jpg" />
           <space corresp="#canvasline"/>
               <lg type="stanza">
                   <lg type="dblvrs" corresp="#canvasline">
@@ -754,7 +754,7 @@
                       <l n="108"><choice><orig>Serge</orig><reg>S'erge</reg></choice> la speme&p2c; et poi non sa star ferma&p2c;</l>
                   </lg>
                   
-              <pb n="charta 9 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-009v.jpg" />
+                  <pb xml:id="c009v" n="charta 9 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-009v.jpg" />
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="109">Ma ricadendo afferma</l>
                       <l n="110">Di mai non <choice><orig>ueder</orig><reg>veder</reg></choice> lei <choice><orig>chel</orig><reg>che ’l</reg></choice> ciel honora&p2c;</l>

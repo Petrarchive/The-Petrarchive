@@ -477,7 +477,7 @@
 
    <text>
       <body>
-         <pb n="charta 53 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-053r.jpg" /> <!-- Change the number of the charta in both places "charta 1 verso" and -f-0001v.jpg", according to the charta to be encoded -->
+          <pb xml:id="c053r" n="charta 53 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-053r.jpg" /> <!-- Change the number of the charta in both places "charta 1 verso" and -f-0001v.jpg", according to the charta to be encoded -->
           <lg type="canzone_18vv" xml:id="rvf264" n="264"> <!-- Change the sonnet xml:id and number according to the sonnet to be encoded -->
               <lg type="stanza">
                   <lg type="dblvrs" corresp="#canvasline">
@@ -610,7 +610,9 @@
                   <l n="61"><choice><orig>Si</orig><reg>S’i’</reg></choice> son pallido o magro<choice><orig>.</orig><reg>;</reg></choice></l>
                   <l n="62">Et <choice><orig>sio</orig><reg>s’io</reg></choice> <choice><orig>loccido</orig><reg>l’occido</reg></choice><choice><orig> &virg;</orig><reg>,</reg></choice> <choice><orig>piu</orig><reg>più</reg></choice> forte rinasce.</l>
               </lg>
-              <pb n="charta 53 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-053v.jpg" />
+              
+              <pb xml:id="c053v" n="charta 53 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-053v.jpg" />
+              
               <lg type="dblvrs" corresp="#canvasline">
                   <l n="63">Questo <choice><orig>dallor</orig><reg>d’allor</reg></choice> <choice><orig>chi</orig><reg>ch’i’</reg></choice> <choice><orig>maddormiua</orig><reg>m’addormiva</reg></choice> in fasce</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
                   <l n="64">Venuto <choice><orig>e</orig><reg>è</reg></choice> di <choice><orig>di</orig><reg>dì</reg></choice> in <choice><orig>di</orig><reg>dì</reg></choice> crescendo meco<choice><orig>.</orig><reg>,</reg></choice></l>
@@ -741,7 +743,9 @@
                       <l n="122">Vergogna &amp7; duol <choice><orig>chendietro</orig><reg>che ’ndietro</reg></choice> mi <choice><orig>riuolue</orig><reg>rivolve</reg></choice><choice><orig>.</orig><reg>;</reg></choice></l>
                       <l n="123"><choice><orig>Dallaltro</orig><reg>Dall’altro</reg></choice> non <choice><orig>massolue</orig><reg>m’assolve</reg></choice></l>
                   </lg>
-                  <pb n="charta 54 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-054r.jpg" />
+                  
+                  <pb xml:id="c054r" n="charta 54 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-054r.jpg" />
+                  
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="125"><choice><orig>Vn</orig><reg>Un</reg></choice> piacer &per; <choice><orig>usança</orig><reg>usanza</reg></choice> in me <choice><orig>si</orig><reg>sì</reg></choice> forte</l>
                       <l n="126"><choice><orig>Cha</orig><reg>Ch’ a</reg></choice> <subst><del type="erasure"><gap reason="illegible" /></del><add>p</add></subst>atteggiar <choice><orig>nardisce</orig><reg>n’ardisce</reg></choice> co la morte.</l>

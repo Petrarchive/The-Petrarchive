@@ -24,7 +24,7 @@
 <!ENTITY giorno "<choice><abbr>giõno</abbr><expan>giorno</expan></choice>">
 <!ENTITY non "<choice><abbr>nō</abbr><expan>non</expan></choice>">
 <!ENTITY in "<choice><abbr>ī</abbr><expan>in</expan></choice>">
-<!ENTITY pre "<choice><abbr>&p-macron;</abbr><expan>pre</expan></choice">
+<!ENTITY pre "<choice><abbr>&p-macron;</abbr><expan>pre</expan></choice>">
 <!ENTITY con "<choice><abbr>cō</abbr><expan>con</expan></choice>">
 <!ENTITY Con "<choice><abbr>cō</abbr><expan>Con</expan></choice>">
 <!ENTITY son "<choice><abbr>sō</abbr><expan>son</expan></choice>">
@@ -518,7 +518,7 @@
                
                <lg type="stanza">
                  <lg type="dblvrs" corresp="#canvasline"> <!-- check beginning all stanzas -->
-                     <l n="14"><hi rendition="#stanza_maker">⫽</hi> Liocchi soaui ondio soglio auer uita &virg;</l>
+                     <l n="14"><hi rendition="#stanza_marker">⫽</hi> Liocchi soaui ondio soglio auer uita &virg;</l>
                      <l n="15">De le diuine lor alte belleççe &virg;</l>
                  </lg>
                  <lg type="dblvrs" corresp="#canvasline">
@@ -546,7 +546,7 @@
                
                <lg type="stanza"> 
                    <lg type="dblvrs" corresp="#canvasline">
-                       <l n="27"><hi rendition="#stanza_maker">⫽</hi> Chio cercate gia uie piu di mille .</l>
+                       <l n="27"><hi rendition="#stanza_marker">⫽</hi> Chio cercate gia uie piu di mille .</l>
                        <l n="28">&Per; &#42835;uar sença lor se mortal cosa</l>
                    </lg>
                    <lg type="dblvrs" corresp="#canvasline">
@@ -574,7 +574,7 @@
                    
                <lg type="stanza"> 
                    <lg type="dblvrs" corresp="#canvasline">
-                       <l n="40"><hi rendition="#stanza_maker">⫽</hi> Di mia morte mipasco &amp7; uiuo &in; <choice><abbr>fiāme</abbr><expan>fiamme</expan></choice> .</l>
+                       <l n="40"><hi rendition="#stanza_marker">⫽</hi> Di mia morte mipasco &amp7; uiuo &in; <choice><abbr>fiāme</abbr><expan>fiamme</expan></choice> .</l>
                        <l n="41">Stranio cibo <g ref="#punctelevhiback"/> &amp7; mirabil salamandra .</l>
                    </lg>
                    <lg type="dblvrs" corresp="#canvasline">
@@ -602,7 +602,7 @@
                
                <lg type="stanza"> 
                    <lg type="dblvrs" corresp="#canvasline">
-                       <l n="53"><hi rendition="#stanza_maker">⫽</hi> Chi nol sa di chio uiuo &virg; &amp7; uissi &sempre; .</l>
+                       <l n="53"><hi rendition="#stanza_marker">⫽</hi> Chi nol sa di chio uiuo &virg; &amp7; uissi &sempre; .</l>
                        <l n="54">Dal di chen prima que belliocchi uidi .</l>
                    </lg>
                    <lg type="dblvrs" corresp="#canvasline">
@@ -630,7 +630,7 @@
                
                <lg type="stanza"> 
                    <lg type="dblvrs" corresp="#canvasline">
-                       <l n="66"><hi rendition="#stanza_maker">⫽</hi> Chiusa &fiamma; e piu <choice><abbr>ardēte</abbr><expan>ardente</expan></choice>.&Amp7; se pur cresce .</l><!-- chech capitalization after 'ardente' -->
+                       <l n="66"><hi rendition="#stanza_marker">⫽</hi> Chiusa &fiamma; e piu <choice><abbr>ardēte</abbr><expan>ardente</expan></choice>.&Amp7; se pur cresce .</l><!-- chech capitalization after 'ardente' -->
                        <l n="67">In alcun modo piu &non; po celarsi .</l>
                    </lg>
              
@@ -662,7 +662,7 @@
                        
                        <lg type="stanza"> 
                            <lg type="dblvrs" corresp="#canvasline">
-                               <l n="79"><hi rendition="#stanza_maker">⫽</hi> Cosi diben amar porto tormento .</l> <!-- check stanza sign -->
+                               <l n="79"><hi rendition="#stanza_marker">⫽</hi> Cosi diben amar porto tormento .</l> <!-- check stanza sign -->
                                <l n="80">&amp7; delpeccato altrui cheggio &per;dono .</l>
                            </lg>
                            <lg type="dblvrs" corresp="#canvasline">
@@ -690,7 +690,7 @@
                        
                        <lg type="stanza"> 
                            <lg type="trplvrs" corresp="#canvasline">
-                               <l n="92"><hi rendition="#stanza_maker">⫽</hi> Cançon mia fermo &in; <choice><abbr>cāpo</abbr><expan>campo</expan></choice> .</l> 
+                               <l n="92"><hi rendition="#stanza_marker">⫽</hi> Cançon mia fermo &in; <choice><abbr>cāpo</abbr><expan>campo</expan></choice> .</l> 
                                <l n="93">Staro&punctelevhiback;chelli e disnor&#11789;morir <choice><abbr>fuggēdo</abbr><expan>fuggendo</expan></choice> . </l>
                                <l n="94">&Amp7; mestesso <choice><abbr>reprēdo</abbr><expan>reprendo</expan></choice> .</l>
                            </lg>
@@ -726,7 +726,7 @@
                        </lg>
                        <lg type="sestet">
                            <lg type="dblvrs" corresp="#canvasline">
-                               <l n="9"><hi rendition="#sestet_maker">.</hi> Iui <subst><del type="erasure"><gap reason="illegible"></gap></del><add>e quel nostro uiuo &amp7; dolce so</add></subst>le .</l> <!-- check dot marking the beginning of the sestet -->
+                               <l n="9"><hi rendition="#sestet_marker">.</hi> Iui <subst><del type="erasure"><gap reason="illegible"></gap></del><add>e quel nostro uiuo &amp7; dolce so</add></subst>le .</l> <!-- check dot marking the beginning of the sestet -->
                                <l n="10">Chaddorna enfiora la tua riua manca .</l>
                            </lg>
                            <lg type="dblvrs" corresp="#canvasline">
@@ -761,7 +761,7 @@
                        </lg>
                        <lg type="sestet">
                            <lg type="dblvrs" corresp="#canvasline">
-                               <l n="9"><hi rendition="#sestet_maker">.</hi> &Amp7; qual ceruo ferito di saetta.</l>
+                               <l n="9"><hi rendition="#sestet_marker">.</hi> &Amp7; qual ceruo ferito di saetta.</l>
                                <l n="10">Col ferro auelenato dentral fianco&virg;</l> <!-- check punctuation -->
                            </lg>
                            <lg type="dblvrs" corresp="#canvasline">

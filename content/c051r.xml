@@ -24,7 +24,7 @@
 <!ENTITY giorno "<choice><abbr>giõno</abbr><expan>giorno</expan></choice>">
 <!ENTITY non "<choice><abbr>nō</abbr><expan>non</expan></choice>">
 <!ENTITY in "<choice><abbr>ī</abbr><expan>in</expan></choice>">
-<!ENTITY pre "<choice><abbr>&p-macron;</abbr><expan>pre</expan></choice>">
+<!ENTITY pre "<choice><abbr>&p-macron;</abbr><expan>pre</expan></choice">
 <!ENTITY con "<choice><abbr>cō</abbr><expan>con</expan></choice>">
 <!ENTITY Con "<choice><abbr>cō</abbr><expan>Con</expan></choice>">
 <!ENTITY son "<choice><abbr>sō</abbr><expan>son</expan></choice>">
@@ -67,13 +67,13 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Petrarch’s <title rendition="#i">Rerum vulgarium fragmenta</title>: Charta 62 recto</title> <!-- Change the charta number according to the charta that is being encoded. Here the example is encoding c.1v -->
+            <title>Petrarch’s <title rendition="#i">Rerum vulgarium fragmenta</title>: Charta 51 recto</title> <!-- Change the charta number according to the charta that is being encoded. Here the example is encoding c.1v -->
             <editor xml:id="hws">H. Wayne Storey</editor>
             <editor xml:id="jaw">John A. Walsh</editor>
             <editor xml:id="im">Isabella Magni</editor>
             <respStmt>
                <resp>Encoder</resp>
-               <name xml:id="ps">Paolo Scartoni</name>
+               <name>Isabella Magni</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -477,146 +477,8 @@
 
     <text>
         <body>
-            <pb xml:id="c062r" n="charta 62 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-062r.jpg" /> <!-- Change the number of the charta in both places "charta 1 verso" and -f-0001v.jpg", according to the charta to be encoded -->
-            <lg type="sonnet" xml:id="rvf317" n="317"> <!-- Change the sonnet xml:id and number according to the sonnet to be encoded -->
-                <lg type="octave">
-                    <lg type="dblvrs" corresp="#canvasline">
-                        <l n="1"><hi rendition="#red #fs24pt">T</hi><hi rendition="#small-caps">r</hi>anquillo porto <choice><orig>auea</orig><reg>avea</reg></choice> mostrato amore</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
-                        <l n="2">A la mia lunga &amp7; torbida tempesta</l>
-                    </lg>
-                    <lg type="dblvrs" corresp="#canvasline">
-                        <l n="3">Fra <choice><orig><abbr>gliāni</abbr><expan>glianni</expan></orig><reg>gli anni</reg></choice> de la <choice><orig>eta</orig><reg>età</reg></choice> matura honesta</l>
-                        <l n="4">Che i <choice><orig>uicij</orig><reg>vicii</reg></choice> spoglia<choice><orig> .</orig><reg>, </reg></choice>&amp7; <choice><orig>uertu</orig><reg>vertù</reg></choice> <choice><orig>ueste</orig><reg>veste</reg></choice> e <choice><orig><abbr>hono&#x0303;e</abbr><expan>honore</expan></orig><reg>honore</reg></choice><choice><orig> .</orig><reg>.</reg></choice></l>
-                    </lg>
-                    <lg type="dblvrs" corresp="#canvasline">
-                        <l n="5"><choice><orig>Gia</orig><reg>Già</reg></choice> <choice><orig>traluceua</orig><reg>traluceva</reg></choice><choice><orig>  </orig><reg> </reg></choice><choice><orig>a</orig><reg>a’</reg></choice> <choice><orig>begliocchi</orig><reg>begli occhi</reg></choice> il mio core<choice><orig> &virg;</orig><reg>,</reg></choice></l>
-                        <l n="6">Et <choice><orig>lalta</orig><reg>l’alta</reg></choice> fede non <choice><orig>piu</orig><reg>più</reg></choice> lor molesta<choice><orig> .</orig><reg>.</reg></choice></l>
-                    </lg>
-                    <lg type="dblvrs" corresp="#canvasline">
-                        <l n="7">Ai<supplied>!,</supplied> morte ria<choice><orig> .</orig><reg>,</reg></choice> come  a schiantar <choice><orig>se</orig><reg>sè</reg></choice> presta</l>
-                        <l n="8">Il frutto de <choice><orig><abbr>moltāni</abbr><expan>moltanni</expan></orig><reg>molt’anni</reg></choice> in <choice><orig>si</orig><reg>sì</reg></choice> poche hore<choice><orig> .</orig><reg>.</reg></choice></l>
-                    </lg>
-                </lg>
-                <lg type="sestet">
-                    <lg type="dblvrs" corresp="#canvasline">
-                        <l n="9"><hi rendition="#sestet_marker">~</hi> Pur <choice><orig>uiuendo</orig><reg>vivendo</reg></choice> <choice><orig>ueniasi</orig><reg>veniasi</reg></choice><supplied>,</supplied> <choice><orig>oue</orig><reg>ove</reg></choice> deposto</l>
-                        <l n="10">In quelle caste orecchie aurei <choice><abbr>parlādo</abbr><expan>parlando</expan></choice></l>
-                    </lg>
-                    <lg type="dblvrs" corresp="#canvasline">
-                        <l n="11"><choice><orig>De</orig><reg>De’</reg></choice> miei dolci pensier <choice><orig>lantiqua</orig><reg>l’antiqua</reg></choice> soma<choice><orig>;</orig><reg>.</reg></choice></l>
-                        <l n="12">Et ella <choice><orig>aurebbe</orig><reg>avrebbe</reg></choice> a me forse resposto</l>
-                    </lg>
-                    <lg type="dblvrs" corresp="#canvasline">
-                        <l n="13">Qualche santa parola sospirando<choice><orig>.</orig><reg>,</reg></choice></l>
-                        <l n="14">Cangiati i <choice><orig>uolti</orig><reg>volti</reg></choice><choice><orig>.</orig><reg>,</reg></choice> &amp7; <choice><orig>luna</orig><reg>l’una</reg></choice> &amp7; <choice><orig>laltra</orig><reg>l’altra</reg></choice> coma.</l>
-                    </lg>
-                </lg>
-            </lg>
-            <space corresp="#canvasline"/>
-            <lg xml:id="rvf318" type="sonnet" n="318"> <!-- Change the sonnet xml:id and number according to the sonnet to be encoded -->
-                <lg type="octave">
-                    <lg type="dblvrs" corresp="#canvasline">
-                        <l n="1"><hi rendition="#blue #fs24pt">A</hi><hi rendition="#small-caps">l</hi> cader <choice><orig>duna</orig><reg>d’una</reg></choice> pianta  che si <choice><orig>suelse</orig><reg>svelse</reg></choice></l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
-                        <l n="2">Come quella che ferro <choice><orig>&virg; </orig><reg></reg></choice>o <choice><orig>uento</orig><reg>vento</reg></choice> sterpe<choice><orig> .</orig><reg>,</reg></choice></l>
-                    </lg>
-                    <lg type="dblvrs" corresp="#canvasline">
-                        <l n="3">Spargendo a terra le sue spoglie excelse<choice><orig> .</orig><reg>,</reg></choice></l>
-                        <l n="4">Mostrando<choice><orig>  </orig><reg> </reg></choice>al sol la sua squalida sterpe<choice><orig> .</orig><reg>,</reg></choice></l>
-                    </lg>
-                    <lg type="dblvrs" corresp="#canvasline">
-                        <l n="5">Vidi <choice><orig>unaltra</orig><reg>un’altra</reg></choice> <choice><orig>chamor</orig><reg>ch’Amor</reg></choice> obiecto scelse</l>
-                        <l n="6">Subiecto in me Calliope<choice><orig> &#11805;</orig><reg></reg></choice> &amp7; Euterpe<choice><orig> .</orig><reg>,</reg></choice></l>
-                    </lg>
-                    <lg type="dblvrs" corresp="#canvasline">
-                        <l n="7"><choice><orig>Chel</orig><reg>Che ’l</reg></choice> cor <choice><orig>mauinse</orig><reg>m’avinse</reg></choice><choice><orig> .</orig><reg>, </reg></choice>&amp7; <choice><abbr>&#xa753;prio</abbr><expan>proprio</expan></choice> albergo felse<choice><orig> .</orig><reg>,</reg></choice></l>
-                        <l n="8">Qual &per; trunco o &per; muro hedera serpe<choice><orig> .</orig><reg>.</reg></choice></l>
-                    </lg>
-                </lg>
-                <lg type="sestet">
-                    <lg type="dblvrs" corresp="#canvasline">
-                        <l n="9"><hi rendition="#sestet_marker">~</hi> Quel <choice><orig>uiuo</orig><reg>vivo</reg></choice> lauro <choice><orig>oue</orig><reg>ove</reg></choice> solean far nido</l>
-                        <l n="10">Li alti penseri<choice><orig> .</orig><reg></reg></choice> <choice><orig>ei</orig><reg>e i</reg></choice> miei sospiri ardenti<choice><orig> .</orig><reg>,</reg></choice></l>
-                    </lg>
-                    <lg type="dblvrs" corresp="#canvasline">
-                        <l n="11">Che <choice><orig>de</orig><reg>de’</reg></choice> bei rami mai &non; mosser fronda<choice><orig> .</orig><reg>,</reg></choice></l>
-                        <l n="12">Al ciel translato &in; quel suo albergo fido<choice><orig> .</orig><reg></reg></choice></l>
-                    </lg>
-                    <lg type="dblvrs" corresp="#canvasline">
-                        <l n="13"><choice><orig>Lascio</orig><reg>Lasciò</reg></choice> radici<choice><orig> .</orig><reg>,</reg></choice> onde &con; <choice><orig>graui</orig><reg>gravi</reg></choice> accenti</l>
-                        <l n="14"><choice><orig>E</orig><reg>È</reg></choice> anchor chi chiami<choice><orig> .</orig><reg>,</reg></choice> &amp7; &non; <choice><orig>e</orig><reg>è</reg></choice> chi responda<choice><orig> .</orig><reg>.</reg></choice></l>
-                    </lg>
-                </lg>
-            </lg>
-            <space corresp="#canvasline"/>
-            <lg xml:id="rvf319" type="sonnet" n="319"> <!-- Change the sonnet xml:id and number according to the sonnet to be encoded -->
-                <lg type="octave">
-                    <lg type="dblvrs" corresp="#canvasline">
-                        <l n="1"><hi rendition="#red #fs24pt">I</hi><choice><orig><hi rendition="#small-caps"> d</hi>i</orig><reg><hi rendition="#small-caps"> d</hi>ì</reg></choice>  miei <choice><orig>piu</orig><reg>più</reg></choice> <choice><orig>leggier</orig><reg>leggier’</reg></choice> che nesun <choice><orig>ceruo</orig><reg>cervo</reg></choice><choice><orig> .</orig><reg></reg></choice></l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
-                        <l n="2">Fuggir come ombra<choice><orig> .</orig><reg>,</reg></choice> &amp7; &non; <choice><orig>uider</orig><reg>vider</reg></choice> <choice><orig>piu</orig><reg>più</reg></choice> bene<choice><orig> &virg;</orig><reg>,</reg></choice></l>
-                    </lg>
-                    <lg type="dblvrs" corresp="#canvasline">
-                        <l n="3"><choice><orig>Chun</orig><reg>Ch’un</reg></choice> batter <choice><orig>docchio</orig><reg>d’occhio</reg></choice><choice><orig> .</orig><reg>,</reg></choice> &amp7; poche hore serene<choice><orig> .</orig><reg>,</reg></choice></l>
-                        <l n="4"><choice><orig>Chamare</orig><reg>Ch’amare</reg></choice> &amp7; dolci <choice><orig>nela</orig><reg>ne la</reg></choice> mente <choice><orig>seruo</orig><reg>servo</reg></choice><choice><orig> .</orig><reg>.</reg></choice></l>
-                    </lg>
-                    <lg type="dblvrs" corresp="#canvasline">
-                        <l n="5">Misero mondo<choice><orig> .</orig><reg>,</reg></choice> instabile <choice><orig>.</orig><reg></reg></choice>&amp7; <choice><orig>proteruo</orig><reg>protervo</reg></choice><supplied>,</supplied></l>
-                        <l n="6"><choice><orig>Deltutto</orig><reg>Del tutto</reg></choice> <choice><orig>e</orig><reg>è</reg></choice> cieco <choice><orig>chinte</orig><reg>chi ’n te</reg></choice> pon sua spene<choice><orig> .</orig><reg>;</reg></choice></l>
-                    </lg>
-                    <lg type="dblvrs" corresp="#canvasline">
-                        <l n="7"><choice><orig>Chen</orig><reg>Ché ’n</reg></choice> te<choice><orig>|</orig><reg> </reg></choice>mi <choice><orig>ful</orig><reg>fu ’l</reg></choice> cor tolto<choice><orig> .</orig><reg>,</reg></choice> &amp7; or sel tene<choice><orig> .</orig><reg>,</reg></choice></l>
-                        <l n="8">Tal che <choice><orig>gia</orig><reg>già</reg></choice> terra<choice><orig> .</orig><reg>,</reg></choice> &amp7; &non; <choice><abbr>giūge</abbr><expan>giunge</expan></choice> osso a <choice><orig>neruo</orig><reg>nervo</reg></choice><choice><orig> .</orig><reg>.</reg></choice></l>
-                    </lg>
-                </lg>
-                <lg type="sestet">
-                    <lg type="dblvrs" corresp="#canvasline">
-                        <l n="9"><hi rendition="#sestet_marker">·</hi> Ma la forma miglior che <choice><orig>uiue</orig><reg>vive</reg></choice> <choice><abbr>āchora</abbr><expan>anchora</expan></choice><choice><orig> .</orig><reg>,</reg></choice></l>
-                        <l n="10">Et <choice><orig>uiura</orig><reg>vivrà</reg></choice> sempre su nel alto cielo<choice><orig> .</orig><reg>,</reg></choice></l>
-                    </lg>
-                    <lg type="dblvrs" corresp="#canvasline">
-                        <l n="11">Di sue <choice><orig>belle&#xa763;&#xa763;e</orig><reg>bellezze</reg></choice> ognior <choice><orig>piu</orig><reg>più</reg></choice> <choice><orig>m&in;namora</orig><reg>m’innamora</reg></choice><choice><orig> .</orig><reg>;</reg></choice></l>
-                        <l n="12">Et <choice><orig>uo</orig><reg>vo</reg></choice><supplied>,</supplied> sol in pensar<supplied>,</supplied> cangiando il pelo<choice><orig> .</orig><reg>,</reg></choice></l>
-                    </lg>
-                    <lg type="dblvrs" corresp="#canvasline">
-                        <l n="13"><choice><orig>Quale&#x0323;</orig><reg>Qual</reg></choice> ella <choice><orig>e</orig><reg>è</reg></choice> oggi<choice><orig> .</orig><reg>,</reg></choice> <choice><orig>enqual</orig><reg>e ’n qual</reg></choice> parte dimora<choice><orig> .</orig><reg>,</reg></choice></l>
-                        <l n="14">Qual a <choice><orig>uedere</orig><reg>vedere</reg></choice> il suo leggiadro <choice><orig>uelo</orig><reg>velo</reg></choice><choice><orig> .</orig><reg>.</reg></choice></l>
-                    </lg>
-                </lg>
-            </lg>
-            <space corresp="#canvasline"/>
-            <lg xml:id="rvf320" type="sonnet" n="320"> <!-- Change the sonnet xml:id and number according to the sonnet to be encoded -->
-                <lg type="octave">
-                    <lg type="dblvrs" corresp="#canvasline">
-                        <l n="1"><hi rendition="#fs24pt #blue">S</hi><hi rendition="#small-caps">e</hi>nto Laura <choice><orig><subst><del type="erasure"><gap reason="illegible"></gap></del><add>mia' <choice><abbr>āticha</abbr><expan>anticha</expan></choice> .</add></subst></orig><reg>mia anticha,</reg></choice> e <choice><orig>idolci</orig><reg>i dolci</reg></choice> colli</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
-                        <l n="2">Veggio <choice><orig><subst><del type="erasure"><gap reason="illegible"></gap></del><add>apparire &virg; ondel</add></subst></orig><reg>apparire, onde ’l</reg></choice> bel lume nacque</l>
-                    </lg>
-                    <lg type="dblvrs" corresp="#canvasline">
-                        <l n="3">Che <choice><abbr>tēne</abbr><expan>tenne</expan></choice> <choice><orig>gliocchi</orig><reg>gli occhi</reg></choice> mei <choice><orig><abbr>mētral</abbr><expan>mentral</expan></orig><reg>mentr’ al</reg></choice> ciel piacque</l>
-                        <l n="4">Bramosi &amp7; lieti<choice><orig> .</orig><reg>,</reg></choice> or li ten tristi<choice><orig> &virg;</orig><reg></reg></choice> &amp7; molli.</l>
-                    </lg>
-                    <lg type="dblvrs" corresp="#canvasline">
-                        <l n="5">O caduche <choice><orig>speran&#xa763;e</orig><reg>speranze</reg></choice><choice><orig> .</orig><reg>!</reg></choice> o penser folli<choice><orig> .</orig><reg>!</reg></choice></l>
-                        <l n="6"><choice><orig>Vedoue</orig><reg>Vedove</reg></choice> <choice><orig>lerbe</orig><reg>l’erbe</reg></choice> <choice><orig>&#11789;</orig><reg></reg></choice>&amp7; torbide son <choice><orig>lacque</orig><reg>l’acque</reg></choice><choice><orig> .</orig><reg>,</reg></choice></l>
-                    </lg>
-                    <lg type="dblvrs" corresp="#canvasline">
-                        <l n="7">&Amp7; <choice><orig>uoto</orig><reg>voto</reg></choice> <choice><orig>&#11789;</orig><reg></reg></choice>&amp7; <choice><orig>freddol</orig><reg>freddo ’l</reg></choice> nido <choice><orig><subst><del type="erasure"><gap reason="illegible"></gap></del><add>&in; chella</add></subst></orig><reg>in ch’ella</reg></choice> giacque<choice><orig> .</orig><reg>,</reg></choice></l>
-                        <l n="8"><choice><orig><subst><del type="erasure"><gap reason="illegible"></gap></del><add>Nel qual io uiuo&#11805;</add></subst></orig><reg>Nel qual io vivo,</reg></choice> &amp7; morto giacer <choice><orig>uolli</orig><reg>volli</reg></choice><choice><orig> .</orig><reg>,</reg></choice></l>
-                    </lg>
-                </lg>
-                <lg type="sestet">
-                    <lg type="dblvrs" corresp="#canvasline">
-                        <l n="9"><hi rendition="#sestet_marker">·</hi> <choice><orig><subst><del type="erasure"><gap reason="illegible"></gap></del><add><choice><abbr>Sperādo</abbr><expan>Sperando</expan></choice> alfin .</add></subst></orig><reg>Sperando alfin,</reg></choice> <choice><orig>dale</orig><reg>da le</reg></choice> <choice><orig>soaui</orig><reg>soavi</reg></choice> piante<choice><orig> .</orig><reg></reg></choice></l>
-                        <l n="10">&Amp7; <choice><orig>dabelli</orig><reg>da’ belli</reg></choice> occhi suoi<choice><orig> &#11805;</orig><reg>,</reg></choice> <choice><orig>chel</orig><reg>che ’l</reg></choice> cor <choice><orig><abbr>mānarso</abbr><expan>mannarso</expan></orig><reg>m’ànn’arso</reg></choice><choice><orig> .</orig><reg>,</reg></choice></l>
-                    </lg>
-                    <lg type="dblvrs" corresp="#canvasline">
-                        <l n="11">Riposo <choice><orig>a<hi rendition="b">l</hi><subst><del type="erasure"><gap reason="illegible"></gap></del><add>cun d</add></subst>ele</orig><reg>alcun de le</reg></choice> fatiche tante<choice><orig> .</orig><reg>.</reg></choice></l>
-                        <l n="12"><choice><orig>O</orig><reg>Ò</reg></choice> <choice><orig>seruito</orig><reg>servito</reg></choice> a signor crudele<choice><orig> &virg;</orig><reg></reg></choice> &amp7; scarso<choice><orig> .</orig><reg>,</reg></choice></l>
-                    </lg>
-                    <lg type="dblvrs" corresp="#canvasline">
-                        <l n="13"><choice><orig>Charsi</orig><reg>Ch’arsi</reg></choice> <choice><orig><abbr>quāt</abbr><expan>quant</expan><subst><del type="erasure"><gap reason="illegible"></gap></del><add>olmio foco ebbi</add></subst></orig><reg>quanto ’l mio foco ebbi</reg></choice> <choice><orig> dauan<subst><del type="erasure"><gap reason="illegible"></gap></del><add>te</add></subst></orig><reg>davante</reg></choice><choice><orig> .</orig><reg>;</reg></choice></l>
-                        <l n="14">Or <choice><orig>uo</orig><reg>vo</reg></choice> piangendo il suo cenere sparso<choice><orig> .</orig><reg>.</reg></choice></l>
-                    </lg>
-                </lg>
-            </lg>
+            <pb xml:id="c051r" n="charta 51 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-051r.jpg" /> <!-- Change the number of the charta in both places "charta 1 verso" and -f-0001v.jpg", according to the charta to be encoded -->
+            <space unit="lines" extent="31" ana="#space.potential" />
         </body>
     </text>
 </TEI>
