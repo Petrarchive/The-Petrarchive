@@ -617,7 +617,7 @@
                   </lg>
               </lg>  
           </lg>
-          <lg type="canzone_14vv" xml:id="rvf127" n="127"> 
+          <lg type="canzone_14vvAlt1" xml:id="rvf127" n="127"> 
               <lg type="stanza">
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="1"><hi rendition="#red #fs24pt">I</hi><hi rendition="#small-caps">n</hi> quella parte <choice><orig>doue</orig><reg>dove</reg></choice> <choice><orig>amor</orig><reg>Amor</reg></choice> mi sprona</l>
