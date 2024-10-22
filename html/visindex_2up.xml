@@ -18,14 +18,8 @@
 #banner {width:100%;background-color:#a23725;}-->
 <style type="text/css">
 
-	img {max-height:400px;max-width:150px;}
-	/*
-	body {
-	width:900px;
-	margin:4em;
-	}
+	img {max-height:400px;}
 
-	*/
 	#visindex {
 	width:600px;
 
