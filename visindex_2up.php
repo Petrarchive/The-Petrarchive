@@ -32,7 +32,7 @@
 	}
 
 	#visindex div {
-	float:right;
+	float:left;
 	clear:both;
 	}
 
