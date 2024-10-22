@@ -32,7 +32,6 @@
 	}
 
 	#visindex div {
-	float:left;
 	clear:both;
 	}
 
@@ -66,7 +65,7 @@
 		<h1 style="margin-top: 5em">A visual index to Petrarch's <cite>Rerum vulgarium fragmenta</cite>, Vat. Lat. 3195</h1>
 		<div id="visindex">
 		<div style="margin-bottom:5px;">
-			<a href="content/c001r.xml"><img alt="vat. lat. 3195, c. 1r" style="float:right;" class="visindex-recto" src="images/visindex/c001r.svg" id="c001r" /></a>
+			<a href="content/c001r.xml"><img alt="vat. lat. 3195, c. 1r" class="visindex-recto" src="images/visindex/c001r.svg" id="c001r" /></a>
 		</div>
 		<div>
 			<a href="content/c001v.xml"><img alt="vat. lat. 3195, c. 1v" class="visindex-verso" src="images/visindex/c001v.svg" id="c001v" /></a> <a href="content/c002r.xml"><img alt="vat. lat. 3195, c. 2r" class="visindex-recto" src="images/visindex/c002r.svg" id="c002r" /></a>
