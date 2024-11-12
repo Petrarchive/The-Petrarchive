@@ -478,11 +478,13 @@
     <text>
         <body>
             <pb xml:id="c049v" n="charta 49 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-049v.jpg" /> <!-- Change the number of the charta in both places "charta 1 verso" and -f-0001v.jpg", according to the charta to be encoded -->
+            <div>
             <note type="editorial" resp="#magni">This charta includes two lines of text...</note>
             <p><subst><del type="erasure"><gap reason="illegible"/></del><add>Francisci petrarce <choice><abbr>expliciūt</abbr><expan>expliciunt</expan></choice> soneta de uita Amaxie sue. Amen et deo gratias</add></subst>                
-            <br/>
+            <lb/>
                 <subst><del type="erasure"><gap reason="illegible"/></del><add>Vn bel morir tuta la uita honora.</add></subst></p>
             <space unit="lines" extent="29" ana="#space.potential" />
+            </div>
         </body>
     </text>
 </TEI>
