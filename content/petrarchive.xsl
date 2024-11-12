@@ -812,6 +812,11 @@
     </div>
   </xsl:template>
 
-  
+  <xsl:template match="tei:note[@type = 'editorial']">
+    <div class="note">
+      <strong>Editorial note</strong><br/>
+      <xsl:apply-templates/>
+    </div>
+  </xsl:template>
     
 </xsl:stylesheet>
