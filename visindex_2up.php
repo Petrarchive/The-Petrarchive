@@ -62,9 +62,9 @@
         </header>
 
 		<div id="content">
-		<h1 style="margin-top: 5em">A visual index to Petrarch's <cite>Rerum vulgarium fragmenta</cite>, Vat. Lat. 3195</h1>
+		<h1 style="margin-top: 5em;">A visual index to Petrarch's <cite>Rerum vulgarium fragmenta</cite>, Vat. Lat. 3195</h1>
 		<div id="visindex">
-		<div style="margin-bottom:5px;">
+		<div style="margin-bottom:5px; margin-left:9.56rem;">
 			<a href="content/c001r.xml"><img alt="vat. lat. 3195, c. 1r" class="visindex-recto" src="images/visindex/c001r.svg" id="c001r" /></a>
 		</div>
 		<div>
