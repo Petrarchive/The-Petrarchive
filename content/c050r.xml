@@ -478,7 +478,10 @@
     <text>
         <body>
             <pb xml:id="c050r" n="charta 50 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-050r.jpg" /> <!-- Change the number of the charta in both places "charta 1 verso" and -f-0001v.jpg", according to the charta to be encoded -->
+            <div>
+            <note type="editorial" resp="#im"></note>
             <space unit="lines" extent="31" ana="#space.potential" />
+            </div>
         </body>
     </text>
 </TEI>
