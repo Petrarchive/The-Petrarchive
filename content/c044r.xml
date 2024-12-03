@@ -419,7 +419,7 @@
         
         <rendition xml:id="outdent" n="teibp:outdent" scheme="css">
             position: relative;
-            text-indent: -1.6em;
+            left: -1.6em;
         </rendition>
         
         <rendition xml:id="indent" n="tiebp:indent" scheme="css" scope="before">
@@ -519,8 +519,8 @@
           <space corresp="#canvasline"/>
           <lg xml:id="rvf225" type="sonnet" n="225"> 
               <lg type="octave">
-                  <lg type="dblvrs" corresp="#canvasline">
-                      <l n="1" rendition="#outdent">+<hi rendition="#fs24pt">D</hi><hi rendition="#small-caps">o</hi>dici donne honestamente lasse</l><!--Check + at the beginning--> 
+                  <lg type="dblvrs" rendition="#outdent" corresp="#canvasline">
+                      <l n="1">+<hi rendition="#fs24pt">D</hi><hi rendition="#small-caps">o</hi>dici donne honestamente lasse</l><!--Check + at the beginning--> 
                       <l n="2">Ançi dodici stelle&#11805; en meçço un sole .</l><!--Check punctuation-->
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">

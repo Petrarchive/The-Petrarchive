@@ -472,6 +472,10 @@
             >font-size:18pt;</rendition>
         <rendition xml:id="fs24pt" scheme="css"
             >font-size:24pt;</rendition>
+        <rendition xml:id="outdent" n="teibp:outdent" scheme="css">
+            position: relative;
+            left: -1.6em;
+        </rendition>
     </tagsDecl>
 </encodingDesc>
 
@@ -482,7 +486,7 @@
          <pb n="charta 47 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-047v.jpg" />
           <lg type="sonnet" xml:id="rvf248" n="248"> 
               <lg type="octave">
-                  <lg type="dblvrs" corresp="#canvasline">
+                  <lg type="dblvrs" rendition="#outdent" corresp="#canvasline">
                       <l n="1">+<hi rendition="#fs24pt">C</hi><hi rendition="#small-caps">h</hi>i uuol ueder <choice><abbr>quātūque</abbr><expan>quantunque</expan></choice> po natura &virg;</l> <!-- + at the beginning of the sonnet -->
                       <l n="2">El ciel tra noi &virg; <choice><abbr>uēga</abbr><expan>uenga</expan></choice> amirar costei .</l>
                   </lg>
