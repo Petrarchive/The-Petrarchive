@@ -612,8 +612,8 @@ lg .indent.pilcrow {
   left: -1em;
 }
 
-#rvf037 l[n='47'],
-#rvf023 l[n='65']
+#rvf037 l[n='47']/*,
+#rvf023 l[n='65']*/
  {
   margin-left: 0.8em;
 }
@@ -774,6 +774,7 @@ lg[type='canzone_16vv'] l[n='115'],
 lg[type='canzone_16vv'] l[n='116'],
 lg[type='canzone_16vv'] l[n='119'],
 lg[type='canzone_16vv'] l[n='120'], 
+/*
 lg[type='canzone_20vv'] l[n='5'],
 lg[type='canzone_20vv'] l[n='6'],
 lg[type='canzone_20vv'] l[n='9'],
@@ -839,7 +840,7 @@ lg[type='canzone_20vv'] l[n='156'],
 lg[type='canzone_20vv'] l[n='161'],
 lg[type='canzone_20vv'] l[n='162'],
 lg[type='canzone_20vv'] l[n='165'],
-lg[type='canzone_20vv'] l[n='166'], 
+lg[type='canzone_20vv'] l[n='166'], */
 lg[id='rvf105'] l[n='5'],
 lg[id='rvf105'] l[n='6'],
 lg[id='rvf105'] l[n='20'],
