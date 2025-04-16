@@ -149,54 +149,6 @@ function setupTextindex() {
   })
 }
 
-function applyStyling() {
-  // Apply indent to lg[type='dblvrs'] first line when pillcrow is first character  
-  let lg = $("lg[type='dblvrs']")
-  lg.each(function(i, el) {
-    let l = el.querySelector('l'),
-        hiFirstTest = recursiveSearch(l, 'hi');
-
-    if (hiFirstTest) { 
-      $(el).addClass('indent') 
-
-      if (el.querySelector('.pilcrow'))
-        $(el).addClass('pilcrow');
-    }
-  })
-
-  // Apply indent to lg[type='trplvrs'] first line when pillcrow is first character  
-  let tripl = $("lg[type='trplvrs']")
-  tripl.each(function(i, el) {
-    let l = el.querySelector('l'),
-        hiFirstTest = recursiveSearch(l, 'hi');
-
-    if (hiFirstTest) { 
-      $(el).addClass('indent')
-      
-      if (el.querySelector('.pilcrow'))
-        $(el).addClass('pilcrow');
-    }
-  })
-
-  // Apply indent to l in sestina when pillcrow/h1 first character
-  let sestinaL = $("lg[type='sestina'] l")
-  sestinaL.each(function(i, el) {
-    let hiFirstTest = recursiveSearch(el, 'hi')
-    if (hiFirstTest) { 
-      $(el).addClass('indent') 
-
-      if (el.querySelector('.pilcrow'))
-        $(el).addClass('pilcrow');
-    }
-  })
-
-  //Custom blank/white space 
-  let blankSpace = $("space[ana='#space-stop']"),
-      blankSpaceExtent = blankSpace.attr('extent');
-    
-  blankSpace.css('height', (blankSpaceExtent * 1.8) + 'em')
-}
-
 function recursiveSearch(el, type) {
   if (!el)
     return null;
