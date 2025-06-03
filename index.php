@@ -61,7 +61,7 @@
     </div>
   </div>
 </div>
-
+<div style="font-size: 80%; text-align:center; width:80%; font-weight:bold; margin:1em auto 1em auto;">The Petrarchive is best viewed on the Google Chrome browser. <br>Firefox and Safari may include some visual and navigational bugs.</div>
 <div id="vizindex" class="container">
   <div class="row built-vizindex">
     <?php include("vizindex.html"); ?>
@@ -69,7 +69,7 @@
 </div>
 
 <section class="row justify-content-center">
-  <main class="col-lg-8 col-md-12">
+  <main class="col-lg-10 col-md-12">
     <p class="">
       Designed for students, casual readers and specialists, the Petr<em>archive</em> proposes a corrected diplomatic edition and a new edition of Petrarch’s songbook, the <em>Rerum vulgarium fragmenta</em> (<em>Canzoniere</em>), together with multiple visual indexes to navigate, for the first time, Petrarch’s visual poetics and the material constructions of his songbook. We encourage users to first read our <a href="https://dcl.ils.indiana.edu/petrarchive/instructions.php">Instructions</a> and consult the <a href="https://dcl.ils.indiana.edu/petrarchive/content/glossary.xml">Glossary</a> for conceptual and pragmatic use in order to have an overview of the core principles of the edition as well as directions on how to navigate the site.
     </p>
