@@ -61,7 +61,7 @@
     </div>
   </div>
 </div>
-<div style="font-size: 80%; text-align:center; width:80%; font-weight:bold; margin:1em auto 1em auto;">The Petrarchive is best viewed on the Google Chrome browser. <br>Firefox and Safari may include some visual and navigational bugs.</div>
+<div style="font-size: 80%; text-align:center; width:80%; font-weight:bold; margin:1em auto 1em auto;">The Petrarchive is best viewed on the Google Chrome browser. <br>Firefox and Safari may include some visual and navigational bugs, which we are working to eliminate.</div>
 <div id="vizindex" class="container">
   <div class="row built-vizindex">
     <?php include("vizindex.html"); ?>
