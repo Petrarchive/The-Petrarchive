@@ -517,7 +517,7 @@
             </lg>
             <space corresp="#canvasline"/>
 
-            <lg xml:id="rvf135" type="canzone" n="135">
+            <lg xml:id="rvf135" type="canzone_15vv" n="135">
                 <lg type="stanza">
                     <lg type="dblvrs" corresp="#canvasline">
                         <l n="1"><hi rendition="#blue #fs24pt">Q</hi><hi rendition="#small-caps">v</hi>al &piu; <choice><orig>diuersa</orig><reg>diversa</reg></choice> &amp7; <choice><orig>noua</orig><reg>nova</reg></choice></l>
