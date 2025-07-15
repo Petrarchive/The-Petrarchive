@@ -337,6 +337,18 @@
     tei:lg[@type = 'canzone_11vv']//tei:l[@n = '65']|
     tei:lg[@type = 'canzone_11vv']//tei:l[@n = '74']|
     tei:lg[@type = 'canzone_11vv']//tei:l[@n = '80']|
+    
+    tei:lg[@type = 'canzone_11vvAlt']//tei:l[@n = '5']|
+    tei:lg[@type = 'canzone_11vvAlt']//tei:l[@n = '10']|
+    tei:lg[@type = 'canzone_11vvAlt']//tei:l[@n = '18']|
+    tei:lg[@type = 'canzone_11vvAlt']//tei:l[@n = '25']|
+    tei:lg[@type = 'canzone_11vvAlt']//tei:l[@n = '32']|
+    tei:lg[@type = 'canzone_11vvAlt']//tei:l[@n = '40']|
+    tei:lg[@type = 'canzone_11vvAlt']//tei:l[@n = '45']|
+    tei:lg[@type = 'canzone_11vvAlt']//tei:l[@n = '54']|
+    tei:lg[@type = 'canzone_11vvAlt']//tei:l[@n = '60']|
+    tei:lg[@type = 'canzone_11vvAlt']//tei:l[@n = '65']|
+    tei:lg[@type = 'canzone_11vvAlt']//tei:l[@n = '70']|
 
     tei:lg[@type = 'canzone_12vv']//tei:l[@n = '5']|
     tei:lg[@type = 'canzone_12vv']//tei:l[@n = '15']|
