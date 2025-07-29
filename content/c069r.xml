@@ -480,7 +480,7 @@
  
         <pb xml:id="c069r" n="charta 69 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-069r.jpg"/> <!-- Change the number of the charta in both places "charta 1 verso" and -f-0001v.jpg", according to the charta to be encoded -->
           
-           <lg type="canzone_11vv" xml:id="rvf359" n="355 [359]">
+          <lg type="canzone_11vvAlt" xml:id="rvf359" n="355 [359]">
 			   <note type="sequence">
                  <bibl>
                      <idno type="rev1">359</idno>
