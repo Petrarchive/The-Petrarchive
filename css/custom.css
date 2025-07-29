@@ -618,17 +618,6 @@ lg .indent.pilcrow {
   margin-left: 0.8em;
 }
 
-/* New selectors to address lines that 
-   are not aligning properly 2025-04 */
-#rvf155 l[n='9'],
-#rvf157 l[n='11'],
-#rvf164 l[n='3']
-{
-position: relative;
-left: 14px;
-}
-
-
 
 lg[type='madrigal'] l[n='4'],
 lg[type='madrigal'] l[n='5'],
