@@ -545,7 +545,7 @@ lg:after, ab:after {
    clear: both;
 }
 
-/* For rubrication? */
+/* For rubrication */
 lg[type='octave'] > lg[type='dblvrs']:first-of-type,
 lg[type='sonnet'] > lg[type='dblvrs']:first-of-type,
 lg[type='sestina'] l[n='1'],
@@ -569,9 +569,19 @@ lg[type='canzone_14vv'] lg[type='stanza'] lg[type='trplvrs']:first-of-type,
 lg[type='canzone_16vv'] lg[type='stanza'] lg[type='dblvrs']:first-of-type,
 lg[type='canzone_20vv'] lg[type='stanza'] lg[type='dblvrs']:first-of-type,
 lg[type='madrigal'] lg[type='dblvrs']:first-of-type {
-  /*position: relative;
-  left: -0.8em;*/
+  position: relative;
+  left: -0.8em;
   margin-top: 0;
+}
+
+/* dot alignments */
+#rvf202 l[n='9'],
+#rvf203 l[n='9'],
+#rvf204 l[n='9'],
+#rvf205 l[n='9']
+{
+position: relative;
+left: -14px;
 }
 
 
@@ -1698,3 +1708,5 @@ note[type="sequence"] {
 
 /* for sort strings in textindex.html */
 .sort { display: none;}
+
+
