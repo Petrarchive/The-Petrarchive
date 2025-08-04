@@ -816,7 +816,7 @@
              </lg> 
            </lg>
 		 <l><add place="bottom margin-left">38.cū duab&#42864; &q-macron; st&#x0304;</add></l>
-			<l><add>&in; papiro</add></l>
+			<l><add>&in; papiro</add></l> <!-- This needs to go in left margin -->
       </body>
    </text>
 </TEI>
