@@ -479,11 +479,11 @@
       <body>
           
           <pb xml:id="c068v" n="charta 68 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-068v.jpg"/>
-          <lg type="sonnet" xml:id="rvf351" n="349 [351]">
+          <lg type="sonnet" xml:id="rvf349" n="351 [349]">
               <note type="sequence">
                   <bibl>
-                      <idno type="rev1">351</idno>
-                      <idno type="physical_vl3195">349</idno>
+                      <idno type="rev1">349</idno>
+                      <idno type="physical_vl3195">351</idno>
                   </bibl>
               </note> <!-- check note --> <!-- Change the sonnet xml:id and number according to the sonnet to be encoded -->
               <lg type="octave">

@@ -549,7 +549,7 @@
               </lg>
           </lg>
           <space corresp="#canvasline"/>
-          <lg xml:id="rvf337" type="sonnet" n="337 [350]"> <!-- Change the sonnet xml:id and number according to the sonnet to be encoded -->
+          <lg xml:id="rvf350" type="sonnet" n="337 [350]"> <!-- Change the sonnet xml:id and number according to the sonnet to be encoded -->
                  <note type="sequence">
                      <bibl>
 	                     <idno type="rev1">350</idno>
@@ -591,7 +591,7 @@
               </lg>
           </lg>
           <space corresp="#canvasline"/>
-          <lg xml:id="rvf338" type="sonnet" n="338 [355]"> 
+          <lg xml:id="rvf355" type="sonnet" n="338 [355]"> 
                  <note type="sequence">
                      <bibl>
 	                     <idno type="rev1">355</idno>

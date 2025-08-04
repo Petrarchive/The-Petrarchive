@@ -642,10 +642,11 @@
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="13"><subst><del type="erasure"><gap reason="illegible"/></del><add>Col <choice><abbr>mēbrar</abbr><expan>membrar</expan></choice> de dolci <choice><abbr>āni</abbr><expan>anni</expan></choice>. &amp7; de liamari</add></subst>.</l>
-                      <l n="14">A parlar teco &con; pieta minuita.<add place="margin-right">CCC.XII</add></l><!-- check additional numbering on the rigt lower corner of the page. added (Paolo): check!-->
+                      <l n="14">A parlar teco &con; pieta minuita.</l>
                   </lg>
               </lg>
           </lg>
+          <l><add place="margin-right">CCC.XII</add></l><!-- check additional numbering on the rigt lower corner of the page. added (Paolo): check!-->
       </body>
    </text>
 </TEI>

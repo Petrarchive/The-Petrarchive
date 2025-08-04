@@ -478,11 +478,11 @@
    <text>
       <body>
           <pb xml:id="c067v" n="charta 67 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-067v.jpg" /> 
-          <lg type="sonnet" xml:id="rvf343" n="341 [343]">
+          <lg type="sonnet" xml:id="rvf341" n="343 [341]">
               <note type="sequence">
                   <bibl>
-                      <idno type="rev1">343</idno>
-                      <idno type="physical_vl3195">341</idno>
+                      <idno type="rev1">341</idno>
+                      <idno type="physical_vl3195">343</idno>
                   </bibl>
               </note>
               <lg type="octave">
@@ -519,11 +519,11 @@
               </lg>
           </lg>
           <space corresp="#canvasline"/>
-          <lg xml:id="rvf344" type="sonnet" n="342 [344]">
+          <lg xml:id="rvf342" type="sonnet" n="342 [342]">
               <note type="sequence">
                   <bibl>
-                      <idno type="rev1">344</idno>
-                      <idno type="physical_vl3195">342</idno>
+                      <idno type="rev1">342</idno>
+                      <idno type="physical_vl3195">344</idno>
                   </bibl>
               </note>
               <lg type="octave">
@@ -560,11 +560,11 @@
               </lg>
           </lg>
           <space corresp="#canvasline"/>
-          <lg xml:id="rvf345" type="sonnet" n="343 [345]">
+          <lg xml:id="rvf343" type="sonnet" n="345 [343]">
               <note type="sequence">
                   <bibl>
-                      <idno type="rev1">345</idno>
-                      <idno type="physical_vl3195">343</idno>
+                      <idno type="rev1">343</idno>
+                      <idno type="physical_vl3195">345</idno>
                   </bibl>
               </note>
               <lg type="octave">
@@ -601,11 +601,11 @@
               </lg>
           </lg>
           <space corresp="#canvasline"/>
-          <lg xml:id="rvf346" type="sonnet" n="344 [346]">
+          <lg xml:id="rvf344" type="sonnet" n="346 [344]">
               <note type="sequence">
                   <bibl>
-                      <idno type="rev1">346</idno>
-                      <idno type="physical_vl3195">344</idno>
+                      <idno type="rev1">344</idno>
+                      <idno type="physical_vl3195">346</idno>
                   </bibl>
               </note>
               <lg type="octave">

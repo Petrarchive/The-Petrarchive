@@ -522,7 +522,7 @@
           </lg>
           
           <space corresp="#canvasline"/>
-          <lg xml:id="rvf359" type="sonnet" n="359 [363]"> <!-- Change the sonnet xml:id and number according to the sonnet to be encoded -->
+          <lg xml:id="rvf363" type="sonnet" n="359 [363]"> <!-- Change the sonnet xml:id and number according to the sonnet to be encoded -->
               <note type="sequence">
                   <bibl>
                       <idno type="rev1">363</idno>
@@ -563,13 +563,14 @@
               </lg>
           </lg>
           <space corresp="#canvasline"/>
-          <note type="sonnet">
-              <bibl>
-                  <idno type="rev1">364</idno>
-                  <idno type="physical_vl3195">360</idno>
-              </bibl>
-          </note>
-          <lg xml:id="rvf360" type="sonnet" n="360 [364]"> <!-- Change the sonnet xml:id and number according to the sonnet to be encoded -->
+
+          <lg xml:id="rvf364" type="sonnet" n="360 [364]"> <!-- Change the sonnet xml:id and number according to the sonnet to be encoded -->
+              <note type="sonnet">
+                  <bibl>
+                      <idno type="rev1">364</idno>
+                      <idno type="physical_vl3195">360</idno>
+                  </bibl>
+              </note>
               <lg type="octave">
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="1"><hi rendition="#fs24pt">T</hi><choice><abbr>ēnemi</abbr><expan>ennemi</expan></choice> amor <choice><abbr>āni</abbr><expan>anni</expan></choice> <choice><abbr>uētuno</abbr><expan>uentuno</expan></choice> ardendo.</l> <!-- Check tenemi -->
