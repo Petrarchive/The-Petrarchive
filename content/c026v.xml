@@ -480,7 +480,7 @@
    <text>
       <body>
          <pb n="charta 26 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-026v.jpg" />
-          <lg type="canzone" xml:id="rvf125" n="125"> 
+          <lg type="canzone_13vv" xml:id="rvf125" n="125"> 
               <lg type="stanza">
                   <lg type="trplvrs" corresp="#canvasline">
                       <l n="1"><choice><orig><hi rendition="#red #fs24pt">S</hi><hi rendition="#small-caps">e</hi>l</orig><reg><hi rendition="#red #fs24pt">S</hi><hi rendition="#small-caps">e</hi> ’l</reg></choice> pensier che mi strugge<choice><orig>&virg;</orig><reg>,</reg></choice></l> 
