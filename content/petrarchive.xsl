@@ -296,6 +296,7 @@
        tei:lg[@type = 'canzone_20vv']//tei:l[@n mod 5 = 0 and @n mod 10 != 0]|
     -->
   
+  <!-- Isabella finish canzone_vv13 below -->  
   <xsl:template match="tei:lg[@type = 'madrigal']//tei:l[@n = '4']|
     tei:lg[@type = 'madrigal']//tei:l[@n = '7']|
     tei:lg[@type = 'ballata_mezzana']//tei:l[@n = '3']|
@@ -380,6 +381,14 @@
     tei:lg[@type = 'canzone_18vv']//tei:l[@n = '125']|
     tei:lg[@type = 'canzone_18vv']//tei:l[@n = '127']|
     tei:lg[@type = 'canzone_18vv']//tei:l[@n = '135']|
+   
+    tei:lg[@type = 'canzone_13vv']//tei:l[@n = '4']|
+    tei:lg[@type = 'canzone_13vv']//tei:l[@n = '10']|
+    tei:lg[@type = 'canzone_13vv']//tei:l[@n = '17']|
+    tei:lg[@type = 'canzone_13vv']//tei:l[@n = '23']|
+    tei:lg[@type = 'canzone_13vv']//tei:l[@n = '30']|
+    tei:lg[@type = 'canzone_13vv']//tei:l[@n = '36']|
+
 
     tei:lg[@type = 'canzone_14vvAlt1']//tei:l[@n = '5'] |
     tei:lg[@type = 'canzone_14vvAlt1']//tei:l[@n = '15'] |
