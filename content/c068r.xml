@@ -573,7 +573,9 @@
           	  </note>
 			  <lg type="octave">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="1"><hi rendition="#fs24pt">D</hi><hi rendition="#small-caps"><choice><abbr>ōna</abbr><expan>onna</expan></choice> che lieta <choice><abbr>colprīcipio</abbr><expan>colprincipio</expan></choice> nostro</hi> </l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
+                      <l n="1"><hi rendition="#fs24pt">D</hi><choice><abbr><hi
+                                      rendition="#small-caps">ō</hi>na</abbr><expan><hi
+                                              rendition="#small-caps">o</hi>nna</expan></choice> che lieta <choice><abbr>colprīcipio</abbr><expan>colprincipio</expan></choice> nostro </l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
                       <l n="2">Tistai &virg;come tua uita <subst><del type="erasure"><gap reason="illegible"/></del><add>alm</add></subst>a rechiede .<fw><subst><del type="erasure"><gap reason="illegible"/></del><add>12.</add></subst></fw></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -615,7 +617,7 @@
           </note><!-- here? -->
 			  <lg type="octave">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="1"><hi rendition="#fs24pt">D</hi><hi rendition="#small-caps">apiu belliocchi &#11789;&amp7; dal piuchiaro uiso</hi></l> <!-- CHECK PUNCTUATION --><!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
+                      <l n="1"><hi rendition="#fs24pt">D</hi><hi rendition="#small-caps">a</hi>piu belliocchi &#11789;&amp7; dal piuchiaro uiso</l> <!-- CHECK PUNCTUATION --><!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
                       <l n="2">Che mai <choice><abbr>splēdesse</abbr><expan>splendesse</expan></choice> &virg;&amp7; dapiu bei capelli &virg;<fw><subst><del type="erasure"><gap reason="illegible"/></del><add>13</add></subst></fw></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
