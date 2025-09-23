@@ -500,7 +500,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><choice><orig><hi rendition="#sestet_marker">·</hi></orig><reg></reg></choice>&Amp7; <choice><orig>mai</orig><reg>m’ài</reg></choice> lasciato qui<choice><orig>&#11805;</orig><reg> </reg></choice>misero <choice><orig>&#11789;</orig><reg></reg></choice>&amp7; solo<choice><orig> .</orig><reg>,</reg></choice></l><!-- check sestet marker (also 322) and punctuation -->
+                      <l n="9"><choice><orig><hi rendition="#sestet_marker">·</hi></orig><reg></reg> </choice>&Amp7; <choice><orig>mai</orig><reg>m’ài</reg></choice> lasciato qui<choice><orig>&#11805;</orig><reg> </reg></choice>misero <choice><orig>&#11789;</orig><reg></reg></choice>&amp7; solo<choice><orig> .</orig><reg>,</reg></choice></l><!-- check sestet marker (also 322) and punctuation -->
                       <l n="10"><choice><orig>Talche</orig><reg>Talché</reg></choice> pien di duol sempre <choice><orig>alloco</orig><reg>al loco</reg></choice> torno<choice><orig> .</orig><reg>,</reg></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -535,7 +535,7 @@
               </lg>
               <lg type="sestet">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="9"><choice><orig><hi rendition="#sestet_marker">·</hi></orig><reg></reg></choice>Di mie tenere frondi altro <choice><orig>lauoro</orig><reg></reg></choice><choice><orig> <g ref="virgsusp"/></orig><reg></reg></choice></l>
+                      <l n="9"><choice><orig><hi rendition="#sestet_marker">·</hi></orig><reg></reg> </choice>Di mie tenere frondi altro <choice><orig>lauoro</orig><reg></reg></choice><choice><orig> <g ref="virgsusp"/></orig><reg></reg></choice></l>
                       <l n="10">Credea mostrarte<choice><orig> &virg;</orig><reg>,</reg></choice> &amp7; qual fero pianeta<choice><orig> &#11789;</orig><reg></reg></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -581,7 +581,7 @@
               
               <lg type="stanza"> 
                   <lg type="dblvrs" corresp="#canvasline"> <!-- <lg type="dblvrs" corresp="#canvasline" class="indent"> Paolo had added the class indent to have the pilcrow in the right position in the edited. Is that compatible with the stanza marker? -->
-                      <l n="13"><choice><orig><hi rendition="#stanza_marker">&#11799;</hi></orig><reg><hi rendition="#fs24pt">¶</hi></reg></choice>Indi &per; alto mar<choice><orig>&virg;</orig><reg></reg></choice> <choice><orig>uidi</orig><reg>vidi</reg></choice> una <choice><orig>naue</orig><reg>nave</reg></choice><choice><orig> .</orig><reg></reg></choice></l><!-- check stanza markers -->
+                      <l n="13"><choice><orig><hi rendition="#stanza_marker">&#11799;</hi></orig><reg><hi rendition="#fs24pt">¶</hi></reg></choice> Indi &per; alto mar<choice><orig>&virg;</orig><reg></reg></choice> <choice><orig>uidi</orig><reg>vidi</reg></choice> una <choice><orig>naue</orig><reg>nave</reg></choice><choice><orig> .</orig><reg></reg></choice></l><!-- check stanza markers -->
                       <l n="14">Con le sarte <choice><orig>diseta</orig><reg>di seta</reg></choice> <choice><orig>&#11789;</orig><reg></reg></choice>&amp7; <choice><orig>dor</orig><reg>d’or</reg></choice> <choice><orig>lauela</orig><reg>la vela</reg></choice><choice><orig> .</orig><reg></reg></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -606,8 +606,8 @@
                   </lg>
               </lg>
               <lg type="stanza"> 
-                  <lg type="dblvrs" corresp="#canvasline" class="indent">
-                      <l n="25"><choice><orig><hi rendition="#stanza_marker">&#11799;</hi></orig><reg><hi rendition="#fs24pt">¶</hi></reg></choice>In un boschetto <choice><orig>nouo</orig><reg></reg></choice><choice><orig>&#124;</orig><reg>, </reg></choice>i rami santi<choice><orig> .</orig><reg></reg></choice></l>
+                  <lg type="dblvrs" corresp="#canvasline">
+                      <l n="25"><choice><orig><hi rendition="#stanza_marker">&#11799;</hi></orig><reg><hi rendition="#fs24pt">¶</hi></reg></choice> In un boschetto <choice><orig>nouo</orig><reg></reg></choice><choice><orig>&#124;</orig><reg>, </reg></choice>i rami santi<choice><orig> .</orig><reg></reg></choice></l>
                       <l n="26">Fiorian <choice><orig>dunlauro</orig><reg>d’un lauro</reg></choice> <choice><orig>giouenetto</orig><reg>giovenetto</reg></choice> &amp7; schietto<choice><orig> .</orig><reg>,</reg></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -639,7 +639,7 @@
               
               <lg type="stanza">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="37"><choice><orig><hi rendition="#stanza_marker">&#11799;</hi></orig><reg><hi rendition="#stanza_marker">¶</hi></reg></choice><subst><del type="erasure"><gap reason="illegible"/></del><add>Chiara <choice><abbr>fōtana</abbr><expan>fontana</expan></choice>&#166;</add></subst><choice><orig>&in;</orig><reg> &in;</reg></choice> quel medesmo bosco<choice><orig> <subst><del type="erasure"><gap reason="illegible"/></del><add>&virg;</add></subst></orig><reg></reg></choice></l>
+                      <l n="37"><choice><orig><hi rendition="#stanza_marker">&#11799;</hi></orig><reg><hi rendition="#stanza_marker">¶</hi></reg></choice> <subst><del type="erasure"><gap reason="illegible"/></del><add>Chiara <choice><abbr>fōtana</abbr><expan>fontana</expan></choice>&#166;</add></subst><choice><orig>&in;</orig><reg> &in;</reg></choice> quel medesmo bosco<choice><orig> <subst><del type="erasure"><gap reason="illegible"/></del><add>&virg;</add></subst></orig><reg></reg></choice></l>
                       <l n="38">Sorgea <choice><orig>dun</orig><reg>d’un</reg></choice> sasso<choice><orig> <g ref="virgsusp"/></orig><reg>,</reg></choice> &amp7; acque <subst><del type="erasure"><gap reason="illegible"/></del><add>fresche</add></subst> &amp7; dolci</l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -666,7 +666,7 @@
               
               <lg type="stanza">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="49"><choice><orig><hi rendition="#stanza_marker">&#11799;/</hi></orig><reg><hi rendition="#stanza_marker">¶</hi></reg></choice><choice><orig><subst><del type="erasure"><gap reason="illegible"></gap></del><add>Vna</add></subst></orig><reg>Una</reg></choice> <subst><del type="erasure"><gap reason="illegible"/></del><add>strania fenice</add></subst><supplied>,</supplied> <choice><orig><subst><del type="erasure"><gap reason="illegible"/></del><add>a</add></subst>|mbedue</orig><reg>ambedue</reg></choice> <choice><orig>lale</orig><reg>l’ale</reg></choice><choice><orig> &virg;</orig><reg></reg></choice></l>
+                      <l n="49"><choice><orig><hi rendition="#stanza_marker">&#11799;/</hi></orig><reg><hi rendition="#stanza_marker">¶</hi></reg></choice> <choice><orig><subst><del type="erasure"><gap reason="illegible"></gap></del><add>Vna</add></subst></orig><reg>Una</reg></choice> <subst><del type="erasure"><gap reason="illegible"/></del><add>strania fenice</add></subst><supplied>,</supplied> <choice><orig><subst><del type="erasure"><gap reason="illegible"/></del><add>a</add></subst>|mbedue</orig><reg>ambedue</reg></choice> <choice><orig>lale</orig><reg>l’ale</reg></choice><choice><orig> &virg;</orig><reg></reg></choice></l>
                       <l n="50"><choice><orig>Diporpora</orig><reg>Di porpora</reg></choice> <choice><orig>uestita</orig><reg>vestita</reg></choice> <choice><orig>. </orig><reg></reg></choice><choice><orig>elcapo</orig><reg>e ’l capo</reg></choice> <choice><orig>dor<subst><del type="erasure"><gap reason="illegible"/></del><add>o</add></subst></orig><reg>d’oro</reg></choice><choice><orig> .</orig><reg>,</reg></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -692,7 +692,7 @@
               </lg>
 			  <lg type="stanza">
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="61"><choice><orig><hi rendition="#stanza_marker">&#11799;</hi></orig><reg><hi rendition="#stanza_marker">¶</hi></reg></choice>Alfin <choice><orig>uidio</orig><reg>vid’io</reg></choice> &per; <choice><abbr>ētro</abbr><expan>entro</expan></choice> i fiori &amp7; <choice><orig>Lerba</orig><reg>l’erba</reg></choice><choice><orig> <g ref="#punctelevhiback"/></orig><reg></reg></choice></l>
+                      <l n="61"><choice><orig><hi rendition="#stanza_marker">&#11799;</hi></orig><reg><hi rendition="#stanza_marker">¶</hi></reg></choice> Alfin <choice><orig>uidio</orig><reg>vid’io</reg></choice> &per; <choice><abbr>ētro</abbr><expan>entro</expan></choice> i fiori &amp7; <choice><orig>Lerba</orig><reg>l’erba</reg></choice><choice><orig> <g ref="#punctelevhiback"/></orig><reg></reg></choice></l>
                       <l n="62">Pensosa ir <choice><orig>si</orig><reg>sì</reg></choice> leggiadra &amp7; bella <choice><abbr>dōna</abbr><expan>donna</expan></choice><choice><orig> .</orig><reg>,</reg></choice></l>
                   </lg>
                   <lg type="dblvrs" corresp="#canvasline">
@@ -719,7 +719,7 @@
               
               <lg type="stanza"> 
                   <lg type="dblvrs" corresp="#canvasline">
-                      <l n="73"><choice><orig><hi rendition="#stanza_marker">&#11799;</hi></orig><reg><hi rendition="#stanza_marker">¶</hi></reg></choice><choice><orig>Can&#xa763;on</orig><reg>Canzon</reg></choice><choice><orig> &virg;</orig><reg>,</reg></choice> <subst><del type="erasure"><gap reason="illegible"/></del><add>tu puoi ben dire</add></subst><choice><orig><subst><del type="erasure"><gap reason="illegible"/></del><add> &virg;</add></subst></orig><reg>:</reg></choice></l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
+                      <l n="73"><choice><orig><hi rendition="#stanza_marker">&#11799;</hi></orig><reg><hi rendition="#stanza_marker">¶</hi></reg></choice> <choice><orig>Can&#xa763;on</orig><reg>Canzon</reg></choice><choice><orig> &virg;</orig><reg>,</reg></choice> <subst><del type="erasure"><gap reason="illegible"/></del><add>tu puoi ben dire</add></subst><choice><orig><subst><del type="erasure"><gap reason="illegible"/></del><add> &virg;</add></subst></orig><reg>:</reg></choice></l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
                       <l n="74">Queste sei <choice><orig>uisioni</orig><reg>visioni</reg></choice> al signor mio<choice><orig> &virg;</orig><reg></reg></choice></l>
                   </lg>
 				   <lg type="single" corresp="#canvasline">
@@ -736,7 +736,7 @@
                   <l n="3">Tolta <choice><orig>me</orig><reg>m’è</reg></choice> quella <choice><orig>ond<subst><del type="erasure"><gap reason="illegible"/></del><add>e&#803;</add></subst></orig><reg>ond’</reg></choice> attendea mercede<choice><orig> .</orig><reg>.</reg></choice></l>
               </lg>
               <lg type="dblvrs" corresp="#canvasline">
-                  <l n="4"><choice><orig><hi rendition="#stanza_marker">·</hi></orig><reg></reg></choice>Ai<supplied>!</supplied> dispietata morte<choice><orig> &virg;</orig><reg>.</reg></choice> Ai<supplied>!</supplied> crudel <choice><orig>uita</orig><reg>vita</reg></choice><choice><orig> .</orig><reg>.</reg></choice></l>
+                  <l n="4"><choice><orig><hi rendition="#stanza_marker">·</hi></orig><reg></reg></choice> Ai<supplied>!</supplied> dispietata morte<choice><orig> &virg;</orig><reg>.</reg></choice> Ai<supplied>!</supplied> crudel <choice><orig>uita</orig><reg>vita</reg></choice><choice><orig> .</orig><reg>.</reg></choice></l>
 				  <l n="5"><choice><orig>Luna</orig><reg>L’una</reg></choice> <choice><orig>ma</orig><reg>m’à</reg></choice> posto &in; doglia<choice><orig> .</orig><reg>,</reg></choice></l>
               </lg>
               <lg type="single" corresp="#canvasline">
