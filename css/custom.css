@@ -579,11 +579,21 @@ lg[type='madrigal'] lg[type='dblvrs']:first-of-type {
   margin-top: 0;
 }
 
+
+
 /* dot alignments */
 #rvf202 l[n='9'],
 #rvf203 l[n='9'],
 #rvf204 l[n='9'],
-#rvf205 l[n='9']
+#rvf205 l[n='9'],
+#rvf321 l[n='9'],
+#rvf322 l[n='9'],
+#rvf323 l[n='13'],
+#rvf323 l[n='25'],
+#rvf323 l[n='37'],
+#rvf323 l[n='49'],
+#rvf323 l[n='61'],
+#rvf323 l[n='73']
 {
 position: relative;
 left: -14px;
@@ -729,7 +739,7 @@ lg[type='canzone_15vv'] l[n='140'],
 lg[type='canzone_15vv'] l[n='141'],
 lg[type='canzone_15vv'] l[n='150'],
 lg[type='canzone_15vv'] l[n='155'],
-lg[type='canzone_15vv'] l[n='156'], */
+lg[type='canzone_15vv'] l[n='156'], 
 lg[type='canzone_16vv'] l[n='5'],
 lg[type='canzone_16vv'] l[n='6'],
 lg[type='canzone_16vv'] l[n='9'],
@@ -778,7 +788,6 @@ lg[type='canzone_16vv'] l[n='115'],
 lg[type='canzone_16vv'] l[n='116'],
 lg[type='canzone_16vv'] l[n='119'],
 lg[type='canzone_16vv'] l[n='120'], 
-/*
 lg[type='canzone_20vv'] l[n='5'],
 lg[type='canzone_20vv'] l[n='6'],
 lg[type='canzone_20vv'] l[n='9'],
