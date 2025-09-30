@@ -566,11 +566,13 @@ lg[type='canzone_7vv'] lg[type='stanza'] lg[type='dblvrs']:first-of-type,
 lg[type='canzone_7vv'] lg[type='stanza'] lg[type='dblvrs']:nth-of-type(5n),
 /* lg[type='canzone_9vv'] lg[type='stanza'] lg[type='dblvrs']:first-of-type, */
 lg[type='canzone_10vv'] lg[type='stanza'] lg[type='dblvrs']:first-of-type,
+lg[type='canzone_12vv'] lg[type='stanza'] lg[type='dblvrs']:first-of-type,
 lg[type='canzone_13vv'] lg[type='stanza'] lg[type='dblvrs']:first-of-type,
 lg[type='canzone_13vv'] lg[type='stanza'] lg[type='trplvrs']:first-of-type,
 lg[type='canzone_14vv'] lg[type='stanza'] lg[type='dblvrs']:first-of-type,
 lg[type='canzone_14vv'] lg[type='stanza'] lg[type='trplvrs']:first-of-type,
 /*lg[type='canzone_15vv'] lg[type='stanza'] lg[type='dblvrs']:first-of-type,*/
+lg[type='canzone_15vv'] lg[type='stanza'] lg[type='dblvrs']:first-of-type,
 lg[type='canzone_16vv'] lg[type='stanza'] lg[type='dblvrs']:first-of-type,
 lg[type='canzone_20vv'] lg[type='stanza'] lg[type='dblvrs']:first-of-type,
 lg[type='madrigal'] lg[type='dblvrs']:first-of-type {
@@ -587,13 +589,7 @@ lg[type='madrigal'] lg[type='dblvrs']:first-of-type {
 #rvf204 l[n='9'],
 #rvf205 l[n='9'],
 #rvf321 l[n='9'],
-#rvf322 l[n='9'],
-#rvf323 l[n='13'],
-#rvf323 l[n='25'],
-#rvf323 l[n='37'],
-#rvf323 l[n='49'],
-#rvf323 l[n='61'],
-#rvf323 l[n='73']
+#rvf322 l[n='9']
 {
 position: relative;
 left: -14px;
