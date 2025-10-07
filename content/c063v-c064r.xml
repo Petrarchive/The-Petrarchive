@@ -519,7 +519,7 @@
                
                <lg type="stanza"> 
                    <lg type="dblvrs" corresp="#canvasline">
-                       <l n="16"><hi rendition="#stanza_marker">&#11799;</hi>Muri eran dalabastro. eltetto doro</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
+                       <l n="16"><hi rendition="#stanza_marker">&#11799;</hi> Muri eran dalabastro. eltetto doro</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
                        <l n="17">Dauorio uscio . &amp7; fenestre di &#42851;affiro .</l>
                    </lg>
                    <lg type="dblvrs" corresp="#canvasline">
@@ -553,7 +553,7 @@
                
                <lg type="stanza"> 
                    <lg type="dblvrs" corresp="#canvasline">
-                       <l n="31"><hi rendition="#stanza_marker">&#11799;</hi>Ale <choice><abbr>pūgēti</abbr><expan>pungenti</expan></choice> &virg;<choice><abbr>ardēti</abbr><expan>ardenti</expan></choice> &#11789;&amp7; lucide arme .</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
+                       <l n="31"><hi rendition="#stanza_marker">&#11799;</hi> Ale <choice><abbr>pūgēti</abbr><expan>pungenti</expan></choice> &virg;<choice><abbr>ardēti</abbr><expan>ardenti</expan></choice> &#11789;&amp7; lucide arme .</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
                        <l n="32">Ala uictoriosa insegna uerde .</l>
                    </lg>
                    <lg type="dblvrs" corresp="#canvasline">
@@ -587,7 +587,7 @@
                
                <lg type="stanza"> 
                    <lg type="dblvrs" corresp="#canvasline">
-                       <l n="46"><hi rendition="#stanza_marker">&#11799;</hi>I era &in; terra . el cor in paradiso .</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
+                       <l n="46"><hi rendition="#stanza_marker">&#11799;</hi> I era &in; terra . el cor in paradiso .</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
                        <l n="47"><choice><abbr>Dolcemēte</abbr><expan>Dolcemente</expan></choice> obliando ognialtra cura .</l>
                    </lg>
                    <lg type="dblvrs" corresp="#canvasline">
@@ -623,7 +623,7 @@
                </lg>
                <lg type="stanza"> 
                    <lg type="dblvrs" corresp="#canvasline">
-                       <l n="61"><hi rendition="#stanza_marker">&#11799;</hi>Ildi che costei nacque &virg;eran lestelle</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
+                       <l n="61"><hi rendition="#stanza_marker">&#11799;</hi> Ildi che costei nacque &virg;eran lestelle</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
                        <l n="62">Che &#42835;ducon fra uoi felici effecti</l>
                    </lg>
                    <lg type="dblvrs" corresp="#canvasline">
@@ -656,7 +656,7 @@
                </lg>
                <lg type="stanza"> 
                    <lg type="dblvrs" corresp="#canvasline">
-                       <l n="76"><hi rendition="#stanza_marker">&#11799;</hi>Comella <choice><abbr>uēne</abbr><expan>uenne</expan></choice> &in; questo uiuer basso .</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
+                       <l n="76"><hi rendition="#stanza_marker">&#11799;</hi> Comella <choice><abbr>uēne</abbr><expan>uenne</expan></choice> &in; questo uiuer basso .</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
                        <l n="77">Chadir iluer &non; fu degno dauerla .</l>
                    </lg>
                    <lg type="dblvrs" corresp="#canvasline">
@@ -722,7 +722,7 @@
                </lg>
                <lg type="stanza"> 
                    <lg type="dblvrs" corresp="#canvasline">
-                       <l n="106"><hi rendition="#stanza_marker">&#11799;</hi>Detto questo&virg; alasua uolubil rota .</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
+                       <l n="106"><hi rendition="#stanza_marker">&#11799;</hi> Detto questo&virg; alasua uolubil rota .</l> <!-- Change initial color (red or blue) according to the initiasl of the sonnet to be encoded -->
                        <l n="107">Si uolse . &in; chella fila il nostro stame . <add place="margin-right"><del type="erasure">rto)</del></add></l> <!-- check marginalia -->
                    </lg>
                    <lg type="dblvrs" corresp="#canvasline">
