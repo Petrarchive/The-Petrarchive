@@ -310,7 +310,7 @@
     
     tei:lg[@type = 'canzone_10vv']//tei:l[@n mod 5 = 0]|
     
-    tei:lg[@type = 'canzone_14vv']//tei:l[@n mod 7 = 0]|
+    tei:lg[@type = 'canzone_14vv']//tei:l[@n mod 7 = 0 and @n != 77]|
     
     tei:lg[@type = 'canzone_9vv']//tei:l[@n = '5']|
     tei:lg[@type = 'canzone_9vv']//tei:l[@n = '10']|
