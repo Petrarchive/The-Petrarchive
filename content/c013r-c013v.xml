@@ -55,7 +55,7 @@
 <!ENTITY c2p "<choice><orig>,</orig><reg>.</reg></choice>">
 <!ENTITY v2c "<choice><orig> /</orig><reg>,</reg></choice>">
 <!ENTITY v2q "<choice><orig> /</orig><reg>?</reg></choice>">
-<!ENTITY pilcrow2section "<choice><orig class='pilcrow'>¶</orig><reg>§</reg></choice>">
+<!ENTITY pilcrow2section "<choice><orig>¶</orig><reg>§</reg></choice>">
 <!ENTITY punctelevhiback "&#xF1FA;">
 <!ENTITY encodingDesc SYSTEM "encodingDesc.xml"> 
 ]>
@@ -555,6 +555,7 @@ the line wraps. -->
                       <l n="14">Altro mai di lor gratie non <choice><orig>mincontra</orig><reg>m’incontra</reg></choice>.</l>
                   </lg>
               </lg>
+          </lg>
           <space corresp="#canvasline"/>
           <lg xml:id="rvf058" type="sonnet" n="58">
               <lg type="octave">
@@ -615,7 +616,7 @@ the line wraps. -->
             <lg type="single" corresp="#canvasline">
                <l n="10">Sol rimembrando anchor <choice><orig>lanima</orig><reg>l’anima</reg></choice> spoglia.</l>
             </lg>
-            <lg class="indent" type="dblvrs" corresp="#canvasline">
+            <lg type="dblvrs" corresp="#canvasline">
                <l n="11"><hi rendition="#red #fs24pt">&pilcrow2section;</hi>Tolta <choice><orig>me</orig><reg>m’è</reg></choice> poi di que<supplied>’</supplied> biondi capelli</l>
                <l n="12">Lasso&v2c; la dolce <choice><orig>uista</orig><reg>vista</reg></choice>&p2semicolon;</l>
             </lg>
@@ -699,7 +700,6 @@ the line wraps. -->
             </lg>
            </lg>
          </lg>
-          </lg>
       </body>
    </text>
 </TEI>
