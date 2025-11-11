@@ -162,12 +162,9 @@
     </charDecl>
     <charDecl>
         <char xml:id="punctinter">
-            <charName>PUNCTUS
-                INTERROGATIVUS</charName>
-            <charProp>
-                <localName>entity</localName>
-                <value>punctinter</value>
-            </charProp>
+            <localProp name="name" value="PUNCTUS
+                INTERROGATIVUS" />
+            <localProp name="entity" value="punctinter"/>
             <mapping type="visual">?</mapping>
             <mapping type="MUFI">U+F160</mapping>
             <mapping type="PUA">U+F160</mapping>
@@ -928,6 +925,7 @@ the line wraps. -->
                       <l n="108"><choice><orig>Pero</orig><reg>Però</reg></choice> <choice><orig>[si]a</orig><reg>sia</reg></choice> certa de non esser sola.</l>
                   </lg>
               </lg>
+                            
           
           <lg type="canzone_15vv" xml:id="rvf072" n="72">
             <lg type="stanza">
@@ -1326,6 +1324,7 @@ the line wraps. -->
                           <l n="93">Ma non di parlar meco i pensier<supplied>’</supplied> mei.</l>
                       </lg>
                   </lg>
+                  
                   <space corresp="#canvasline"/>
                   <lg xml:id="rvf074" type="sonnet" n="74">
                       <lg type="octave">
