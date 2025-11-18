@@ -12,6 +12,8 @@ namespace xlink = "http://www.w3.org/1999/xlink"
 
 
 
+
+
 macro.abContent = (text | model.paraPart | ab)*
 macro.paraContent = (text | model.paraPart)*
 macro.limitedContent = (text | model.limitedPhrase | model.inter)*
@@ -4362,6 +4364,9 @@ lg =
       | 
         ## (cazone with stanzas of nine verses) 
         "canzone_9vv"
+      | 
+        ## (cazone with stanzas of ten verses) 
+        "canzone_10vv"
       | 
         ## (cazone with stanzas of eleven verses) 
         "canzone_11vv"

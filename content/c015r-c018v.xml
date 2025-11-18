@@ -162,12 +162,9 @@
     </charDecl>
     <charDecl>
         <char xml:id="punctinter">
-            <charName>PUNCTUS
-                INTERROGATIVUS</charName>
-            <charProp>
-                <localName>entity</localName>
-                <value>punctinter</value>
-            </charProp>
+            <localProp name="name" value="PUNCTUS
+                INTERROGATIVUS" />
+            <localProp name="entity" value="punctinter"/>
             <mapping type="visual">?</mapping>
             <mapping type="MUFI">U+F160</mapping>
             <mapping type="PUA">U+F160</mapping>
@@ -875,6 +872,7 @@ the line wraps. -->
                             <lg type="single" corresp="#canvasline">   
                                 <l n="90">A me ritorni<choice><orig> .</orig><reg>,</reg></choice> et di me stesso pensi.</l>
                             </lg>
+                        </lg>
                             <lg type="stanza">
                                 <lg type="dblvrs" corresp="#canvasline">
                                     <l n="91"><hi rendition="#blue #fs24pt">¶</hi><choice><orig>Lamoroso</orig><reg>L’amoroso</reg></choice> pensero</l>
@@ -888,7 +886,7 @@ the line wraps. -->
                                     <l n="95">Escon di me &si; fatte allor <choice><orig>chi</orig><reg>ch’i</reg></choice><supplied>’</supplied> spero</l>
                                     <l n="96">Farmi <choice><abbr>īmortal</abbr><expan>immortal</expan></choice><choice><orig> &virg-underdot;</orig><reg>,</reg></choice> &perche; la carne moia.</l>
                                 </lg>
-                            </lg>
+
                             <pb xml:id="c016v" n="charta 16 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-016v.jpg"/>
               <lg type="stanza">
                   <lg type="dblvrs" corresp="#canvasline" class="no-indent">
@@ -916,6 +914,7 @@ the line wraps. -->
                       <l n="105">Colto da <choice><orig>uoi</orig><reg>voi</reg></choice><supplied>,</supplied> <choice><orig>el</orig><reg>e ’l</reg></choice> pregio &e; <choice><orig>uostro</orig><reg>vostro</reg></choice> in tutto.</l>
                   </lg>
               </lg>
+                            </lg>
               <lg type="stanza">
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="106"><hi rendition="#red #fs24pt">¶</hi><choice><orig>Cançon</orig><reg>Canzon</reg></choice><supplied>,</supplied> tu non <choice><orig>macqueti</orig><reg>m’acqueti</reg></choice>&p2c; <choice><orig>ançi</orig><reg>anzi</reg></choice> <choice><orig><choice>
@@ -928,6 +927,8 @@ the line wraps. -->
                       <l n="108"><choice><orig>Pero</orig><reg>Però</reg></choice> <choice><orig>[si]a</orig><reg>sia</reg></choice> certa de non esser sola.</l>
                   </lg>
               </lg>
+              </lg>
+            <space corresp="#canvasline"/>              
           
           <lg type="canzone_15vv" xml:id="rvf072" n="72">
             <lg type="stanza">
@@ -1115,6 +1116,7 @@ the line wraps. -->
             </lg>
          </lg>
           </lg>
+            <space corresp="#canvasline"/>
          
           <lg type="canzone_15vv" xml:id="rvf073" n="73">
               <lg type="stanza">
@@ -1250,6 +1252,7 @@ the line wraps. -->
                   <lg type="single" corresp="#canvasline">   
                       <l n="60"><choice><orig>Chel</orig><reg>Che ’l</reg></choice> mio <choice><orig>ualor</orig><reg>valor</reg></choice> &per; <choice><orig>se</orig><reg>sé</reg></choice> falso <choice><orig>sestima</orig><reg>s’estima</reg></choice>.</l>
                   </lg>
+              </lg>
                   <lg type="stanza">
                       <lg type="dblvrs" corresp="#canvasline">
                           <l n="61"><hi rendition="#red #fs24pt">¶</hi>I<supplied>’</supplied> non poria giamai</l>
@@ -1292,7 +1295,7 @@ the line wraps. -->
                           <l n="78">Et <choice><orig>uiuo</orig><reg>vivo</reg></choice> del desir fuor di <choice><orig>sperança</orig><reg>speranza</reg></choice>.</l>
                           <l n="79">Solamente quel nodo</l>
                       </lg>
-                  </lg>
+
                   <pb xml:id="c018r" n="charta 18 recto" facs="../images/vat-lat3195-f/vat-lat3195-f-018r.jpg"/>
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="80"><choice><orig>Chamor</orig><reg>Ch’Amor</reg></choice> cerconda a la mia lingua &quando;</l>
@@ -1317,6 +1320,7 @@ the line wraps. -->
                   <lg type="single" corresp="#canvasline">
                       <l n="90">Che questo <choice><orig>el</orig><reg>è ’l </reg></choice> colpo di che <choice><orig>amor</orig><reg>Amor</reg></choice> <choice><orig>ma</orig><reg>m’à</reg></choice> morto<supplied>.</supplied></l>
                   </lg>
+                  </lg>
                   <lg type="stanza">
                       <lg type="dblvrs" corresp="#canvasline">
                           <l n="91"><hi rendition="#red #fs24pt">¶</hi><choice><orig>Cançone</orig><reg>Canzone</reg></choice> i<supplied>’</supplied> sento <choice><orig>gia</orig><reg>già</reg></choice> stancar la penna</l>
@@ -1326,6 +1330,7 @@ the line wraps. -->
                           <l n="93">Ma non di parlar meco i pensier<supplied>’</supplied> mei.</l>
                       </lg>
                   </lg>
+                  
                   <space corresp="#canvasline"/>
                   <lg xml:id="rvf074" type="sonnet" n="74">
                       <lg type="octave">
@@ -1426,13 +1431,13 @@ the line wraps. -->
                               <l n="12">&Quando; sarai del mio colore accorto&p2c;</l>
                           </lg>
                       </lg>
-                  </lg>
+
                   <pb xml:id="c018v" n="Charta 18 verso" facs="../images/vat-lat3195-f/vat-lat3195-f-018v.jpg" />
                   <lg type="dblvrs" corresp="#canvasline">
                       <l n="13">Dirai: <choice><orig>Si</orig><reg>S’i’</reg></choice> guard<subst><del type="erasure"><gap reason="illegible"/></del><add>o</add></subst> &amp7; giudico ben dritto&v2c;</l>
                       <l n="14">Questi <choice><orig>auea</orig><reg>avea</reg></choice> poco andare ad esser morto.</l>
                   </lg> 
-                  
+                  </lg>
                   <!-- lines 13 and 14: diplomatic has to be displayed on c.018v and edited at the end of c.18r -->
                   
                   <lg xml:id="rvf077" type="sonnet" n="77">
@@ -1542,9 +1547,7 @@ the line wraps. -->
              </lg>  
                   <space corresp="#canvasline"/>
                   <space unit="lines" extent="6" ana="#space-stop" />
-              </lg>
-          </lg>
-              </lg>
+
         </body>
     </text>
 </TEI>
