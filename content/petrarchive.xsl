@@ -299,6 +299,7 @@
   <!-- Isabella finish canzone_vv13 below -->  
   <xsl:template match="tei:lg[@type = 'madrigal']//tei:l[@n = '4']|
     tei:lg[@type = 'madrigal']//tei:l[@n = '7']|
+    tei:lg[@type = 'madrigal_8vv']//tei:l[@n = '7']|
     tei:lg[@type = 'ballata_mezzana']//tei:l[@n = '3']|
     tei:lg[@type = 'ballata_mezzana']//tei:l[@n = '8']|
     tei:lg[@type = 'ballata_grande']//tei:l[@n = '5']|

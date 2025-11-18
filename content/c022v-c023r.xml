@@ -553,7 +553,7 @@ the line wraps. -->
          </lg>
          </lg>
             <space corresp="#canvasline"/>
-         <lg xml:id="rvf106" type="madrigal" n="106">
+         <lg xml:id="rvf106" type="madrigal_8vv" n="106">
                <lg type="dblvrs" corresp="#canvasline">
                   <l n="1"><hi rendition="#red #fs24pt"
                      >N</hi><hi rendition="#small-caps">o</hi><choice><orig>ua</orig><reg>va</reg></choice> angeletta <choice><orig>soura</orig><reg>sovra</reg></choice> <choice><orig>lale</orig><reg>l'ale</reg></choice> accorta</l>

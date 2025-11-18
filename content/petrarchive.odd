@@ -60,6 +60,9 @@
                 <valItem ident="madrigal">
                 	<gloss>madrigal</gloss>
                	</valItem>
+                <valItem ident="madrigal_8vv">
+                  <gloss>madrigal with eight verses</gloss>
+                </valItem>
                	<valItem ident="canzone">
                		<gloss>canzone</gloss>
               	</valItem>
