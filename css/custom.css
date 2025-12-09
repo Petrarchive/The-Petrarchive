@@ -566,7 +566,8 @@ lg[type='canzone'] lg[type='stanza'] lg[type='dblvrs']:first-of-type,
 lg[type='canzone'] lg[type='stanza'] lg[type='trplvrs']:first-of-type,
 lg[type='canzone_7vv'] lg[type='stanza'] lg[type='dblvrs']:first-of-type,
 lg[type='canzone_7vv'] lg[type='stanza'] lg[type='dblvrs']:nth-of-type(5n),
-/* lg[type='canzone_9vv'] lg[type='stanza'] lg[type='dblvrs']:first-of-type, */
+lg[type='canzone_9vv'] lg[type='stanza'] lg[type='dblvrs']:first-of-type,
+lg[type='canzone_9vv'] lg[type='stanza'] lg[type='trplvrs']:first-of-type,
 lg[type='canzone_10vv'] lg[type='stanza'] lg[type='dblvrs']:first-of-type,
 lg[type='canzone_12vv'] lg[type='stanza'] lg[type='dblvrs']:first-of-type,
 lg[type='canzone_13vv'] lg[type='stanza'] lg[type='dblvrs']:first-of-type,
@@ -576,6 +577,7 @@ lg[type='canzone_14vv'] lg[type='stanza'] lg[type='trplvrs']:first-of-type,
 /*lg[type='canzone_15vv'] lg[type='stanza'] lg[type='dblvrs']:first-of-type,*/
 lg[type='canzone_15vv'] lg[type='stanza'] lg[type='dblvrs']:first-of-type,
 lg[type='canzone_16vv'] lg[type='stanza'] lg[type='dblvrs']:first-of-type,
+lg[type='canzone_18vv'] lg[type='stanza'] lg[type='dblvrs']:first-of-type,
 lg[type='canzone_20vv'] lg[type='stanza'] lg[type='dblvrs']:first-of-type,
 lg[type='madrigal'] lg[type='dblvrs']:first-of-type, 
 lg[type='madrigal_8vv'] lg[type='dblvrs']:first-of-type  {
