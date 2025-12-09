@@ -584,6 +584,17 @@ lg[type='madrigal_8vv'] lg[type='dblvrs']:first-of-type  {
   margin-top: 0;
 }
 
+/* Petrarch's sestet markers */
+lg[id='rvf166'] lg[type='sestet'] > lg[type='dblvrs']:first-of-type,
+lg[id='rvf167'] lg[type='sestet'] > lg[type='dblvrs']:first-of-type,
+lg[id='rvf168'] lg[type='sestet'] > lg[type='dblvrs']:first-of-type,
+lg[id='rvf169'] lg[type='sestet'] > lg[type='dblvrs']:first-of-type
+{
+  position: relative;
+  left: -0.6em;
+  margin-top: 0;
+}
+
 
 
 /* dot alignments */
