@@ -581,9 +581,9 @@ lg[type='canzone_18vv'] lg[type='stanza'] lg[type='dblvrs']:first-of-type,
 lg[type='canzone_20vv'] lg[type='stanza'] lg[type='dblvrs']:first-of-type,
 lg[type='madrigal'] lg[type='dblvrs']:first-of-type, 
 lg[type='madrigal_8vv'] lg[type='dblvrs']:first-of-type  {
-  position: relative;
-  left: -0.8em;
-  margin-top: 0;
+  position: relative !important;
+  left: -0.8em !important;
+  margin-top: 0 1important;
 }
 
 /* Petrarch's sestet markers */
