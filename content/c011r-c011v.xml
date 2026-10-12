@@ -678,6 +678,7 @@
                       <lg type="dblvrs" corresp="#canvasline">
                           <l n="74">Tu non <choice><orig>uorrai</orig><reg>vorrai</reg></choice> mostrarti in ciascun loco&p2semicolon;</l>
                           <l n="75">Et <choice><orig>daltrui</orig><reg>d’altrui</reg></choice> loda curerai &si; poco&p2c;</l>
+                      </lg>
                       <lg type="dblvrs" corresp="#canvasline">
                           <l n="76"><choice><orig>Chassai</orig><reg>Ch’assai</reg></choice> ti fia pensar di poggio in poggio&v2c;</l>
                           <l n="77">Come <choice><orig>ma</orig><reg>m’à</reg></choice> <choice><orig>conciol</orig><reg>concio ’l</reg></choice> foco</l>
@@ -685,7 +686,7 @@
                       <lg type="single" corresp="#canvasline">
                           <l n="78">Di questa <choice><orig>uiua</orig><reg>viva</reg></choice> petra&v2c; <choice><orig>ouio</orig><reg>ov’io</reg></choice> <choice><orig>mappoggio</orig><reg>m’appoggio</reg></choice>.</l>
                       </lg>
-                  </lg>
+                  
               </lg>
           </lg>
           <space corresp="#canvasline"/>
